@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42117957907ab63bfbe8f66781aaf9b2",
+    "content-hash": "252f78c104a5816742220332879e2522",
     "packages": [
         {
             "name": "basic-app/bootstrap4",
@@ -60,16 +60,97 @@
                 "MIT"
             ],
             "time": "2019-01-26T14:39:08+00:00"
+        },
+        {
+            "name": "phptheme/phptheme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/phptheme.git",
+                "reference": "ebace3d0aa6ccf01b2f22ada18d8165d3c1e9403"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/phptheme/zipball/ebace3d0aa6ccf01b2f22ada18d8165d3c1e9403",
+                "reference": "ebace3d0aa6ccf01b2f22ada18d8165d3c1e9403",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPTheme\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-01-22T20:01:03+00:00"
+        },
+        {
+            "name": "phptheme/phptheme-codeigniter4",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/phptheme-codeigniter4.git",
+                "reference": "30fe6452180423b6ddd2db2122c5c5ee71ba5f67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/phptheme-codeigniter4/zipball/30fe6452180423b6ddd2db2122c5c5ee71ba5f67",
+                "reference": "30fe6452180423b6ddd2db2122c5c5ee71ba5f67",
+                "shasum": ""
+            },
+            "require": {
+                "phptheme/phptheme": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHPTheme.php",
+                    "PHPTheme/Widget.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-01-23T14:25:37+00:00"
+        },
+        {
+            "name": "phptheme/theme-clean-blog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/theme-clean-blog.git",
+                "reference": "79c7e61850b343115171a08881a21795cfa49030"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/79c7e61850b343115171a08881a21795cfa49030",
+                "reference": "79c7e61850b343115171a08881a21795cfa49030",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPTheme\\CleanBlogTheme\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-01-25T11:17:15+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "basic-app/core": 20,
-        "basic-app/bootstrap4": 20
+        "basic-app/bootstrap4": 20,
+        "phptheme/phptheme-codeigniter4": 20,
+        "phptheme/theme-clean-blog": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []

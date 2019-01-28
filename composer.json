@@ -1,8 +1,12 @@
 {
     "name": "basic-app/basic-app",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "basic-app/core": "dev-master",
-        "basic-app/bootstrap4": "dev-master"
+        "basic-app/bootstrap4": "dev-master",
+        "phptheme/phptheme-codeigniter4": "dev-master",
+        "phptheme/theme-clean-blog": "dev-master"
     }
 }
