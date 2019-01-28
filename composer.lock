@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "42117957907ab63bfbe8f66781aaf9b2",
+    "packages": [
+        {
+            "name": "basic-app/bootstrap4",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/bootstrap4.git",
+                "reference": "81ca3221029e748e6d2458fd11d05d2b8f595bcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/bootstrap4/zipball/81ca3221029e748e6d2458fd11d05d2b8f595bcf",
+                "reference": "81ca3221029e748e6d2458fd11d05d2b8f595bcf",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Bootstrap4\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-01-25T07:08:38+00:00"
+        },
+        {
+            "name": "basic-app/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/core.git",
+                "reference": "58feb43e99872e4b229fc42ba9b2608ba2ace7b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/58feb43e99872e4b229fc42ba9b2608ba2ace7b0",
+                "reference": "58feb43e99872e4b229fc42ba9b2608ba2ace7b0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\": "",
+                    "BasicApp\\Filters\\": "Filters\\",
+                    "BasicApp\\Components\\": "Components\\",
+                    "BasicApp\\Exceptions\\": "Exceptions\\"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-01-26T14:39:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "basic-app/core": 20,
+        "basic-app/bootstrap4": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

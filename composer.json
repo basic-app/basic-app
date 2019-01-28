@@ -1,0 +1,8 @@
+{
+    "name": "basic-app/basic-app",
+    "license": "MIT",
+    "require": {
+        "basic-app/core": "dev-master",
+        "basic-app/bootstrap4": "dev-master"
+    }
+}
