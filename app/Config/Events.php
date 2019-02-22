@@ -45,9 +45,9 @@ Events::on('pre_system', function() {
 
     require_once APPPATH . 'ThirdParty/BasicApp/Core/AdminController.php';
 
-    //helper(['classic_url', 'theme', 'icon', 'user']);
-
     PHPTheme::$namespace = 'Theme\CleanBlog';
+
+    PHPTheme::$path = 'components/startbootstrap-clean-blog';
 });
 
 Events::on('admin_controller_constructor', function()
