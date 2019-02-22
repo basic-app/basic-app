@@ -54,5 +54,5 @@ Events::on('admin_controller_constructor', function()
 {
     PHPTheme::$namespace = 'Theme\CoolAdmin';
 
-    PHPTheme::$path = 'admin-theme';
+    PHPTheme::$path = 'components/CoolAdmin';
 });
