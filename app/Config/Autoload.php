@@ -50,9 +50,12 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 		 *   `];
 		 */
 		$psr4 = [
-			'Config'      => APPPATH . 'Config',
-			APP_NAMESPACE => APPPATH,                // For custom namespace
-			'App'         => APPPATH,                // To ensure filters, etc still found,
+			'Config' => APPPATH . 'Config',
+			APP_NAMESPACE => APPPATH, // For custom namespace
+			'App' => APPPATH, // To ensure filters, etc still found,
+            'BasicApp\I18n' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-i18n',
+            'BasicApp\Admin' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-admin',
+            'BasicApp\Site' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-site'            
 		];
 
 		/**

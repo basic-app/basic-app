@@ -15,7 +15,7 @@ The command installs the application in a directory named `demoapp`. You can cho
 
 ## Step 2
 
-Download latest [CodeIgniter 4](https://github.com/codeigniter4/codeigniter4) release and extract the `system` directory from it to the application `system` directory.
+Download latest [CodeIgniter 4](https://github.com/codeigniter4/codeigniter4) release and extract a `system` directory from it to application `system` directory.
 
 ## Step 3
 

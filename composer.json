@@ -9,6 +9,7 @@
         "basic-app/module-system" : "dev-master",
         "basic-app/module-i18n" : "dev-master",
         "basic-app/module-site" : "dev-master",
+        "basic-app/module-admin" : "dev-master",
         "phptheme/phptheme-codeigniter4": "dev-master",
         "phptheme/theme-clean-blog": "dev-master"
     }

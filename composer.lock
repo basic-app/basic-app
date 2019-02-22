@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8bbaa6f4d6cdd08e316f5a929cd750c",
+    "content-hash": "3779b272a3dfc78d0f38bde3937c12ee",
     "packages": [
         {
             "name": "basic-app/bootstrap4",
@@ -57,6 +57,32 @@
                 "MIT"
             ],
             "time": "2019-02-16T14:02:03+00:00"
+        },
+        {
+            "name": "basic-app/module-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-admin.git",
+                "reference": "3d14d1f57e6eefd4b4f2abf3d9a58f4b0b62f790"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-admin/zipball/3d14d1f57e6eefd4b4f2abf3d9a58f4b0b62f790",
+                "reference": "3d14d1f57e6eefd4b4f2abf3d9a58f4b0b62f790",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Admin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-02-13T21:37:32+00:00"
         },
         {
             "name": "basic-app/module-i18n",
@@ -225,6 +251,7 @@
         "basic-app/module-system": 20,
         "basic-app/module-i18n": 20,
         "basic-app/module-site": 20,
+        "basic-app/module-admin": 20,
         "phptheme/phptheme-codeigniter4": 20,
         "phptheme/theme-clean-blog": 20
     },
