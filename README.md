@@ -44,3 +44,4 @@ Set document root of your web server:
 URL: `http://example.com/admin`
 Login: admin
 Password: admin
+
