@@ -35,14 +35,12 @@ Run `install` application hook.
     
 ## Step 6
 
-Set document root of your web server:
-
-   `/path/to/application/public` and using the URL `http://example.com`
+Set document root of your web server to `/path/to/application/public` and using the URL `http://example.com`.
    
-## Application backend
+## Backend
 
-URL: `http://example.com/admin`
-
+Access it in your brower by opening `http://example.com/admin`.
+```
 login: admin
-
 password: admin
+```
