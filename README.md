@@ -32,3 +32,15 @@ Run migrations.
 Run `install` application hook.
 
     php spark install
+    
+## Step 6
+
+Set document root of your web server:
+
+   `/path/to/application/public` and using the URL `http://example.com`
+   
+## Application backend
+
+URL: `http://example.com/admin`
+Login: admin
+Password: admin
