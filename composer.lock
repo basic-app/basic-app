@@ -191,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-cool-admin.git",
-                "reference": "fab9370c4821f2cfef60965b2ff77824b81e3981"
+                "reference": "d08376cede36bfe031e832ee62f4b1e7f79623a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/fab9370c4821f2cfef60965b2ff77824b81e3981",
-                "reference": "fab9370c4821f2cfef60965b2ff77824b81e3981",
+                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/d08376cede36bfe031e832ee62f4b1e7f79623a5",
+                "reference": "d08376cede36bfe031e832ee62f4b1e7f79623a5",
                 "shasum": ""
             },
             "type": "library",
@@ -206,7 +206,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-02-16T13:38:36+00:00"
+            "time": "2019-02-22T21:48:49+00:00"
         },
         {
             "name": "phptheme/phptheme",
