@@ -1,0 +1,19 @@
+{
+  "name": "basic-app",
+  "directory": "public/components/",
+  "homepage": "https://github.com/basic-app/basic-app",
+  "authors": [
+    "basic-app <dev@basic-app.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
