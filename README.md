@@ -19,7 +19,7 @@ Download latest [CodeIgniter 4](https://github.com/codeigniter4/codeigniter4) re
 
 ## Step 3
 
-Rename the file named `env` to `.env`. Configure timezone and database connection settings in the `.env` file.
+Rename the file named `env` to `.env`. Configure base site url, timezone, and database connection settings in the `.env` file.
 
 ## Step 4
 
