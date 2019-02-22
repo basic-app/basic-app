@@ -1,1 +1,1 @@
-php spark migrate:latest --all
+php spark migrate:latest -all
