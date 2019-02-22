@@ -42,6 +42,7 @@ Set document root of your web server:
 ## Application backend
 
 URL: `http://example.com/admin`
-Login: admin
-Password: admin
 
+login: admin
+
+password: admin
