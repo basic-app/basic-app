@@ -39,7 +39,7 @@ Set document root of your web server to `/path/to/application/public` and using 
    
 ## Backend
 
-Access it in your brower by opening `http://example.com/admin`.
+Access application backend in your brower by opening `http://example.com/admin`.
 ```
 login: admin
 password: admin
