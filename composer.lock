@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3779b272a3dfc78d0f38bde3937c12ee",
+    "content-hash": "82911c8d61cd5bd692c618e54eef2f0a",
     "packages": [
         {
             "name": "basic-app/bootstrap4",
@@ -163,6 +163,52 @@
             "time": "2019-02-14T05:34:22+00:00"
         },
         {
+            "name": "basic-app/theme-clean-blog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/theme-clean-blog.git",
+                "reference": "4d981a1f5bc44fe085416eda1cac05de6633706f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/4d981a1f5bc44fe085416eda1cac05de6633706f",
+                "reference": "4d981a1f5bc44fe085416eda1cac05de6633706f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Theme\\CleanBlog\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-02-05T14:13:46+00:00"
+        },
+        {
+            "name": "basic-app/theme-cool-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/theme-cool-admin.git",
+                "reference": "fab9370c4821f2cfef60965b2ff77824b81e3981"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/fab9370c4821f2cfef60965b2ff77824b81e3981",
+                "reference": "fab9370c4821f2cfef60965b2ff77824b81e3981",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Theme\\CoolAdmin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-02-16T13:38:36+00:00"
+        },
+        {
             "name": "phptheme/phptheme",
             "version": "dev-master",
             "source": {
@@ -217,29 +263,6 @@
                 "MIT"
             ],
             "time": "2019-02-05T12:00:47+00:00"
-        },
-        {
-            "name": "phptheme/theme-clean-blog",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phptheme/theme-clean-blog.git",
-                "reference": "8884b737f5d2a0bbfa5446be1dcc5982e4e0edef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/8884b737f5d2a0bbfa5446be1dcc5982e4e0edef",
-                "reference": "8884b737f5d2a0bbfa5446be1dcc5982e4e0edef",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Theme\\CleanBlog\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-01-31T09:30:54+00:00"
         }
     ],
     "packages-dev": [],
@@ -253,7 +276,8 @@
         "basic-app/module-site": 20,
         "basic-app/module-admin": 20,
         "phptheme/phptheme-codeigniter4": 20,
-        "phptheme/theme-clean-blog": 20
+        "basic-app/theme-clean-blog": 20,
+        "basic-app/theme-cool-admin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

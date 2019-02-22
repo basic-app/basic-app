@@ -1,6 +1,7 @@
 <?php namespace Config;
 
 use CodeIgniter\Events\Events;
+use PHPTheme;
 
 /*
  * --------------------------------------------------------------------
@@ -32,10 +33,26 @@ if (ENVIRONMENT !== 'production')
 	Events::on('pre_system', function () {
 		if (ENVIRONMENT !== 'testing')
 		{
-			\ob_start(function ($buffer) {
+			ob_start(function ($buffer) {
 				return $buffer;
 			});
 		}
 		Services::toolbar()->respond();
 	});
 }
+
+Events::on('pre_system', function() {
+
+    require_once APPPATH . 'ThirdParty/BasicApp/Core/AdminController.php';
+
+    //helper(['classic_url', 'theme', 'icon', 'user']);
+
+    PHPTheme::$namespace = 'Theme\CleanBlog';
+});
+
+Events::on('admin_controller_constructor', function()
+{
+    PHPTheme::$namespace = 'Theme\CoolAdmin';
+
+    PHPTheme::$path = 'admin-theme';
+});

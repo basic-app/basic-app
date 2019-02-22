@@ -31,3 +31,60 @@ CRITICAL - 2019-02-22 11:15:28 --> Table 'basicapp_demoapp.pages' doesn't exist
 #14 D:\htdocs\basic-app\demoapp\system\CLI\Console.php(80): CodeIgniter\CodeIgniter->run()
 #15 D:\htdocs\basic-app\demoapp\spark(57): CodeIgniter\CLI\Console->run()
 #16 {main}
+CRITICAL - 2019-02-22 12:05:19 --> The action you requested is not allowed.
+#0 D:\htdocs\basic-app\demoapp\vendor\basic-app\core\BaseController.php(58): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 D:\htdocs\basic-app\demoapp\vendor\basic-app\core\BaseController.php(28): BasicApp\Core\BaseController::checkAccess(true)
+#2 D:\htdocs\basic-app\demoapp\vendor\basic-app\core\BaseAdminController.php(25): BasicApp\Core\BaseController->__construct()
+#3 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(800): BasicApp\Core\BaseAdminController->__construct()
+#4 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->createController()
+#5 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(235): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs\basic-app\demoapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2019-02-22 12:07:29 --> Class 'Login' not found
+#0 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Views\login.php(23): PHPTheme::widget('login', Array)
+#1 D:\htdocs\basic-app\demoapp\system\View\View.php(233): include('D:\\htdocs\\basic...')
+#2 D:\htdocs\basic-app\demoapp\system\Common.php(166): CodeIgniter\View\View->render('BasicApp\\Admin/...', Array, true)
+#3 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-system\Helpers\app_view_helper.php(14): view('BasicApp\\Admin/...', Array, Array)
+#4 D:\htdocs\basic-app\demoapp\vendor\basic-app\core\BaseController.php(94): app_view('BasicApp\\Admin/...', Array, Array)
+#5 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Controllers\BaseLogin.php(91): BasicApp\Core\BaseController->render('login', Array)
+#6 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(825): BasicApp\Admin\Controllers\BaseLogin->index()
+#7 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->runController(Object(BasicApp\Admin\Controllers\Login))
+#8 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(235): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\htdocs\basic-app\demoapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2019-02-22 12:09:22 --> Class 'Login' not found
+#0 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Views\login.php(23): PHPTheme::widget('login', Array)
+#1 D:\htdocs\basic-app\demoapp\system\View\View.php(233): include('D:\\htdocs\\basic...')
+#2 D:\htdocs\basic-app\demoapp\system\Common.php(166): CodeIgniter\View\View->render('BasicApp\\Admin/...', Array, true)
+#3 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-system\Helpers\app_view_helper.php(14): view('BasicApp\\Admin/...', Array, Array)
+#4 D:\htdocs\basic-app\demoapp\vendor\basic-app\core\BaseController.php(94): app_view('BasicApp\\Admin/...', Array, Array)
+#5 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Controllers\BaseLogin.php(91): BasicApp\Core\BaseController->render('login', Array)
+#6 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(825): BasicApp\Admin\Controllers\BaseLogin->index()
+#7 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->runController(Object(BasicApp\Admin\Controllers\Login))
+#8 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(235): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\htdocs\basic-app\demoapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2019-02-22 12:17:17 --> Class 'Theme\CoolAdmin\Login' not found
+#0 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Views\login.php(23): PHPTheme::widget('login', Array)
+#1 D:\htdocs\basic-app\demoapp\system\View\View.php(233): include('D:\\htdocs\\basic...')
+#2 D:\htdocs\basic-app\demoapp\system\Common.php(166): CodeIgniter\View\View->render('BasicApp\\Admin/...', Array, true)
+#3 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-system\Helpers\app_view_helper.php(14): view('BasicApp\\Admin/...', Array, Array)
+#4 D:\htdocs\basic-app\demoapp\vendor\basic-app\core\BaseController.php(94): app_view('BasicApp\\Admin/...', Array, Array)
+#5 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Controllers\BaseLogin.php(91): BasicApp\Core\BaseController->render('login', Array)
+#6 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(825): BasicApp\Admin\Controllers\BaseLogin->index()
+#7 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->runController(Object(BasicApp\Admin\Controllers\Login))
+#8 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(235): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\htdocs\basic-app\demoapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2019-02-22 12:18:24 --> Class 'Theme\CoolAdmin\Login' not found
+#0 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Views\login.php(23): PHPTheme::widget('login', Array)
+#1 D:\htdocs\basic-app\demoapp\system\View\View.php(233): include('D:\\htdocs\\basic...')
+#2 D:\htdocs\basic-app\demoapp\system\Common.php(166): CodeIgniter\View\View->render('BasicApp\\Admin/...', Array, true)
+#3 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-system\Helpers\app_view_helper.php(14): view('BasicApp\\Admin/...', Array, Array)
+#4 D:\htdocs\basic-app\demoapp\vendor\basic-app\core\BaseController.php(94): app_view('BasicApp\\Admin/...', Array, Array)
+#5 D:\htdocs\basic-app\demoapp\vendor\basic-app\module-admin\Controllers\BaseLogin.php(91): BasicApp\Core\BaseController->render('login', Array)
+#6 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(825): BasicApp\Admin\Controllers\BaseLogin->index()
+#7 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->runController(Object(BasicApp\Admin\Controllers\Login))
+#8 D:\htdocs\basic-app\demoapp\system\CodeIgniter.php(235): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\htdocs\basic-app\demoapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

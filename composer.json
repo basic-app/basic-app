@@ -11,6 +11,7 @@
         "basic-app/module-site" : "dev-master",
         "basic-app/module-admin" : "dev-master",
         "phptheme/phptheme-codeigniter4": "dev-master",
-        "phptheme/theme-clean-blog": "dev-master"
+        "basic-app/theme-clean-blog": "dev-master",
+        "basic-app/theme-cool-admin": "dev-master"
     }
 }

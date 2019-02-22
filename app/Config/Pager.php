@@ -18,9 +18,10 @@ class Pager extends BaseConfig
 	|
 	*/
 	public $templates = [
-		'default_full'   => 'CodeIgniter\Pager\Views\default_full',
+		'default_full' => 'CodeIgniter\Pager\Views\default_full',
 		'default_simple' => 'CodeIgniter\Pager\Views\default_simple',
-		'default_head'   => 'CodeIgniter\Pager\Views\default_head',
+		'default_head' => 'CodeIgniter\Pager\Views\default_head',
+        'bootstrap4' => 'BasicApp\Bootstrap4\pager'
 	];
 
 	/*
@@ -32,4 +33,7 @@ class Pager extends BaseConfig
 	|
 	*/
 	public $perPage = 20;
+
+	public $center = true;
+	
 }
