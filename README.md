@@ -47,7 +47,7 @@ Run migrations.
     
 ## Step 5
 
-Install bower libraries.
+Install Bower libraries.
 
     bower install
     
