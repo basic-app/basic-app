@@ -12,6 +12,14 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 - Composer
 - Bower
 
+## Backend
+
+Access application backend in your brower by opening `http://example.com/admin`.
+```
+login: admin
+password: admin
+```
+
 Installation
 ============
 
@@ -39,13 +47,6 @@ Run migrations.
     
 ## Step 5
 
-Run `install` application hook.
-
-    php spark install
-    
-    
-## Step 6
-
 Install bower libraries.
 
     bower install
@@ -54,10 +55,8 @@ Install bower libraries.
 
 Set document root of your web server to `/path/to/application/public` and using the URL `http://example.com`.
    
-## Backend
+## Step 7
 
-Access application backend in your brower by opening `http://example.com/admin`.
-```
-login: admin
-password: admin
-```
+Run `install` application hook.
+
+    php spark install
