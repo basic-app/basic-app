@@ -17,9 +17,7 @@
   ],
   "dependencies": {
     "tinymce": "^5.0.1",
-    "jquery": "^3.3.1",
     "codemirror": "^5.43.0",
-    "jquery-pjax": "^2.0.1",
     "CoolAdmin": "https://github.com/puikinsh/CoolAdmin.git",
     "startbootstrap-clean-blog": "https://github.com/BlackrockDigital/startbootstrap-clean-blog.git#^5.0.4"
   }

@@ -5,6 +5,7 @@ use Config\Settings;
 
 $buttons = [];
 
+/*
 $buttons[] = [
 	'icon' => 'fab fa-github', 
 	'url' => 'https://github.com/basic-app',
@@ -21,6 +22,7 @@ $buttons[] = [
         'title' => 'Basic App e-mail'
     ]
 ];
+*/
 
 /*
 foreach (Block::findAllByPrefix('layout.social') as $row)
@@ -48,28 +50,17 @@ $background = null;
 echo PHPTheme::widget('layout', [
 	'title' => isset($this->data['title']) ? $this->data['title'] : null,
 	'header' => [
-		'title' => 'Basic App',
-		'description' => 'An open source simple CMS based on CodeIgniter 4'
+		'title' => block('layout_title', 'My App'),
+		'description' => block('layout_description', 'My First CodeIgniter 4 Application')
 	],
 	'navigation' => [
-		'title' => 'Basic App',
-		'items' => [
-			['url' => base_url(), 'label' => 'Home'],
-            ['url' => site_url('page/about'), 'label' => 'About'],
-			['url' => site_url('page/modules'), 'label' => 'Modules'],
-            //['url' => site_url('services'), 'label' => 'About Me'],
-			['url' => site_url('blog'), 'label' => 'Blog'],
-
-			//['url' => site_url('services'), 'label' => 'My Services'],
-			//['url' => site_url('download'), 'label' => 'Downloads'],
-			['url' => site_url('page/contact'), 'label' => 'Contact'],
-            ['url' => '/forum', 'label' => 'Forum']
-		]
+		'title' => block('layout_title', 'My App'),
+		'items' => menu_items('main', true, ['menu_name' => 'Main Menu'])
 	],
 	'background' => $background,
 	'content' => $content,
 	'footer' => [
-		'copyright' => 'Copyright &copy; <a href="http://basic-app.com">Basic App</a> 2018 - {year}',
+		'copyright' => block('layout_copyright', 'Copyright &copy; <a href="http://example.com">My App</a> 2018 - {year}'),
 		'buttons' => $buttons
 	]
 ]);

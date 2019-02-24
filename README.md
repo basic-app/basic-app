@@ -1,9 +1,19 @@
+Basic App
+=========
+
+Basic App is a free, open-source, self-hosted CMS platform based on the CodeIgniter 4 PHP Framework.
+
+Basic App is designed to provide a quick start for sites made on CodeIgniter 4 and to take over the implementation of the basic functions of a modern web application.
+
+## System Requirements
+
+- PHP 7
+- MySQL
+- Composer
+- Bower
+
 Installation
 ============
-
-## Requirements
-
-The minimum requirement by this project template is that your Web server supports PHP 7.3.
 
 ## Step 1
 
@@ -32,6 +42,13 @@ Run migrations.
 Run `install` application hook.
 
     php spark install
+    
+    
+## Step 6
+
+Install bower libraries.
+
+    bower install
     
 ## Step 6
 

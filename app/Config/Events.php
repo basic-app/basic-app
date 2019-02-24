@@ -43,6 +43,8 @@ if (ENVIRONMENT !== 'production')
 
 Events::on('pre_system', function() {
 
+    helper('menu');
+
     require_once APPPATH . 'ThirdParty/BasicApp/Core/AdminController.php';
 
     PHPTheme::$namespace = 'Theme\CleanBlog';
@@ -55,4 +57,40 @@ Events::on('admin_controller_constructor', function()
     PHPTheme::$namespace = 'Theme\CoolAdmin';
 
     PHPTheme::$path = 'components/CoolAdmin';
+});
+
+Events::on('page_head', function()
+{
+    if (PHPTheme::$path == 'components/CoolAdmin')
+    {
+        echo view('admin/layout-head');
+    }
+    else
+    {
+        echo view('layout-head');
+    }
+});
+
+Events::on('page_body_begin', function()
+{
+    if (PHPTheme::$path == 'components/CoolAdmin')
+    {
+        echo view('admin/layout-body-begin');
+    }
+    else
+    {
+        echo view('layout-body-begin');
+    }
+});
+
+Events::on('page_body_end', function()
+{
+    if (PHPTheme::$path == 'components/CoolAdmin')
+    {
+        echo view('admin/layout-body-end');
+    }
+    else
+    {
+        echo view('layout-body-end');
+    }
 });
