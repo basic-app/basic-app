@@ -4,6 +4,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "php": ">=7.2",
+        "codeigniter4/framework": "dev-master",
         "basic-app/core": "dev-master",
         "basic-app/bootstrap4": "dev-master",
         "basic-app/module-system" : "dev-master",
@@ -13,5 +15,10 @@
         "phptheme/phptheme-codeigniter4": "dev-master",
         "basic-app/theme-clean-blog": "dev-master",
         "basic-app/theme-cool-admin": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeIgniter\\": "./vendor/codeigniter4/framework/system/" 
+        }
     }
 }

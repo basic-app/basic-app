@@ -20,7 +20,7 @@ class Paths
 	 * Include the path if the folder is not in the same directory
 	 * as this file.
 	 */
-	public $systemDirectory = __DIR__ . '/../../system';
+	public $systemDirectory = '../vendor/codeigniter4/framework/system'; //__DIR__ . '/../../system';
 
 	/*
 	 *---------------------------------------------------------------

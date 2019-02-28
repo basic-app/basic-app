@@ -33,29 +33,25 @@ The command installs the application in a directory named `demoapp`. You can cho
 
 ## Step 2
 
-Download latest [CodeIgniter 4](https://github.com/codeigniter4/codeigniter4) release and extract a `system` directory from it to application `system` directory.
-
-## Step 3
-
 Rename the file named `env` to `.env`. Configure base site url, timezone, and database connection settings in the `.env` file.
 
-## Step 4
+## Step 3
 
 Run migrations.
 
     php spark migrate:latest -all
     
-## Step 5
+## Step 4
 
 Install Bower libraries.
 
     bower install
     
-## Step 6
+## Step 5
 
 Set document root of your web server to `/path/to/application/public` and using the URL `http://example.com`.
    
-## Step 7
+## Step 6
 
 Run `install` application hook.
 
