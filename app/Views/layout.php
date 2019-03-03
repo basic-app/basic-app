@@ -5,7 +5,6 @@ use Config\Settings;
 
 $buttons = [];
 
-/*
 $buttons[] = [
 	'icon' => 'fab fa-github', 
 	'url' => 'https://github.com/basic-app',
@@ -19,48 +18,33 @@ $buttons[] = [
     'icon' => 'fas fa-at', 
     'url' => 'mailto:support@basic-app.com',
     'options' => [
-        'title' => 'Basic App e-mail'
+        'title' => 'Basic App E-mail'
     ]
 ];
-*/
 
-/*
-foreach (Block::findAllByPrefix('layout.social') as $row)
-{
-	$buttons[] = [
-		'url' => $row->block_content,
-		'icon' => str_replace('layout.social.', '', $block->block_uid)
-	];
-}
-*/
+$applicationConfig = config(App\Models\ApplicationConfig::class);
 
-/*
-$settings = config(App\Models\Settings::class);
-
-$background = $settings->background_image;
-
-if ($background)
-{
-	$background = base_url('uploaded/files/' . $background);
-}
-*/
-
-$background = null;
+$background = $applicationConfig->getBackgroundImageUrl();
 
 echo PHPTheme::widget('layout', [
 	'title' => isset($this->data['title']) ? $this->data['title'] : null,
 	'header' => [
-		'title' => block('layout_title', 'My App'),
-		'description' => block('layout_description', 'My First CodeIgniter 4 Application')
+		'title' => block('layout_title', 'Basic App'),
+		'description' => block('layout_description', 'Based on CodeIgniter 4'),
+        'image' => $background
 	],
 	'navigation' => [
-		'title' => block('layout_title', 'My App'),
+		'title' => block('layout_title', 'Demo App'),
 		'items' => menu_items('main', true, ['menu_name' => 'Main Menu'])
 	],
-	'background' => $background,
 	'content' => $content,
 	'footer' => [
-		'copyright' => block('layout_copyright', 'Copyright &copy; <a href="http://example.com">My App</a> 2018 - {year}'),
+		'copyright' => block('layout_copyright', 'Copyright &copy; <a href="{url}">{name}</a> {fromYear} - {year}', true, [
+            '{url}' => base_url(),
+            '{name}' => 'Demo App',
+            '{year}' => date('Y'),
+            '{fromYear}' => '2018'
+        ]),
 		'buttons' => $buttons
 	]
 ]);

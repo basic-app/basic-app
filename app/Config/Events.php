@@ -94,3 +94,14 @@ Events::on('page_body_end', function()
         echo view('layout-body-end');
     }
 });
+
+Events::on('admin_options_menu', function($event)
+{
+    $modelClass = 'App\Models\ApplicationConfigModel';
+
+    $event->items[$modelClass] = [
+        'label' => $modelClass::getFormName(),
+        'icon' => 'fa fa-desktop',
+        'url' => classic_url('admin/config', ['class' => $modelClass])
+    ];
+});
