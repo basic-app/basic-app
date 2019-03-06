@@ -43,8 +43,6 @@ if (ENVIRONMENT !== 'production')
 
 Events::on('pre_system', function() {
 
-    helper('menu');
-
     require_once APPPATH . 'ThirdParty/BasicApp/Core/AdminController.php';
 
     PHPTheme::$namespace = 'Theme\CleanBlog';
