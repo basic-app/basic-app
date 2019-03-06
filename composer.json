@@ -4,7 +4,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2",
         "codeigniter4/framework": "dev-master",
         "basic-app/core": "dev-master",
         "basic-app/bootstrap4": "dev-master",
