@@ -28,7 +28,7 @@ if ($returnUrl)
 echo PHPTheme::widget('layout', [
 	//'optionsMenu' => \Config\Custom\Admin::optionsMenuItems(),
     'optionsMenu' => array_key_exists('optionsMenu', $this->data) ? $this->data['optionsMenu'] : [],
-    'title' => array_key_exists('pageTitle', $this->data) ? $this->data['pageTitle'] : '',
+    'title' => array_key_exists('title', $this->data) ? $this->data['title'] : '',
     'mainMenu' => array_key_exists('mainMenu', $this->data) ? $this->data['mainMenu'] : [],
     'actionMenu' => $actionMenu,
     'breadcrumbs' => array_key_exists('breadcrumbs', $this->data) ? $this->data['breadcrumbs'] : [],
