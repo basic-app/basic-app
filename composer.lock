@@ -38,12 +38,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "0860f6c5a907f65687f88d938a1367f73bee5f61"
+                "reference": "109b848b6b24912806f1b807a97f349cffa47e65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/0860f6c5a907f65687f88d938a1367f73bee5f61",
-                "reference": "0860f6c5a907f65687f88d938a1367f73bee5f61",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/109b848b6b24912806f1b807a97f349cffa47e65",
+                "reference": "109b848b6b24912806f1b807a97f349cffa47e65",
                 "shasum": ""
             },
             "type": "library",
@@ -56,7 +56,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-11T09:11:29+00:00"
+            "time": "2019-03-12T21:01:37+00:00"
         },
         {
             "name": "basic-app/module-admin",
@@ -116,12 +116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-site.git",
-                "reference": "80708d21c2afd16cba0305b059e21afc34284783"
+                "reference": "039006177ca286e8392d6c709f27240186cc4549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-site/zipball/80708d21c2afd16cba0305b059e21afc34284783",
-                "reference": "80708d21c2afd16cba0305b059e21afc34284783",
+                "url": "https://api.github.com/repos/basic-app/module-site/zipball/039006177ca286e8392d6c709f27240186cc4549",
+                "reference": "039006177ca286e8392d6c709f27240186cc4549",
                 "shasum": ""
             },
             "type": "library",
@@ -134,7 +134,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-06T11:18:37+00:00"
+            "time": "2019-03-12T20:42:29+00:00"
         },
         {
             "name": "basic-app/module-system",
@@ -191,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-cool-admin.git",
-                "reference": "61dcc5615828ae78c44236bbbe689582c7e10218"
+                "reference": "1882f9481b69158b542cb1b496f8ecb98839de23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/61dcc5615828ae78c44236bbbe689582c7e10218",
-                "reference": "61dcc5615828ae78c44236bbbe689582c7e10218",
+                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/1882f9481b69158b542cb1b496f8ecb98839de23",
+                "reference": "1882f9481b69158b542cb1b496f8ecb98839de23",
                 "shasum": ""
             },
             "type": "library",
@@ -206,7 +206,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-03-11T15:50:56+00:00"
+            "time": "2019-03-11T20:10:48+00:00"
         },
         {
             "name": "codeigniter4/framework",
