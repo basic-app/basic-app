@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use BasicApp\Core\DatabaseConfigModel;
-use BasicApp\Core\UploadModelBehavior;
+use BasicApp\Behaviors\UploadModelBehavior;
 
 class ApplicationConfigModel extends DatabaseConfigModel
 {
@@ -24,15 +24,14 @@ class ApplicationConfigModel extends DatabaseConfigModel
         return parent::beforeValidate($params);
     }
 
-    public function getBehaviors() : array
+    public function behaviors() : array
     {
         return [
             [
-                'class' => UploadModelBehavior::class,
-                'modelClass' => static::class, 
+                'class' => UploadModelBehavior::class, 
                 'path' => FCPATH . 'uploaded/application',
                 'field' => 'background_image',
-                'inputName' => 'background_image_file',
+                'input' => 'background_image_file',
                 'square' => false
             ]
         ];
