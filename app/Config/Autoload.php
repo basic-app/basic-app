@@ -1,4 +1,6 @@
-<?php namespace Config;
+<?php
+
+namespace Config;
 
 require_once SYSTEMPATH . 'Config/AutoloadConfig.php';
 
@@ -11,6 +13,7 @@ require_once SYSTEMPATH . 'Config/AutoloadConfig.php';
  */
 class Autoload extends \CodeIgniter\Config\AutoloadConfig
 {
+
 	public $psr4 = [];
 
 	public $classmap = [];
@@ -56,7 +59,8 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
             'BasicApp\I18n' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-i18n',
             'BasicApp\Admin' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-admin',
             'BasicApp\Site' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-site',
-            'BasicApp\System' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-system'            
+            'BasicApp\System' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-system',
+            'BasicApp\Blog' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-blog'            
 		];
 
 		/**

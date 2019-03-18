@@ -1,7 +1,10 @@
-<?php namespace Config;
+<?php 
+
+namespace Config;
 
 use CodeIgniter\Events\Events;
 use PHPTheme;
+use Michelf\MarkdownExtra;
 
 /*
  * --------------------------------------------------------------------
@@ -102,4 +105,11 @@ Events::on('admin_options_menu', function($event)
         'icon' => 'fa fa-desktop',
         'url' => classic_url('admin/config', ['class' => $modelClass])
     ];
+});
+
+Events::on('blog_post_text', function($event)
+{
+    $parser = new MarkdownExtra;
+
+    $event->post_text = $parser->transform($event->post_text);
 });
