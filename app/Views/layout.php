@@ -39,9 +39,9 @@ echo PHPTheme::widget('layout', [
 	],
 	'content' => $content,
 	'footer' => [
-		'copyright' => block('layout_copyright', 'Copyright &copy; <a href="{url}">{name}</a> {fromYear} - {year}', true, [
+		'copyright' => block('layout_copyright', 'Copyright &copy; <a href="{url}">{name}</a> {fromYear} - {year}', [
             '{url}' => base_url(),
-            '{name}' => 'Demo App',
+            '{name}' => 'My Company',
             '{year}' => date('Y'),
             '{fromYear}' => '2018'
         ]),
