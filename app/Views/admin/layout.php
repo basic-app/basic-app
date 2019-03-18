@@ -25,8 +25,7 @@ if ($returnUrl)
 	];
 }
 
-echo PHPTheme::widget('layout', [
-	//'optionsMenu' => \Config\Custom\Admin::optionsMenuItems(),
+echo admin_theme_widget('layout', [
     'optionsMenu' => array_key_exists('optionsMenu', $this->data) ? $this->data['optionsMenu'] : [],
     'title' => array_key_exists('title', $this->data) ? $this->data['title'] : '',
     'mainMenu' => array_key_exists('mainMenu', $this->data) ? $this->data['mainMenu'] : [],
