@@ -147,12 +147,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "ef6360bda60d9f10599aaed18d9bc567c9b61eec"
+                "reference": "a4bfa8f588f8fd05949f5e2fdb251a5cab501a9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/ef6360bda60d9f10599aaed18d9bc567c9b61eec",
-                "reference": "ef6360bda60d9f10599aaed18d9bc567c9b61eec",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/a4bfa8f588f8fd05949f5e2fdb251a5cab501a9c",
+                "reference": "a4bfa8f588f8fd05949f5e2fdb251a5cab501a9c",
                 "shasum": ""
             },
             "type": "library",
@@ -165,7 +165,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-18T16:09:48+00:00"
+            "time": "2019-03-18T16:44:16+00:00"
         },
         {
             "name": "basic-app/module-i18n",
