@@ -16,7 +16,8 @@
         "basic-app/module-admin" : "dev-master",
         "basic-app/module-blog" : "dev-master",
         "basic-app/theme-clean-blog": "dev-master",
-        "basic-app/theme-cool-admin": "dev-master"
+        "basic-app/theme-cool-admin": "dev-master",
+        "phpmailer/phpmailer": "^6.0"
     },
     "autoload": {
         "psr-4": {
