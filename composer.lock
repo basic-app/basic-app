@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "13fbd5be226d82d7ff8d7238b5564481",
+    "content-hash": "f0c94f159805fc49b38d3fc8a6a1566c",
     "packages": [
         {
             "name": "basic-app/actions",
@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-site.git",
-                "reference": "bede5c4fa15976146b016d8023a1397f669d5406"
+                "reference": "534baddb219aa4b683bfbc29f3cdf2a2b7efbd61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-site/zipball/bede5c4fa15976146b016d8023a1397f669d5406",
-                "reference": "bede5c4fa15976146b016d8023a1397f669d5406",
+                "url": "https://api.github.com/repos/basic-app/module-site/zipball/534baddb219aa4b683bfbc29f3cdf2a2b7efbd61",
+                "reference": "534baddb219aa4b683bfbc29f3cdf2a2b7efbd61",
                 "shasum": ""
             },
             "type": "library",
@@ -217,7 +217,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-18T21:43:07+00:00"
+            "time": "2019-03-20T14:14:07+00:00"
         },
         {
             "name": "basic-app/module-system",
@@ -225,13 +225,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-system.git",
-                "reference": "d26cfc3c2fe14ba87176d050c423a1e146d109b7"
+                "reference": "44b417d83fea22be7d7f96e84587641dc3cc5e67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-system/zipball/d26cfc3c2fe14ba87176d050c423a1e146d109b7",
-                "reference": "d26cfc3c2fe14ba87176d050c423a1e146d109b7",
+                "url": "https://api.github.com/repos/basic-app/module-system/zipball/44b417d83fea22be7d7f96e84587641dc3cc5e67",
+                "reference": "44b417d83fea22be7d7f96e84587641dc3cc5e67",
                 "shasum": ""
+            },
+            "require": {
+                "phpmailer/phpmailer": "^6.0"
             },
             "type": "library",
             "autoload": {
@@ -243,7 +246,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-14T09:31:46+00:00"
+            "time": "2019-03-20T15:38:03+00:00"
         },
         {
             "name": "basic-app/theme-clean-blog",
