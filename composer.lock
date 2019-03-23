@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "9647f322b911778966d078aac122ee58af544396"
+                "reference": "2409ca0a6d0e0e9bf407a10c2fbffe01b6534530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/9647f322b911778966d078aac122ee58af544396",
-                "reference": "9647f322b911778966d078aac122ee58af544396",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/2409ca0a6d0e0e9bf407a10c2fbffe01b6534530",
+                "reference": "2409ca0a6d0e0e9bf407a10c2fbffe01b6534530",
                 "shasum": ""
             },
             "require": {
@@ -251,7 +251,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-23T08:00:35+00:00"
+            "time": "2019-03-23T13:41:11+00:00"
         },
         {
             "name": "basic-app/theme-clean-blog",
