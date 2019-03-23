@@ -3,8 +3,6 @@
 namespace Config;
 
 use CodeIgniter\Events\Events;
-use PHPTheme;
-use Michelf\MarkdownExtra;
 
 /*
  * --------------------------------------------------------------------
@@ -40,76 +38,16 @@ if (ENVIRONMENT !== 'production')
 				return $buffer;
 			});
 		}
+
 		Services::toolbar()->respond();
 	});
 }
 
-Events::on('pre_system', function() {
-
-    require_once APPPATH . 'ThirdParty/BasicApp/Core/AdminController.php';
-
-    PHPTheme::$namespace = 'Theme\CleanBlog';
-
-    PHPTheme::$path = 'components/startbootstrap-clean-blog';
-});
-
-Events::on('admin_controller_constructor', function()
-{
-    PHPTheme::$namespace = 'Theme\CoolAdmin';
-
-    PHPTheme::$path = 'components/CoolAdmin';
-});
-
-Events::on('page_head', function()
-{
-    if (PHPTheme::$path == 'components/CoolAdmin')
-    {
-        echo view('admin/layout-head');
-    }
-    else
-    {
-        echo view('layout-head');
-    }
-});
-
-Events::on('page_body_begin', function()
-{
-    if (PHPTheme::$path == 'components/CoolAdmin')
-    {
-        echo view('admin/layout-body-begin');
-    }
-    else
-    {
-        echo view('layout-body-begin');
-    }
-});
-
-Events::on('page_body_end', function()
-{
-    if (PHPTheme::$path == 'components/CoolAdmin')
-    {
-        echo view('admin/layout-body-end');
-    }
-    else
-    {
-        echo view('layout-body-end');
-    }
-});
-
-Events::on('admin_options_menu', function($event)
-{
-    $modelClass = 'App\Models\ApplicationConfigModel';
-
-    $event->items[$modelClass] = [
-        'label' => $modelClass::getFormName(),
-        'icon' => 'fa fa-desktop',
-        'url' => classic_url('admin/config', ['class' => $modelClass])
-    ];
-});
-
-Events::on('blog_post_text', function($event)
-{
-    $parser = new MarkdownExtra;
-
-    $event->post_text = $parser->transform($event->post_text);
-});
+Events::on('pre_system', ['App\Hooks\Layout', 'preSystem']);
+Events::on('admin_controller_constructor', ['App\Hooks\Layout', 'adminControllerConstructor']);
+Events::on('page_head', ['App\Hooks\Layout', 'head']);
+Events::on('page_body_begin', ['App\Hooks\Layout', 'bodyBegin']);
+Events::on('page_body_end', ['App\Hooks\Layout', 'bodyEnd']);
+Events::on('admin_options_menu', ['App\Hooks\Admin', 'optionsMenu']);
+Events::on('blog_post_text', ['App\Hooks\BlogPostText', 'run']);
+Events::on('install', ['App\Hooks\Install', 'run']);

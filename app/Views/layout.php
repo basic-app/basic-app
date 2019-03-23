@@ -1,26 +1,21 @@
 <?php
 
+use BasicApp\Site\Models\MenuModel;
 use BasicApp\Site\Models\Block;
 use Config\Settings;
 
 $buttons = [];
 
-$buttons[] = [
-	'icon' => 'fab fa-github', 
-	'url' => 'https://github.com/basic-app',
-	'options' => [
-		'title' => 'Basic App account on GitHub',
-        'target' => '_blank'
-	]
-];
-
-$buttons[] = [
-    'icon' => 'fas fa-at', 
-    'url' => 'mailto:support@basic-app.com',
-    'options' => [
-        'title' => 'Basic App E-mail'
-    ]
-];
+foreach(MenuModel::getMenuItems('social', true, ['menu_name' => 'Social Buttons']) as $menuItem)
+{
+    $buttons[] = [
+        'icon' => $menuItem->item_icon,
+        'url' => $menuItem->item_url,
+        'options' => [
+            'title' => $menuItem->item_name
+        ]
+    ];
+}
 
 $applicationConfig = config(App\Models\ApplicationConfig::class);
 

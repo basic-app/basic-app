@@ -2,9 +2,9 @@
 
 namespace BasicApp\Core;
 
+use CodeIgniter\Events\Events;
 use Config\Services;
 use StdClass;
-use PHPTheme;
 
 class AdminController extends BaseAdminController
 {
@@ -21,7 +21,7 @@ class AdminController extends BaseAdminController
 
         $mainMenu->items = [];
 
-        PHPTheme::trigger('admin_main_menu', $mainMenu);
+        Events::trigger('admin_main_menu', $mainMenu);
 
         $view->setVar('mainMenu', $mainMenu->items);
 
@@ -31,7 +31,7 @@ class AdminController extends BaseAdminController
 
         $optionsMenu->items = [];
 
-        PHPTheme::trigger('admin_options_menu', $optionsMenu);
+        Events::trigger('admin_options_menu', $optionsMenu);
 
         $view->setVar('optionsMenu', $optionsMenu->items);        
     }
