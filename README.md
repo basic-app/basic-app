@@ -27,8 +27,8 @@ Installation
 
 You can install the application using Composer using the following commands:
 
-    composer create-project --stability=dev --remove-vcs --prefer-dist basic-app/basic-app demoapp
-
+    git clone basic-app/basic-app demoapp
+    
 The command installs the application in a directory named `demoapp`. You can choose a different directory name if you want.
 
 ## Step 2

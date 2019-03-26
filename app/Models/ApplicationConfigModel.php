@@ -14,6 +14,12 @@ class ApplicationConfigModel extends DatabaseConfigModel
         'background_image_file' => 'uploaded[background_image_file]|max_size[background_image_file,3024]|ext_in[background_image_file,jpg,png,gif]|is_image[background_image_file]'
     ];
 
+    protected $labels = [
+        'background_image_file' => 'Background Image'
+    ];
+
+    protected $translations = 'application';
+
     public function beforeValidate(array $params) : array
     {
         if (!array_key_exists('background_image_file', $_FILES))
@@ -37,13 +43,6 @@ class ApplicationConfigModel extends DatabaseConfigModel
         ];
     }
 
-    public static function getFieldLabels()
-    {
-        return [
-            'background_image_file' => t('app', 'Background Image')
-        ];
-    }
-
     public static function getFormName()
     {
         return t('admin.menu', 'Application');
@@ -56,7 +55,7 @@ class ApplicationConfigModel extends DatabaseConfigModel
                 'type' => 'image',
                 'name' => 'background_image_file',
                 'url' => $model->getBackgroundImageUrl(),
-                'label' => static::fieldLabel('background_image_file')
+                'label' => static::label('background_image_file')
             ]
         ];
     }
