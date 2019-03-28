@@ -45,7 +45,7 @@ Run migrations.
     
 ## Step 4
 
-Install Bower libraries.
+Install Bower libraries. (Libraries already installed in /public/components directory, this step is not required)
 
     bower install
     
