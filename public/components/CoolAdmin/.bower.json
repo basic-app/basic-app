@@ -1,0 +1,13 @@
+{
+  "name": "CoolAdmin",
+  "homepage": "https://github.com/puikinsh/CoolAdmin",
+  "_release": "4cc42f3160",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4cc42f31607eb51f0c12dcbed8dbd7d225baa07d"
+  },
+  "_source": "https://github.com/puikinsh/CoolAdmin.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/puikinsh/CoolAdmin.git"
+}

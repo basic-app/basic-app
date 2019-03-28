@@ -1,0 +1,14 @@
+{
+  "name": "startbootstrap-clean-blog",
+  "homepage": "https://github.com/BlackrockDigital/startbootstrap-clean-blog",
+  "version": "5.0.5",
+  "_release": "5.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.0.5",
+    "commit": "b07a11df5830b9b65ee0bc8016d166c1ecbf6887"
+  },
+  "_source": "https://github.com/BlackrockDigital/startbootstrap-clean-blog.git",
+  "_target": "^5.0.4",
+  "_originalSource": "https://github.com/BlackrockDigital/startbootstrap-clean-blog.git"
+}
