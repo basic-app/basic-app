@@ -90,12 +90,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "0fa898a210d0e5ce113c924d8d58e4fb5f72115f"
+                "reference": "ab7c995f8070173cf223ec2f3cca16b297d09cba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/0fa898a210d0e5ce113c924d8d58e4fb5f72115f",
-                "reference": "0fa898a210d0e5ce113c924d8d58e4fb5f72115f",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/ab7c995f8070173cf223ec2f3cca16b297d09cba",
+                "reference": "ab7c995f8070173cf223ec2f3cca16b297d09cba",
                 "shasum": ""
             },
             "require": {
@@ -113,7 +113,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-26T20:17:55+00:00"
+            "time": "2019-04-28T20:02:52+00:00"
         },
         {
             "name": "basic-app/module-admin",
@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-site.git",
-                "reference": "31c07431ca24a2ff69196fe8d6a47377885ee41e"
+                "reference": "652726515ec8b28d5abdb2d032ab56beb2210ed0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-site/zipball/31c07431ca24a2ff69196fe8d6a47377885ee41e",
-                "reference": "31c07431ca24a2ff69196fe8d6a47377885ee41e",
+                "url": "https://api.github.com/repos/basic-app/module-site/zipball/652726515ec8b28d5abdb2d032ab56beb2210ed0",
+                "reference": "652726515ec8b28d5abdb2d032ab56beb2210ed0",
                 "shasum": ""
             },
             "type": "library",
@@ -217,7 +217,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-26T20:19:30+00:00"
+            "time": "2019-04-28T20:06:55+00:00"
         },
         {
             "name": "basic-app/system",
@@ -305,12 +305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "672e46f8089bc11104f9371a5fce974e8c1b0602"
+                "reference": "5b5ccfe3c8fd52ea275f26863ebda659496e5b73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/672e46f8089bc11104f9371a5fce974e8c1b0602",
-                "reference": "672e46f8089bc11104f9371a5fce974e8c1b0602",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/5b5ccfe3c8fd52ea275f26863ebda659496e5b73",
+                "reference": "5b5ccfe3c8fd52ea275f26863ebda659496e5b73",
                 "shasum": ""
             },
             "require": {
@@ -339,20 +339,20 @@
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2019-03-01T09:32:55+00:00"
+            "time": "2019-04-04T07:12:09+00:00"
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.0.0-beta.1",
+            "version": "v4.0.0-beta.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
-                "reference": "396e0557daaeb25cd61328fefe4e296fbc679b93"
+                "reference": "da6be721dcb6b7c840b540951f47bb422b153cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/396e0557daaeb25cd61328fefe4e296fbc679b93",
-                "reference": "396e0557daaeb25cd61328fefe4e296fbc679b93",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/da6be721dcb6b7c840b540951f47bb422b153cdb",
+                "reference": "da6be721dcb6b7c840b540951f47bb422b153cdb",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
             ],
             "description": "Translations for CodeIgniter v4 web framework",
             "homepage": "https://codeigniter.com",
-            "time": "2019-03-01T09:09:04+00:00"
+            "time": "2019-04-04T07:00:17+00:00"
         },
         {
             "name": "kint-php/kint",
