@@ -90,12 +90,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "ab7c995f8070173cf223ec2f3cca16b297d09cba"
+                "reference": "f25811c70d96d598d2cbac8867a940be338708d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/ab7c995f8070173cf223ec2f3cca16b297d09cba",
-                "reference": "ab7c995f8070173cf223ec2f3cca16b297d09cba",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/f25811c70d96d598d2cbac8867a940be338708d9",
+                "reference": "f25811c70d96d598d2cbac8867a940be338708d9",
                 "shasum": ""
             },
             "require": {
@@ -113,7 +113,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-04-28T20:02:52+00:00"
+            "time": "2019-04-30T22:06:37+00:00"
         },
         {
             "name": "basic-app/module-admin",
@@ -147,12 +147,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "94deb4347068d3a5592e24fdc22e322febdedaf4"
+                "reference": "c41ef6d72adce5e864c09004c1d975df1062a9d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/94deb4347068d3a5592e24fdc22e322febdedaf4",
-                "reference": "94deb4347068d3a5592e24fdc22e322febdedaf4",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/c41ef6d72adce5e864c09004c1d975df1062a9d4",
+                "reference": "c41ef6d72adce5e864c09004c1d975df1062a9d4",
                 "shasum": ""
             },
             "type": "library",
@@ -165,7 +165,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-26T20:18:46+00:00"
+            "time": "2019-04-30T22:14:33+00:00"
         },
         {
             "name": "basic-app/module-i18n",
