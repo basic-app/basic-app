@@ -8,14 +8,14 @@ class SystemConfigModel extends BaseSystemConfigModel
     public static function themeListItems()
     {
         return [
-            'Theme\CleanBlog' => 'Clean Blog (by StartBootstrap)'
+            'components/startbootstrap-clean-blog' => 'Theme\CleanBlog'
         ];
     }
 
     public static function adminThemeListItems()
     {
         return [
-            'Theme\CoolAdmin' => 'Cool Admin (by ColorLib)'
+            'components/CoolAdmin' => 'Theme\CoolAdmin'
         ];
     }
 
