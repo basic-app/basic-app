@@ -4,60 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86530916879258b37b8156f2b6b5c342",
+    "content-hash": "efd84a1a200a194b8d1d70b594120955",
     "packages": [
-        {
-            "name": "basic-app/actions",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/basic-app/actions.git",
-                "reference": "e43c85467ef525a5da5390cb5db20187d6bf2bc1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/actions/zipball/e43c85467ef525a5da5390cb5db20187d6bf2bc1",
-                "reference": "e43c85467ef525a5da5390cb5db20187d6bf2bc1",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BasicApp\\Actions\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "time": "2019-03-15T09:53:06+00:00"
-        },
-        {
-            "name": "basic-app/behaviors",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/basic-app/behaviors.git",
-                "reference": "56dcd85cb064dc66809a6b599f72b34540afe867"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/behaviors/zipball/56dcd85cb064dc66809a6b599f72b34540afe867",
-                "reference": "56dcd85cb064dc66809a6b599f72b34540afe867",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BasicApp\\Behaviors\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "time": "2019-03-15T09:52:49+00:00"
-        },
         {
             "name": "basic-app/bootstrap4",
             "version": "dev-master",
@@ -90,17 +38,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "f25811c70d96d598d2cbac8867a940be338708d9"
+                "reference": "e386b4360d32737944ab0ac5ae68a717331a5212"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/f25811c70d96d598d2cbac8867a940be338708d9",
-                "reference": "f25811c70d96d598d2cbac8867a940be338708d9",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/e386b4360d32737944ab0ac5ae68a717331a5212",
+                "reference": "e386b4360d32737944ab0ac5ae68a717331a5212",
                 "shasum": ""
             },
             "require": {
-                "basic-app/actions": "dev-master",
-                "basic-app/behaviors": "dev-master",
                 "codeigniter4/framework": "*"
             },
             "type": "library",
@@ -113,7 +59,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-04-30T22:06:37+00:00"
+            "time": "2019-05-11T15:56:11+00:00"
         },
         {
             "name": "basic-app/module-admin",
@@ -121,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-admin.git",
-                "reference": "47c8086ae76d625ac0e8fc77357c9754e6f70b84"
+                "reference": "b95943499fc59af80e3bf960dc63c6e22d690683"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-admin/zipball/47c8086ae76d625ac0e8fc77357c9754e6f70b84",
-                "reference": "47c8086ae76d625ac0e8fc77357c9754e6f70b84",
+                "url": "https://api.github.com/repos/basic-app/module-admin/zipball/b95943499fc59af80e3bf960dc63c6e22d690683",
+                "reference": "b95943499fc59af80e3bf960dc63c6e22d690683",
                 "shasum": ""
             },
             "type": "library",
@@ -139,7 +85,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-26T20:18:24+00:00"
+            "time": "2019-05-11T16:29:32+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -147,12 +93,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "c41ef6d72adce5e864c09004c1d975df1062a9d4"
+                "reference": "9b51632ae883913dfc266ae34934e143ff5b4f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/c41ef6d72adce5e864c09004c1d975df1062a9d4",
-                "reference": "c41ef6d72adce5e864c09004c1d975df1062a9d4",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/9b51632ae883913dfc266ae34934e143ff5b4f9b",
+                "reference": "9b51632ae883913dfc266ae34934e143ff5b4f9b",
                 "shasum": ""
             },
             "type": "library",
@@ -165,7 +111,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-04-30T22:14:33+00:00"
+            "time": "2019-05-11T16:12:47+00:00"
         },
         {
             "name": "basic-app/module-i18n",
@@ -225,19 +171,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "34e2ae89d2f56b4959299a0f60cddfe2704d3b0f"
+                "reference": "4bbe93bf2b701d609f2abbbe74abd860196ac804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/34e2ae89d2f56b4959299a0f60cddfe2704d3b0f",
-                "reference": "34e2ae89d2f56b4959299a0f60cddfe2704d3b0f",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/4bbe93bf2b701d609f2abbbe74abd860196ac804",
+                "reference": "4bbe93bf2b701d609f2abbbe74abd860196ac804",
                 "shasum": ""
             },
             "require": {
                 "basic-app/bootstrap4": "dev-master",
                 "basic-app/core": "dev-master",
-                "codeigniter4/framework": "dev-master",
-                "codeigniter4/translations": "^4.0@alpha",
+                "basic-app/module-i18n": "dev-master",
                 "phpmailer/phpmailer": "^6.0",
                 "phptheme/phptheme-codeigniter4": "dev-master"
             },
@@ -251,7 +196,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-26T20:19:51+00:00"
+            "time": "2019-05-11T16:02:56+00:00"
         },
         {
             "name": "basic-app/theme-clean-blog",
@@ -301,16 +246,16 @@
         },
         {
             "name": "codeigniter4/framework",
-            "version": "dev-master",
+            "version": "v4.0.0-beta.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "5b5ccfe3c8fd52ea275f26863ebda659496e5b73"
+                "reference": "4fc8c8549ea009c7489183e951d7da7f8a7dcd39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/5b5ccfe3c8fd52ea275f26863ebda659496e5b73",
-                "reference": "5b5ccfe3c8fd52ea275f26863ebda659496e5b73",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/4fc8c8549ea009c7489183e951d7da7f8a7dcd39",
+                "reference": "4fc8c8549ea009c7489183e951d7da7f8a7dcd39",
                 "shasum": ""
             },
             "require": {
@@ -339,20 +284,20 @@
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2019-04-04T07:12:09+00:00"
+            "time": "2019-05-06T20:33:31+00:00"
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.0.0-beta.2",
+            "version": "v4.0.0-beta.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
-                "reference": "da6be721dcb6b7c840b540951f47bb422b153cdb"
+                "reference": "0e9aced94737a8ef4298935cf4f13b10443a1e03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/da6be721dcb6b7c840b540951f47bb422b153cdb",
-                "reference": "da6be721dcb6b7c840b540951f47bb422b153cdb",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/0e9aced94737a8ef4298935cf4f13b10443a1e03",
+                "reference": "0e9aced94737a8ef4298935cf4f13b10443a1e03",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +316,7 @@
             ],
             "description": "Translations for CodeIgniter v4 web framework",
             "homepage": "https://codeigniter.com",
-            "time": "2019-04-04T07:00:17+00:00"
+            "time": "2019-05-06T21:15:39+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -647,6 +592,60 @@
             "time": "2018-11-20T15:27:04+00:00"
         },
         {
+            "name": "yiisoft/yii2-composer",
+            "version": "2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-composer.git",
+                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/1439e78be1218c492e6cde251ed87d3f128b9534",
+                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "yii\\composer\\Plugin",
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\composer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                }
+            ],
+            "description": "The composer plugin for Yii extension installer",
+            "keywords": [
+                "composer",
+                "extension installer",
+                "yii2"
+            ],
+            "time": "2018-07-05T15:44:47+00:00"
+        },
+        {
             "name": "zendframework/zend-escaper",
             "version": "2.6.0",
             "source": {
@@ -697,7 +696,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "basic-app/system": 20,
-        "basic-app/module-i18n": 20,
         "basic-app/module-site": 20,
         "basic-app/module-admin": 20,
         "basic-app/module-blog": 20,

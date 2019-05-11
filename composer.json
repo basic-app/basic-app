@@ -4,9 +4,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "codeigniter4/framework": "*",
+        "codeigniter4/translations": "*",
+        "yiisoft/yii2-composer": "^2.0",
         "michelf/php-markdown": "^1.8",
         "basic-app/system" : "dev-master",
-        "basic-app/module-i18n" : "dev-master",
         "basic-app/module-site" : "dev-master",
         "basic-app/module-admin" : "dev-master",
         "basic-app/module-blog" : "dev-master",
@@ -17,5 +19,34 @@
         "psr-4": {
             "CodeIgniter\\": "./vendor/codeigniter4/framework/system/" 
         }
-    }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject"
+        ]
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "copyFiles": [
+                {
+                    "environment/.env": ".env"
+                }
+            ],
+            "setPermission": [
+                {
+                    "writable/cache": "0777",
+                    "writable/debugbar": "0777",
+                    "writable/logs": "0777",
+                    "writable/session": "0777",
+                    "writable/uploads": "0777"
+                }
+            ]            
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]    
 }
