@@ -2,7 +2,7 @@
 
 namespace Config;
 
-use CodeIgniter\Events\Events;
+use BasicApp\Core\Events;
 use App\Hooks\PreSystem;
 
 /*
