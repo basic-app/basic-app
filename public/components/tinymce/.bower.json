@@ -18,12 +18,12 @@
     ".npmignore",
     "changelog.txt"
   ],
-  "version": "5.0.4",
-  "_release": "5.0.4",
+  "version": "5.0.5",
+  "_release": "5.0.5",
   "_resolution": {
     "type": "version",
-    "tag": "5.0.4",
-    "commit": "dfb245d73b089cc40fc064832697cdbc7895bb7f"
+    "tag": "5.0.5",
+    "commit": "f4fea549071778b5e4f6990c31cbd586df18ab2b"
   },
   "_source": "https://github.com/tinymce/tinymce-dist.git",
   "_target": "^5.0.1",
