@@ -3,6 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Events\Events;
+use App\Hooks\PreSystem;
 
 /*
  * --------------------------------------------------------------------
@@ -43,8 +44,11 @@ if (ENVIRONMENT !== 'production')
 	});
 }
 
-Events::on('pre_system', ['App\Hooks\Layout', 'preSystem']);
-Events::on('admin_controller_constructor', ['App\Hooks\Layout', 'adminControllerConstructor']);
+Events::preSystem(function()
+{
+   PreSystem::run();
+});
+
 Events::on('page_head', ['App\Hooks\Layout', 'head']);
 Events::on('page_body_begin', ['App\Hooks\Layout', 'bodyBegin']);
 Events::on('page_body_end', ['App\Hooks\Layout', 'bodyEnd']);
