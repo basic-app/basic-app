@@ -2,16 +2,15 @@
 
 namespace App\Models;
 
-use BasicApp\Configs\DatabaseConfigForm;
-use BasicApp\Behaviors\UploadModelBehavior;
+use BasicApp\Behaviors\UploadBehavior;
 
-class ApplicationConfigModel extends DatabaseConfigForm
+class ApplicationConfigModel extends \BasicApp\Configs\DatabaseConfigForm
 {
 
     protected $returnType = ApplicationConfig::class;
 
     protected $validationRules = [
-        'background_image_file' => 'uploaded[background_image_file]|max_size[background_image_file,3024]|ext_in[background_image_file,jpg,png,gif]|is_image[background_image_file]'
+        'background_image_file' => 'uploaded[background_image_file]|max_size[background_image_file,3024]|ext_in[background_image_file,jpg,png,gif]|is_image[background_image_file]|permit_empty'
     ];
 
     protected $labels = [
@@ -20,6 +19,7 @@ class ApplicationConfigModel extends DatabaseConfigForm
 
     protected $translations = 'application';
 
+    /*
     public function beforeValidate(array $params) : array
     {
         if (!array_key_exists('background_image_file', $_FILES))
@@ -29,12 +29,13 @@ class ApplicationConfigModel extends DatabaseConfigForm
 
         return parent::beforeValidate($params);
     }
+    */
 
     public function behaviors() : array
     {
         return [
             [
-                'class' => UploadModelBehavior::class, 
+                'class' => UploadBehavior::class, 
                 'path' => FCPATH . 'uploaded/application',
                 'field' => 'background_image',
                 'input' => 'background_image_file',
@@ -52,9 +53,7 @@ class ApplicationConfigModel extends DatabaseConfigForm
     {
         $return = '';
 
-        $url = '';
-
-        //$model->getBackgroundImageUrl();
+        $url = $form->model->getBackgroundImageUrl();
 
         $return .= $form->imageUpload('background_image_file', $url);
 

@@ -51,7 +51,7 @@ if (ENVIRONMENT !== 'production' && !is_cli())
     {
         $modelClass = \App\Models\ApplicationConfigModel::class;
 
-        $event->items[$modelClass] = [
+        $menu->items[$modelClass] = [
             'label' => $modelClass::getFormName(),
             'icon' => 'fa fa-desktop',
             'url' => Url::createUrl('admin/config', ['class' => $modelClass])

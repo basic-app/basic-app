@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "317a15872fa7b5c281ddfb726d7748f8",
+    "content-hash": "3b76dd57656e413733313102a7c07eba",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -101,12 +101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-admins.git",
-                "reference": "6e2f842f99c661cfd438dba04e4d2a3066424ab3"
+                "reference": "4f257a3a4b6aacf8e01718cf3f85d79b0861bb0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-admins/zipball/6e2f842f99c661cfd438dba04e4d2a3066424ab3",
-                "reference": "6e2f842f99c661cfd438dba04e4d2a3066424ab3",
+                "url": "https://api.github.com/repos/basic-app/module-admins/zipball/4f257a3a4b6aacf8e01718cf3f85d79b0861bb0d",
+                "reference": "4f257a3a4b6aacf8e01718cf3f85d79b0861bb0d",
                 "shasum": ""
             },
             "type": "library",
@@ -119,7 +119,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-25T06:27:22+00:00"
+            "time": "2019-07-25T12:05:31+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -354,12 +354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-cool-admin.git",
-                "reference": "0092927d419f6afc06a359f7467190e6ad2d85d2"
+                "reference": "d3185a3cf3f375577cd0083d1784560b37b37f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/0092927d419f6afc06a359f7467190e6ad2d85d2",
-                "reference": "0092927d419f6afc06a359f7467190e6ad2d85d2",
+                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/d3185a3cf3f375577cd0083d1784560b37b37f09",
+                "reference": "d3185a3cf3f375577cd0083d1784560b37b37f09",
                 "shasum": ""
             },
             "require": {
@@ -373,7 +373,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-07-25T09:42:41+00:00"
+            "time": "2019-07-25T13:05:44+00:00"
         },
         {
             "name": "bower-asset/codemirror",
