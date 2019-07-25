@@ -12,20 +12,11 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 - Composer
 - Bower
 
-## Backend
-
-Access application backend in your brower by opening `http://example.com/admin`.
-```
-login: admin
-password: admin
-```
-
-Installation
-============
+## Installation
 
 ## Step 1
 
-Install the application using Composer:
+Create new application using Composer:
 
     composer create-project --stability=dev --keep-vcs --prefer-dist basic-app/basic-app demoapp
     
@@ -34,7 +25,7 @@ You can choose a different directory name if you want.
 
 ## Step 2
 
-Configure site url, timezone, and database connection settings in the `/.env` file.
+Configure url, timezone, and database connection settings in the `/.env` file.
 
 ## Step 3
 
@@ -44,4 +35,12 @@ Execute commands via shell:
 php spark migrate:latest -all
 php spark install
 php spark seeder
+```
+
+## Backend
+
+Access application backend in your brower by opening: `http://example.com/admin`
+```
+login: admin
+password: admin
 ```
