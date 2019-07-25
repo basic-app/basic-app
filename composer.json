@@ -32,7 +32,19 @@
         "PhpTheme\\Core\\Composer::postCreateProject": {
             "copyFiles": [
                 {
-                    ".env-default": ".env"
+                    ".env-default": ".env",
+                    "vendor/npm-asset/startbootstrap-clean-blog/css": "public/themes/startbootstrap-clean-blog/css",
+                    "vendor/npm-asset/startbootstrap-clean-blog/img": "public/themes/startbootstrap-clean-blog/img",
+                    "vendor/npm-asset/startbootstrap-clean-blog/js": "public/themes/startbootstrap-clean-blog/js",
+                    "vendor/npm-asset/startbootstrap-clean-blog/scss": "public/themes/startbootstrap-clean-blog/scss",
+                    "vendor/npm-asset/startbootstrap-clean-blog/vendor": "public/themes/startbootstrap-clean-blog/vendor",                
+                    "vendor/puikinsh/cool-admin/css": "public/themes/colorlib-cool-admin/css",
+                    "vendor/puikinsh/cool-admin/fonts": "public/themes/colorlib-cool-admin/fonts",
+                    "vendor/puikinsh/cool-admin/images": "public/themes/colorlib-cool-admin/images",
+                    "vendor/puikinsh/cool-admin/js": "public/themes/colorlib-cool-admin/js",
+                    "vendor/puikinsh/cool-admin/vendor": "public/themes/colorlib-cool-admin/vendor",                
+                    "vendor/bower-asset/tinymce": "public/components/tinymce",
+                    "vendor/bower-asset/codemirror": "public/components/codemirror"                    
                 }
             ],
             "setPermission": [
