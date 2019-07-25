@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "3bde4a845715fa9029387e96b1c459c68377ce44"
+                "reference": "43252a31b196b97064e3a4b5733ebb87939d69ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/3bde4a845715fa9029387e96b1c459c68377ce44",
-                "reference": "3bde4a845715fa9029387e96b1c459c68377ce44",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/43252a31b196b97064e3a4b5733ebb87939d69ca",
+                "reference": "43252a31b196b97064e3a4b5733ebb87939d69ca",
                 "shasum": ""
             },
             "require": {
@@ -33,7 +33,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-25T07:30:19+00:00"
+            "time": "2019-07-25T10:08:39+00:00"
         },
         {
             "name": "basic-app/bootstrap4",
@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-messages.git",
-                "reference": "305edfdac17e1c1803d4bb8f9c5286981d428181"
+                "reference": "a4bfecb0d0df1ba1c26756f6a9f23d36a9cb3ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-messages/zipball/305edfdac17e1c1803d4bb8f9c5286981d428181",
-                "reference": "305edfdac17e1c1803d4bb8f9c5286981d428181",
+                "url": "https://api.github.com/repos/basic-app/module-messages/zipball/a4bfecb0d0df1ba1c26756f6a9f23d36a9cb3ca0",
+                "reference": "a4bfecb0d0df1ba1c26756f6a9f23d36a9cb3ca0",
                 "shasum": ""
             },
             "require": {
@@ -226,7 +226,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-25T06:25:35+00:00"
+            "time": "2019-07-25T08:40:19+00:00"
         },
         {
             "name": "basic-app/module-site",
@@ -354,12 +354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-cool-admin.git",
-                "reference": "8712634be7b2c2e53d3f962909391460f2587559"
+                "reference": "0092927d419f6afc06a359f7467190e6ad2d85d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/8712634be7b2c2e53d3f962909391460f2587559",
-                "reference": "8712634be7b2c2e53d3f962909391460f2587559",
+                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/0092927d419f6afc06a359f7467190e6ad2d85d2",
+                "reference": "0092927d419f6afc06a359f7467190e6ad2d85d2",
                 "shasum": ""
             },
             "require": {
@@ -373,7 +373,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-07-25T07:10:04+00:00"
+            "time": "2019-07-25T09:42:41+00:00"
         },
         {
             "name": "bower-asset/codemirror",
