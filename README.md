@@ -14,7 +14,7 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 
 ## Installation
 
-## Step 1
+### Step 1
 
 Create new application using Composer:
 
@@ -23,11 +23,11 @@ Create new application using Composer:
 The command installs the application in a directory named `demoapp`.
 You can choose a different directory name if you want.
 
-## Step 2
+### Step 2
 
 Configure url, timezone, and database connection settings in the `/.env` file.
 
-## Step 3
+### Step 3
 
 Execute commands via shell:
 
