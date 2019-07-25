@@ -10,7 +10,7 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 - PHP 7
 - MySQL
 - Composer
-- Bower
+- Apache or Nginx
 
 ## Installation
 
@@ -20,7 +20,7 @@ Create new application using Composer:
 
     composer create-project --stability=dev --keep-vcs --prefer-dist basic-app/basic-app demoapp
     
-The command installs the application in a directory named `demoapp`.
+The command installs the application in a directory named `demoapp`. 
 You can choose a different directory name if you want.
 
 ### Step 2
