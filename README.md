@@ -37,6 +37,10 @@ php spark install
 php spark seeder
 ```
 
+### Step 4
+
+Set domain document root to `/public` directory.
+
 ## Backend
 
 Access application backend in your brower by opening: `http://example.com/admin`
