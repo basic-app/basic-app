@@ -1,8 +1,8 @@
-import { indexOf, lst } from "../util/misc.js"
+import { indexOf, lst } from "../util/misc"
 
-import { cmp } from "./pos.js"
-import { sawCollapsedSpans } from "./saw_special_spans.js"
-import { getLine, isLine, lineNo } from "./utils_line.js"
+import { cmp } from "./pos"
+import { sawCollapsedSpans } from "./saw_special_spans"
+import { getLine, isLine, lineNo } from "./utils_line"
 
 // TEXTMARKER SPANS
 
@@ -163,7 +163,7 @@ export function removeReadOnlyRanges(doc, from, to) {
       if (dto > 0 || !mk.inclusiveRight && !dto)
         newParts.push({from: m.to, to: p.to})
       parts.splice.apply(parts, newParts)
-      j += newParts.length - 3
+      j += newParts.length - 1
     }
   }
   return parts
@@ -218,16 +218,6 @@ function collapsedSpanAtSide(line, start) {
 export function collapsedSpanAtStart(line) { return collapsedSpanAtSide(line, true) }
 export function collapsedSpanAtEnd(line) { return collapsedSpanAtSide(line, false) }
 
-export function collapsedSpanAround(line, ch) {
-  let sps = sawCollapsedSpans && line.markedSpans, found
-  if (sps) for (let i = 0; i < sps.length; ++i) {
-    let sp = sps[i]
-    if (sp.marker.collapsed && (sp.from == null || sp.from < ch) && (sp.to == null || sp.to > ch) &&
-        (!found || compareCollapsedMarkers(found, sp.marker) < 0)) found = sp.marker
-  }
-  return found
-}
-
 // Test whether there exists a collapsed span that partially
 // overlaps (covers the start or end, but not both) of a new span.
 // Such overlap is not allowed.
@@ -255,13 +245,6 @@ export function visualLine(line) {
   let merged
   while (merged = collapsedSpanAtStart(line))
     line = merged.find(-1, true).line
-  return line
-}
-
-export function visualLineEnd(line) {
-  let merged
-  while (merged = collapsedSpanAtEnd(line))
-    line = merged.find(1, true).line
   return line
 }
 

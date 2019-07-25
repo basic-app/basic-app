@@ -4,8 +4,37 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "efd84a1a200a194b8d1d70b594120955",
+    "content-hash": "317a15872fa7b5c281ddfb726d7748f8",
     "packages": [
+        {
+            "name": "basic-app/admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin.git",
+                "reference": "3bde4a845715fa9029387e96b1c459c68377ce44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/3bde4a845715fa9029387e96b1c459c68377ce44",
+                "reference": "3bde4a845715fa9029387e96b1c459c68377ce44",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/module-admins": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Admin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-25T07:30:19+00:00"
+        },
         {
             "name": "basic-app/bootstrap4",
             "version": "dev-master",
@@ -38,54 +67,59 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "01c0bbcb7bd8a815ea884d7051bc16053a6b5c98"
+                "reference": "f58f71a430f86f962ecaff94e39badcec1cd7cc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/01c0bbcb7bd8a815ea884d7051bc16053a6b5c98",
-                "reference": "01c0bbcb7bd8a815ea884d7051bc16053a6b5c98",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/f58f71a430f86f962ecaff94e39badcec1cd7cc0",
+                "reference": "f58f71a430f86f962ecaff94e39badcec1cd7cc0",
                 "shasum": ""
             },
             "require": {
-                "codeigniter4/framework": "*"
+                "codeigniter4/framework": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Core\\": ""
+                    "BasicApp\\Core\\": "Core/",
+                    "BasicApp\\Interfaces\\": "Interfaces/",
+                    "BasicApp\\Actions\\": "Actions/",
+                    "BasicApp\\Behaviors\\": "Behaviors/",
+                    "BasicApp\\Traits\\": "Traits/",
+                    "BasicApp\\Helpers\\": "Helpers/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-11T21:20:52+00:00"
+            "time": "2019-07-25T05:09:29+00:00"
         },
         {
-            "name": "basic-app/module-admin",
+            "name": "basic-app/module-admins",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/basic-app/module-admin.git",
-                "reference": "79305ddc49e1592b5a9a032fdfbb082ccbf66ac3"
+                "url": "https://github.com/basic-app/module-admins.git",
+                "reference": "6e2f842f99c661cfd438dba04e4d2a3066424ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-admin/zipball/79305ddc49e1592b5a9a032fdfbb082ccbf66ac3",
-                "reference": "79305ddc49e1592b5a9a032fdfbb082ccbf66ac3",
+                "url": "https://api.github.com/repos/basic-app/module-admins/zipball/6e2f842f99c661cfd438dba04e4d2a3066424ab3",
+                "reference": "6e2f842f99c661cfd438dba04e4d2a3066424ab3",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Admin\\": ""
+                    "BasicApp\\Admins\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-11T21:32:53+00:00"
+            "time": "2019-07-25T06:27:22+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -93,12 +127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "25a57cdad355581c8c7500c3fbbd1da0deb68af2"
+                "reference": "9eb2bb13db0b3b2181df97170dd4b1770f99cdfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/25a57cdad355581c8c7500c3fbbd1da0deb68af2",
-                "reference": "25a57cdad355581c8c7500c3fbbd1da0deb68af2",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/9eb2bb13db0b3b2181df97170dd4b1770f99cdfa",
+                "reference": "9eb2bb13db0b3b2181df97170dd4b1770f99cdfa",
                 "shasum": ""
             },
             "type": "library",
@@ -111,7 +145,33 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-11T21:00:10+00:00"
+            "time": "2019-07-25T06:14:10+00:00"
+        },
+        {
+            "name": "basic-app/module-configs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-configs.git",
+                "reference": "a047c590f855df16bf04b81c6ec313bec2f851da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/a047c590f855df16bf04b81c6ec313bec2f851da",
+                "reference": "a047c590f855df16bf04b81c6ec313bec2f851da",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Configs\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-25T05:52:38+00:00"
         },
         {
             "name": "basic-app/module-i18n",
@@ -119,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-i18n.git",
-                "reference": "50776562a1bcd5790fc2cda7f70b8e80974528b2"
+                "reference": "bb7cbfd234a6c45a02b108d3f40d8b68fa165e24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/50776562a1bcd5790fc2cda7f70b8e80974528b2",
-                "reference": "50776562a1bcd5790fc2cda7f70b8e80974528b2",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/bb7cbfd234a6c45a02b108d3f40d8b68fa165e24",
+                "reference": "bb7cbfd234a6c45a02b108d3f40d8b68fa165e24",
                 "shasum": ""
             },
             "type": "library",
@@ -137,7 +197,36 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-26T20:19:10+00:00"
+            "time": "2019-07-23T19:36:40+00:00"
+        },
+        {
+            "name": "basic-app/module-messages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-messages.git",
+                "reference": "305edfdac17e1c1803d4bb8f9c5286981d428181"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-messages/zipball/305edfdac17e1c1803d4bb8f9c5286981d428181",
+                "reference": "305edfdac17e1c1803d4bb8f9c5286981d428181",
+                "shasum": ""
+            },
+            "require": {
+                "phpmailer/phpmailer": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Messages\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-25T06:25:35+00:00"
         },
         {
             "name": "basic-app/module-site",
@@ -145,12 +234,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-site.git",
-                "reference": "e3495b3f7cceb3fd1e18ea6f7bb0a4f82455f4b5"
+                "reference": "7c98adcd3605c94b6f3f12b1ad47366c06fe0c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-site/zipball/e3495b3f7cceb3fd1e18ea6f7bb0a4f82455f4b5",
-                "reference": "e3495b3f7cceb3fd1e18ea6f7bb0a4f82455f4b5",
+                "url": "https://api.github.com/repos/basic-app/module-site/zipball/7c98adcd3605c94b6f3f12b1ad47366c06fe0c28",
+                "reference": "7c98adcd3605c94b6f3f12b1ad47366c06fe0c28",
                 "shasum": ""
             },
             "type": "library",
@@ -163,7 +252,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-11T23:00:10+00:00"
+            "time": "2019-07-23T19:05:44+00:00"
         },
         {
             "name": "basic-app/system",
@@ -171,20 +260,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "dc92dc7a0a2181f3a8ce6183cb7b8b6f9b14d734"
+                "reference": "70d2479887b2ca515e9969e6c2d8164f80b9a762"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/dc92dc7a0a2181f3a8ce6183cb7b8b6f9b14d734",
-                "reference": "dc92dc7a0a2181f3a8ce6183cb7b8b6f9b14d734",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/70d2479887b2ca515e9969e6c2d8164f80b9a762",
+                "reference": "70d2479887b2ca515e9969e6c2d8164f80b9a762",
                 "shasum": ""
             },
             "require": {
                 "basic-app/bootstrap4": "dev-master",
                 "basic-app/core": "dev-master",
+                "basic-app/module-configs": "dev-master",
                 "basic-app/module-i18n": "dev-master",
-                "phpmailer/phpmailer": "^6.0",
-                "phptheme/phptheme-codeigniter4": "dev-master"
+                "basic-app/module-messages": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -196,7 +285,42 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-11T22:45:10+00:00"
+            "time": "2019-07-24T19:15:56+00:00"
+        },
+        {
+            "name": "basic-app/theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/theme.git",
+                "reference": "c1864c80f6a21c375a47ed8d01166b2676e8a15a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/theme/zipball/c1864c80f6a21c375a47ed8d01166b2676e8a15a",
+                "reference": "c1864c80f6a21c375a47ed8d01166b2676e8a15a",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/core": "dev-master",
+                "phptheme/core": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "exclude-from-classmap": [
+                    "/PhpTheme/"
+                ],
+                "psr-4": {
+                    "BasicApp\\Theme\\": ""
+                },
+                "files": [
+                    "PhpTheme/Core/ThemeAbstract.php",
+                    "PhpTheme/Html/TableAbstract.php",
+                    "PhpTheme/Html/TableColumnAbstract.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-07-23T16:05:38+00:00"
         },
         {
             "name": "basic-app/theme-clean-blog",
@@ -204,22 +328,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-clean-blog.git",
-                "reference": "fb70a14d41eb3fdd21b2fded86b2588eb8c449f4"
+                "reference": "849b06b8966406a27da4ed66a8b6aed824c82fd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/fb70a14d41eb3fdd21b2fded86b2588eb8c449f4",
-                "reference": "fb70a14d41eb3fdd21b2fded86b2588eb8c449f4",
+                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/849b06b8966406a27da4ed66a8b6aed824c82fd4",
+                "reference": "849b06b8966406a27da4ed66a8b6aed824c82fd4",
                 "shasum": ""
+            },
+            "require": {
+                "phptheme/theme-clean-blog": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Theme\\CleanBlog\\": ""
+                    "BasicApp\\CleanBlogTheme\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-03-03T20:08:50+00:00"
+            "time": "2019-07-25T05:10:28+00:00"
         },
         {
             "name": "basic-app/theme-cool-admin",
@@ -227,26 +354,65 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-cool-admin.git",
-                "reference": "ae788a3b94b153f0df880c92a1ad0fec16a9774a"
+                "reference": "8712634be7b2c2e53d3f962909391460f2587559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/ae788a3b94b153f0df880c92a1ad0fec16a9774a",
-                "reference": "ae788a3b94b153f0df880c92a1ad0fec16a9774a",
+                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/8712634be7b2c2e53d3f962909391460f2587559",
+                "reference": "8712634be7b2c2e53d3f962909391460f2587559",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/theme": "dev-master",
+                "phptheme/theme-cool-admin": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Theme\\CoolAdmin\\": ""
+                    "BasicApp\\CoolAdminTheme\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-03-14T07:30:05+00:00"
+            "time": "2019-07-25T07:10:04+00:00"
+        },
+        {
+            "name": "bower-asset/codemirror",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/codemirror.git",
+                "reference": "0942c22a2762358f6f2216e4cd67f72feab98c4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/codemirror/zipball/0942c22a2762358f6f2216e4cd67f72feab98c4c",
+                "reference": "0942c22a2762358f6f2216e4cd67f72feab98c4c"
+            },
+            "type": "bower-asset",
+            "time": "2017-08-22T13:26:31+00:00"
+        },
+        {
+            "name": "bower-asset/tinymce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:tinymce/tinymce-dist.git",
+                "reference": "c5d8e43738cea9b428c50c6ee1d3d9eb6c653a6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/c5d8e43738cea9b428c50c6ee1d3d9eb6c653a6d",
+                "reference": "c5d8e43738cea9b428c50c6ee1d3d9eb6c653a6d"
+            },
+            "type": "bower-asset",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "time": "2019-07-18T06:31:14+00:00"
         },
         {
             "name": "codeigniter4/framework",
-            "version": "v4.0.0-beta.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
@@ -423,6 +589,66 @@
             "time": "2018-01-15T00:49:33+00:00"
         },
         {
+            "name": "npm-asset/bootstrap",
+            "version": "4.3.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/fortawesome--fontawesome-free",
+            "version": "5.9.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.9.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "(CC-BY-4.0 AND OFL-1.1 AND MIT)"
+            ]
+        },
+        {
+            "name": "npm-asset/jquery",
+            "version": "3.4.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/startbootstrap-clean-blog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:BlackrockDigital/startbootstrap-clean-blog.git",
+                "reference": "ea0d86a2fa7963b5dec1e1ab86d800d030b6017c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BlackrockDigital/startbootstrap-clean-blog/zipball/ea0d86a2fa7963b5dec1e1ab86d800d030b6017c",
+                "reference": "ea0d86a2fa7963b5dec1e1ab86d800d030b6017c"
+            },
+            "require": {
+                "npm-asset/bootstrap": "4.3.1",
+                "npm-asset/fortawesome--fontawesome-free": "5.9.0",
+                "npm-asset/jquery": "3.4.1"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-06-13T16:48:26+00:00"
+        },
+        {
             "name": "phpmailer/phpmailer",
             "version": "v6.0.7",
             "source": {
@@ -489,60 +715,120 @@
             "time": "2019-02-01T15:04:28+00:00"
         },
         {
-            "name": "phptheme/phptheme",
+            "name": "phptheme/bootstrap4",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phptheme/phptheme.git",
-                "reference": "c35300ba696c4c2fd385987ae38ce86f8d633284"
+                "url": "https://github.com/phptheme/bootstrap4.git",
+                "reference": "18900f1f14f129e07f19e96e4e68906af04da665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/phptheme/zipball/c35300ba696c4c2fd385987ae38ce86f8d633284",
-                "reference": "c35300ba696c4c2fd385987ae38ce86f8d633284",
+                "url": "https://api.github.com/repos/phptheme/bootstrap4/zipball/18900f1f14f129e07f19e96e4e68906af04da665",
+                "reference": "18900f1f14f129e07f19e96e4e68906af04da665",
                 "shasum": ""
+            },
+            "require": {
+                "phptheme/core": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PHPTheme\\": "PHPTheme/"
+                    "PhpTheme\\Bootstrap4\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-07T12:27:06+00:00"
+            "time": "2019-07-14T05:36:32+00:00"
         },
         {
-            "name": "phptheme/phptheme-codeigniter4",
+            "name": "phptheme/core",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phptheme/phptheme-codeigniter4.git",
-                "reference": "1b09d59b938e4caa86f36cc923f905c90f0699d9"
+                "url": "https://github.com/phptheme/core.git",
+                "reference": "338b66463fc449f3daf932b781b607ccde582378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/phptheme-codeigniter4/zipball/1b09d59b938e4caa86f36cc923f905c90f0699d9",
-                "reference": "1b09d59b938e4caa86f36cc923f905c90f0699d9",
+                "url": "https://api.github.com/repos/phptheme/core/zipball/338b66463fc449f3daf932b781b607ccde582378",
+                "reference": "338b66463fc449f3daf932b781b607ccde582378",
                 "shasum": ""
             },
             "require": {
-                "phptheme/phptheme": "dev-master"
+                "composer-plugin-api": "^1.0"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "PHPTheme.php",
-                    "PHPTheme/Widget.php"
-                ]
+                "psr-4": {
+                    "PhpTheme\\Core\\": "",
+                    "PhpTheme\\Helpers\\": "Helpers/",
+                    "PhpTheme\\Html\\": "Html/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2019-03-07T10:52:59+00:00"
+            "time": "2019-07-21T07:22:41+00:00"
+        },
+        {
+            "name": "phptheme/theme-clean-blog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/theme-clean-blog.git",
+                "reference": "edaa4b87bfcb51081b79a66d546cdb4da6d85c61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/edaa4b87bfcb51081b79a66d546cdb4da6d85c61",
+                "reference": "edaa4b87bfcb51081b79a66d546cdb4da6d85c61",
+                "shasum": ""
+            },
+            "require": {
+                "phptheme/bootstrap4": "dev-master",
+                "phptheme/core": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTheme\\CleanBlogTheme\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-07-25T05:26:04+00:00"
+        },
+        {
+            "name": "phptheme/theme-cool-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/theme-cool-admin.git",
+                "reference": "1973d1e35bd1146d5c3c4d1b47092e43dc4ade9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/1973d1e35bd1146d5c3c4d1b47092e43dc4ade9a",
+                "reference": "1973d1e35bd1146d5c3c4d1b47092e43dc4ade9a",
+                "shasum": ""
+            },
+            "require": {
+                "phptheme/bootstrap4": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTheme\\CoolAdminTheme\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-20T15:11:13+00:00"
         },
         {
             "name": "psr/log",
@@ -592,58 +878,14 @@
             "time": "2018-11-20T15:27:04+00:00"
         },
         {
-            "name": "yiisoft/yii2-composer",
-            "version": "2.0.7",
+            "name": "puikinsh/cool-admin",
+            "version": "1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534"
+                "url": "https://github.com/puikinsh/CoolAdmin",
+                "reference": "master"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/1439e78be1218c492e6cde251ed87d3f128b9534",
-                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "yii\\composer\\Plugin",
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii\\composer\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com"
-                },
-                {
-                    "name": "Carsten Brandt",
-                    "email": "mail@cebe.cc"
-                }
-            ],
-            "description": "The composer plugin for Yii extension installer",
-            "keywords": [
-                "composer",
-                "extension installer",
-                "yii2"
-            ],
-            "time": "2018-07-05T15:44:47+00:00"
+            "type": "library"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -697,9 +939,13 @@
     "stability-flags": {
         "basic-app/system": 20,
         "basic-app/module-site": 20,
-        "basic-app/module-admin": 20,
+        "basic-app/admin": 20,
         "basic-app/module-blog": 20,
+        "phptheme/core": 20,
         "basic-app/theme-clean-blog": 20,
+        "npm-asset/startbootstrap-clean-blog": 20,
+        "bower-asset/tinymce": 20,
+        "bower-asset/codemirror": 20,
         "basic-app/theme-cool-admin": 20
     },
     "prefer-stable": true,

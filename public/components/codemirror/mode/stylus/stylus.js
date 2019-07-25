@@ -1,5 +1,5 @@
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: https://codemirror.net/LICENSE
+// Distributed under an MIT license: http://codemirror.net/LICENSE
 
 // Stylus mode created by Dmitry Kiselyov http://git.io/AaRB
 
@@ -15,7 +15,6 @@
 
   CodeMirror.defineMode("stylus", function(config) {
     var indentUnit = config.indentUnit,
-        indentUnitString = '',
         tagKeywords = keySet(tagKeywords_),
         tagVariablesRegexp = /^(a|b|i|s|col|em)$/i,
         propertyKeywords = keySet(propertyKeywords_),
@@ -38,8 +37,6 @@
         style,
         type,
         override;
-
-    while (indentUnitString.length < indentUnit) indentUnitString += ' ';
 
     /**
      * Tokenizers
@@ -76,7 +73,7 @@
       if (ch == "#") {
         stream.next();
         // Hex color
-        if (stream.match(/^[0-9a-f]{3}([0-9a-f]([0-9a-f]{2}){0,2})?\b/i)) {
+        if (stream.match(/^[0-9a-f]{6}|[0-9a-f]{3}/i)) {
           return ["atom", "atom"];
         }
         // ID selector
@@ -316,7 +313,7 @@
           return pushContext(state, stream, "block", 0);
         }
       }
-      if (typeIsBlock(type, stream)) {
+      if (typeIsBlock(type, stream, state)) {
         return pushContext(state, stream, "block");
       }
       if (type == "}" && endOfLine(stream)) {
@@ -516,7 +513,7 @@
      */
     states.atBlock = function(type, stream, state) {
       if (type == "(") return pushContext(state, stream, "atBlock_parens");
-      if (typeIsBlock(type, stream)) {
+      if (typeIsBlock(type, stream, state)) {
         return pushContext(state, stream, "block");
       }
       if (typeIsInterpolation(type, stream)) {
@@ -675,7 +672,7 @@
             ch = textAfter && textAfter.charAt(0),
             indent = cx.indent,
             lineFirstWord = firstWordOfLine(textAfter),
-            lineIndent = line.match(/^\s*/)[0].replace(/\t/g, indentUnitString).length,
+            lineIndent = line.length - line.replace(/^\s*/, "").length,
             prevLineFirstWord = state.context.prev ? state.context.prev.line.firstWord : "",
             prevLineIndent = state.context.prev ? state.context.prev.line.indent : lineIndent;
 
@@ -684,6 +681,7 @@
              ch == ")" && (cx.type == "parens" || cx.type == "atBlock_parens") ||
              ch == "{" && (cx.type == "at"))) {
           indent = cx.indent - indentUnit;
+          cx = cx.prev;
         } else if (!(/(\})/.test(ch))) {
           if (/@|\$|\d/.test(ch) ||
               /^\{/.test(textAfter) ||

@@ -1,62 +1,61 @@
-import { countColumn } from "./misc.js"
+import { countColumn } from "./misc"
 
 // STRING STREAM
 
 // Fed to the mode parsers, provides helper functions to make
 // parsers more succinct.
 
-class StringStream {
-  constructor(string, tabSize, lineOracle) {
-    this.pos = this.start = 0
-    this.string = string
-    this.tabSize = tabSize || 8
-    this.lastColumnPos = this.lastColumnValue = 0
-    this.lineStart = 0
-    this.lineOracle = lineOracle
-  }
+let StringStream = function(string, tabSize) {
+  this.pos = this.start = 0
+  this.string = string
+  this.tabSize = tabSize || 8
+  this.lastColumnPos = this.lastColumnValue = 0
+  this.lineStart = 0
+}
 
-  eol() {return this.pos >= this.string.length}
-  sol() {return this.pos == this.lineStart}
-  peek() {return this.string.charAt(this.pos) || undefined}
-  next() {
+StringStream.prototype = {
+  eol: function() {return this.pos >= this.string.length},
+  sol: function() {return this.pos == this.lineStart},
+  peek: function() {return this.string.charAt(this.pos) || undefined},
+  next: function() {
     if (this.pos < this.string.length)
       return this.string.charAt(this.pos++)
-  }
-  eat(match) {
+  },
+  eat: function(match) {
     let ch = this.string.charAt(this.pos)
     let ok
     if (typeof match == "string") ok = ch == match
     else ok = ch && (match.test ? match.test(ch) : match(ch))
     if (ok) {++this.pos; return ch}
-  }
-  eatWhile(match) {
+  },
+  eatWhile: function(match) {
     let start = this.pos
     while (this.eat(match)){}
     return this.pos > start
-  }
-  eatSpace() {
+  },
+  eatSpace: function() {
     let start = this.pos
     while (/[\s\u00a0]/.test(this.string.charAt(this.pos))) ++this.pos
     return this.pos > start
-  }
-  skipToEnd() {this.pos = this.string.length}
-  skipTo(ch) {
+  },
+  skipToEnd: function() {this.pos = this.string.length},
+  skipTo: function(ch) {
     let found = this.string.indexOf(ch, this.pos)
     if (found > -1) {this.pos = found; return true}
-  }
-  backUp(n) {this.pos -= n}
-  column() {
+  },
+  backUp: function(n) {this.pos -= n},
+  column: function() {
     if (this.lastColumnPos < this.start) {
       this.lastColumnValue = countColumn(this.string, this.start, this.tabSize, this.lastColumnPos, this.lastColumnValue)
       this.lastColumnPos = this.start
     }
     return this.lastColumnValue - (this.lineStart ? countColumn(this.string, this.lineStart, this.tabSize) : 0)
-  }
-  indentation() {
+  },
+  indentation: function() {
     return countColumn(this.string, null, this.tabSize) -
       (this.lineStart ? countColumn(this.string, this.lineStart, this.tabSize) : 0)
-  }
-  match(pattern, consume, caseInsensitive) {
+  },
+  match: function(pattern, consume, caseInsensitive) {
     if (typeof pattern == "string") {
       let cased = str => caseInsensitive ? str.toLowerCase() : str
       let substr = this.string.substr(this.pos, pattern.length)
@@ -70,20 +69,12 @@ class StringStream {
       if (match && consume !== false) this.pos += match[0].length
       return match
     }
-  }
-  current(){return this.string.slice(this.start, this.pos)}
-  hideFirstChars(n, inner) {
+  },
+  current: function(){return this.string.slice(this.start, this.pos)},
+  hideFirstChars: function(n, inner) {
     this.lineStart += n
     try { return inner() }
     finally { this.lineStart -= n }
-  }
-  lookAhead(n) {
-    let oracle = this.lineOracle
-    return oracle && oracle.lookAhead(n)
-  }
-  baseToken() {
-    let oracle = this.lineOracle
-    return oracle && oracle.baseToken(this.pos)
   }
 }
 

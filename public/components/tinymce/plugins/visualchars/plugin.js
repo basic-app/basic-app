@@ -4,10 +4,9 @@
  * For LGPL see License.txt in the project root for license information.
  * For commercial licenses see https://www.tiny.cloud/
  *
- * Version: 5.0.5 (2019-05-09)
+ * Version: 5.0.12 (2019-07-18)
  */
-(function () {
-var visualchars = (function (domGlobals) {
+(function (domGlobals) {
     'use strict';
 
     var Cell = function (initial) {
@@ -135,8 +134,9 @@ var visualchars = (function (domGlobals) {
         },
         toString: constant('none()')
       };
-      if (Object.freeze)
+      if (Object.freeze) {
         Object.freeze(me);
+      }
       return me;
     }();
     var some = function (a) {
@@ -211,13 +211,16 @@ var visualchars = (function (domGlobals) {
     };
 
     var typeOf = function (x) {
-      if (x === null)
+      if (x === null) {
         return 'null';
+      }
       var t = typeof x;
-      if (t === 'object' && Array.prototype.isPrototypeOf(x))
+      if (t === 'object' && (Array.prototype.isPrototypeOf(x) || x.constructor && x.constructor.name === 'Array')) {
         return 'array';
-      if (t === 'object' && String.prototype.isPrototypeOf(x))
+      }
+      if (t === 'object' && (String.prototype.isPrototypeOf(x) || x.constructor && x.constructor.name === 'String')) {
         return 'string';
+      }
       return t;
     };
     var isType = function (type) {
@@ -227,6 +230,7 @@ var visualchars = (function (domGlobals) {
     };
     var isFunction = isType('function');
 
+    var slice = Array.prototype.slice;
     var map = function (xs, f) {
       var len = xs.length;
       var r = new Array(len);
@@ -242,7 +246,6 @@ var visualchars = (function (domGlobals) {
         f(x, i, xs);
       }
     };
-    var slice = Array.prototype.slice;
     var from$1 = isFunction(Array.from) ? Array.from : function (x) {
       return slice.call(x);
     };
@@ -465,18 +468,17 @@ var visualchars = (function (domGlobals) {
       });
     };
 
-    global.add('visualchars', function (editor) {
-      var toggleState = Cell(false);
-      Commands.register(editor, toggleState);
-      register$1(editor, toggleState);
-      Keyboard.setup(editor, toggleState);
-      Bindings.setup(editor, toggleState);
-      return Api.get(toggleState);
-    });
     function Plugin () {
+      global.add('visualchars', function (editor) {
+        var toggleState = Cell(false);
+        Commands.register(editor, toggleState);
+        register$1(editor, toggleState);
+        Keyboard.setup(editor, toggleState);
+        Bindings.setup(editor, toggleState);
+        return Api.get(toggleState);
+      });
     }
 
-    return Plugin;
+    Plugin();
 
 }(window));
-})();

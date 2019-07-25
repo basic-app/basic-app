@@ -56,11 +56,11 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 			'Config' => APPPATH . 'Config',
 			APP_NAMESPACE => APPPATH, // For custom namespace
 			'App' => APPPATH, // To ensure filters, etc still found,
-            'BasicApp\I18n' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-i18n',
-            'BasicApp\Admin' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-admin',
-            'BasicApp\Site' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-site',
-            'BasicApp\System' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/system',
-            'BasicApp\Blog' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-blog'            
+            //'BasicApp\I18n' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-i18n',
+            //'BasicApp\Admin' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-admin',
+            //'BasicApp\Site' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-site',
+            //'BasicApp\System' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/system',
+            //'BasicApp\Blog' => dirname(dirname(COMPOSER_PATH)) . '/vendor/basic-app/module-blog'            
 		];
 
 		/**

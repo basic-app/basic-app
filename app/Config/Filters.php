@@ -1,4 +1,6 @@
-<?php namespace Config;
+<?php
+
+namespace Config;
 
 use CodeIgniter\Config\BaseConfig;
 
@@ -10,7 +12,7 @@ class Filters extends BaseConfig
 		'csrf'     => \CodeIgniter\Filters\CSRF::class,
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
-        'adminIsLoggedIn' => \BasicApp\Core\AdminFilter::class
+        'adminIsLoggedIn' => \BasicApp\Admin\AdminFilter::class
 	];
 
 	// Always applied before every request

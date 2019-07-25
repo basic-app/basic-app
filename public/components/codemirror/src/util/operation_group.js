@@ -1,4 +1,4 @@
-import { getHandlers } from "./event.js"
+import { getHandlers } from "./event"
 
 let operationGroup = null
 

@@ -1,28 +1,25 @@
-import { getOrder } from "../util/bidi.js"
-import { ie, ie_version, webkit } from "../util/browser.js"
-import { elt, eltP, joinClasses } from "../util/dom.js"
-import { eventMixin, signal } from "../util/event.js"
-import { hasBadBidiRects, zeroWidthElement } from "../util/feature_detection.js"
-import { lst, spaceStr } from "../util/misc.js"
+import { getOrder } from "../util/bidi"
+import { ie, ie_version, webkit } from "../util/browser"
+import { elt, joinClasses } from "../util/dom"
+import { eventMixin, signal } from "../util/event"
+import { hasBadBidiRects, zeroWidthElement } from "../util/feature_detection"
+import { lst, spaceStr } from "../util/misc"
 
-import { getLineStyles } from "./highlight.js"
-import { attachMarkedSpans, compareCollapsedMarkers, detachMarkedSpans, lineIsHidden, visualLineContinued } from "./spans.js"
-import { getLine, lineNo, updateLineHeight } from "./utils_line.js"
+import { getLineStyles } from "./highlight"
+import { attachMarkedSpans, compareCollapsedMarkers, detachMarkedSpans, lineIsHidden, visualLineContinued } from "./spans"
+import { getLine, lineNo, updateLineHeight } from "./utils_line"
 
 // LINE DATA STRUCTURE
 
 // Line objects. These hold state related to a line, including
 // highlighting info (the styles array).
-export class Line {
-  constructor(text, markedSpans, estimateHeight) {
-    this.text = text
-    attachMarkedSpans(this, markedSpans)
-    this.height = estimateHeight ? estimateHeight(this) : 1
-  }
-
-  lineNo() { return lineNo(this) }
+export function Line(text, markedSpans, estimateHeight) {
+  this.text = text
+  attachMarkedSpans(this, markedSpans)
+  this.height = estimateHeight ? estimateHeight(this) : 1
 }
 eventMixin(Line)
+Line.prototype.lineNo = function() { return lineNo(this) }
 
 // Change the content (text, markers) of a line. Automatically
 // invalidates cached information and tries to re-estimate the
@@ -64,11 +61,11 @@ export function buildLineContent(cm, lineView) {
   // The padding-right forces the element to have a 'border', which
   // is needed on Webkit to be able to get line-level bounding
   // rectangles for it (in measureChar).
-  let content = eltP("span", null, null, webkit ? "padding-right: .1px" : null)
-  let builder = {pre: eltP("pre", [content], "CodeMirror-line"), content: content,
+  let content = elt("span", null, null, webkit ? "padding-right: .1px" : null)
+  let builder = {pre: elt("pre", [content], "CodeMirror-line"), content: content,
                  col: 0, pos: 0, cm: cm,
                  trailingSpace: false,
-                 splitSpaces: cm.getOption("lineWrapping")}
+                 splitSpaces: (ie || webkit) && cm.getOption("lineWrapping")}
   lineView.measure = {}
 
   // Iterate over the logical lines that make up this visual line.
@@ -78,7 +75,7 @@ export function buildLineContent(cm, lineView) {
     builder.addToken = buildToken
     // Optionally wire in some hacks into the token-rendering
     // algorithm, to deal with browser quirks.
-    if (hasBadBidiRects(cm.display.measure) && (order = getOrder(line, cm.doc.direction)))
+    if (hasBadBidiRects(cm.display.measure) && (order = getOrder(line)))
       builder.addToken = buildTokenBadBidi(builder.addToken, order)
     builder.map = []
     let allowFrontierUpdate = lineView != cm.display.externalMeasured && lineNo(line)
@@ -127,7 +124,7 @@ export function defaultSpecialCharPlaceholder(ch) {
 
 // Build up the DOM representation for a single token, and add it to
 // the line map. Takes care to render special characters separately.
-function buildToken(builder, text, style, startStyle, endStyle, css, attributes) {
+function buildToken(builder, text, style, startStyle, endStyle, title, css) {
   if (!text) return
   let displayText = builder.splitSpaces ? splitSpaces(text, builder.trailingSpace) : text
   let special = builder.cm.state.specialChars, mustWrap = false
@@ -183,17 +180,12 @@ function buildToken(builder, text, style, startStyle, endStyle, css, attributes)
     if (startStyle) fullStyle += startStyle
     if (endStyle) fullStyle += endStyle
     let token = elt("span", [content], fullStyle, css)
-    if (attributes) {
-      for (let attr in attributes) if (attributes.hasOwnProperty(attr) && attr != "style" && attr != "class")
-        token.setAttribute(attr, attributes[attr])
-    }
+    if (title) token.title = title
     return builder.content.appendChild(token)
   }
   builder.content.appendChild(content)
 }
 
-// Change some spaces to NBSP to prevent the browser from collapsing
-// trailing spaces at the end of a line when rendering text (issue #1362).
 function splitSpaces(text, trailingBefore) {
   if (text.length > 1 && !/  /.test(text)) return text
   let spaceBefore = trailingBefore, result = ""
@@ -210,7 +202,7 @@ function splitSpaces(text, trailingBefore) {
 // Work around nonsense dimensions being reported for stretches of
 // right-to-left text.
 function buildTokenBadBidi(inner, order) {
-  return (builder, text, style, startStyle, endStyle, css, attributes) => {
+  return (builder, text, style, startStyle, endStyle, title, css) => {
     style = style ? style + " cm-force-border" : "cm-force-border"
     let start = builder.pos, end = start + text.length
     for (;;) {
@@ -220,8 +212,8 @@ function buildTokenBadBidi(inner, order) {
         part = order[i]
         if (part.to > start && part.from <= start) break
       }
-      if (part.to >= end) return inner(builder, text, style, startStyle, endStyle, css, attributes)
-      inner(builder, text.slice(0, part.to - start), style, startStyle, null, css, attributes)
+      if (part.to >= end) return inner(builder, text, style, startStyle, endStyle, title, css)
+      inner(builder, text.slice(0, part.to - start), style, startStyle, null, title, css)
       startStyle = null
       text = text.slice(part.to - start)
       start = part.to
@@ -256,11 +248,10 @@ function insertLineContent(line, builder, styles) {
   }
 
   let len = allText.length, pos = 0, i = 1, text = "", style, css
-  let nextChange = 0, spanStyle, spanEndStyle, spanStartStyle, collapsed, attributes
+  let nextChange = 0, spanStyle, spanEndStyle, spanStartStyle, title, collapsed
   for (;;) {
     if (nextChange == pos) { // Update current marker set
-      spanStyle = spanEndStyle = spanStartStyle = css = ""
-      attributes = null
+      spanStyle = spanEndStyle = spanStartStyle = title = css = ""
       collapsed = null; nextChange = Infinity
       let foundBookmarks = [], endStyles
       for (let j = 0; j < spans.length; ++j) {
@@ -276,13 +267,7 @@ function insertLineContent(line, builder, styles) {
           if (m.css) css = (css ? css + ";" : "") + m.css
           if (m.startStyle && sp.from == pos) spanStartStyle += " " + m.startStyle
           if (m.endStyle && sp.to == nextChange) (endStyles || (endStyles = [])).push(m.endStyle, sp.to)
-          // support for the old title property
-          // https://github.com/codemirror/CodeMirror/pull/5673
-          if (m.title) (attributes || (attributes = {})).title = m.title
-          if (m.attributes) {
-            for (let attr in m.attributes)
-              (attributes || (attributes = {}))[attr] = m.attributes[attr]
-          }
+          if (m.title && !title) title = m.title
           if (m.collapsed && (!collapsed || compareCollapsedMarkers(collapsed.marker, m) < 0))
             collapsed = sp
         } else if (sp.from > pos && nextChange > sp.from) {
@@ -310,7 +295,7 @@ function insertLineContent(line, builder, styles) {
         if (!collapsed) {
           let tokenText = end > upto ? text.slice(0, upto - pos) : text
           builder.addToken(builder, tokenText, style ? style + spanStyle : spanStyle,
-                           spanStartStyle, pos + tokenText.length == nextChange ? spanEndStyle : "", css, attributes)
+                           spanStartStyle, pos + tokenText.length == nextChange ? spanEndStyle : "", title, css)
         }
         if (end >= upto) {text = text.slice(upto - pos); pos = upto; break}
         pos = end

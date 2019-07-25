@@ -1,7 +1,7 @@
-import { getMode } from "../modes.js"
+import { getMode } from "../modes"
 
-import { startWorker } from "./highlight_worker.js"
-import { regChange } from "./view_tracking.js"
+import { startWorker } from "./highlight_worker"
+import { regChange } from "./view_tracking"
 
 // Used to get the editor into a consistent state again when options change.
 
@@ -15,7 +15,7 @@ export function resetModeState(cm) {
     if (line.stateAfter) line.stateAfter = null
     if (line.styles) line.styles = null
   })
-  cm.doc.modeFrontier = cm.doc.highlightFrontier = cm.doc.first
+  cm.doc.frontier = cm.doc.first
   startWorker(cm, 100)
   cm.state.modeGen++
   if (cm.curOp) regChange(cm)

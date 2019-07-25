@@ -1,5 +1,5 @@
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: https://codemirror.net/LICENSE
+// Distributed under an MIT license: http://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -50,15 +50,7 @@ CodeMirror.multiplexingMode = function(outer /*, others */) {
           if (found == stream.pos) {
             if (!other.parseDelimiters) stream.match(other.open);
             state.innerActive = other;
-
-            // Get the outer indent, making sure to handle CodeMirror.Pass
-            var outerIndent = 0;
-            if (outer.indent) {
-              var possibleOuterIndent = outer.indent(state.outer, "", "");
-              if (possibleOuterIndent !== CodeMirror.Pass) outerIndent = possibleOuterIndent;
-            }
-
-            state.inner = CodeMirror.startState(other.mode, outerIndent);
+            state.inner = CodeMirror.startState(other.mode, outer.indent ? outer.indent(state.outer, "") : 0);
             return other.delimStyle && (other.delimStyle + " " + other.delimStyle + "-open");
           } else if (found != -1 && found < cutOff) {
             cutOff = found;
@@ -96,10 +88,10 @@ CodeMirror.multiplexingMode = function(outer /*, others */) {
       }
     },
 
-    indent: function(state, textAfter, line) {
+    indent: function(state, textAfter) {
       var mode = state.innerActive ? state.innerActive.mode : outer;
       if (!mode.indent) return CodeMirror.Pass;
-      return mode.indent(state.innerActive ? state.inner : state.outer, textAfter, line);
+      return mode.indent(state.innerActive ? state.inner : state.outer, textAfter);
     },
 
     blankLine: function(state) {
@@ -112,7 +104,7 @@ CodeMirror.multiplexingMode = function(outer /*, others */) {
           var other = others[i];
           if (other.open === "\n") {
             state.innerActive = other;
-            state.inner = CodeMirror.startState(other.mode, mode.indent ? mode.indent(state.outer, "", "") : 0);
+            state.inner = CodeMirror.startState(other.mode, mode.indent ? mode.indent(state.outer, "") : 0);
           }
         }
       } else if (state.innerActive.close === "\n") {

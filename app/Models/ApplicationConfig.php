@@ -2,12 +2,14 @@
 
 namespace App\Models;
 
-use BasicApp\Core\DatabaseConfig;
+use BasicApp\Configs\DatabaseConfig;
 
 class ApplicationConfig extends DatabaseConfig
 {
 
     public $background_image;
+
+    public $modelClass = ApplicationConfigModel::class;
 
     public function getBackgroundImageUrl()
     {

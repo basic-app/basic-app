@@ -2,8 +2,8 @@
 
 namespace Config;
 
-use BasicApp\Core\Events;
-use App\Hooks\PreSystem;
+use BasicApp\Helpers\Url;
+use CodeIgniter\Events\Events;
 
 /*
  * --------------------------------------------------------------------
@@ -28,11 +28,12 @@ use App\Hooks\PreSystem;
  * --------------------------------------------------------------------
  * If you delete, they will no longer be collected.
  */
-if (ENVIRONMENT !== 'production')
+if (ENVIRONMENT !== 'production' && !is_cli())
 {
 	Events::on('DBQuery', 'CodeIgniter\Debug\Toolbar\Collectors\Database::collect');
 
-	Events::on('pre_system', function () {
+	Events::on('pre_system', function()
+    {
 		if (ENVIRONMENT !== 'testing')
 		{
 			ob_start(function ($buffer) {
@@ -44,14 +45,30 @@ if (ENVIRONMENT !== 'production')
 	});
 }
 
-Events::preSystem(function()
-{
-   PreSystem::run();
+\BasicApp\Admin\AdminEvents::onAdminOptionsMenu(function($menu) {
+
+    if (\BasicApp\Configs\Controllers\Admin\Config::checkAccess())
+    {
+        $modelClass = \App\Models\ApplicationConfigModel::class;
+
+        $event->items[$modelClass] = [
+            'label' => $modelClass::getFormName(),
+            'icon' => 'fa fa-desktop',
+            'url' => Url::createUrl('admin/config', ['class' => $modelClass])
+        ];
+    }
 });
 
-Events::on('page_head', ['App\Hooks\Layout', 'head']);
-Events::on('page_body_begin', ['App\Hooks\Layout', 'bodyBegin']);
-Events::on('page_body_end', ['App\Hooks\Layout', 'bodyEnd']);
-Events::on('admin_options_menu', ['App\Hooks\Admin', 'optionsMenu']);
-Events::on('blog_post_text', ['App\Hooks\BlogPostText', 'run']);
-Events::on('install', ['App\Hooks\Install', 'run']);
+\BasicApp\Blog\BlogEvents::onBlogPostText(function($event) {
+
+    $parser = new \Michelf\MarkdownExtra;
+
+    $event->result = $parser->transform($event->result);
+});
+
+\BasicApp\System\SystemEvents::onSeeder(function() {
+
+    $seeder = Database::seeder();
+
+    $seeder->call('AppSeeder');
+});

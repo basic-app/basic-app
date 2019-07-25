@@ -21,7 +21,9 @@ $applicationConfig = config(App\Models\ApplicationConfig::class);
 
 $background = $applicationConfig->getBackgroundImageUrl();
 
-echo theme_widget('layout', [
+$theme = service('theme');
+
+echo $theme->mainLayout([
 	'title' => isset($this->data['title']) ? $this->data['title'] : null,
 	'header' => [
 		'title' => block('layout_title', 'Basic App'),

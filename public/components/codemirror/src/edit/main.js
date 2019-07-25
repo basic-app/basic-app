@@ -1,20 +1,20 @@
 // EDITOR CONSTRUCTOR
 
-import { CodeMirror } from "./CodeMirror.js"
-export { CodeMirror } from "./CodeMirror.js"
+import { CodeMirror } from "./CodeMirror"
+export { CodeMirror } from "./CodeMirror"
 
-import { eventMixin } from "../util/event.js"
-import { indexOf } from "../util/misc.js"
+import { eventMixin } from "../util/event"
+import { indexOf } from "../util/misc"
 
-import { defineOptions } from "./options.js"
+import { defineOptions } from "./options"
 
 defineOptions(CodeMirror)
 
-import addEditorMethods from "./methods.js"
+import addEditorMethods from "./methods"
 
 addEditorMethods(CodeMirror)
 
-import Doc from "../model/Doc.js"
+import Doc from "../model/Doc"
 
 // Set up methods on CodeMirror's prototype to redirect to the editor's document.
 let dontDelegate = "iter insert remove copy getEditor constructor".split(" ")
@@ -27,13 +27,13 @@ eventMixin(Doc)
 
 // INPUT HANDLING
 
-import ContentEditableInput from "../input/ContentEditableInput.js"
-import TextareaInput from "../input/TextareaInput.js"
+import ContentEditableInput from "../input/ContentEditableInput"
+import TextareaInput from "../input/TextareaInput"
 CodeMirror.inputStyles = {"textarea": TextareaInput, "contenteditable": ContentEditableInput}
 
 // MODE DEFINITION AND QUERYING
 
-import { defineMIME, defineMode } from "../modes.js"
+import { defineMIME, defineMode } from "../modes"
 
 // Extra arguments are stored as the mode's dependencies, which is
 // used by (legacy) mechanisms like loadmode.js to automatically
@@ -58,12 +58,12 @@ CodeMirror.defineDocExtension = (name, func) => {
   Doc.prototype[name] = func
 }
 
-import { fromTextArea } from "./fromTextArea.js"
+import { fromTextArea } from "./fromTextArea"
 
 CodeMirror.fromTextArea = fromTextArea
 
-import { addLegacyProps } from "./legacy.js"
+import { addLegacyProps } from "./legacy"
 
 addLegacyProps(CodeMirror)
 
-CodeMirror.version = "5.46.0"
+CodeMirror.version = "5.22.0"

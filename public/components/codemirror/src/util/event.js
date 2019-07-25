@@ -1,5 +1,5 @@
-import { mac } from "./browser.js"
-import { indexOf } from "./misc.js"
+import { mac } from "./browser"
+import { indexOf } from "./misc"
 
 // EVENT HANDLING
 

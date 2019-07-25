@@ -1,4 +1,4 @@
-import { copyObj, createObj } from "./util/misc.js"
+import { copyObj, createObj } from "./util/misc"
 
 // Known modes, by name and by MIME
 export let modes = {}, mimeModes = {}

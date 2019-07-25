@@ -1,5 +1,5 @@
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: https://codemirror.net/LICENSE
+// Distributed under an MIT license: http://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -10,14 +10,6 @@
     mod(CodeMirror);
 })(function(CodeMirror) {
 "use strict";
-
-function forEach(arr, f) {
-  for (var i = 0; i < arr.length; i++) f(arr[i], i)
-}
-function some(arr, f) {
-  for (var i = 0; i < arr.length; i++) if (f(arr[i], i)) return true
-  return false
-}
 
 CodeMirror.defineMode("dylan", function(_config) {
   // Words
@@ -144,13 +136,13 @@ CodeMirror.defineMode("dylan", function(_config) {
   var wordLookup = {};
   var styleLookup = {};
 
-  forEach([
+  [
     "keyword",
     "definition",
     "simpleDefinition",
     "signalingCalls"
-  ], function(type) {
-    forEach(words[type], function(word) {
+  ].forEach(function(type) {
+    words[type].forEach(function(word) {
       wordLookup[word] = type;
       styleLookup[word] = styles[type];
     });
@@ -266,7 +258,7 @@ CodeMirror.defineMode("dylan", function(_config) {
     for (var name in patterns) {
       if (patterns.hasOwnProperty(name)) {
         var pattern = patterns[name];
-        if ((pattern instanceof Array && some(pattern, function(p) {
+        if ((pattern instanceof Array && pattern.some(function(p) {
           return stream.match(p);
         })) || stream.match(pattern))
           return patternStyles[name];
@@ -281,7 +273,7 @@ CodeMirror.defineMode("dylan", function(_config) {
     } else {
       stream.eatWhile(/[\w\-]/);
       // Keyword
-      if (wordLookup.hasOwnProperty(stream.current())) {
+      if (wordLookup[stream.current()]) {
         return styleLookup[stream.current()];
       } else if (stream.current().match(symbol)) {
         return "variable";

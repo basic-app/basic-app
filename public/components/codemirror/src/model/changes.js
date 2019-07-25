@@ -1,21 +1,20 @@
-import { retreatFrontier } from "../line/highlight.js"
-import { startWorker } from "../display/highlight_worker.js"
-import { operation } from "../display/operations.js"
-import { regChange, regLineChange } from "../display/view_tracking.js"
-import { clipLine, clipPos, cmp, Pos } from "../line/pos.js"
-import { sawReadOnlySpans } from "../line/saw_special_spans.js"
-import { lineLength, removeReadOnlyRanges, stretchSpansOverChange, visualLine } from "../line/spans.js"
-import { getBetween, getLine, lineNo } from "../line/utils_line.js"
-import { estimateHeight } from "../measurement/position_measurement.js"
-import { hasHandler, signal, signalCursorActivity } from "../util/event.js"
-import { indexOf, lst, map, sel_dontScroll } from "../util/misc.js"
-import { signalLater } from "../util/operation_group.js"
+import { startWorker } from "../display/highlight_worker"
+import { operation } from "../display/operations"
+import { regChange, regLineChange } from "../display/view_tracking"
+import { clipLine, clipPos, cmp, Pos } from "../line/pos"
+import { sawReadOnlySpans } from "../line/saw_special_spans"
+import { lineLength, removeReadOnlyRanges, stretchSpansOverChange, visualLine } from "../line/spans"
+import { getBetween, getLine, lineNo } from "../line/utils_line"
+import { estimateHeight } from "../measurement/position_measurement"
+import { hasHandler, signal, signalCursorActivity } from "../util/event"
+import { indexOf, lst, map, sel_dontScroll } from "../util/misc"
+import { signalLater } from "../util/operation_group"
 
-import { changeEnd, computeSelAfterChange } from "./change_measurement.js"
-import { isWholeLineUpdate, linkedDocs, updateDoc } from "./document_data.js"
-import { addChangeToHistory, historyChangeFromChange, mergeOldSpans, pushSelectionToHistory } from "./history.js"
-import { Range, Selection } from "./selection.js"
-import { setSelection, setSelectionNoUndo } from "./selection_updates.js"
+import { changeEnd, computeSelAfterChange } from "./change_measurement"
+import { isWholeLineUpdate, linkedDocs, updateDoc } from "./document_data"
+import { addChangeToHistory, historyChangeFromChange, mergeOldSpans, pushSelectionToHistory } from "./history"
+import { Range, Selection } from "./selection"
+import { setSelection, setSelectionNoUndo } from "./selection_updates"
 
 // UPDATING
 
@@ -38,10 +37,7 @@ function filterChange(doc, change, update) {
   signal(doc, "beforeChange", doc, obj)
   if (doc.cm) signal(doc.cm, "beforeChange", doc.cm, obj)
 
-  if (obj.canceled) {
-    if (doc.cm) doc.cm.curOp.updateInput = 2
-    return null
-  }
+  if (obj.canceled) return null
   return {from: obj.from, to: obj.to, text: obj.text, origin: obj.origin}
 }
 
@@ -63,7 +59,7 @@ export function makeChange(doc, change, ignoreReadOnly) {
   let split = sawReadOnlySpans && !ignoreReadOnly && removeReadOnlyRanges(doc, change.from, change.to)
   if (split) {
     for (let i = split.length - 1; i >= 0; --i)
-      makeChangeInner(doc, {from: split[i].from, to: split[i].to, text: i ? [""] : change.text, origin: change.origin})
+      makeChangeInner(doc, {from: split[i].from, to: split[i].to, text: i ? [""] : change.text})
   } else {
     makeChangeInner(doc, change)
   }
@@ -88,8 +84,7 @@ function makeChangeInner(doc, change) {
 
 // Revert a change stored in a document's history.
 export function makeChangeFromHistory(doc, type, allowSelectionOnly) {
-  let suppress = doc.cm && doc.cm.state.suppressEdits
-  if (suppress && !allowSelectionOnly) return
+  if (doc.cm && doc.cm.state.suppressEdits && !allowSelectionOnly) return
 
   let hist = doc.history, event, selAfter = doc.sel
   let source = type == "undo" ? hist.done : hist.undone, dest = type == "undo" ? hist.undone : hist.done
@@ -114,10 +109,8 @@ export function makeChangeFromHistory(doc, type, allowSelectionOnly) {
         return
       }
       selAfter = event
-    } else if (suppress) {
-      source.push(event)
-      return
-    } else break
+    }
+    else break
   }
 
   // Build up a reverse change object to add to the opposite history
@@ -238,7 +231,8 @@ function makeChangeSingleDocInEditor(cm, change, spans) {
     if (recomputeMaxLength) cm.curOp.updateMaxLine = true
   }
 
-  retreatFrontier(doc, from.line)
+  // Adjust frontier, schedule worker
+  doc.frontier = Math.min(doc.frontier, from.line)
   startWorker(cm, 400)
 
   let lendiff = change.text.length - (to.line - from.line) - 1
@@ -266,9 +260,9 @@ function makeChangeSingleDocInEditor(cm, change, spans) {
 
 export function replaceRange(doc, code, from, to, origin) {
   if (!to) to = from
-  if (cmp(to, from) < 0) [from, to] = [to, from]
+  if (cmp(to, from) < 0) { let tmp = to; to = from; from = tmp }
   if (typeof code == "string") code = doc.splitLines(code)
-  makeChange(doc, {from, to, text: code, origin})
+  makeChange(doc, {from: from, to: to, text: code, origin: origin})
 }
 
 // Rebasing/resetting history to deal with externally-sourced changes

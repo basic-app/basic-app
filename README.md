@@ -58,3 +58,9 @@ Set document root of your web server to `/path/to/application/public` and using 
 Run `install` application hook.
 
     php spark install
+    
+## Step 7
+
+Run `seeder` application hook.
+
+    php spark seeder

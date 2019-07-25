@@ -6,14 +6,18 @@
     "require": {
         "codeigniter4/framework": "*",
         "codeigniter4/translations": "*",
-        "yiisoft/yii2-composer": "^2.0",
         "michelf/php-markdown": "^1.8",
         "basic-app/system" : "dev-master",
         "basic-app/module-site" : "dev-master",
-        "basic-app/module-admin" : "dev-master",
+        "basic-app/admin" : "dev-master",
         "basic-app/module-blog" : "dev-master",
+        "phptheme/core": "dev-master",
         "basic-app/theme-clean-blog": "dev-master",
-        "basic-app/theme-cool-admin": "dev-master"
+        "npm-asset/startbootstrap-clean-blog": "dev-master",
+        "bower-asset/tinymce": "dev-master",
+        "bower-asset/codemirror": "dev-master",
+        "basic-app/theme-cool-admin": "dev-master",
+        "puikinsh/cool-admin": "*" 
     },
     "autoload": {
         "psr-4": {
@@ -22,11 +26,15 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "yii\\composer\\Installer::postCreateProject"
-        ]
+            "PhpTheme\\Core\\Composer::postCreateProject"
+        ],
+        "post-update-cmd": [
+            "@composer dump-autoload",
+            "PhpTheme\\Core\\Composer::postUpdate"
+        ]        
     },
     "extra": {
-        "yii\\composer\\Installer::postCreateProject": {
+        "PhpTheme\\Core\\Composer::postCreateProject": {
             "copyFiles": [
                 {
                     "environment/.env": ".env"
@@ -41,12 +49,34 @@
                     "writable/uploads": "0777"
                 }
             ]            
+        },
+        "PhpTheme\\Core\\Composer::postUpdate": {
+            "copyFiles": [
+                {
+                    "vendor/npm-asset/startbootstrap-clean-blog": "public/themes/startbootstrap-clean-blog",
+                    "vendor/puikinsh/cool-admin": "public/themes/colorlib-cool-admin",
+                    "vendor/bower-asset/tinymce": "public/components/tinymce",
+                    "vendor/bower-asset/codemirror": "public/components/codemirror"
+                }
+            ]
         }
     },
     "repositories": [
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "puikinsh/cool-admin",
+                "version": "1.0",
+                "source": {
+                    "url": "https://github.com/puikinsh/CoolAdmin",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }        
     ]    
 }

@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-use BasicApp\Core\DatabaseConfigModel;
+use BasicApp\Configs\DatabaseConfigForm;
 use BasicApp\Behaviors\UploadModelBehavior;
 
-class ApplicationConfigModel extends DatabaseConfigModel
+class ApplicationConfigModel extends DatabaseConfigForm
 {
 
     protected $returnType = ApplicationConfig::class;
@@ -48,16 +48,17 @@ class ApplicationConfigModel extends DatabaseConfigModel
         return t('admin.menu', 'Application');
     }
 
-    public static function getFormFields($model)
+    public function renderFields($form)
     {
-        return [
-            [
-                'type' => 'image',
-                'name' => 'background_image_file',
-                'url' => $model->getBackgroundImageUrl(),
-                'label' => static::label('background_image_file')
-            ]
-        ];
+        $return = '';
+
+        $url = '';
+
+        //$model->getBackgroundImageUrl();
+
+        $return .= $form->imageUpload('background_image_file', $url);
+
+        return $return;
     }
 
 }

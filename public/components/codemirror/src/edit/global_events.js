@@ -1,20 +1,17 @@
-import { onBlur } from "../display/focus.js"
-import { on } from "../util/event.js"
+import { onBlur } from "../display/focus"
+import { on } from "../util/event"
 
 // These must be handled carefully, because naively registering a
 // handler for each editor will cause the editors to never be
 // garbage collected.
 
 function forEachCodeMirror(f) {
-  if (!document.getElementsByClassName) return
-  let byClass = document.getElementsByClassName("CodeMirror"), editors = []
+  if (!document.body.getElementsByClassName) return
+  let byClass = document.body.getElementsByClassName("CodeMirror")
   for (let i = 0; i < byClass.length; i++) {
     let cm = byClass[i].CodeMirror
-    if (cm) editors.push(cm)
+    if (cm) f(cm)
   }
-  if (editors.length) editors[0].operation(() => {
-    for (let i = 0; i < editors.length; i++) f(editors[i])
-  })
 }
 
 let globalsRegistered = false
@@ -38,6 +35,8 @@ function registerGlobalHandlers() {
 // Called when the window resizes
 function onResize(cm) {
   let d = cm.display
+  if (d.lastWrapHeight == d.wrapper.clientHeight && d.lastWrapWidth == d.wrapper.clientWidth)
+    return
   // Might be a text scaling operation, clear size caches.
   d.cachedCharWidth = d.cachedTextHeight = d.cachedPaddingH = null
   d.scrollbarsClipped = false

@@ -1,8 +1,9 @@
 <?php
 
-use BasicApp\Admin\Models\AdminModel;
+use BasicApp\Helpers\Url;
+use BasicApp\Admin\AdminEvents;
 
-$admin = AdminModel::getCurrentUser();
+$admin = service('currentAdmin');
 
 if (!$admin)
 {
@@ -18,23 +19,45 @@ $returnUrl = $request->getGet('returnUrl');
 if ($returnUrl)
 {
 	$actionMenu[] = [
-		'url'       => site_url($returnUrl),
+		'url'       => Url::createUrl($returnUrl),
 		'label'     => t('admin.menu', 'Back'),
 		'icon'      => 'fa fa-arrow-left',
 		'linkClass' => 'btn btn-secondary',
 	];
 }
 
-echo admin_theme_widget('layout', [
-    'optionsMenu' => array_key_exists('optionsMenu', $this->data) ? $this->data['optionsMenu'] : [],
+$adminTheme = service('adminTheme');
+
+$adminTheme->head .= view('admin/layout-head');
+
+$adminTheme->beginBody .= view('admin/layout-body-begin');
+
+$adminTheme->endBody .= view('admin/layout-body-end');
+
+echo $adminTheme->mainLayout([
+    'optionsMenu' => [
+        'items' => AdminEvents::optionsMenu()
+    ],
+    'mainMenu' => [
+        'items' => AdminEvents::mainMenu()
+    ],
     'title' => array_key_exists('title', $this->data) ? $this->data['title'] : '',
-    'mainMenu' => array_key_exists('mainMenu', $this->data) ? $this->data['mainMenu'] : [],
-    'actionMenu' => $actionMenu,
-    'breadcrumbs' => array_key_exists('breadcrumbs', $this->data) ? $this->data['breadcrumbs'] : [],
+    'actionsMenu' => [
+        'items' => $actionMenu
+    ],
+    'breadcrumbs' => [
+        'items' => array_key_exists('breadcrumbs', $this->data) ? $this->data['breadcrumbs'] : []
+    ],
     'content' => $content,
-    'copyright' => 'Copyright © 2018 - {year} <a href="http://basic-app.com" target="_blank">Basic App</a>. All rights reserved.',
-    'logoutUrl' => site_url('admin/logout'),
-    'userName' => $admin->admin_name,
-    'userEmail' => $admin->admin_email ? $admin->admin_email : '&nbsp;',
-    'userAvatar' => $admin->avatarUrl()
+    'copyright' => 'Copyright © 2018 - {year} <a href="http://basic-app.com" target="_blank">Basic App</a>.' 
+        . ' All rights reserved.',
+    'account' => [
+        'name' => $admin->admin_name,
+        'description' => $admin->admin_email ? $admin->admin_email : '&nbsp;',
+        'avatarUrl' => $admin->avatarUrl(),
+        'profileUrl' => '#profile',
+        'logoutUrl' => Url::createUrl('admin/logout'),
+        'logoutLabel' => t('admin', 'Logout')
+    ],
+
 ]);

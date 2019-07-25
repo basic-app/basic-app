@@ -4,10 +4,9 @@
  * For LGPL see License.txt in the project root for license information.
  * For commercial licenses see https://www.tiny.cloud/
  *
- * Version: 5.0.5 (2019-05-09)
+ * Version: 5.0.12 (2019-07-18)
  */
 (function () {
-var nonbreaking = (function () {
     'use strict';
 
     var global = tinymce.util.Tools.resolve('tinymce.PluginManager');
@@ -83,15 +82,14 @@ var nonbreaking = (function () {
     };
     var Buttons = { register: register$1 };
 
-    global.add('nonbreaking', function (editor) {
-      Commands.register(editor);
-      Buttons.register(editor);
-      Keyboard.setup(editor);
-    });
     function Plugin () {
+      global.add('nonbreaking', function (editor) {
+        Commands.register(editor);
+        Buttons.register(editor);
+        Keyboard.setup(editor);
+      });
     }
 
-    return Plugin;
+    Plugin();
 
 }());
-})();
