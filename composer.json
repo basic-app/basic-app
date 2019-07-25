@@ -19,11 +19,6 @@
         "basic-app/theme-cool-admin": "dev-master",
         "puikinsh/cool-admin": "*" 
     },
-    "autoload": {
-        "psr-4": {
-            "CodeIgniter\\": "./vendor/codeigniter4/framework/system/" 
-        }
-    },
     "scripts": {
         "post-create-project-cmd": [
             "PhpTheme\\Core\\Composer::postCreateProject"
