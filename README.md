@@ -7,8 +7,8 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 
 ## System Requirements
 
-- PHP 7
-- MySQL
+- PHP 7.2 or later
+- MySQL or MariaDB
 - Composer
 - Apache or Nginx
 

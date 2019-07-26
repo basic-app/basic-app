@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b76dd57656e413733313102a7c07eba",
+    "content-hash": "7a3b4e98203f17232adef5b0e02ff1b7",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-i18n.git",
-                "reference": "bb7cbfd234a6c45a02b108d3f40d8b68fa165e24"
+                "reference": "8f5441aaad52884c19a078ef9cc4aa12f2e1a3cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/bb7cbfd234a6c45a02b108d3f40d8b68fa165e24",
-                "reference": "bb7cbfd234a6c45a02b108d3f40d8b68fa165e24",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/8f5441aaad52884c19a078ef9cc4aa12f2e1a3cb",
+                "reference": "8f5441aaad52884c19a078ef9cc4aa12f2e1a3cb",
                 "shasum": ""
             },
             "type": "library",
@@ -197,36 +197,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-23T19:36:40+00:00"
-        },
-        {
-            "name": "basic-app/module-messages",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/basic-app/module-messages.git",
-                "reference": "a4bfecb0d0df1ba1c26756f6a9f23d36a9cb3ca0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-messages/zipball/a4bfecb0d0df1ba1c26756f6a9f23d36a9cb3ca0",
-                "reference": "a4bfecb0d0df1ba1c26756f6a9f23d36a9cb3ca0",
-                "shasum": ""
-            },
-            "require": {
-                "phpmailer/phpmailer": "^6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BasicApp\\Messages\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "time": "2019-07-25T08:40:19+00:00"
+            "time": "2019-07-26T06:40:21+00:00"
         },
         {
             "name": "basic-app/module-site",
@@ -260,20 +231,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "70d2479887b2ca515e9969e6c2d8164f80b9a762"
+                "reference": "c8a552347c82a7dee3e9c0836325b195d87efb16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/70d2479887b2ca515e9969e6c2d8164f80b9a762",
-                "reference": "70d2479887b2ca515e9969e6c2d8164f80b9a762",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/c8a552347c82a7dee3e9c0836325b195d87efb16",
+                "reference": "c8a552347c82a7dee3e9c0836325b195d87efb16",
                 "shasum": ""
             },
             "require": {
                 "basic-app/bootstrap4": "dev-master",
                 "basic-app/core": "dev-master",
                 "basic-app/module-configs": "dev-master",
-                "basic-app/module-i18n": "dev-master",
-                "basic-app/module-messages": "dev-master"
+                "basic-app/module-i18n": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -285,7 +255,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-24T19:15:56+00:00"
+            "time": "2019-07-26T06:35:46+00:00"
         },
         {
             "name": "basic-app/theme",
@@ -649,83 +619,17 @@
             "time": "2019-06-13T16:48:26+00:00"
         },
         {
-            "name": "phpmailer/phpmailer",
-            "version": "v6.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/0c41a36d4508d470e376498c1c0c527aa36a2d59",
-                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ctype": "*",
-                "ext-filter": "*",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "doctrine/annotations": "1.2.*",
-                "friendsofphp/php-cs-fixer": "^2.2",
-                "phpdocumentor/phpdocumentor": "2.*",
-                "phpunit/phpunit": "^4.8 || ^5.7",
-                "zendframework/zend-eventmanager": "3.0.*",
-                "zendframework/zend-i18n": "2.7.3",
-                "zendframework/zend-serializer": "2.7.*"
-            },
-            "suggest": {
-                "ext-mbstring": "Needed to send email in multibyte encoding charset",
-                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
-                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
-                "psr/log": "For optional PSR-3 debug logging",
-                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
-                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "PHPMailer\\PHPMailer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-2.1"
-            ],
-            "authors": [
-                {
-                    "name": "Jim Jagielski",
-                    "email": "jimjag@gmail.com"
-                },
-                {
-                    "name": "Marcus Bointon",
-                    "email": "phpmailer@synchromedia.co.uk"
-                },
-                {
-                    "name": "Andy Prevost",
-                    "email": "codeworxtech@users.sourceforge.net"
-                },
-                {
-                    "name": "Brent R. Matzelle"
-                }
-            ],
-            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2019-02-01T15:04:28+00:00"
-        },
-        {
             "name": "phptheme/bootstrap4",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/bootstrap4.git",
-                "reference": "18900f1f14f129e07f19e96e4e68906af04da665"
+                "reference": "53b07183388d8dc6621f94aa6a5e7f3f46ed44b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/bootstrap4/zipball/18900f1f14f129e07f19e96e4e68906af04da665",
-                "reference": "18900f1f14f129e07f19e96e4e68906af04da665",
+                "url": "https://api.github.com/repos/phptheme/bootstrap4/zipball/53b07183388d8dc6621f94aa6a5e7f3f46ed44b5",
+                "reference": "53b07183388d8dc6621f94aa6a5e7f3f46ed44b5",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +645,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-14T05:36:32+00:00"
+            "time": "2019-07-26T20:45:03+00:00"
         },
         {
             "name": "phptheme/core",
@@ -749,12 +653,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/core.git",
-                "reference": "338b66463fc449f3daf932b781b607ccde582378"
+                "reference": "74bbf2b59323b54a60c7b17d8a4130e87f1ddca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/core/zipball/338b66463fc449f3daf932b781b607ccde582378",
-                "reference": "338b66463fc449f3daf932b781b607ccde582378",
+                "url": "https://api.github.com/repos/phptheme/core/zipball/74bbf2b59323b54a60c7b17d8a4130e87f1ddca4",
+                "reference": "74bbf2b59323b54a60c7b17d8a4130e87f1ddca4",
                 "shasum": ""
             },
             "require": {
@@ -772,7 +676,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-21T07:22:41+00:00"
+            "time": "2019-07-26T20:50:55+00:00"
         },
         {
             "name": "phptheme/theme-clean-blog",

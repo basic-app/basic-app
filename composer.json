@@ -32,7 +32,7 @@
         "PhpTheme\\Core\\Composer::postCreateProject": {
             "copyFiles": [
                 {
-                    ".env-default": ".env",
+                    "env": ".env",
                     "vendor/npm-asset/startbootstrap-clean-blog/css": "public/themes/startbootstrap-clean-blog/css",
                     "vendor/npm-asset/startbootstrap-clean-blog/img": "public/themes/startbootstrap-clean-blog/img",
                     "vendor/npm-asset/startbootstrap-clean-blog/js": "public/themes/startbootstrap-clean-blog/js",
