@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "aa397be074fc0a0327275692a3d1fa606f21389e"
+                "reference": "58b4444e8d8d97a40c6d850530700c20b06448aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/aa397be074fc0a0327275692a3d1fa606f21389e",
-                "reference": "aa397be074fc0a0327275692a3d1fa606f21389e",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/58b4444e8d8d97a40c6d850530700c20b06448aa",
+                "reference": "58b4444e8d8d97a40c6d850530700c20b06448aa",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-09-05T17:02:07+00:00"
+            "time": "2019-09-05T17:18:33+00:00"
         },
         {
             "name": "basic-app/module-admins",
