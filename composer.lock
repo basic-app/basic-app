@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a3b4e98203f17232adef5b0e02ff1b7",
+    "content-hash": "3f394c30c813b8e066c5cd034f9b8afd",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -366,7 +366,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tinymce/tinymce-dist.git",
+                "url": "git@github.com:tinymce/tinymce-dist.git",
                 "reference": "4ed6cbe75f468c389a180df9b9c3d050ac3b722c"
             },
             "dist": {
@@ -424,7 +424,7 @@
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.0.0-beta.5",
+            "version": "v4.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
