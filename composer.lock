@@ -153,12 +153,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-configs.git",
-                "reference": "a047c590f855df16bf04b81c6ec313bec2f851da"
+                "reference": "7126b6b1f5d9dcb52aa8866c293161bfb9a07134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/a047c590f855df16bf04b81c6ec313bec2f851da",
-                "reference": "a047c590f855df16bf04b81c6ec313bec2f851da",
+                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/7126b6b1f5d9dcb52aa8866c293161bfb9a07134",
+                "reference": "7126b6b1f5d9dcb52aa8866c293161bfb9a07134",
                 "shasum": ""
             },
             "type": "library",
@@ -171,7 +171,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-25T05:52:38+00:00"
+            "time": "2019-09-05T19:15:32+00:00"
         },
         {
             "name": "basic-app/module-i18n",
@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-i18n.git",
-                "reference": "983db45f5c5c9db02b24e0ce9641bc4aa99ce9e8"
+                "reference": "1ce4bf0cca20a0c34d984c9892e7556bfbfd92a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/983db45f5c5c9db02b24e0ce9641bc4aa99ce9e8",
-                "reference": "983db45f5c5c9db02b24e0ce9641bc4aa99ce9e8",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/1ce4bf0cca20a0c34d984c9892e7556bfbfd92a1",
+                "reference": "1ce4bf0cca20a0c34d984c9892e7556bfbfd92a1",
                 "shasum": ""
             },
             "type": "library",
@@ -197,7 +197,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-08-09T20:26:32+00:00"
+            "time": "2019-09-05T19:18:57+00:00"
         },
         {
             "name": "basic-app/module-site",
