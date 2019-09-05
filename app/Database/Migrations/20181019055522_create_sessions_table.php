@@ -40,12 +40,12 @@ class Migration_create_sessions_table extends Migration
 
 		$this->forge->addKey('timestamp');
 
-		$this->forge->createTable($this->tableName);
+		$this->createTable($this->tableName);
 	}
 
 	public function down()
 	{
-		$this->forge->dropTable($this->tableName);
+		$this->dropTable($this->tableName);
 	}
 
 }
