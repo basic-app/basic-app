@@ -127,12 +127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "9eb2bb13db0b3b2181df97170dd4b1770f99cdfa"
+                "reference": "3f80e472b762be1371adb49295e1eef96252ef69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/9eb2bb13db0b3b2181df97170dd4b1770f99cdfa",
-                "reference": "9eb2bb13db0b3b2181df97170dd4b1770f99cdfa",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/3f80e472b762be1371adb49295e1eef96252ef69",
+                "reference": "3f80e472b762be1371adb49295e1eef96252ef69",
                 "shasum": ""
             },
             "type": "library",
@@ -145,7 +145,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-25T06:14:10+00:00"
+            "time": "2019-09-05T20:03:08+00:00"
         },
         {
             "name": "basic-app/module-configs",
@@ -797,16 +797,16 @@
         },
         {
             "name": "zendframework/zend-escaper",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-escaper.git",
-                "reference": "31d8aafae982f9568287cb4dce987e6aff8fd074"
+                "reference": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/31d8aafae982f9568287cb4dce987e6aff8fd074",
-                "reference": "31d8aafae982f9568287cb4dce987e6aff8fd074",
+                "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
+                "reference": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 "escaper",
                 "zf"
             ],
-            "time": "2018-04-25T15:48:53+00:00"
+            "time": "2019-09-05T20:03:20+00:00"
         }
     ],
     "packages-dev": [],
