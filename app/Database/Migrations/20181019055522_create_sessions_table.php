@@ -2,9 +2,7 @@
 
 namespace App\Database\Migrations;
 
-use CodeIgniter\Database\Migration;
-
-class Migration_create_sessions_table extends Migration
+class Migration_create_sessions_table extends \BasicApp\Core\Migration
 {
 
 	public $tableName = 'sessions';
