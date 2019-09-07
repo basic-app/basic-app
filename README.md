@@ -32,7 +32,7 @@ Configure url, timezone, and database connection settings in the `/.env` file.
 Execute commands via shell:
 
 ```
-php spark migrate:latest -all
+php spark migrate -all
 php spark install
 php spark seeder
 ```

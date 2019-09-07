@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f394c30c813b8e066c5cd034f9b8afd",
+    "content-hash": "7a3b4e98203f17232adef5b0e02ff1b7",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -101,12 +101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-admins.git",
-                "reference": "d18fdaa2703b8b65490add5ec8e24eb55bfa2c57"
+                "reference": "d02e86da5eeaf96b969ce667e32e5dd71d996d74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-admins/zipball/d18fdaa2703b8b65490add5ec8e24eb55bfa2c57",
-                "reference": "d18fdaa2703b8b65490add5ec8e24eb55bfa2c57",
+                "url": "https://api.github.com/repos/basic-app/module-admins/zipball/d02e86da5eeaf96b969ce667e32e5dd71d996d74",
+                "reference": "d02e86da5eeaf96b969ce667e32e5dd71d996d74",
                 "shasum": ""
             },
             "type": "library",
@@ -119,7 +119,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-09-05T19:26:51+00:00"
+            "time": "2019-09-07T20:30:18+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -382,16 +382,16 @@
         },
         {
             "name": "codeigniter4/framework",
-            "version": "v4.0.0-beta.4",
+            "version": "v4.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "8ee7a2a4b772e1f78a9905192efede812cdd194d"
+                "reference": "c90c996194da3f97304dee768fdceb23dedf8a1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/8ee7a2a4b772e1f78a9905192efede812cdd194d",
-                "reference": "8ee7a2a4b772e1f78a9905192efede812cdd194d",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/c90c996194da3f97304dee768fdceb23dedf8a1e",
+                "reference": "c90c996194da3f97304dee768fdceb23dedf8a1e",
                 "shasum": ""
             },
             "require": {
@@ -420,7 +420,7 @@
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2019-07-25T13:35:46+00:00"
+            "time": "2019-09-03T04:36:24+00:00"
         },
         {
             "name": "codeigniter4/translations",

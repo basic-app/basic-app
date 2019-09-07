@@ -4,7 +4,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "codeigniter4/framework": "4.0.0-beta.4",
+        "codeigniter4/framework": "*",
         "codeigniter4/translations": "*",
         "michelf/php-markdown": "^1.8",
         "basic-app/system" : "dev-master",
