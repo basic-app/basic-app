@@ -14,19 +14,19 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 
 ## Modules
 
-  - Site (pages, blocks, menus)
-  - Blog (demo module)
+  - [Site](https://github.com/basic-app/module-site) (pages, blocks, menus)
+  - [Blog](https://github.com/basic-app/module-blog) (demo module)
   
 ## Themes
 
-  - Bootstrap 4 (by (https://getbootstrap.com)[getbootstrap.com])
-  - Cool Admin (by (https://colorlib.com)[colorlib.com])
-  - Clean Blog (by (https://startbootstrap.com)[startbootstrap.com])
+  - [Bootstrap 4](https://github.com/basic-app/theme-bootstrap4) (by [getbootstrap.com](https://getbootstrap.com))
+  - [Cool Admin](https://github.com/basic-app/theme-cool-admin) (by [colorlib.com](https://colorlib.com))
+  - [Clean Blog](https://github.com/basic-app/theme-clean-blog) (by [startbootstrap.com](https://startbootstrap.com))
   
 ## Client-side libraries
 
-  - TinyMCE (by (https://www.tiny.cloud/)[www.tiny.cloud])
-  - CodeMirror (by (https://codemirror.net/)[codemirror.net])
+  - [TinyMCE](https://github.com/basic-app/js-tinymce) (by [www.tiny.cloud](https://www.tiny.cloud/))
+  - [CodeMirror](https://github.com/basic-app/js-codemirror) (by [codemirror.net](https://codemirror.net/))
  
 ## Installation
 
