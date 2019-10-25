@@ -14,19 +14,26 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
+# CI_ENVIRONMENT = production
+
 CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
+# app.baseURL = ''
+# app.forceGlobalSecureRequests = false
+
 app.baseURL = 'http://demoapp.localhost'
 app.indexPage = ''
 app.appTimezone = 'America/New_York'
-# app.forceGlobalSecureRequests = false
+
 app.sessionDriver = 'CodeIgniter\Session\Handlers\DatabaseHandler'
+# app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
 # app.sessionCookieName = 'ci_session'
 app.sessionSavePath = sessions
+# app.sessionSavePath = NULL
 # app.sessionMatchIP = false
 # app.sessionTimeToUpdate = 300
 # app.sessionRegenerateDestroy = false
@@ -51,7 +58,7 @@ app.sessionSavePath = sessions
 #--------------------------------------------------------------------
 
 database.default.hostname = localhost
-database.default.database = basicapp_demoapp
+database.default.database = demoapp
 database.default.username = root
 database.default.password =
 database.default.DBDriver = MySQLi

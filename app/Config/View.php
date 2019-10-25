@@ -1,6 +1,8 @@
-<?php namespace Config;
+<?php
 
-class View extends \CodeIgniter\Config\View
+namespace Config;
+
+class View extends \BasicApp\System\Config\App\BaseView
 {
 	/**
 	 * When false, the view method will clear the data between each

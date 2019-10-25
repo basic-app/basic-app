@@ -6,72 +6,43 @@
     "require": {
         "codeigniter4/framework": "*",
         "codeigniter4/translations": "*",
-        "michelf/php-markdown": "^1.8",
-        "basic-app/system" : "dev-master",
-        "basic-app/module-site" : "dev-master",
-        "basic-app/admin" : "dev-master",
-        "basic-app/module-blog" : "dev-master",
-        "phptheme/core": "dev-master",
-        "basic-app/theme-clean-blog": "dev-master",
-        "npm-asset/startbootstrap-clean-blog": "dev-master",
-        "bower-asset/tinymce": "dev-master",
-        "bower-asset/codemirror": "dev-master",
-        "basic-app/theme-cool-admin": "dev-master",
-        "puikinsh/cool-admin": "*" 
+        "basic-app/system" : "*",
+        "basic-app/admin" : "*",
+        "basic-app/module-blog" : "*",
+        "basic-app/module-site" : "*",
+        "basic-app/theme-clean-blog": "*",
+        "basic-app/theme-bootstrap4": "*",
+        "basic-app/theme-cool-admin": "*",
+        "basic-app/js-tinymce": "*",
+        "basic-app/js-codemirror": "*"
     },
     "scripts": {
         "post-create-project-cmd": [
-            "PhpTheme\\Core\\Composer::postCreateProject"
+            "BasicApp\\Core\\Composer::postCreateProject"
+        ],
+        "post-install-cmd": [
+            "@composer dump-autoload",
+            "BasicApp\\Core\\Composer::postInstall"
         ],
         "post-update-cmd": [
             "@composer dump-autoload",
-            "PhpTheme\\Core\\Composer::postUpdate"
-        ]        
+            "BasicApp\\Core\\Composer::postUpdate"
+        ]
     },
     "extra": {
-        "PhpTheme\\Core\\Composer::postCreateProject": {
+        "BasicApp\\Core\\Composer::postCreateProject": {
             "copyFiles": [
                 {
-                    "env": ".env",
-                    "vendor/npm-asset/startbootstrap-clean-blog/css": "public/themes/startbootstrap-clean-blog/css",
-                    "vendor/npm-asset/startbootstrap-clean-blog/img": "public/themes/startbootstrap-clean-blog/img",
-                    "vendor/npm-asset/startbootstrap-clean-blog/js": "public/themes/startbootstrap-clean-blog/js",
-                    "vendor/npm-asset/startbootstrap-clean-blog/scss": "public/themes/startbootstrap-clean-blog/scss",
-                    "vendor/npm-asset/startbootstrap-clean-blog/vendor": "public/themes/startbootstrap-clean-blog/vendor",                
-                    "vendor/puikinsh/cool-admin/css": "public/themes/colorlib-cool-admin/css",
-                    "vendor/puikinsh/cool-admin/fonts": "public/themes/colorlib-cool-admin/fonts",
-                    "vendor/puikinsh/cool-admin/images": "public/themes/colorlib-cool-admin/images",
-                    "vendor/puikinsh/cool-admin/js": "public/themes/colorlib-cool-admin/js",
-                    "vendor/puikinsh/cool-admin/vendor": "public/themes/colorlib-cool-admin/vendor",                
-                    "vendor/bower-asset/tinymce": "public/components/tinymce",
-                    "vendor/bower-asset/codemirror": "public/components/codemirror"                    
+                    "env": ".env"                    
                 }
             ],
             "setPermission": [
                 {
-                    "writable/cache": "0777",
-                    "writable/debugbar": "0777",
-                    "writable/logs": "0777",
-                    "writable/session": "0777",
-                    "writable/uploads": "0777"
-                }
-            ]            
-        },
-        "PhpTheme\\Core\\Composer::postUpdate": {
-            "copyFiles": [
-                {
-                    "vendor/npm-asset/startbootstrap-clean-blog/css": "public/themes/startbootstrap-clean-blog/css",
-                    "vendor/npm-asset/startbootstrap-clean-blog/img": "public/themes/startbootstrap-clean-blog/img",
-                    "vendor/npm-asset/startbootstrap-clean-blog/js": "public/themes/startbootstrap-clean-blog/js",
-                    "vendor/npm-asset/startbootstrap-clean-blog/scss": "public/themes/startbootstrap-clean-blog/scss",
-                    "vendor/npm-asset/startbootstrap-clean-blog/vendor": "public/themes/startbootstrap-clean-blog/vendor",                
-                    "vendor/puikinsh/cool-admin/css": "public/themes/colorlib-cool-admin/css",
-                    "vendor/puikinsh/cool-admin/fonts": "public/themes/colorlib-cool-admin/fonts",
-                    "vendor/puikinsh/cool-admin/images": "public/themes/colorlib-cool-admin/images",
-                    "vendor/puikinsh/cool-admin/js": "public/themes/colorlib-cool-admin/js",
-                    "vendor/puikinsh/cool-admin/vendor": "public/themes/colorlib-cool-admin/vendor",                
-                    "vendor/bower-asset/tinymce": "public/components/tinymce",
-                    "vendor/bower-asset/codemirror": "public/components/codemirror"
+                    "writable/cache": "0755",
+                    "writable/debugbar": "0755",
+                    "writable/logs": "0755",
+                    "writable/session": "0755",
+                    "writable/uploads": "0755"
                 }
             ]
         }
@@ -80,18 +51,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "puikinsh/cool-admin",
-                "version": "1.0",
-                "source": {
-                    "url": "https://github.com/puikinsh/CoolAdmin",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }        
-    ]    
+        }
+    ]
 }

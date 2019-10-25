@@ -1,8 +1,9 @@
-<?php namespace Config;
+<?php
 
-use CodeIgniter\Config\BaseConfig;
+namespace Config;
 
-class Honeypot extends BaseConfig
+class Honeypot extends \BasicApp\System\Config\App\BaseHoneypot
+
 {
 
 	/**

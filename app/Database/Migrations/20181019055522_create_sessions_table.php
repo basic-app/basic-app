@@ -31,19 +31,19 @@ class Migration_create_sessions_table extends \BasicApp\Core\Migration
 				'type' => 'TEXT',
 				'null' => false,
 				'default' => ''
-			],
+			]
 		]);
 
 		$this->forge->addKey('id', true);
 
 		$this->forge->addKey('timestamp');
 
-		$this->createTable($this->tableName);
+		$this->forge->createTable($this->tableName);
 	}
 
 	public function down()
 	{
-		$this->dropTable($this->tableName);
+		$this->forge->dropTable($this->tableName);
 	}
 
 }

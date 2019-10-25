@@ -1,8 +1,8 @@
-<?php namespace Config;
+<?php
 
-use CodeIgniter\Config\BaseConfig;
+namespace Config;
 
-class Logger extends BaseConfig
+class Logger extends \BasicApp\System\Config\App\BaseLogger
 {
 	/*
 	|--------------------------------------------------------------------------

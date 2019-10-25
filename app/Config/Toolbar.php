@@ -1,8 +1,8 @@
-<?php namespace Config;
+<?php
 
-use CodeIgniter\Config\BaseConfig;
+namespace Config;
 
-class Toolbar extends BaseConfig
+class Toolbar extends \BasicApp\System\Config\App\BaseToolbar
 {
 	/*
 	|--------------------------------------------------------------------------

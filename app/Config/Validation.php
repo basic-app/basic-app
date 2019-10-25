@@ -1,6 +1,8 @@
-<?php namespace Config;
+<?php
 
-class Validation
+namespace Config;
+
+class Validation extends \BasicApp\System\Config\App\BaseValidation
 {
 	//--------------------------------------------------------------------
 	// Setup

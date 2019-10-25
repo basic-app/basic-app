@@ -1,4 +1,6 @@
-<?php namespace Config;
+<?php
+
+namespace Config;
 
 /**
  * DocTypes
@@ -6,7 +8,7 @@
  * @package Config
  */
 
-class DocTypes
+class DocTypes extends \BasicApp\System\Config\App\BaseDocTypes
 {
 	public $list =
 	[

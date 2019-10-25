@@ -1,8 +1,8 @@
-<?php namespace Config;
+<?php
 
-use CodeIgniter\Config\BaseConfig;
+namespace Config;
 
-class Cache extends BaseConfig
+class Cache extends \BasicApp\System\Config\App\BaseCache
 {
 	/*
 	|--------------------------------------------------------------------------

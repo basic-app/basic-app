@@ -1,8 +1,8 @@
-<?php namespace Config;
+<?php
 
-use CodeIgniter\Config\BaseConfig;
+namespace Config;
 
-class Images extends BaseConfig
+class Images extends \BasicApp\System\Config\App\BaseImages
 {
 	/**
 	 * Default handler used if no other handler is specified.

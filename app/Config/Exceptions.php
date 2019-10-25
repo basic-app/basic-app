@@ -1,4 +1,6 @@
-<?php namespace Config;
+<?php
+
+namespace Config;
 
 /**
  * Setup how the exception handler works.
@@ -6,7 +8,7 @@
  * @package Config
  */
 
-class Exceptions
+class Exceptions extends \BasicApp\System\Config\App\BaseExceptions
 {
 	/*
 	 |--------------------------------------------------------------------------

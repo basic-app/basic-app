@@ -1,6 +1,8 @@
-<?php namespace Config;
+<?php
 
-class ForeignCharacters extends \CodeIgniter\Config\ForeignCharacters
+namespace Config;
+
+class ForeignCharacters extends \BasicApp\System\Config\App\BaseForeignCharacters
 {
 
 }

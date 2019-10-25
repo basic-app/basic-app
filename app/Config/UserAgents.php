@@ -1,8 +1,8 @@
-<?php namespace Config;
+<?php
 
-use CodeIgniter\Config\BaseConfig;
+namespace Config;
 
-class UserAgents extends BaseConfig
+class UserAgents extends \BasicApp\System\Config\App\BaseUserAgents
 {
 	/*
 	| -------------------------------------------------------------------

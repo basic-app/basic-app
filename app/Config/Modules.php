@@ -1,4 +1,6 @@
-<?php namespace Config;
+<?php
+
+namespace Config;
 
 // Cannot extend BaseConfig or looping resources occurs.
 class Modules

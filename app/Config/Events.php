@@ -1,9 +1,12 @@
-<?php 
+<?php
 
 namespace Config;
 
-use BasicApp\Helpers\Url;
 use CodeIgniter\Events\Events;
+use BasicApp\System\SystemEvents;
+use BasicApp\Site\SiteEvents;
+use BasicApp\Admin\AdminEvents;
+use BasicApp\Helpers\Url;
 
 /*
  * --------------------------------------------------------------------
@@ -21,54 +24,99 @@ use CodeIgniter\Events\Events;
  * Example:
  *      Events::on('create', [$myInstance, 'myMethod']);
  */
-
-/*
- * --------------------------------------------------------------------
- * Debug Toolbar Listeners.
- * --------------------------------------------------------------------
- * If you delete, they will no longer be collected.
- */
-if (ENVIRONMENT !== 'production' && !is_cli())
+if (!is_cli())
 {
-	Events::on('DBQuery', 'CodeIgniter\Debug\Toolbar\Collectors\Database::collect');
+    Events::on('pre_system', function() {
 
-	Events::on('pre_system', function()
-    {
-		if (ENVIRONMENT !== 'testing')
-		{
-			ob_start(function ($buffer) {
-				return $buffer;
-			});
-		}
+    	while (ob_get_level() > 0)
+    	{
+    		ob_end_flush();
+    	}
 
-		Services::toolbar()->respond();
-	});
+    	ob_start(function ($buffer) {
+    		return $buffer;
+    	});
+
+    	/*
+    	 * --------------------------------------------------------------------
+    	 * Debug Toolbar Listeners.
+    	 * --------------------------------------------------------------------
+    	 * If you delete, they will no longer be collected.
+    	 */
+    	if (ENVIRONMENT !== 'production')
+    	{
+            Events::on('DBQuery', 'CodeIgniter\Debug\Toolbar\Collectors\Database::collect');
+    		
+            Services::toolbar()->respond();
+    	}
+
+    });
 }
 
-\BasicApp\Admin\AdminEvents::onAdminOptionsMenu(function($menu) {
+SystemEvents::onPreSystem(function() {
 
-    if (\BasicApp\Configs\Controllers\Admin\Config::checkAccess())
-    {
-        $modelClass = \App\Models\ApplicationConfigModel::class;
+    require APPPATH . 'ThirdParty/bootstrap.php';
 
-        $menu->items[$modelClass] = [
-            'label' => $modelClass::getFormName(),
-            'icon' => 'fa fa-desktop',
-            'url' => Url::createUrl('admin/config', ['class' => $modelClass])
-        ];
-    }
 });
 
-\BasicApp\Blog\BlogEvents::onBlogPostText(function($event) {
+if (class_exists(SiteEvents::class))
+{
+    SiteEvents::onSeed(function($created) {
 
-    $parser = new \Michelf\MarkdownExtra;
+        if ($created)
+        {
+            \BasicApp\Site\Models\PageModel::getPage('about', true, [
+                'page_name' => 'About',
+                'page_text' => '<p>About page text.</p>',
+                'page_published' => 1
+            ]);
 
-    $event->result = $parser->transform($event->result);
-});
+            $mainMenu = \BasicApp\Site\Models\MenuModel::getMenu('main', false);
 
-\BasicApp\System\SystemEvents::onSeeder(function() {
+            if ($mainMenu)
+            {
+                \BasicApp\Site\Models\MenuItemModel::getEntity(
+                    ['item_menu_id' => $mainMenu->menu_id, 'item_url' => '/page/about'], 
+                    true, 
+                    [
+                        'item_name' => 'About',
+                        'item_enabled' => 1,
+                        'item_sort' => 10
+                    ]
+                );
+            }
+        }
+
+    });
+}
+
+if (class_exists(AdminEvents::class))
+{
+    AdminEvents::onRegisterAssets(function($event) {
+
+        \BasicApp\TinyMceJs\Assets::register($event->head, $event->beginBody, $event->endBody);
+        \BasicApp\CodeMirrorJs\Assets::register($event->head, $event->beginBody, $event->endBody);
+
+    });
+}
+
+SystemEvents::onSeed(function() {
 
     $seeder = Database::seeder();
 
-    $seeder->call('AppSeeder');
+    $seeder->call(\App\Database\Seeds\AppSeeder::class);
 });
+
+if (class_exists(AdminEvents::class))
+{
+    AdminEvents::onOptionsMenu(function($event)
+    {
+        $modelClass = \App\Models\AppConfigModel::class;
+
+        $event->items[$modelClass] = [
+            'label' => t('admin.menu', 'Application'),
+            'icon' => 'fa fa-desktop',
+            'url' => Url::createUrl('admin/config', ['class' => $modelClass])
+        ];
+    });
+}

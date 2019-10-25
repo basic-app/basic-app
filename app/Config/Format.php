@@ -1,8 +1,8 @@
-<?php namespace Config;
+<?php
 
-use CodeIgniter\Config\BaseConfig;
+namespace Config;
 
-class Format extends BaseConfig
+class Format extends \BasicApp\System\Config\App\BaseFormat
 {
 	/*
 	|--------------------------------------------------------------------------
