@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb65f0d74944f53de418ec3c54a963a0",
+    "content-hash": "95466d44d62d289e0c3fab04a3ef004d",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -783,10 +783,10 @@
         },
         {
             "name": "npm-asset/codemirror",
-            "version": "5.49.0",
+            "version": "5.49.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.49.0.tgz"
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.49.2.tgz"
             },
             "type": "npm-asset",
             "license": [
