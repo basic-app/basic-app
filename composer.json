@@ -31,7 +31,7 @@
     },
     "extra": {
         "BasicApp\\Core\\Composer::postCreateProject": {
-            "copyFiles": [
+            "copy": [
                 {
                     "env": ".env"                    
                 }
