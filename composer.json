@@ -33,7 +33,9 @@
         "BasicApp\\Core\\Composer::postCreateProject": {
             "copy": [
                 {
-                    "env": ".env"                    
+                    "env": ".env",
+                    "environment/public/robots.txt": "public/robots.txt",
+                    "environment/public/favicon.ico": "public/favicon.ico"                    
                 }
             ],
             "setPermission": [

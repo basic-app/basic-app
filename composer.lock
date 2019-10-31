@@ -418,16 +418,16 @@
         },
         {
             "name": "bower-asset/tinymce",
-            "version": "5.1.0",
+            "version": "5.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "a4eca7a227e4dd97ed4356f708f0f481ab5164cb"
+                "url": "git@github.com:tinymce/tinymce-dist.git",
+                "reference": "782aa3876f354b8d04fbf1124c4aa440cec9d199"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/a4eca7a227e4dd97ed4356f708f0f481ab5164cb",
-                "reference": "a4eca7a227e4dd97ed4356f708f0f481ab5164cb"
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/782aa3876f354b8d04fbf1124c4aa440cec9d199",
+                "reference": "782aa3876f354b8d04fbf1124c4aa440cec9d199"
             },
             "type": "bower-asset",
             "license": [
