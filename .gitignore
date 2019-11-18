@@ -1,2 +1,4 @@
 /vendor
 /.env
+/public/robots.txt
+/public/favicon.ico
