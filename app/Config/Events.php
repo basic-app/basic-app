@@ -85,6 +85,22 @@ if (class_exists(SiteEvents::class))
                     ]
                 );
             }
+
+            $socialMenu = \BasicApp\Site\Models\MenuModel::getMenu('social', true, ['menu_name' => 'Social Buttons']);
+
+            if ($socialMenu)
+            {
+                \BasicApp\Site\Models\MenuItemModel::getEntity(
+                    ['item_menu_id' => $socialMenu->menu_id, 'item_url' => 'https://github.com/basic-app'], 
+                    true, 
+                    [
+                        'item_name' => 'GitHub',
+                        'item_enabled' => 1,
+                        'item_sort' => 10,
+                        'item_icon' => 'fab fa-github'
+                    ]
+                );
+            }
         }
 
     });

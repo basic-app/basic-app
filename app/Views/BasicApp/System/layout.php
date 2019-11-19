@@ -38,26 +38,20 @@ if (class_exists(SiteEvents::class))
     $defaultDescription = block('layout.defaultDescription', $defaultDescription);
 }
 
-// contacts menu
-
 $contactsMenu = [];
 
 foreach(menu_items('social', true, ['menu_name' => 'Social Buttons']) as $menuItem)
 {
     $contactsMenu[] = [
-        'icon' => $menuItem->item_icon,
-        'url' => $menuItem->item_url,
+        'icon' =>  ! empty($menuItem['icon']) ? ($menuItem['icon'] . ' fa-stack-1x fa-inverse') : null,
+        'url' => $menuItem['url'],
         'options' => [
-            'title' => $menuItem->item_name
+            'title' => $menuItem['label']
         ]
     ];
 }
 
-// --
-
 $appConfig = config(App\Models\AppConfig::class);
-
-// --
 
 echo $theme->mainLayout([
     'backgroundImage' => $appConfig->getBackgroundImageUrl(),
@@ -69,5 +63,5 @@ echo $theme->mainLayout([
     'breadcrumbs' => array_key_exists('breadcrumbs', $this->data) ? $this->data['breadcrumbs'] : [],
     'content' => $content,
     'copyright' => $copyright,
-    'contactsMenu' => $contactsMenu
+    'socialMenu' => $contactsMenu
 ]);
