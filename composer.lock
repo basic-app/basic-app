@@ -338,12 +338,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme.git",
-                "reference": "18a9fdc7a14cf6b6d3f8de1f58484b6376f9c733"
+                "reference": "9ab80df6ee6be6c86321a1b1d6433c6ae8ba4432"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme/zipball/18a9fdc7a14cf6b6d3f8de1f58484b6376f9c733",
-                "reference": "18a9fdc7a14cf6b6d3f8de1f58484b6376f9c733",
+                "url": "https://api.github.com/repos/basic-app/theme/zipball/9ab80df6ee6be6c86321a1b1d6433c6ae8ba4432",
+                "reference": "9ab80df6ee6be6c86321a1b1d6433c6ae8ba4432",
                 "shasum": ""
             },
             "require": {
@@ -363,7 +363,7 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-11-18T16:50:21+00:00"
+            "time": "2019-11-19T09:01:08+00:00"
         },
         {
             "name": "basic-app/theme-bootstrap4",
