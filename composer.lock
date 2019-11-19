@@ -226,12 +226,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-configs.git",
-                "reference": "a46882a50f7be8eb5248c59f88f5f270f2a5d380"
+                "reference": "57365594fb9b0620e408477e7a29ee65656ec5ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/a46882a50f7be8eb5248c59f88f5f270f2a5d380",
-                "reference": "a46882a50f7be8eb5248c59f88f5f270f2a5d380",
+                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/57365594fb9b0620e408477e7a29ee65656ec5ae",
+                "reference": "57365594fb9b0620e408477e7a29ee65656ec5ae",
                 "shasum": ""
             },
             "type": "library",
@@ -244,7 +244,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-18T17:19:26+00:00"
+            "time": "2019-11-19T10:18:37+00:00"
         },
         {
             "name": "basic-app/module-i18n",
