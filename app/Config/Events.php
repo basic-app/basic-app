@@ -100,7 +100,24 @@ if (class_exists(AdminEvents::class))
     });
 }
 
-SystemEvents::onSeed(function() {
+SystemEvents::onSeed(function($event) {
+
+    if ($event->reset)
+    {
+        $files = \BasicApp\Helpers\FileHelper::readDirectory(FCPATH . 'uploaded/app');
+
+        foreach($files as $file)
+        {
+            if ($file == '.gitignore')
+            {
+                continue;
+            }
+
+            \BasicApp\Helper\FileHelper::delete(FCPATH . 'uploaded/app/' . $file);
+
+            \BasicApp\Helpers\CliHelper::message('Deleted: ' . $file);
+        }
+    }
 
     $seeder = Database::seeder();
 
