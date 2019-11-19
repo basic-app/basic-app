@@ -113,7 +113,7 @@ SystemEvents::onSeed(function($event) {
                 continue;
             }
 
-            \BasicApp\Helper\FileHelper::delete(FCPATH . 'uploaded/app/' . $file);
+            \BasicApp\Helpers\FileHelper::delete(FCPATH . 'uploaded/app/' . $file);
 
             \BasicApp\Helpers\CliHelper::message('Deleted: ' . $file);
         }
