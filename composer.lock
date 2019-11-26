@@ -363,12 +363,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-user.git",
-                "reference": "5379d1078500c739f91d90be4621b700bce71ffc"
+                "reference": "6b9b73c95c8c13275f3dea76f75a2f6bdb58f937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-user/zipball/5379d1078500c739f91d90be4621b700bce71ffc",
-                "reference": "5379d1078500c739f91d90be4621b700bce71ffc",
+                "url": "https://api.github.com/repos/basic-app/module-user/zipball/6b9b73c95c8c13275f3dea76f75a2f6bdb58f937",
+                "reference": "6b9b73c95c8c13275f3dea76f75a2f6bdb58f937",
                 "shasum": ""
             },
             "require": {
@@ -390,7 +390,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-26T20:22:00+00:00"
+            "time": "2019-11-26T20:33:06+00:00"
         },
         {
             "name": "basic-app/system",

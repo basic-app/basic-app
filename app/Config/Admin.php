@@ -12,7 +12,7 @@ class Admin extends \BasicApp\Admin\Config\BaseAdmin
             'name' => 'admin',
             'password' => 'admin',
             'email' => 'admin@example.com',
-            'avatar' => '/themes/colorlib-cool-admin/images/icon/avatar-02.jpg',
+            'avatar' => '/themes/colorlib-cool-admin/images/icon/avatar-01.jpg',
             'roles' => [AdminModel::ROLE_ADMIN]
         ]
     ];
