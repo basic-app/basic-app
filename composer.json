@@ -14,7 +14,8 @@
         "basic-app/theme-bootstrap4": "*",
         "basic-app/theme-cool-admin": "*",
         "basic-app/js-tinymce": "*",
-        "basic-app/js-codemirror": "*"
+        "basic-app/js-codemirror": "*",
+        "basic-app/module-user": "dev-master"
     },
     "scripts": {
         "post-create-project-cmd": [

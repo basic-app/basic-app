@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bed73e9266f05bfaa6ffb54d9eb1db",
+    "content-hash": "fe66a241f45d6a630c3342ac672055c9",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "f9faab757a99401dee5c91f6f3917ed3c3be0cb8"
+                "reference": "a07dcda1a5afa291edb9f63145b431561b4a62e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/f9faab757a99401dee5c91f6f3917ed3c3be0cb8",
-                "reference": "f9faab757a99401dee5c91f6f3917ed3c3be0cb8",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/a07dcda1a5afa291edb9f63145b431561b4a62e5",
+                "reference": "a07dcda1a5afa291edb9f63145b431561b4a62e5",
                 "shasum": ""
             },
             "require": {
@@ -35,7 +35,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-19T08:27:42+00:00"
+            "time": "2019-11-25T12:54:24+00:00"
         },
         {
             "name": "basic-app/core",
@@ -43,15 +43,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "483ba731a9eb26b82f4200093b13fbe9052e2f1f"
+                "reference": "b1209f5e9e630f1624701f314ed6b3bba51f1960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/483ba731a9eb26b82f4200093b13fbe9052e2f1f",
-                "reference": "483ba731a9eb26b82f4200093b13fbe9052e2f1f",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/b1209f5e9e630f1624701f314ed6b3bba51f1960",
+                "reference": "b1209f5e9e630f1624701f314ed6b3bba51f1960",
                 "shasum": ""
             },
             "require": {
+                "basic-app/crud": "*",
                 "codeigniter4/framework": "*",
                 "composer-plugin-api": "^1.0",
                 "denis303/codeigniter4-form": "*",
@@ -79,7 +80,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-19T06:44:26+00:00"
+            "time": "2019-11-25T12:08:12+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -87,12 +88,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/crud.git",
-                "reference": "27d47a4e0429a71f38aecd939cdc3858476c4448"
+                "reference": "0ce3cd966c2cce29b3db140b008d439d3d630233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/crud/zipball/27d47a4e0429a71f38aecd939cdc3858476c4448",
-                "reference": "27d47a4e0429a71f38aecd939cdc3858476c4448",
+                "url": "https://api.github.com/repos/basic-app/crud/zipball/0ce3cd966c2cce29b3db140b008d439d3d630233",
+                "reference": "0ce3cd966c2cce29b3db140b008d439d3d630233",
                 "shasum": ""
             },
             "type": "library",
@@ -105,7 +106,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-10-19T22:31:29+00:00"
+            "time": "2019-11-25T12:53:01+00:00"
         },
         {
             "name": "basic-app/html-purifier",
@@ -113,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/html-purifier.git",
-                "reference": "1596892d6f79faa19621d665ab389598d2d94690"
+                "reference": "3834c3b5c4a48fb4486d83ccfe6e984d1abe01bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/html-purifier/zipball/1596892d6f79faa19621d665ab389598d2d94690",
-                "reference": "1596892d6f79faa19621d665ab389598d2d94690",
+                "url": "https://api.github.com/repos/basic-app/html-purifier/zipball/3834c3b5c4a48fb4486d83ccfe6e984d1abe01bc",
+                "reference": "3834c3b5c4a48fb4486d83ccfe6e984d1abe01bc",
                 "shasum": ""
             },
             "require": {
@@ -134,7 +135,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-19T07:49:06+00:00"
+            "time": "2019-11-24T10:01:05+00:00"
         },
         {
             "name": "basic-app/js-codemirror",
@@ -193,6 +194,32 @@
                 "MIT"
             ],
             "time": "2019-11-18T17:46:36+00:00"
+        },
+        {
+            "name": "basic-app/mailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/mailer.git",
+                "reference": "a2838bdcab139a6b11cdd4e38c77fc5f1eb67378"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/mailer/zipball/a2838bdcab139a6b11cdd4e38c77fc5f1eb67378",
+                "reference": "a2838bdcab139a6b11cdd4e38c77fc5f1eb67378",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Mailer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-11-26T20:15:41+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -273,17 +300,46 @@
             "time": "2019-11-19T10:19:54+00:00"
         },
         {
+            "name": "basic-app/module-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-message.git",
+                "reference": "cc34ddbd842720be3b653bac6401cd21ddc448bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-message/zipball/cc34ddbd842720be3b653bac6401cd21ddc448bd",
+                "reference": "cc34ddbd842720be3b653bac6401cd21ddc448bd",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/mailer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Message\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-11-17T06:17:13+00:00"
+        },
+        {
             "name": "basic-app/module-site",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-site.git",
-                "reference": "2f66946d409bc6d24b2c0805f545021160330559"
+                "reference": "9a00cfe8d45165869bc9a8060f74463ea0187d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-site/zipball/2f66946d409bc6d24b2c0805f545021160330559",
-                "reference": "2f66946d409bc6d24b2c0805f545021160330559",
+                "url": "https://api.github.com/repos/basic-app/module-site/zipball/9a00cfe8d45165869bc9a8060f74463ea0187d14",
+                "reference": "9a00cfe8d45165869bc9a8060f74463ea0187d14",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +355,42 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-19T10:14:38+00:00"
+            "time": "2019-11-24T09:51:47+00:00"
+        },
+        {
+            "name": "basic-app/module-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-user.git",
+                "reference": "aea959ac20a9ef228171596f8d74b8f35e3de6a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-user/zipball/aea959ac20a9ef228171596f8d74b8f35e3de6a3",
+                "reference": "aea959ac20a9ef228171596f8d74b8f35e3de6a3",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/module-message": "*",
+                "basic-app/module-site": "*",
+                "denis303/codeigniter4-user": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\User\\": ""
+                },
+                "files": [
+                    "_autoload/BaseUser.php",
+                    "_autoload/BaseUserModel.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-11-26T18:08:47+00:00"
         },
         {
             "name": "basic-app/system",
@@ -307,12 +398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "fabd91342f556f5472aebc79918513b25eca4c8e"
+                "reference": "2c683897c9b0a81e52e12c31fe400b54d81b2f2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/fabd91342f556f5472aebc79918513b25eca4c8e",
-                "reference": "fabd91342f556f5472aebc79918513b25eca4c8e",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/2c683897c9b0a81e52e12c31fe400b54d81b2f2d",
+                "reference": "2c683897c9b0a81e52e12c31fe400b54d81b2f2d",
                 "shasum": ""
             },
             "require": {
@@ -330,7 +421,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-19T08:30:49+00:00"
+            "time": "2019-11-23T22:30:07+00:00"
         },
         {
             "name": "basic-app/theme",
@@ -338,12 +429,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme.git",
-                "reference": "9ab80df6ee6be6c86321a1b1d6433c6ae8ba4432"
+                "reference": "6ede64b9814099c4e0068c6826eb9fc378ffcb02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme/zipball/9ab80df6ee6be6c86321a1b1d6433c6ae8ba4432",
-                "reference": "9ab80df6ee6be6c86321a1b1d6433c6ae8ba4432",
+                "url": "https://api.github.com/repos/basic-app/theme/zipball/6ede64b9814099c4e0068c6826eb9fc378ffcb02",
+                "reference": "6ede64b9814099c4e0068c6826eb9fc378ffcb02",
                 "shasum": ""
             },
             "require": {
@@ -363,7 +454,7 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-11-19T09:01:08+00:00"
+            "time": "2019-11-24T09:26:47+00:00"
         },
         {
             "name": "basic-app/theme-bootstrap4",
@@ -371,12 +462,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-bootstrap4.git",
-                "reference": "adb3b21259517991c32e04358fea745955baa2b0"
+                "reference": "d2c559c66881a39650f4beb1c64cee3f36dd6e22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-bootstrap4/zipball/adb3b21259517991c32e04358fea745955baa2b0",
-                "reference": "adb3b21259517991c32e04358fea745955baa2b0",
+                "url": "https://api.github.com/repos/basic-app/theme-bootstrap4/zipball/d2c559c66881a39650f4beb1c64cee3f36dd6e22",
+                "reference": "d2c559c66881a39650f4beb1c64cee3f36dd6e22",
                 "shasum": ""
             },
             "require": {
@@ -393,7 +484,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-10-22T08:08:34+00:00"
+            "time": "2019-11-24T08:31:33+00:00"
         },
         {
             "name": "basic-app/theme-clean-blog",
@@ -533,12 +624,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/denis303/codeigniter4-form.git",
-                "reference": "c9a49b120fcdda539edf3acf7b80a5e99bdd895c"
+                "reference": "eb0637b29a669d61a5f8df8f93ce4431c4976bda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/denis303/codeigniter4-form/zipball/c9a49b120fcdda539edf3acf7b80a5e99bdd895c",
-                "reference": "c9a49b120fcdda539edf3acf7b80a5e99bdd895c",
+                "url": "https://api.github.com/repos/denis303/codeigniter4-form/zipball/eb0637b29a669d61a5f8df8f93ce4431c4976bda",
+                "reference": "eb0637b29a669d61a5f8df8f93ce4431c4976bda",
                 "shasum": ""
             },
             "require": {
@@ -554,7 +645,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-10-18T20:31:46+00:00"
+            "time": "2019-11-24T08:23:48+00:00"
         },
         {
             "name": "denis303/codeigniter4-migration",
@@ -607,6 +698,35 @@
                 "MIT"
             ],
             "time": "2019-11-18T07:36:11+00:00"
+        },
+        {
+            "name": "denis303/codeigniter4-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/denis303/codeigniter4-user.git",
+                "reference": "b262f70bed6288c30bf7c088d6752074254aa1cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/denis303/codeigniter4-user/zipball/b262f70bed6288c30bf7c088d6752074254aa1cc",
+                "reference": "b262f70bed6288c30bf7c088d6752074254aa1cc",
+                "shasum": ""
+            },
+            "require": {
+                "denis303/codeigniter4-migration": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "denis303\\user\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-11-18T08:43:30+00:00"
         },
         {
             "name": "denis303/codeigniter4-user-service",
@@ -857,10 +977,10 @@
         },
         {
             "name": "npm-asset/tinymce",
-            "version": "5.1.1",
+            "version": "5.1.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.1.1.tgz"
+                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.1.2.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -873,12 +993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/bootstrap4.git",
-                "reference": "d3c5bfa317586a027356ea18f25b5d32b38f786f"
+                "reference": "fb8eda73ea290e07dee8787eb5e2559f25057e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/bootstrap4/zipball/d3c5bfa317586a027356ea18f25b5d32b38f786f",
-                "reference": "d3c5bfa317586a027356ea18f25b5d32b38f786f",
+                "url": "https://api.github.com/repos/phptheme/bootstrap4/zipball/fb8eda73ea290e07dee8787eb5e2559f25057e2f",
+                "reference": "fb8eda73ea290e07dee8787eb5e2559f25057e2f",
                 "shasum": ""
             },
             "require": {
@@ -894,7 +1014,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-18T16:40:24+00:00"
+            "time": "2019-11-25T15:57:49+00:00"
         },
         {
             "name": "phptheme/core",
@@ -928,12 +1048,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/html.git",
-                "reference": "715b2af8e6c1eece50a6c4fbaed2f8a62222d4f9"
+                "reference": "9806d7cbe05bf1730b9bf8df0ef736673605065e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/html/zipball/715b2af8e6c1eece50a6c4fbaed2f8a62222d4f9",
-                "reference": "715b2af8e6c1eece50a6c4fbaed2f8a62222d4f9",
+                "url": "https://api.github.com/repos/phptheme/html/zipball/9806d7cbe05bf1730b9bf8df0ef736673605065e",
+                "reference": "9806d7cbe05bf1730b9bf8df0ef736673605065e",
                 "shasum": ""
             },
             "type": "library",
@@ -946,7 +1066,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-18T16:41:39+00:00"
+            "time": "2019-11-25T14:23:27+00:00"
         },
         {
             "name": "phptheme/theme-bootstrap4",
@@ -954,12 +1074,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-bootstrap4.git",
-                "reference": "30b190e45fb057a0b2803034b2971d45e1eed929"
+                "reference": "4c23d51d12716c143eabd38e405cb60b79ecbd8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-bootstrap4/zipball/30b190e45fb057a0b2803034b2971d45e1eed929",
-                "reference": "30b190e45fb057a0b2803034b2971d45e1eed929",
+                "url": "https://api.github.com/repos/phptheme/theme-bootstrap4/zipball/4c23d51d12716c143eabd38e405cb60b79ecbd8d",
+                "reference": "4c23d51d12716c143eabd38e405cb60b79ecbd8d",
                 "shasum": ""
             },
             "require": {
@@ -977,7 +1097,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-18T16:45:39+00:00"
+            "time": "2019-11-26T08:55:37+00:00"
         },
         {
             "name": "phptheme/theme-clean-blog",
@@ -985,12 +1105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-clean-blog.git",
-                "reference": "d5361aa889bdefa17faf7af0aa2cf36f20d1909a"
+                "reference": "d37c0dac347abc992459757c490fcd56a59cb29d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/d5361aa889bdefa17faf7af0aa2cf36f20d1909a",
-                "reference": "d5361aa889bdefa17faf7af0aa2cf36f20d1909a",
+                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/d37c0dac347abc992459757c490fcd56a59cb29d",
+                "reference": "d37c0dac347abc992459757c490fcd56a59cb29d",
                 "shasum": ""
             },
             "require": {
@@ -1004,7 +1124,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-11-19T11:24:10+00:00"
+            "time": "2019-11-26T18:10:40+00:00"
         },
         {
             "name": "phptheme/theme-cool-admin",
@@ -1012,12 +1132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-cool-admin.git",
-                "reference": "d398ca2a81d902ed982aec6bfcf7b93d8dfcf8ac"
+                "reference": "426071ed17c4dea8ae3deffbcfd60828315fe2ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/d398ca2a81d902ed982aec6bfcf7b93d8dfcf8ac",
-                "reference": "d398ca2a81d902ed982aec6bfcf7b93d8dfcf8ac",
+                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/426071ed17c4dea8ae3deffbcfd60828315fe2ec",
+                "reference": "426071ed17c4dea8ae3deffbcfd60828315fe2ec",
                 "shasum": ""
             },
             "require": {
@@ -1033,7 +1153,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-18T16:46:12+00:00"
+            "time": "2019-11-26T09:33:19+00:00"
         },
         {
             "name": "psr/log",
@@ -1182,7 +1302,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "basic-app/module-user": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
