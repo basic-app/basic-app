@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-i18n.git",
-                "reference": "78d346597f6a4db593cb6c440e6cf2718b2a5168"
+                "reference": "b290555ac4f73faf2ef71d2ada72b1d395b74d76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/78d346597f6a4db593cb6c440e6cf2718b2a5168",
-                "reference": "78d346597f6a4db593cb6c440e6cf2718b2a5168",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/b290555ac4f73faf2ef71d2ada72b1d395b74d76",
+                "reference": "b290555ac4f73faf2ef71d2ada72b1d395b74d76",
                 "shasum": ""
             },
             "type": "library",
@@ -297,7 +297,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-12-13T08:21:25+00:00"
+            "time": "2019-12-13T09:00:33+00:00"
         },
         {
             "name": "basic-app/module-message",
@@ -398,12 +398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "3dada7f6ebc4ca7181ff5d6f68a3a67f81e0b8f3"
+                "reference": "150efa00f18106a4824924a0129cb9b21b3290a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/3dada7f6ebc4ca7181ff5d6f68a3a67f81e0b8f3",
-                "reference": "3dada7f6ebc4ca7181ff5d6f68a3a67f81e0b8f3",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/150efa00f18106a4824924a0129cb9b21b3290a8",
+                "reference": "150efa00f18106a4824924a0129cb9b21b3290a8",
                 "shasum": ""
             },
             "require": {
@@ -420,7 +420,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-12-13T08:33:06+00:00"
+            "time": "2019-12-13T09:01:56+00:00"
         },
         {
             "name": "basic-app/theme",
