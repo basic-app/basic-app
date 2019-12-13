@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe66a241f45d6a630c3342ac672055c9",
+    "content-hash": "ed3241978200626c7f7c682377925f2f",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -272,6 +272,32 @@
                 "MIT"
             ],
             "time": "2019-11-19T10:31:34+00:00"
+        },
+        {
+            "name": "basic-app/module-i18n",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-i18n.git",
+                "reference": "78d346597f6a4db593cb6c440e6cf2718b2a5168"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/78d346597f6a4db593cb6c440e6cf2718b2a5168",
+                "reference": "78d346597f6a4db593cb6c440e6cf2718b2a5168",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\I18n\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-12-13T08:21:25+00:00"
         },
         {
             "name": "basic-app/module-message",
@@ -1108,17 +1134,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-clean-blog.git",
-                "reference": "d37c0dac347abc992459757c490fcd56a59cb29d"
+                "reference": "9e4a040878321279d75a9196798861bab15019c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/d37c0dac347abc992459757c490fcd56a59cb29d",
-                "reference": "d37c0dac347abc992459757c490fcd56a59cb29d",
+                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/9e4a040878321279d75a9196798861bab15019c0",
+                "reference": "9e4a040878321279d75a9196798861bab15019c0",
                 "shasum": ""
             },
             "require": {
-                "phptheme/bootstrap4": "dev-master",
-                "phptheme/core": "dev-master"
+                "phptheme/bootstrap4": "*"
             },
             "type": "library",
             "autoload": {
@@ -1127,7 +1152,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-11-26T18:10:40+00:00"
+            "time": "2019-12-13T08:53:49+00:00"
         },
         {
             "name": "phptheme/theme-cool-admin",
