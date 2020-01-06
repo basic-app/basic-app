@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed3241978200626c7f7c682377925f2f",
+    "content-hash": "a960d1d5e5e7e11c1d7d8c499a8cf70b",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -43,12 +43,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "aa2a964dd4db30d9392238569155ac6cabb202a1"
+                "reference": "1d0e1a7fc6c6bbf7762ab6699dcd784cb98d67f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/aa2a964dd4db30d9392238569155ac6cabb202a1",
-                "reference": "aa2a964dd4db30d9392238569155ac6cabb202a1",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/1d0e1a7fc6c6bbf7762ab6699dcd784cb98d67f4",
+                "reference": "1d0e1a7fc6c6bbf7762ab6699dcd784cb98d67f4",
                 "shasum": ""
             },
             "require": {
@@ -73,14 +73,15 @@
                     "BasicApp\\Helpers\\": "Helpers/",
                     "BasicApp\\Exceptions\\": "Exceptions/",
                     "BasicApp\\Filters\\": "Filters/",
-                    "BasicApp\\Validators\\": "Validators/"
+                    "BasicApp\\Validators\\": "Validators/",
+                    "BasicApp\\Events\\": "Events/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2019-12-04T10:15:49+00:00"
+            "time": "2019-12-25T08:07:57+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -88,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/crud.git",
-                "reference": "0ce3cd966c2cce29b3db140b008d439d3d630233"
+                "reference": "60a1252c7b5a3b397a22a23fe79986de4c58652d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/crud/zipball/0ce3cd966c2cce29b3db140b008d439d3d630233",
-                "reference": "0ce3cd966c2cce29b3db140b008d439d3d630233",
+                "url": "https://api.github.com/repos/basic-app/crud/zipball/60a1252c7b5a3b397a22a23fe79986de4c58652d",
+                "reference": "60a1252c7b5a3b397a22a23fe79986de4c58652d",
                 "shasum": ""
             },
             "type": "library",
@@ -106,7 +107,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-25T12:53:01+00:00"
+            "time": "2019-12-25T08:06:37+00:00"
         },
         {
             "name": "basic-app/html-purifier",
@@ -114,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/html-purifier.git",
-                "reference": "3834c3b5c4a48fb4486d83ccfe6e984d1abe01bc"
+                "reference": "2701f8c577ef239a35c601e94fc089070074c3cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/html-purifier/zipball/3834c3b5c4a48fb4486d83ccfe6e984d1abe01bc",
-                "reference": "3834c3b5c4a48fb4486d83ccfe6e984d1abe01bc",
+                "url": "https://api.github.com/repos/basic-app/html-purifier/zipball/2701f8c577ef239a35c601e94fc089070074c3cb",
+                "reference": "2701f8c577ef239a35c601e94fc089070074c3cb",
                 "shasum": ""
             },
             "require": {
@@ -135,7 +136,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-24T10:01:05+00:00"
+            "time": "2020-01-06T17:32:57+00:00"
         },
         {
             "name": "basic-app/js-codemirror",
@@ -279,12 +280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-i18n.git",
-                "reference": "b290555ac4f73faf2ef71d2ada72b1d395b74d76"
+                "reference": "3c8327ec7cd38acfa7ab53436e857996a00690a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/b290555ac4f73faf2ef71d2ada72b1d395b74d76",
-                "reference": "b290555ac4f73faf2ef71d2ada72b1d395b74d76",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/3c8327ec7cd38acfa7ab53436e857996a00690a0",
+                "reference": "3c8327ec7cd38acfa7ab53436e857996a00690a0",
                 "shasum": ""
             },
             "type": "library",
@@ -297,7 +298,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-12-13T09:00:33+00:00"
+            "time": "2020-01-06T18:17:15+00:00"
         },
         {
             "name": "basic-app/module-message",
@@ -305,12 +306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-message.git",
-                "reference": "cc34ddbd842720be3b653bac6401cd21ddc448bd"
+                "reference": "211560896b5d6164787d4f758a141e2e9814252e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-message/zipball/cc34ddbd842720be3b653bac6401cd21ddc448bd",
-                "reference": "cc34ddbd842720be3b653bac6401cd21ddc448bd",
+                "url": "https://api.github.com/repos/basic-app/module-message/zipball/211560896b5d6164787d4f758a141e2e9814252e",
+                "reference": "211560896b5d6164787d4f758a141e2e9814252e",
                 "shasum": ""
             },
             "require": {
@@ -326,7 +327,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-17T06:17:13+00:00"
+            "time": "2019-12-24T07:28:39+00:00"
         },
         {
             "name": "basic-app/module-site",
@@ -334,16 +335,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-site.git",
-                "reference": "9a00cfe8d45165869bc9a8060f74463ea0187d14"
+                "reference": "e6488bc698adf25ad133887af9416c1f24523c22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-site/zipball/9a00cfe8d45165869bc9a8060f74463ea0187d14",
-                "reference": "9a00cfe8d45165869bc9a8060f74463ea0187d14",
+                "url": "https://api.github.com/repos/basic-app/module-site/zipball/e6488bc698adf25ad133887af9416c1f24523c22",
+                "reference": "e6488bc698adf25ad133887af9416c1f24523c22",
                 "shasum": ""
-            },
-            "require": {
-                "basic-app/html-purifier": "*"
             },
             "type": "library",
             "autoload": {
@@ -355,7 +353,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-24T09:51:47+00:00"
+            "time": "2020-01-06T18:19:18+00:00"
         },
         {
             "name": "basic-app/module-user",
@@ -398,12 +396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "150efa00f18106a4824924a0129cb9b21b3290a8"
+                "reference": "254ecfba0b9635c3d8968e8658eb5728963e068b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/150efa00f18106a4824924a0129cb9b21b3290a8",
-                "reference": "150efa00f18106a4824924a0129cb9b21b3290a8",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/254ecfba0b9635c3d8968e8658eb5728963e068b",
+                "reference": "254ecfba0b9635c3d8968e8658eb5728963e068b",
                 "shasum": ""
             },
             "require": {
@@ -420,7 +418,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-12-13T09:01:56+00:00"
+            "time": "2019-12-13T10:43:20+00:00"
         },
         {
             "name": "basic-app/theme",
@@ -428,12 +426,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme.git",
-                "reference": "d241efcd5f62306d42c683e4b5254634d637fa3c"
+                "reference": "856325b3d0972d02fe5ca445c94a9b6e338f7a92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme/zipball/d241efcd5f62306d42c683e4b5254634d637fa3c",
-                "reference": "d241efcd5f62306d42c683e4b5254634d637fa3c",
+                "url": "https://api.github.com/repos/basic-app/theme/zipball/856325b3d0972d02fe5ca445c94a9b6e338f7a92",
+                "reference": "856325b3d0972d02fe5ca445c94a9b6e338f7a92",
                 "shasum": ""
             },
             "require": {
@@ -453,7 +451,7 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-12-13T08:06:29+00:00"
+            "time": "2019-12-18T11:35:02+00:00"
         },
         {
             "name": "basic-app/theme-bootstrap4",
@@ -699,6 +697,32 @@
             "time": "2019-11-18T07:36:11+00:00"
         },
         {
+            "name": "denis303/codeigniter4-not-remember-me",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/denis303/codeigniter4-not-remember-me.git",
+                "reference": "6f7dc19c67da0e6877d6db797e332d02f270bbab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/denis303/codeigniter4-not-remember-me/zipball/6f7dc19c67da0e6877d6db797e332d02f270bbab",
+                "reference": "6f7dc19c67da0e6877d6db797e332d02f270bbab",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Denis303\\CodeIgniter\\": "*"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2020-01-06T16:38:03+00:00"
+        },
+        {
             "name": "denis303/codeigniter4-user",
             "version": "dev-master",
             "source": {
@@ -733,13 +757,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/denis303/codeigniter4-user-service.git",
-                "reference": "6d41106fce9a4100c89e810bcfc258f4761319b0"
+                "reference": "42047122034f9f3730edd093894c51c2fcca981e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/denis303/codeigniter4-user-service/zipball/6d41106fce9a4100c89e810bcfc258f4761319b0",
-                "reference": "6d41106fce9a4100c89e810bcfc258f4761319b0",
+                "url": "https://api.github.com/repos/denis303/codeigniter4-user-service/zipball/42047122034f9f3730edd093894c51c2fcca981e",
+                "reference": "42047122034f9f3730edd093894c51c2fcca981e",
                 "shasum": ""
+            },
+            "require": {
+                "denis303/codeigniter4-not-remember-me": "*"
             },
             "type": "library",
             "autoload": {
@@ -751,7 +778,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-10-10T16:02:43+00:00"
+            "time": "2019-12-25T14:44:20+00:00"
         },
         {
             "name": "denis303/php-download-helper",
@@ -964,10 +991,10 @@
         },
         {
             "name": "npm-asset/codemirror",
-            "version": "5.49.2",
+            "version": "5.50.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.49.2.tgz"
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.50.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -976,10 +1003,10 @@
         },
         {
             "name": "npm-asset/tinymce",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.1.4.tgz"
+                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.1.5.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1024,12 +1051,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/core.git",
-                "reference": "ba65fbb7ea0ed44530c4907adc06f72430fa1c45"
+                "reference": "d5580fcd8bc587392a52c71d9a3332cb727e87a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/core/zipball/ba65fbb7ea0ed44530c4907adc06f72430fa1c45",
-                "reference": "ba65fbb7ea0ed44530c4907adc06f72430fa1c45",
+                "url": "https://api.github.com/repos/phptheme/core/zipball/d5580fcd8bc587392a52c71d9a3332cb727e87a6",
+                "reference": "d5580fcd8bc587392a52c71d9a3332cb727e87a6",
                 "shasum": ""
             },
             "type": "library",
@@ -1042,7 +1069,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-12-13T08:03:18+00:00"
+            "time": "2019-12-27T16:16:15+00:00"
         },
         {
             "name": "phptheme/html",
@@ -1324,6 +1351,7 @@
                 "escaper",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-escaper",
             "time": "2019-09-05T20:03:20+00:00"
         }
     ],

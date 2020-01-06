@@ -1,3 +1,6 @@
 <?php
 
-require __DIR__ . '/basic-app/admin/Config/Admin.php';
+require __DIR__ . '/BasicApp/Admin/Config/Admin.php';
+require __DIR__ . '/BasicApp/Site/Models/Admin/Page.php';
+require __DIR__ . '/BasicApp/Site/Models/Admin/Block.php';
+require __DIR__ . '/BasicApp/I18n/Models/Admin/Translation.php';
