@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "c3e7f2f9060cee0a209c348bfbb64b18e77f72b7"
+                "reference": "4e5668e543a6e6c9290e73ca475c5d4c716b2fb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/c3e7f2f9060cee0a209c348bfbb64b18e77f72b7",
-                "reference": "c3e7f2f9060cee0a209c348bfbb64b18e77f72b7",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/4e5668e543a6e6c9290e73ca475c5d4c716b2fb6",
+                "reference": "4e5668e543a6e6c9290e73ca475c5d4c716b2fb6",
                 "shasum": ""
             },
             "type": "library",
@@ -246,7 +246,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-19T09:46:18+00:00"
+            "time": "2020-01-06T18:27:04+00:00"
         },
         {
             "name": "basic-app/module-configs",
