@@ -7,6 +7,9 @@ use BasicApp\System\SystemEvents;
 use BasicApp\Site\SiteEvents;
 use BasicApp\Admin\AdminEvents;
 use BasicApp\Helpers\Url;
+use BasicApp\System\Events\SystemResetEvent;
+use BasicApp\System\Events\SystemSeedEvent;
+use App\Models\AppConfigModel;
 
 /*
  * --------------------------------------------------------------------
@@ -49,7 +52,6 @@ if (!is_cli())
     		
             Services::toolbar()->respond();
     	}
-
     });
 }
 
@@ -59,85 +61,37 @@ SystemEvents::onPreSystem(function() {
 
 });
 
-if (class_exists(SiteEvents::class))
-{
-    SiteEvents::onSeed(function($created) {
-
-        if ($created)
-        {
-            \BasicApp\Site\Models\PageModel::getPage('about', true, [
-                'page_name' => 'About',
-                'page_text' => '<p>About page text.</p>',
-                'page_published' => 1
-            ]);
-
-            $mainMenu = \BasicApp\Site\Models\MenuModel::getMenu('main', false);
-
-            if ($mainMenu)
-            {
-                \BasicApp\Site\Models\MenuItemModel::getEntity(
-                    ['item_menu_id' => $mainMenu->menu_id, 'item_url' => '/page/about'], 
-                    true, 
-                    [
-                        'item_name' => 'About',
-                        'item_enabled' => 1,
-                        'item_sort' => 10
-                    ]
-                );
-            }
-
-            $socialMenu = \BasicApp\Site\Models\MenuModel::getMenu('social', true, ['menu_name' => 'Social Buttons']);
-
-            if ($socialMenu)
-            {
-                \BasicApp\Site\Models\MenuItemModel::getEntity(
-                    ['item_menu_id' => $socialMenu->menu_id, 'item_url' => 'https://github.com/basic-app'], 
-                    true, 
-                    [
-                        'item_name' => 'GitHub',
-                        'item_enabled' => 1,
-                        'item_sort' => 10,
-                        'item_icon' => 'fab fa-github'
-                    ]
-                );
-            }
-        }
-
-    });
-}
-
 if (class_exists(AdminEvents::class))
 {
-    AdminEvents::onRegisterAssets(function($event) {
-
+    AdminEvents::onRegisterAssets(function($event)
+    {
         \BasicApp\TinyMceJs\Assets::register($event->head, $event->beginBody, $event->endBody);
         \BasicApp\CodeMirrorJs\Assets::register($event->head, $event->beginBody, $event->endBody);
-
     });
 }
 
-SystemEvents::onSeed(function($event) {
-
-    if ($event->reset)
-    {
-        $files = \BasicApp\Helpers\FileHelper::readDirectory(FCPATH . 'uploaded/app');
-
-        foreach($files as $file)
-        {
-            if ($file == '.gitignore')
-            {
-                continue;
-            }
-
-            \BasicApp\Helpers\FileHelper::delete(FCPATH . 'uploaded/app/' . $file);
-
-            \BasicApp\Helpers\CliHelper::message('Deleted: ' . $file);
-        }
-    }
-
+SystemEvents::onSeed(function(SystemSeedEvent $event)
+{
     $seeder = Database::seeder();
 
     $seeder->call(\App\Database\Seeds\AppSeeder::class);
+});
+
+SystemEvents::onReset(function(SystemResetEvent $event) {
+
+    $files = \BasicApp\Helpers\FileHelper::readDirectory(FCPATH . 'uploaded/app');
+
+    foreach($files as $file)
+    {
+        if ($file == '.gitignore')
+        {
+            continue;
+        }
+
+        \BasicApp\Helpers\FileHelper::delete(FCPATH . 'uploaded/app/' . $file);
+
+        \BasicApp\Helpers\CliHelper::message('Deleted: ' . $file);
+    }
 });
 
 if (class_exists(AdminEvents::class))

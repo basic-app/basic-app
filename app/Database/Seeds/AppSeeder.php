@@ -3,37 +3,18 @@
 namespace App\Database\Seeds;
 
 use Exception;
+use BasicApp\Config\Models\ConfigModel;
+use BasicApp\Site\Config\Site as SiteConfig;
+use BasicApp\CleanBlogTheme\Theme as CleanBlogTheme;
 
 class AppSeeder extends \CodeIgniter\Database\Seeder
 {
 
     public function run()
     {
-        $db = \Config\Database::connect();
-        
-        $query = $db->table('configs')->where([
-            'config_class' => 'BasicApp\System\Config\System',
-            'config_property' => 'theme'            
-        ])->get();
+        $model = new ConfigModel;
 
-        if (!$query)
-        {
-            $error = $db->error();
-
-            throw new Exception($error);
-        }
-
-        $row = $query->getRowArray();
-
-        if (!$row)
-        {
-            $db->table('configs')->insert([
-                'config_class' => 'BasicApp\System\Config\System',
-                'config_property' => 'theme',
-                'config_value' => 'BasicApp\CleanBlogTheme\Theme'
-            ]);
-
-        }
+        $model->setValue(SiteConfig::class, 'theme', CleanBlogTheme::class);
     }
 
 }

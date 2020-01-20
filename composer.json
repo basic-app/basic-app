@@ -9,7 +9,9 @@
         "basic-app/system" : "*",
         "basic-app/admin" : "*",
         "basic-app/module-blog" : "*",
-        "basic-app/module-site" : "*",
+        "basic-app/module-page" : "*",
+        "basic-app/module-menu" : "*",
+        "basic-app/module-block" : "*",
         "basic-app/theme-clean-blog": "*",
         "basic-app/theme-bootstrap4": "*",
         "basic-app/theme-cool-admin": "*",
@@ -17,7 +19,9 @@
         "basic-app/js-codemirror": "*",
         "basic-app/module-user": "dev-master",
         "basic-app/module-i18n": "*",
-        "basic-app/html-purifier": "*"
+        "basic-app/html-purifier": "*",
+        "basic-app/site": "*",
+        "basic-app/member": "*"
     },
     "scripts": {
         "post-create-project-cmd": [

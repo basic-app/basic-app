@@ -1,10 +1,10 @@
 <?php
 
-namespace BasicApp\Site\Models\Admin;
+namespace BasicApp\Page\Models\Admin;
 
 use BasicApp\HtmlPurifier\HtmlPurifierEntityBehavior;
 
-class Block extends BaseBlock
+class Page extends BasePage
 {
 
     public function behaviors()
@@ -13,7 +13,7 @@ class Block extends BaseBlock
             'htmlPurifier' => [
                 'class' => HtmlPurifierEntityBehavior::class,
                 'attributes' => [
-                    'block_content'
+                    'page_text'
                 ]
             ]
         ]);
