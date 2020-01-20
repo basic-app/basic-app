@@ -309,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-configs.git",
-                "reference": "3d5a4df3b4032b00aed62f4af921c730e3aa2cec"
+                "reference": "6df726f7b0c5408be2063aca763b3e152bc959c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/3d5a4df3b4032b00aed62f4af921c730e3aa2cec",
-                "reference": "3d5a4df3b4032b00aed62f4af921c730e3aa2cec",
+                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/6df726f7b0c5408be2063aca763b3e152bc959c0",
+                "reference": "6df726f7b0c5408be2063aca763b3e152bc959c0",
                 "shasum": ""
             },
             "type": "library",
@@ -327,7 +327,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-01-11T18:49:45+00:00"
+            "time": "2020-01-20T21:02:53+00:00"
         },
         {
             "name": "basic-app/module-i18n",
@@ -335,12 +335,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-i18n.git",
-                "reference": "3c8327ec7cd38acfa7ab53436e857996a00690a0"
+                "reference": "249d95e3f37e8186655d40ebcba07e3bf1e1a68a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/3c8327ec7cd38acfa7ab53436e857996a00690a0",
-                "reference": "3c8327ec7cd38acfa7ab53436e857996a00690a0",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/249d95e3f37e8186655d40ebcba07e3bf1e1a68a",
+                "reference": "249d95e3f37e8186655d40ebcba07e3bf1e1a68a",
                 "shasum": ""
             },
             "type": "library",
@@ -353,7 +353,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-01-06T18:17:15+00:00"
+            "time": "2020-01-11T20:41:57+00:00"
         },
         {
             "name": "basic-app/module-menu",
@@ -361,12 +361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-menu.git",
-                "reference": "93b811d0ace05f2d6fcc8767bdb212eec3f24385"
+                "reference": "545c7f2647d70f2a68b92e9f4ec528b6a559239b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/93b811d0ace05f2d6fcc8767bdb212eec3f24385",
-                "reference": "93b811d0ace05f2d6fcc8767bdb212eec3f24385",
+                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/545c7f2647d70f2a68b92e9f4ec528b6a559239b",
+                "reference": "545c7f2647d70f2a68b92e9f4ec528b6a559239b",
                 "shasum": ""
             },
             "type": "library",
@@ -379,7 +379,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-01-11T18:31:12+00:00"
+            "time": "2020-01-20T21:25:50+00:00"
         },
         {
             "name": "basic-app/module-message",
@@ -416,12 +416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-page.git",
-                "reference": "d62eb7a057ee9046ada3f691160166742e9ee35e"
+                "reference": "ddb361a34f311f169303cfef6dab21da4ec712fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-page/zipball/d62eb7a057ee9046ada3f691160166742e9ee35e",
-                "reference": "d62eb7a057ee9046ada3f691160166742e9ee35e",
+                "url": "https://api.github.com/repos/basic-app/module-page/zipball/ddb361a34f311f169303cfef6dab21da4ec712fb",
+                "reference": "ddb361a34f311f169303cfef6dab21da4ec712fb",
                 "shasum": ""
             },
             "type": "library",
@@ -434,7 +434,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-01-11T18:30:34+00:00"
+            "time": "2020-01-20T21:23:02+00:00"
         },
         {
             "name": "basic-app/module-user",
@@ -477,12 +477,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "4f7bc641515383261435e5097ee096d6724e8061"
+                "reference": "4eb82e242c18e5db58c238039284f79dedd8ed19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/4f7bc641515383261435e5097ee096d6724e8061",
-                "reference": "4f7bc641515383261435e5097ee096d6724e8061",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/4eb82e242c18e5db58c238039284f79dedd8ed19",
+                "reference": "4eb82e242c18e5db58c238039284f79dedd8ed19",
                 "shasum": ""
             },
             "type": "library",
@@ -495,7 +495,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-01-10T20:23:28+00:00"
+            "time": "2020-01-11T20:25:43+00:00"
         },
         {
             "name": "basic-app/system",
@@ -596,12 +596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-clean-blog.git",
-                "reference": "9060d7b8002b5483f613ccf0b51abdab00d5813f"
+                "reference": "850bfc22222e11b5c0ed7a6b38f3e00bb8f56290"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/9060d7b8002b5483f613ccf0b51abdab00d5813f",
-                "reference": "9060d7b8002b5483f613ccf0b51abdab00d5813f",
+                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/850bfc22222e11b5c0ed7a6b38f3e00bb8f56290",
+                "reference": "850bfc22222e11b5c0ed7a6b38f3e00bb8f56290",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2020-01-11T20:06:46+00:00"
+            "time": "2020-01-11T20:29:11+00:00"
         },
         {
             "name": "basic-app/theme-cool-admin",
