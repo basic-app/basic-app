@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class UserAgents extends \BasicApp\System\Config\App\BaseUserAgents
+class UserAgents extends \BasicApp\System\Config\App\UserAgents
 {
 	/*
 	| -------------------------------------------------------------------

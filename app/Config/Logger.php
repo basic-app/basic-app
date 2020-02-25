@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Logger extends \BasicApp\System\Config\App\BaseLogger
+class Logger extends \BasicApp\System\Config\App\Logger
 {
 	/*
 	|--------------------------------------------------------------------------

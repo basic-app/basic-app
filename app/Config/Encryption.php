@@ -8,7 +8,7 @@ namespace Config;
  * These are the settings used for encryption, if you don't pass a parameter
  * array to the encrypter for creation/initialization.
  */
-class Encryption extends \BasicApp\System\Config\App\BaseEncryption
+class Encryption extends \BasicApp\System\Config\App\Encryption
 {
 	/*
 	  |--------------------------------------------------------------------------

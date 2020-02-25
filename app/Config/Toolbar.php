@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Toolbar extends \BasicApp\System\Config\App\BaseToolbar
+class Toolbar extends \BasicApp\System\Config\App\Toolbar
 {
 	/*
 	|--------------------------------------------------------------------------

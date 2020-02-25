@@ -8,7 +8,7 @@ namespace Config;
  * @package Config
  */
 
-class Database extends \BasicApp\System\Config\App\BaseDatabase
+class Database extends \BasicApp\System\Config\App\Database
 {
 	/**
 	 * The directory that holds the Migrations

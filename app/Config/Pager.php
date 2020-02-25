@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Pager extends \BasicApp\System\Config\App\BasePager
+class Pager extends \BasicApp\System\Config\App\Pager
 {
 	/*
 	|--------------------------------------------------------------------------

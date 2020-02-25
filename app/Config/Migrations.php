@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Migrations extends \BasicApp\System\Config\App\BaseMigrations
+class Migrations extends \BasicApp\System\Config\App\Migrations
 {
 	/*
 	|--------------------------------------------------------------------------

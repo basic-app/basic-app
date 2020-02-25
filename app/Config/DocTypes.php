@@ -8,7 +8,7 @@ namespace Config;
  * @package Config
  */
 
-class DocTypes extends \BasicApp\System\Config\App\BaseDocTypes
+class DocTypes extends \BasicApp\System\Config\App\DocTypes
 {
 	public $list =
 	[

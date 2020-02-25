@@ -1,16 +1,4 @@
 <?php
-
-namespace Config;
-
-use CodeIgniter\Events\Events;
-use BasicApp\System\SystemEvents;
-use BasicApp\Site\SiteEvents;
-use BasicApp\Admin\AdminEvents;
-use BasicApp\Helpers\Url;
-use BasicApp\System\Events\SystemResetEvent;
-use BasicApp\System\Events\SystemSeedEvent;
-use App\Models\AppConfigModel;
-
 /*
  * --------------------------------------------------------------------
  * Application Events
@@ -27,6 +15,17 @@ use App\Models\AppConfigModel;
  * Example:
  *      Events::on('create', [$myInstance, 'myMethod']);
  */
+namespace Config;
+
+use CodeIgniter\Events\Events;
+use BasicApp\System\SystemEvents;
+use BasicApp\Site\SiteEvents;
+use BasicApp\Admin\AdminEvents;
+use BasicApp\Helpers\Url;
+use BasicApp\System\Events\SystemResetEvent;
+use BasicApp\System\Events\SystemSeedEvent;
+use App\Models\AppConfigModel;
+
 if (!is_cli())
 {
     Events::on('pre_system', function() {
@@ -102,8 +101,21 @@ if (class_exists(AdminEvents::class))
 
         $event->items[$modelClass] = [
             'label' => t('admin.menu', 'Application'),
-            'icon' => 'fa fa-desktop',
+            'icon' => 'fa fa-fw fa-desktop',
             'url' => Url::createUrl('admin/config', ['class' => $modelClass])
         ];
+    });
+}
+
+if (class_exists(SiteEvents::class))
+{
+    SiteEvents::onMainLayout(function($event) {
+
+        $config = config('\App\Models\AppConfig');
+
+        if ($config->getBackgroundImageUrl())
+        {
+            $event->params['backgroundImage'] = $config->getBackgroundImageUrl();
+        }
     });
 }

@@ -15,7 +15,7 @@ namespace Config;
  * @package Config
  */
 
-class ContentSecurityPolicy extends \BasicApp\System\Config\App\BaseContentSecurityPolicy
+class ContentSecurityPolicy extends \BasicApp\System\Config\App\ContentSecurityPolicy
 {
 	// broadbrush CSP management
 

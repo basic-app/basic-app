@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Format extends \BasicApp\System\Config\App\BaseFormat
+class Format extends \BasicApp\System\Config\App\Format
 {
 	/*
 	|--------------------------------------------------------------------------

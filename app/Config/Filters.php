@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Filters extends \BasicApp\System\Config\App\BaseFilters
+class Filters extends \BasicApp\System\Config\App\Filters
 {
 	// Makes reading things below nicer,
 	// and simpler to change out script that's used.

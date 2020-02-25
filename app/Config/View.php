@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class View extends \BasicApp\System\Config\App\BaseView
+class View extends \BasicApp\System\Config\App\View
 {
 	/**
 	 * When false, the view method will clear the data between each

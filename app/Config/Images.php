@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Images extends \BasicApp\System\Config\App\BaseImages
+class Images extends \BasicApp\System\Config\App\Images
 {
 	/**
 	 * Default handler used if no other handler is specified.

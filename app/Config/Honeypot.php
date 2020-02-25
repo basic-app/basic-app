@@ -2,8 +2,7 @@
 
 namespace Config;
 
-class Honeypot extends \BasicApp\System\Config\App\BaseHoneypot
-
+class Honeypot extends \BasicApp\System\Config\App\Honeypot
 {
 
 	/**

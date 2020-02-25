@@ -8,7 +8,7 @@ namespace Config;
  * @package Config
  */
 
-class Exceptions extends \BasicApp\System\Config\App\BaseExceptions
+class Exceptions extends \BasicApp\System\Config\App\Exceptions
 {
 	/*
 	 |--------------------------------------------------------------------------

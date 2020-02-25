@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class App extends \BasicApp\System\Config\App\BaseApp
+class App extends \BasicApp\System\Config\App\App
 {
 
 	/*

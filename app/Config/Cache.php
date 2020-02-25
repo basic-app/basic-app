@@ -2,7 +2,7 @@
 
 namespace Config;
 
-class Cache extends \BasicApp\System\Config\App\BaseCache
+class Cache extends \BasicApp\System\Config\App\Cache
 {
 	/*
 	|--------------------------------------------------------------------------
