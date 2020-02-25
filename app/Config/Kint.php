@@ -3,9 +3,8 @@
 namespace Config;
 
 use Kint\Renderer\Renderer;
-use CodeIgniter\Config\BaseConfig;
 
-class Kint extends BaseConfig
+class Kint extends \BasicApp\System\Config\App\Kint
 {
 	/*
 	|--------------------------------------------------------------------------
