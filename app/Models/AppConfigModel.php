@@ -21,7 +21,7 @@ class AppConfigModel extends \BasicApp\Config\BaseConfigForm
         'background_image'
     ];
 
-    protected $langCategory = 'App';
+    protected $languageCategory = 'App';
 
     public function behaviors() : array
     {

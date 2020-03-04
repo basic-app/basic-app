@@ -62,10 +62,10 @@ SystemEvents::onPreSystem(function() {
 
 if (class_exists(AdminEvents::class))
 {
-    AdminEvents::onRegisterAssets(function($event)
+    AdminEvents::onRegisterAssets(function(\BasicApp\Admin\Events\AdminRegisterAssetsEvent $event)
     {
-        \BasicApp\TinyMceJs\Assets::register($event->head, $event->beginBody, $event->endBody);
-        \BasicApp\CodeMirrorJs\Assets::register($event->head, $event->beginBody, $event->endBody);
+        \BasicApp\Js\TinyMce\TinyMceAsset::register($event->head, $event->beginBody, $event->endBody);
+        \BasicApp\Js\CodeMirror\CodeMirrorAsset::register($event->head, $event->beginBody, $event->endBody);
     });
 }
 
