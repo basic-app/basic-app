@@ -265,12 +265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-block.git",
-                "reference": "11beadcb43d82538a1a5467c3e0eb84a17985728"
+                "reference": "391654aff114b09ec800e9db3119e791d75371e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-block/zipball/11beadcb43d82538a1a5467c3e0eb84a17985728",
-                "reference": "11beadcb43d82538a1a5467c3e0eb84a17985728",
+                "url": "https://api.github.com/repos/basic-app/module-block/zipball/391654aff114b09ec800e9db3119e791d75371e1",
+                "reference": "391654aff114b09ec800e9db3119e791d75371e1",
                 "shasum": ""
             },
             "type": "library",
@@ -283,7 +283,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-09T17:29:11+00:00"
+            "time": "2020-03-16T14:38:17+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -291,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "12d398bdb86d723a8a73d58c113fc1e6b6f853a8"
+                "reference": "d9276c6824b0cd34c256658ea52ae8130db8fda0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/12d398bdb86d723a8a73d58c113fc1e6b6f853a8",
-                "reference": "12d398bdb86d723a8a73d58c113fc1e6b6f853a8",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/d9276c6824b0cd34c256658ea52ae8130db8fda0",
+                "reference": "d9276c6824b0cd34c256658ea52ae8130db8fda0",
                 "shasum": ""
             },
             "type": "library",
@@ -309,7 +309,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-04T20:31:43+00:00"
+            "time": "2020-03-17T18:20:43+00:00"
         },
         {
             "name": "basic-app/module-configs",
@@ -395,12 +395,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-message.git",
-                "reference": "43f36d5bf0f50f675e13b1f6ea024b89d8ec46b5"
+                "reference": "8fb08a6c3ce7079b65ea62c829ba043c77d05df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-message/zipball/43f36d5bf0f50f675e13b1f6ea024b89d8ec46b5",
-                "reference": "43f36d5bf0f50f675e13b1f6ea024b89d8ec46b5",
+                "url": "https://api.github.com/repos/basic-app/module-message/zipball/8fb08a6c3ce7079b65ea62c829ba043c77d05df9",
+                "reference": "8fb08a6c3ce7079b65ea62c829ba043c77d05df9",
                 "shasum": ""
             },
             "require": {
@@ -416,7 +416,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-02-18T18:39:20+00:00"
+            "time": "2020-03-17T18:42:12+00:00"
         },
         {
             "name": "basic-app/module-page",
@@ -612,12 +612,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-clean-blog.git",
-                "reference": "a83ec9037c5292eb7d9e4d0479c27a8f3eb3e69a"
+                "reference": "8d5ad2fd4c7829696adbece643a6cc0ed48718f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/a83ec9037c5292eb7d9e4d0479c27a8f3eb3e69a",
-                "reference": "a83ec9037c5292eb7d9e4d0479c27a8f3eb3e69a",
+                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/8d5ad2fd4c7829696adbece643a6cc0ed48718f4",
+                "reference": "8d5ad2fd4c7829696adbece643a6cc0ed48718f4",
                 "shasum": ""
             },
             "require": {
@@ -630,7 +630,10 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2020-02-25T15:23:16+00:00"
+            "license": [
+                "MIT"
+            ],
+            "time": "2020-03-16T11:14:49+00:00"
         },
         {
             "name": "basic-app/theme-cool-admin",
@@ -1582,12 +1585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-clean-blog.git",
-                "reference": "9e54a4b51cbcbdf6dcedd875c44166d80508cfe6"
+                "reference": "5970c9df993ae90f0a5a380ede088577423845a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/9e54a4b51cbcbdf6dcedd875c44166d80508cfe6",
-                "reference": "9e54a4b51cbcbdf6dcedd875c44166d80508cfe6",
+                "url": "https://api.github.com/repos/phptheme/theme-clean-blog/zipball/5970c9df993ae90f0a5a380ede088577423845a0",
+                "reference": "5970c9df993ae90f0a5a380ede088577423845a0",
                 "shasum": ""
             },
             "require": {
@@ -1600,7 +1603,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2020-03-09T17:28:17+00:00"
+            "time": "2020-03-17T21:18:13+00:00"
         },
         {
             "name": "phptheme/theme-cool-admin",
