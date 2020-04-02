@@ -291,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "d9276c6824b0cd34c256658ea52ae8130db8fda0"
+                "reference": "5de062a5a9559f7fb334ba7e5fe915367f6435cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/d9276c6824b0cd34c256658ea52ae8130db8fda0",
-                "reference": "d9276c6824b0cd34c256658ea52ae8130db8fda0",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/5de062a5a9559f7fb334ba7e5fe915367f6435cb",
+                "reference": "5de062a5a9559f7fb334ba7e5fe915367f6435cb",
                 "shasum": ""
             },
             "type": "library",
@@ -309,7 +309,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-17T18:20:43+00:00"
+            "time": "2020-03-27T19:27:54+00:00"
         },
         {
             "name": "basic-app/module-configs",
@@ -369,12 +369,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-menu.git",
-                "reference": "f6121e7794acc5a17cb1f0a931161862bc63b232"
+                "reference": "bbdc04c4dc8e2838f7fa646d293f03b067676583"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/f6121e7794acc5a17cb1f0a931161862bc63b232",
-                "reference": "f6121e7794acc5a17cb1f0a931161862bc63b232",
+                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/bbdc04c4dc8e2838f7fa646d293f03b067676583",
+                "reference": "bbdc04c4dc8e2838f7fa646d293f03b067676583",
                 "shasum": ""
             },
             "type": "library",
@@ -387,7 +387,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-04T06:19:25+00:00"
+            "time": "2020-03-27T18:59:42+00:00"
         },
         {
             "name": "basic-app/module-message",
@@ -491,12 +491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "32ba0d092e5a54903ac3c2457aa59a22089a5737"
+                "reference": "193094544138c6527e5fa85b3220f0531d68df83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/32ba0d092e5a54903ac3c2457aa59a22089a5737",
-                "reference": "32ba0d092e5a54903ac3c2457aa59a22089a5737",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/193094544138c6527e5fa85b3220f0531d68df83",
+                "reference": "193094544138c6527e5fa85b3220f0531d68df83",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +512,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-02-24T20:37:52+00:00"
+            "time": "2020-03-26T21:13:34+00:00"
         },
         {
             "name": "basic-app/system",
@@ -549,12 +549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme.git",
-                "reference": "258e44fbf158abbe9107a662811450e16024637c"
+                "reference": "1642d9e2d8740ce5428eb28e7cd00d086cf2ae1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme/zipball/258e44fbf158abbe9107a662811450e16024637c",
-                "reference": "258e44fbf158abbe9107a662811450e16024637c",
+                "url": "https://api.github.com/repos/basic-app/theme/zipball/1642d9e2d8740ce5428eb28e7cd00d086cf2ae1a",
+                "reference": "1642d9e2d8740ce5428eb28e7cd00d086cf2ae1a",
                 "shasum": ""
             },
             "require": {
@@ -573,7 +573,7 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2020-03-14T08:53:15+00:00"
+            "time": "2020-04-02T14:10:57+00:00"
         },
         {
             "name": "basic-app/theme-bootstrap4",
@@ -1179,16 +1179,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "0fb9675b84a1666ab45182b6c5b29956921e818d"
+                "reference": "faf68f6109ceeff24241226033ab59640c7eb63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/0fb9675b84a1666ab45182b6c5b29956921e818d",
-                "reference": "0fb9675b84a1666ab45182b6c5b29956921e818d",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/faf68f6109ceeff24241226033ab59640c7eb63b",
+                "reference": "faf68f6109ceeff24241226033ab59640c7eb63b",
                 "shasum": ""
             },
             "require": {
@@ -1227,14 +1227,14 @@
                 "laminas",
                 "zf"
             ],
-            "time": "2020-01-07T22:58:31+00:00"
+            "time": "2020-03-26T16:07:12+00:00"
         },
         {
             "name": "npm-asset/codemirror",
-            "version": "5.52.0",
+            "version": "5.52.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.52.0.tgz"
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.52.2.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1243,10 +1243,10 @@
         },
         {
             "name": "npm-asset/tinymce",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.2.0.tgz"
+                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.2.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1555,12 +1555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-bootstrap4.git",
-                "reference": "f66fa5e82c4c9d96916f41a52f6de9bab9bb5af9"
+                "reference": "ad5842063acd0bcc2168ef4473ea178c340e55f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-bootstrap4/zipball/f66fa5e82c4c9d96916f41a52f6de9bab9bb5af9",
-                "reference": "f66fa5e82c4c9d96916f41a52f6de9bab9bb5af9",
+                "url": "https://api.github.com/repos/phptheme/theme-bootstrap4/zipball/ad5842063acd0bcc2168ef4473ea178c340e55f3",
+                "reference": "ad5842063acd0bcc2168ef4473ea178c340e55f3",
                 "shasum": ""
             },
             "require": {
@@ -1577,7 +1577,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-09T19:31:08+00:00"
+            "time": "2020-03-27T19:30:32+00:00"
         },
         {
             "name": "phptheme/theme-clean-blog",
@@ -1693,16 +1693,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": ""
             },
             "require": {
@@ -1736,7 +1736,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-11-01T11:05:21+00:00"
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "twbs/bootstrap",
