@@ -44,12 +44,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "7ed296baba948f4a09f5208b8d2ab4a8988f8f82"
+                "reference": "20955b1e2dd97509c27f068f471d488e2f008282"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/7ed296baba948f4a09f5208b8d2ab4a8988f8f82",
-                "reference": "7ed296baba948f4a09f5208b8d2ab4a8988f8f82",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/20955b1e2dd97509c27f068f471d488e2f008282",
+                "reference": "20955b1e2dd97509c27f068f471d488e2f008282",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-14T08:55:16+00:00"
+            "time": "2020-04-02T20:05:11+00:00"
         },
         {
             "name": "basic-app/crud",
