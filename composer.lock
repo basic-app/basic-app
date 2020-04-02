@@ -369,12 +369,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-menu.git",
-                "reference": "bbdc04c4dc8e2838f7fa646d293f03b067676583"
+                "reference": "3838c2da37c4554dc04402f604bfff68c510b949"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/bbdc04c4dc8e2838f7fa646d293f03b067676583",
-                "reference": "bbdc04c4dc8e2838f7fa646d293f03b067676583",
+                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/3838c2da37c4554dc04402f604bfff68c510b949",
+                "reference": "3838c2da37c4554dc04402f604bfff68c510b949",
                 "shasum": ""
             },
             "type": "library",
@@ -387,7 +387,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-27T18:59:42+00:00"
+            "time": "2020-04-02T16:13:15+00:00"
         },
         {
             "name": "basic-app/module-message",
