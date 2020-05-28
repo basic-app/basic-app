@@ -44,12 +44,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "20955b1e2dd97509c27f068f471d488e2f008282"
+                "reference": "20bfc98e000630893338f11c490f63e123ad49dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/20955b1e2dd97509c27f068f471d488e2f008282",
-                "reference": "20955b1e2dd97509c27f068f471d488e2f008282",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/20bfc98e000630893338f11c490f63e123ad49dc",
+                "reference": "20bfc98e000630893338f11c490f63e123ad49dc",
                 "shasum": ""
             },
             "require": {
@@ -77,14 +77,15 @@
                     "BasicApp\\Exceptions\\": "Exceptions/",
                     "BasicApp\\Filters\\": "Filters/",
                     "BasicApp\\Validators\\": "Validators/",
-                    "BasicApp\\Events\\": "Events/"
+                    "BasicApp\\Events\\": "Events/",
+                    "BasicApp\\Views\\": "Views/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2020-04-02T20:05:11+00:00"
+            "time": "2020-05-28T07:03:58+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -668,22 +669,23 @@
         },
         {
             "name": "codeigniter4/framework",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "d35ee914add71e703a3cc1eda33d7ac78f20d4be"
+                "reference": "edd88b18483e309bab1411651d846aace255ab36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/d35ee914add71e703a3cc1eda33d7ac78f20d4be",
-                "reference": "d35ee914add71e703a3cc1eda33d7ac78f20d4be",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/edd88b18483e309bab1411651d846aace255ab36",
+                "reference": "edd88b18483e309bab1411651d846aace255ab36",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-intl": "*",
                 "ext-json": "*",
+                "ext-mbstring": "*",
                 "kint-php/kint": "^3.3",
                 "laminas/laminas-escaper": "^2.6",
                 "php": ">=7.2",
@@ -707,20 +709,20 @@
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2020-02-25T05:27:04+00:00"
+            "time": "2020-05-01T05:01:20+00:00"
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.0.0-rc.3",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
-                "reference": "b9434446cc45c10aafd8cc18448d85687c37fb8d"
+                "reference": "a00809088fa974af77f63d93123d9db7bd4f6945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/b9434446cc45c10aafd8cc18448d85687c37fb8d",
-                "reference": "b9434446cc45c10aafd8cc18448d85687c37fb8d",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/a00809088fa974af77f63d93123d9db7bd4f6945",
+                "reference": "a00809088fa974af77f63d93123d9db7bd4f6945",
                 "shasum": ""
             },
             "require": {
@@ -743,7 +745,7 @@
             ],
             "description": "Translations for CodeIgniter v4 web framework",
             "homepage": "https://codeigniter.com",
-            "time": "2019-10-19T14:22:14+00:00"
+            "time": "2020-04-22T03:26:13+00:00"
         },
         {
             "name": "denis303/codeigniter4-auth",
@@ -1179,16 +1181,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "faf68f6109ceeff24241226033ab59640c7eb63b"
+                "reference": "fcd87520e4943d968557803919523772475e8ea3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/faf68f6109ceeff24241226033ab59640c7eb63b",
-                "reference": "faf68f6109ceeff24241226033ab59640c7eb63b",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/fcd87520e4943d968557803919523772475e8ea3",
+                "reference": "fcd87520e4943d968557803919523772475e8ea3",
                 "shasum": ""
             },
             "require": {
@@ -1227,14 +1229,20 @@
                 "laminas",
                 "zf"
             ],
-            "time": "2020-03-26T16:07:12+00:00"
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2020-05-20T16:45:56+00:00"
         },
         {
             "name": "npm-asset/codemirror",
-            "version": "5.52.2",
+            "version": "5.54.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.52.2.tgz"
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.54.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1243,10 +1251,10 @@
         },
         {
             "name": "npm-asset/tinymce",
-            "version": "5.2.1",
+            "version": "5.3.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.2.1.tgz"
+                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.3.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1740,16 +1748,16 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.4.1",
+            "version": "v4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb"
+                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb",
-                "reference": "dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/7a6da5e3e7ad7c749dde806546a35d4d4259d965",
+                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965",
                 "shasum": ""
             },
             "replace": {
@@ -1787,7 +1795,13 @@
                 "sass",
                 "web"
             ],
-            "time": "2019-11-28T12:59:49+00:00"
+            "funding": [
+                {
+                    "url": "https://opencollective.com/bootstrap",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-12T17:44:42+00:00"
         }
     ],
     "packages-dev": [],
@@ -1799,5 +1813,6 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
