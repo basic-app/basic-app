@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "36525aa9eb8fcf804c101dc87ace884e71e874ec"
+                "reference": "9df09a2cb09a58ffed1ec8151415574578b4f49f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/36525aa9eb8fcf804c101dc87ace884e71e874ec",
-                "reference": "36525aa9eb8fcf804c101dc87ace884e71e874ec",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/9df09a2cb09a58ffed1ec8151415574578b4f49f",
+                "reference": "9df09a2cb09a58ffed1ec8151415574578b4f49f",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-03T18:39:35+00:00"
+            "time": "2020-07-31T11:22:23+00:00"
         },
         {
             "name": "basic-app/core",
@@ -44,12 +44,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "20bfc98e000630893338f11c490f63e123ad49dc"
+                "reference": "160e783bff5958987fa17fc572dea4ca54bbfd7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/20bfc98e000630893338f11c490f63e123ad49dc",
-                "reference": "20bfc98e000630893338f11c490f63e123ad49dc",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/160e783bff5958987fa17fc572dea4ca54bbfd7f",
+                "reference": "160e783bff5958987fa17fc572dea4ca54bbfd7f",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-05-28T07:03:58+00:00"
+            "time": "2020-07-31T11:11:43+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -669,16 +669,16 @@
         },
         {
             "name": "codeigniter4/framework",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "edd88b18483e309bab1411651d846aace255ab36"
+                "reference": "1edcf84f77ff794640fddbfc59a10a024cd15b50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/edd88b18483e309bab1411651d846aace255ab36",
-                "reference": "edd88b18483e309bab1411651d846aace255ab36",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/1edcf84f77ff794640fddbfc59a10a024cd15b50",
+                "reference": "1edcf84f77ff794640fddbfc59a10a024cd15b50",
                 "shasum": ""
             },
             "require": {
@@ -693,8 +693,10 @@
             },
             "require-dev": {
                 "codeigniter4/codeigniter4-standard": "^1.0",
+                "fzaninotto/faker": "^1.9@dev",
                 "mikey179/vfsstream": "1.6.*",
                 "phpunit/phpunit": "^8.5",
+                "predis/predis": "^1.1",
                 "squizlabs/php_codesniffer": "^3.3"
             },
             "type": "project",
@@ -709,7 +711,7 @@
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2020-05-01T05:01:20+00:00"
+            "time": "2020-07-16T03:44:28+00:00"
         },
         {
             "name": "codeigniter4/translations",
@@ -1015,16 +1017,16 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.12.0",
+            "version": "v4.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "a617e55bc62a87eec73bd456d146d134ad716f03"
+                "reference": "08e27c97e4c6ed02f37c5b2b20488046c8d90d75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/a617e55bc62a87eec73bd456d146d134ad716f03",
-                "reference": "a617e55bc62a87eec73bd456d146d134ad716f03",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/08e27c97e4c6ed02f37c5b2b20488046c8d90d75",
+                "reference": "08e27c97e4c6ed02f37c5b2b20488046c8d90d75",
                 "shasum": ""
             },
             "require": {
@@ -1040,6 +1042,9 @@
                 },
                 "files": [
                     "library/HTMLPurifier.composer.php"
+                ],
+                "exclude-from-classmap": [
+                    "/library/HTMLPurifier/Language/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1058,7 +1063,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2019-10-28T03:44:26+00:00"
+            "time": "2020-06-29T00:56:53+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -1239,10 +1244,10 @@
         },
         {
             "name": "npm-asset/codemirror",
-            "version": "5.54.0",
+            "version": "5.56.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.54.0.tgz"
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.56.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1251,10 +1256,10 @@
         },
         {
             "name": "npm-asset/tinymce",
-            "version": "5.3.0",
+            "version": "5.4.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.3.0.tgz"
+                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.4.1.tgz"
             },
             "type": "npm-asset",
             "license": [
