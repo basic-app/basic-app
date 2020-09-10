@@ -44,12 +44,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "160e783bff5958987fa17fc572dea4ca54bbfd7f"
+                "reference": "e06819c708d3cf3917d5b00f25dee27aaba3aa95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/160e783bff5958987fa17fc572dea4ca54bbfd7f",
-                "reference": "160e783bff5958987fa17fc572dea4ca54bbfd7f",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/e06819c708d3cf3917d5b00f25dee27aaba3aa95",
+                "reference": "e06819c708d3cf3917d5b00f25dee27aaba3aa95",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-07-31T11:11:43+00:00"
+            "time": "2020-09-10T20:01:49+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -457,12 +457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-user.git",
-                "reference": "ff9fdbb2c092126d9376d9da30a1d0f5609dd434"
+                "reference": "16860ef987fc5f82367e8041103a4263f9507ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-user/zipball/ff9fdbb2c092126d9376d9da30a1d0f5609dd434",
-                "reference": "ff9fdbb2c092126d9376d9da30a1d0f5609dd434",
+                "url": "https://api.github.com/repos/basic-app/module-user/zipball/16860ef987fc5f82367e8041103a4263f9507ac6",
+                "reference": "16860ef987fc5f82367e8041103a4263f9507ac6",
                 "shasum": ""
             },
             "require": {
@@ -484,7 +484,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-02-24T09:38:47+00:00"
+            "time": "2020-09-10T20:05:42+00:00"
         },
         {
             "name": "basic-app/site",
@@ -1186,23 +1186,23 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.0.4",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "fcd87520e4943d968557803919523772475e8ea3"
+                "reference": "4939c81f63a8a4968c108c440275c94955753b19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/fcd87520e4943d968557803919523772475e8ea3",
-                "reference": "fcd87520e4943d968557803919523772475e8ea3",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/4939c81f63a8a4968c108c440275c94955753b19",
+                "reference": "4939c81f63a8a4968c108c440275c94955753b19",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0"
+                "php": "^5.6 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1",
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1 || ^9.3",
                 "squizlabs/php_codesniffer": "^3.5"
             },
             "type": "library",
@@ -1240,14 +1240,14 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-05-20T16:45:56+00:00"
+            "time": "2020-08-18T16:34:51+00:00"
         },
         {
             "name": "npm-asset/codemirror",
-            "version": "5.56.0",
+            "version": "5.57.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.56.0.tgz"
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.57.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1256,10 +1256,10 @@
         },
         {
             "name": "npm-asset/tinymce",
-            "version": "5.4.1",
+            "version": "5.4.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.4.1.tgz"
+                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.4.2.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1753,16 +1753,16 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.5.0",
+            "version": "v4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965"
+                "reference": "5f2480a90ab911babc53039835fe78c6fc12646d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/7a6da5e3e7ad7c749dde806546a35d4d4259d965",
-                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/5f2480a90ab911babc53039835fe78c6fc12646d",
+                "reference": "5f2480a90ab911babc53039835fe78c6fc12646d",
                 "shasum": ""
             },
             "replace": {
@@ -1806,7 +1806,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2020-05-12T17:44:42+00:00"
+            "time": "2020-08-06T16:22:43+00:00"
         }
     ],
     "packages-dev": [],

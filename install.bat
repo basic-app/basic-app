@@ -1,0 +1,1 @@
+php spark migrate -all&& php spark ba:update&& php spark ba:seed
