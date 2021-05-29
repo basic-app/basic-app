@@ -2,7 +2,7 @@
 
 namespace App\Database\Migrations;
 
-class Migration_create_sessions_table extends \BasicApp\Core\Migration
+class Migration_create_sessions_table extends \BasicApp\Migration\BaseMigration
 {
 
     public $tableName = 'sessions';

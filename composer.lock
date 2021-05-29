@@ -26,6 +26,7 @@
                 "basic-app/system": "*",
                 "denis303/codeigniter4-auth": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -36,6 +37,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin/issues",
+                "source": "https://github.com/basic-app/admin/tree/master"
+            },
             "time": "2020-07-31T11:22:23+00:00"
         },
         {
@@ -44,18 +49,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "e06819c708d3cf3917d5b00f25dee27aaba3aa95"
+                "reference": "6bc0690814fb62334c10dc36dffed1780d485ab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/e06819c708d3cf3917d5b00f25dee27aaba3aa95",
-                "reference": "e06819c708d3cf3917d5b00f25dee27aaba3aa95",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/6bc0690814fb62334c10dc36dffed1780d485ab8",
+                "reference": "6bc0690814fb62334c10dc36dffed1780d485ab8",
                 "shasum": ""
             },
             "require": {
                 "basic-app/crud": "*",
                 "codeigniter4/framework": "*",
-                "composer-plugin-api": "^1.0",
                 "denis303/codeigniter4-form": "*",
                 "denis303/codeigniter4-migration": "*",
                 "denis303/codeigniter4-model-helper": "*",
@@ -66,6 +70,7 @@
                 "denis303/php-zip-helper": "*",
                 "phptheme/html-helper": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -85,7 +90,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-09-10T20:01:49+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/core/issues",
+                "source": "https://github.com/basic-app/core/tree/master"
+            },
+            "time": "2021-05-29T14:26:16+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -93,17 +102,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/crud.git",
-                "reference": "c029677f4106e0c65c4421040d89469a0bf6e105"
+                "reference": "0f5e65033cc4a23fbbb075b6103f31eff61f2064"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/crud/zipball/c029677f4106e0c65c4421040d89469a0bf6e105",
-                "reference": "c029677f4106e0c65c4421040d89469a0bf6e105",
+                "url": "https://api.github.com/repos/basic-app/crud/zipball/0f5e65033cc4a23fbbb075b6103f31eff61f2064",
+                "reference": "0f5e65033cc4a23fbbb075b6103f31eff61f2064",
                 "shasum": ""
             },
             "require": {
                 "basic-app/core": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -114,7 +124,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-14T08:47:06+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/crud/issues",
+                "source": "https://github.com/basic-app/crud/tree/master"
+            },
+            "time": "2021-05-29T14:29:02+00:00"
         },
         {
             "name": "basic-app/html-purifier",
@@ -133,6 +147,7 @@
             "require": {
                 "ezyang/htmlpurifier": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -143,6 +158,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/html-purifier/issues",
+                "source": "https://github.com/basic-app/html-purifier/tree/master"
+            },
             "time": "2020-01-06T17:32:57+00:00"
         },
         {
@@ -162,6 +181,7 @@
             "require": {
                 "npm-asset/codemirror": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -172,6 +192,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/js-codemirror/issues",
+                "source": "https://github.com/basic-app/js-codemirror/tree/master"
+            },
             "time": "2020-03-11T08:50:01+00:00"
         },
         {
@@ -191,6 +215,7 @@
             "require": {
                 "npm-asset/tinymce": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -201,6 +226,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/js-tinymce/issues",
+                "source": "https://github.com/basic-app/js-tinymce/tree/master"
+            },
             "time": "2020-03-10T19:46:44+00:00"
         },
         {
@@ -217,6 +246,7 @@
                 "reference": "ad96a53f8df5c08fd01915c1e149affeabffc8d2",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -227,6 +257,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/mailer/issues",
+                "source": "https://github.com/basic-app/mailer/tree/master"
+            },
             "time": "2020-02-16T21:34:32+00:00"
         },
         {
@@ -248,6 +282,7 @@
                 "basic-app/site": "*",
                 "denis303/codeigniter4-auth": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -258,7 +293,45 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/member/issues",
+                "source": "https://github.com/basic-app/member/tree/master"
+            },
             "time": "2020-02-24T09:19:51+00:00"
+        },
+        {
+            "name": "basic-app/migration",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/migration.git",
+                "reference": "00da4289885777236fddf58b2d89a7e37a11a5f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/migration/zipball/00da4289885777236fddf58b2d89a7e37a11a5f7",
+                "reference": "00da4289885777236fddf58b2d89a7e37a11a5f7",
+                "shasum": ""
+            },
+            "require": {
+                "webmozart/assert": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Migration\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/migration/issues",
+                "source": "https://github.com/basic-app/migration/tree/master"
+            },
+            "time": "2021-05-26T13:42:29+00:00"
         },
         {
             "name": "basic-app/module-block",
@@ -266,14 +339,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-block.git",
-                "reference": "391654aff114b09ec800e9db3119e791d75371e1"
+                "reference": "b0f34377c547b6dc483b1c14d5bdd334c6032ded"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-block/zipball/391654aff114b09ec800e9db3119e791d75371e1",
-                "reference": "391654aff114b09ec800e9db3119e791d75371e1",
+                "url": "https://api.github.com/repos/basic-app/module-block/zipball/b0f34377c547b6dc483b1c14d5bdd334c6032ded",
+                "reference": "b0f34377c547b6dc483b1c14d5bdd334c6032ded",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -284,7 +358,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-16T14:38:17+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-block/issues",
+                "source": "https://github.com/basic-app/module-block/tree/master"
+            },
+            "time": "2021-05-26T13:30:10+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -292,14 +370,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "5de062a5a9559f7fb334ba7e5fe915367f6435cb"
+                "reference": "0f9422a48052276792bd223176dd0dc7069ecdee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/5de062a5a9559f7fb334ba7e5fe915367f6435cb",
-                "reference": "5de062a5a9559f7fb334ba7e5fe915367f6435cb",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/0f9422a48052276792bd223176dd0dc7069ecdee",
+                "reference": "0f9422a48052276792bd223176dd0dc7069ecdee",
                 "shasum": ""
             },
+            "require": {
+                "basic-app/migration": "*"
+            },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -310,7 +392,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-27T19:27:54+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-blog/issues",
+                "source": "https://github.com/basic-app/module-blog/tree/master"
+            },
+            "time": "2021-05-26T13:50:19+00:00"
         },
         {
             "name": "basic-app/module-configs",
@@ -318,14 +404,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-configs.git",
-                "reference": "0786427ea0341d907561ad0b8f479f194f708c53"
+                "reference": "ada343ecf2179fc45558c7828cde1d4a69cd2c5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/0786427ea0341d907561ad0b8f479f194f708c53",
-                "reference": "0786427ea0341d907561ad0b8f479f194f708c53",
+                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/ada343ecf2179fc45558c7828cde1d4a69cd2c5d",
+                "reference": "ada343ecf2179fc45558c7828cde1d4a69cd2c5d",
                 "shasum": ""
             },
+            "require": {
+                "basic-app/migration": "*"
+            },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -336,7 +426,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-04T18:01:31+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-configs/issues",
+                "source": "https://github.com/basic-app/module-configs/tree/master"
+            },
+            "time": "2021-05-26T13:38:26+00:00"
         },
         {
             "name": "basic-app/module-i18n",
@@ -344,14 +438,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-i18n.git",
-                "reference": "902ddc7611df8cdd26788c303d7482d5dc376f43"
+                "reference": "c7e7ce871a8e0a680515e648bba495824d460833"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/902ddc7611df8cdd26788c303d7482d5dc376f43",
-                "reference": "902ddc7611df8cdd26788c303d7482d5dc376f43",
+                "url": "https://api.github.com/repos/basic-app/module-i18n/zipball/c7e7ce871a8e0a680515e648bba495824d460833",
+                "reference": "c7e7ce871a8e0a680515e648bba495824d460833",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -362,7 +457,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-02-18T20:17:40+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-i18n/issues",
+                "source": "https://github.com/basic-app/module-i18n/tree/master"
+            },
+            "time": "2021-05-26T13:33:23+00:00"
         },
         {
             "name": "basic-app/module-menu",
@@ -370,14 +469,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-menu.git",
-                "reference": "3838c2da37c4554dc04402f604bfff68c510b949"
+                "reference": "83f822417c27292af9fd5a09402e7afea00105a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/3838c2da37c4554dc04402f604bfff68c510b949",
-                "reference": "3838c2da37c4554dc04402f604bfff68c510b949",
+                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/83f822417c27292af9fd5a09402e7afea00105a2",
+                "reference": "83f822417c27292af9fd5a09402e7afea00105a2",
                 "shasum": ""
             },
+            "require": {
+                "basic-app/migration": "*"
+            },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -388,7 +491,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-04-02T16:13:15+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-menu/issues",
+                "source": "https://github.com/basic-app/module-menu/tree/master"
+            },
+            "time": "2021-05-27T20:26:55+00:00"
         },
         {
             "name": "basic-app/module-message",
@@ -396,17 +503,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-message.git",
-                "reference": "8fb08a6c3ce7079b65ea62c829ba043c77d05df9"
+                "reference": "60c043491367873c68d1efe280fcc92dd5ae042a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-message/zipball/8fb08a6c3ce7079b65ea62c829ba043c77d05df9",
-                "reference": "8fb08a6c3ce7079b65ea62c829ba043c77d05df9",
+                "url": "https://api.github.com/repos/basic-app/module-message/zipball/60c043491367873c68d1efe280fcc92dd5ae042a",
+                "reference": "60c043491367873c68d1efe280fcc92dd5ae042a",
                 "shasum": ""
             },
             "require": {
-                "basic-app/mailer": "*"
+                "basic-app/mailer": "*",
+                "basic-app/migration": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -417,7 +526,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-17T18:42:12+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-message/issues",
+                "source": "https://github.com/basic-app/module-message/tree/master"
+            },
+            "time": "2021-05-26T13:52:18+00:00"
         },
         {
             "name": "basic-app/module-page",
@@ -425,20 +538,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-page.git",
-                "reference": "20928e0ab8cb15b605e0e6d7b23acadbe3935e01"
+                "reference": "ee87db0dc96d29899b4229f5ebfd7c2fd38d44c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-page/zipball/20928e0ab8cb15b605e0e6d7b23acadbe3935e01",
-                "reference": "20928e0ab8cb15b605e0e6d7b23acadbe3935e01",
+                "url": "https://api.github.com/repos/basic-app/module-page/zipball/ee87db0dc96d29899b4229f5ebfd7c2fd38d44c0",
+                "reference": "ee87db0dc96d29899b4229f5ebfd7c2fd38d44c0",
                 "shasum": ""
             },
             "require": {
                 "basic-app/admin": "*",
                 "basic-app/core": "*",
+                "basic-app/migration": "*",
                 "basic-app/site": "*",
                 "basic-app/system": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -449,7 +564,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-14T08:52:03+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-page/issues",
+                "source": "https://github.com/basic-app/module-page/tree/master"
+            },
+            "time": "2021-05-26T13:28:30+00:00"
         },
         {
             "name": "basic-app/module-user",
@@ -457,19 +576,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-user.git",
-                "reference": "16860ef987fc5f82367e8041103a4263f9507ac6"
+                "reference": "233b328d8afb4d130100ae57c9c64ad83c864f1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-user/zipball/16860ef987fc5f82367e8041103a4263f9507ac6",
-                "reference": "16860ef987fc5f82367e8041103a4263f9507ac6",
+                "url": "https://api.github.com/repos/basic-app/module-user/zipball/233b328d8afb4d130100ae57c9c64ad83c864f1a",
+                "reference": "233b328d8afb4d130100ae57c9c64ad83c864f1a",
                 "shasum": ""
             },
             "require": {
+                "basic-app/migration": "*",
                 "basic-app/module-message": "*",
                 "basic-app/module-page": "*",
                 "denis303/codeigniter4-user": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -484,7 +605,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-09-10T20:05:42+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/module-user/issues",
+                "source": "https://github.com/basic-app/module-user/tree/master"
+            },
+            "time": "2021-05-26T13:55:15+00:00"
         },
         {
             "name": "basic-app/site",
@@ -503,6 +628,7 @@
             "require": {
                 "basic-app/system": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -513,6 +639,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/site/issues",
+                "source": "https://github.com/basic-app/site/tree/master"
+            },
             "time": "2020-03-26T21:13:34+00:00"
         },
         {
@@ -532,6 +662,7 @@
             "require": {
                 "basic-app/core": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -542,6 +673,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/system/issues",
+                "source": "https://github.com/basic-app/system/tree/master"
+            },
             "time": "2020-02-25T16:02:32+00:00"
         },
         {
@@ -564,6 +699,7 @@
                 "phptheme/theme": "*",
                 "phptheme/theme-bootstrap4": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -574,6 +710,10 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/basic-app/theme/issues",
+                "source": "https://github.com/basic-app/theme/tree/master"
+            },
             "time": "2020-04-02T14:10:57+00:00"
         },
         {
@@ -595,6 +735,7 @@
                 "phptheme/theme-bootstrap4": "*",
                 "twbs/bootstrap": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -605,6 +746,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/theme-bootstrap4/issues",
+                "source": "https://github.com/basic-app/theme-bootstrap4/tree/master"
+            },
             "time": "2020-02-23T20:40:40+00:00"
         },
         {
@@ -613,17 +758,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-clean-blog.git",
-                "reference": "8d5ad2fd4c7829696adbece643a6cc0ed48718f4"
+                "reference": "22510d4f3cafac6af10f0cc34909b210ca54e3c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/8d5ad2fd4c7829696adbece643a6cc0ed48718f4",
-                "reference": "8d5ad2fd4c7829696adbece643a6cc0ed48718f4",
+                "url": "https://api.github.com/repos/basic-app/theme-clean-blog/zipball/22510d4f3cafac6af10f0cc34909b210ca54e3c8",
+                "reference": "22510d4f3cafac6af10f0cc34909b210ca54e3c8",
                 "shasum": ""
             },
             "require": {
                 "phptheme/theme-clean-blog": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -634,7 +780,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-16T11:14:49+00:00"
+            "support": {
+                "issues": "https://github.com/basic-app/theme-clean-blog/issues",
+                "source": "https://github.com/basic-app/theme-clean-blog/tree/master"
+            },
+            "time": "2021-05-29T06:51:17+00:00"
         },
         {
             "name": "basic-app/theme-cool-admin",
@@ -655,6 +805,7 @@
                 "basic-app/theme": "*",
                 "phptheme/theme-cool-admin": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -665,20 +816,24 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/basic-app/theme-cool-admin/issues",
+                "source": "https://github.com/basic-app/theme-cool-admin/tree/master"
+            },
             "time": "2020-02-18T19:18:09+00:00"
         },
         {
             "name": "codeigniter4/framework",
-            "version": "v4.0.4",
+            "version": "v4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "1edcf84f77ff794640fddbfc59a10a024cd15b50"
+                "reference": "0bf61820417a3e4a6e7f6c725c5cccf285a1b7c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/1edcf84f77ff794640fddbfc59a10a024cd15b50",
-                "reference": "1edcf84f77ff794640fddbfc59a10a024cd15b50",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/0bf61820417a3e4a6e7f6c725c5cccf285a1b7c4",
+                "reference": "0bf61820417a3e4a6e7f6c725c5cccf285a1b7c4",
                 "shasum": ""
             },
             "require": {
@@ -688,22 +843,28 @@
                 "ext-mbstring": "*",
                 "kint-php/kint": "^3.3",
                 "laminas/laminas-escaper": "^2.6",
-                "php": ">=7.2",
+                "php": "^7.3||^8.0",
                 "psr/log": "^1.1"
             },
             "require-dev": {
                 "codeigniter4/codeigniter4-standard": "^1.0",
-                "fzaninotto/faker": "^1.9@dev",
-                "mikey179/vfsstream": "1.6.*",
-                "phpunit/phpunit": "^8.5",
+                "fakerphp/faker": "^1.9",
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^9.1",
                 "predis/predis": "^1.1",
                 "squizlabs/php_codesniffer": "^3.3"
+            },
+            "suggest": {
+                "ext-fileinfo": "Improves mime type detection for files"
             },
             "type": "project",
             "autoload": {
                 "psr-4": {
                     "CodeIgniter\\": "system/"
-                }
+                },
+                "exclude-from-classmap": [
+                    "**/Database/Migrations/**"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -711,31 +872,44 @@
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2020-07-16T03:44:28+00:00"
+            "support": {
+                "forum": "http://forum.codeigniter.com/",
+                "slack": "https://codeigniterchat.slack.com",
+                "source": "https://github.com/codeigniter4/CodeIgniter4"
+            },
+            "time": "2021-05-18T02:07:31+00:00"
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.0.2",
+            "version": "v4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
-                "reference": "a00809088fa974af77f63d93123d9db7bd4f6945"
+                "reference": "cccb3c35fd5067a9689cc6502f16c1544c39b18b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/a00809088fa974af77f63d93123d9db7bd4f6945",
-                "reference": "a00809088fa974af77f63d93123d9db7bd4f6945",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/cccb3c35fd5067a9689cc6502f16c1544c39b18b",
+                "reference": "cccb3c35fd5067a9689cc6502f16c1544c39b18b",
                 "shasum": ""
             },
             "require": {
                 "ext-intl": "*",
-                "php": ">=7.2"
+                "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "codeigniter4/framework": "dev-master",
-                "phpunit/phpunit": "^7.0"
+                "codeigniter4/codeigniter4": "4.x-dev",
+                "ext-tokenizer": "*",
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "nexusphp/cs-config": "^3.0",
+                "phpunit/phpunit": "^9.4"
             },
             "type": "project",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "4.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Translations\\": ""
@@ -747,7 +921,13 @@
             ],
             "description": "Translations for CodeIgniter v4 web framework",
             "homepage": "https://codeigniter.com",
-            "time": "2020-04-22T03:26:13+00:00"
+            "support": {
+                "forum": "http://forum.codeigniter.com/",
+                "issues": "https://github.com/codeigniter4/translations/issues",
+                "slack": "https://codeigniterchat.slack.com",
+                "source": "https://github.com/codeigniter4/translations"
+            },
+            "time": "2021-05-18T16:47:07+00:00"
         },
         {
             "name": "denis303/codeigniter4-auth",
@@ -763,6 +943,7 @@
                 "reference": "000de26a2f45208ae44d06bfaad87ca3443060ce",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -773,6 +954,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/codeigniter4-auth/issues",
+                "source": "https://github.com/denis303/codeigniter4-auth/tree/master"
+            },
             "time": "2020-01-10T06:47:13+00:00"
         },
         {
@@ -792,6 +977,7 @@
             "require": {
                 "phptheme/html-helper": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -802,6 +988,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/codeigniter4-form/issues",
+                "source": "https://github.com/denis303/codeigniter4-form/tree/master"
+            },
             "time": "2020-03-14T09:05:07+00:00"
         },
         {
@@ -818,6 +1008,7 @@
                 "reference": "aa9ddb163abe550d30ad6560553f5ec9e2f76422",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -828,6 +1019,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/codeigniter4-migration/issues",
+                "source": "https://github.com/denis303/codeigniter4-migration/tree/master"
+            },
             "time": "2019-12-06T07:07:42+00:00"
         },
         {
@@ -844,6 +1039,7 @@
                 "reference": "fd2aa8c1a260501d1cab5a7ee3a2f558acf813b2",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -854,6 +1050,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/codeigniter4-model-helper/issues",
+                "source": "https://github.com/denis303/codeigniter4-model-helper/tree/master"
+            },
             "time": "2020-01-23T10:17:45+00:00"
         },
         {
@@ -870,6 +1070,7 @@
                 "reference": "7e59626455e64a22ce58994a65d54040485f31ab",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -880,6 +1081,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/codeigniter4-nested-views/issues",
+                "source": "https://github.com/denis303/codeigniter4-nested-views/tree/master"
+            },
             "time": "2019-12-20T09:40:22+00:00"
         },
         {
@@ -899,6 +1104,7 @@
             "require": {
                 "denis303/codeigniter4-migration": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -909,6 +1115,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/codeigniter4-user/issues",
+                "source": "https://github.com/denis303/codeigniter4-user/tree/master"
+            },
             "time": "2019-11-18T08:43:30+00:00"
         },
         {
@@ -925,6 +1135,7 @@
                 "reference": "232bd46af95b6a216f1399a1862cc0a4bdd56283",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -935,6 +1146,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/php-download-helper/issues",
+                "source": "https://github.com/denis303/php-download-helper/tree/master"
+            },
             "time": "2019-10-10T12:07:28+00:00"
         },
         {
@@ -951,6 +1166,7 @@
                 "reference": "fba9956fe80329589c677bad9142e18385492dba",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -961,6 +1177,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/php-file-helper/issues",
+                "source": "https://github.com/denis303/php-file-helper/tree/master"
+            },
             "time": "2019-10-10T11:08:50+00:00"
         },
         {
@@ -977,6 +1197,7 @@
                 "reference": "0e637174b80159e5138b27d10cfb39f82790ca21",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -987,6 +1208,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/php-traits/issues",
+                "source": "https://github.com/denis303/php-traits/tree/master"
+            },
             "time": "2019-12-12T15:04:54+00:00"
         },
         {
@@ -1003,6 +1228,7 @@
                 "reference": "254e697c797ca161df5cf503165770369bd4d257",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1013,6 +1239,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/denis303/php-zip-helper/issues",
+                "source": "https://github.com/denis303/php-zip-helper/tree/master"
+            },
             "time": "2019-10-10T12:08:11+00:00"
         },
         {
@@ -1063,6 +1293,10 @@
             "keywords": [
                 "html"
             ],
+            "support": {
+                "issues": "https://github.com/ezyang/htmlpurifier/issues",
+                "source": "https://github.com/ezyang/htmlpurifier/tree/master"
+            },
             "time": "2020-06-29T00:56:53+00:00"
         },
         {
@@ -1133,40 +1367,44 @@
                 "kint",
                 "php"
             ],
+            "support": {
+                "issues": "https://github.com/kint-php/kint/issues",
+                "source": "https://github.com/kint-php/kint/tree/master"
+            },
             "time": "2019-10-17T18:05:24+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70"
+                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/25f2a053eadfa92ddacb609dcbbc39362610da70",
-                "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/5e04bc5ae5990b17159d79d331055e2c645e5cc5",
+                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^5.6 || ^7.0"
+                "php": "^7.3 || ~8.0.0"
             },
             "replace": {
-                "zendframework/zend-escaper": "self.version"
+                "zendframework/zend-escaper": "^2.6.1"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2"
+                "phpunit/phpunit": "^9.3",
+                "psalm/plugin-phpunit": "^0.12.2",
+                "vimeo/psalm": "^3.16"
+            },
+            "suggest": {
+                "ext-iconv": "*",
+                "ext-mbstring": "*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Laminas\\Escaper\\": "src/"
@@ -1182,35 +1420,47 @@
                 "escaper",
                 "laminas"
             ],
-            "time": "2019-12-31T16:43:30+00:00"
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-escaper/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-escaper/issues",
+                "rss": "https://github.com/laminas/laminas-escaper/releases.atom",
+                "source": "https://github.com/laminas/laminas-escaper"
+            },
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2020-11-17T21:26:43+00:00"
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "4939c81f63a8a4968c108c440275c94955753b19"
+                "reference": "6cccbddfcfc742eb02158d6137ca5687d92cee32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/4939c81f63a8a4968c108c440275c94955753b19",
-                "reference": "4939c81f63a8a4968c108c440275c94955753b19",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/6cccbddfcfc742eb02158d6137ca5687d92cee32",
+                "reference": "6cccbddfcfc742eb02158d6137ca5687d92cee32",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0 || ^8.0"
+                "php": "^7.3 || ^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1 || ^9.3",
-                "squizlabs/php_codesniffer": "^3.5"
+                "psalm/plugin-phpunit": "^0.15.1",
+                "squizlabs/php_codesniffer": "^3.5",
+                "vimeo/psalm": "^4.6"
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev",
-                    "dev-develop": "1.1.x-dev"
-                },
                 "laminas": {
                     "module": "Laminas\\ZendFrameworkBridge"
                 }
@@ -1234,20 +1484,26 @@
                 "laminas",
                 "zf"
             ],
+            "support": {
+                "forum": "https://discourse.laminas.dev/",
+                "issues": "https://github.com/laminas/laminas-zendframework-bridge/issues",
+                "rss": "https://github.com/laminas/laminas-zendframework-bridge/releases.atom",
+                "source": "https://github.com/laminas/laminas-zendframework-bridge"
+            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-08-18T16:34:51+00:00"
+            "time": "2021-02-25T21:54:58+00:00"
         },
         {
             "name": "npm-asset/codemirror",
-            "version": "5.57.0",
+            "version": "5.61.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.57.0.tgz"
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.61.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1256,10 +1512,10 @@
         },
         {
             "name": "npm-asset/tinymce",
-            "version": "5.4.2",
+            "version": "5.7.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.4.2.tgz"
+                "url": "https://registry.npmjs.org/tinymce/-/tinymce-5.7.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -1283,6 +1539,7 @@
             "require": {
                 "phptheme/core": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1293,6 +1550,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/bootstrap4/issues",
+                "source": "https://github.com/phptheme/bootstrap4/tree/master"
+            },
             "time": "2020-02-17T19:39:28+00:00"
         },
         {
@@ -1320,6 +1581,7 @@
                 "phptheme/theme": "*",
                 "phptheme/widget": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1330,6 +1592,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/core/issues",
+                "source": "https://github.com/phptheme/core/tree/master"
+            },
             "time": "2020-02-15T14:34:57+00:00"
         },
         {
@@ -1350,6 +1616,7 @@
                 "phptheme/html-helper": "*",
                 "phptheme/widget": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1360,6 +1627,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/grid/issues",
+                "source": "https://github.com/phptheme/grid/tree/master"
+            },
             "time": "2020-02-24T19:16:50+00:00"
         },
         {
@@ -1376,6 +1647,7 @@
                 "reference": "66301c204edef1199a77abe721e23192f4969f34",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1386,6 +1658,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/html-escaper/issues",
+                "source": "https://github.com/phptheme/html-escaper/tree/master"
+            },
             "time": "2020-02-05T12:45:40+00:00"
         },
         {
@@ -1394,25 +1670,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/html-helper.git",
-                "reference": "dbdfc0ead24b05b38f6f33c17cf5965a18754cac"
+                "reference": "e2239e9873b6cd6a31afd752db835dee3cff8f77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/html-helper/zipball/dbdfc0ead24b05b38f6f33c17cf5965a18754cac",
-                "reference": "dbdfc0ead24b05b38f6f33c17cf5965a18754cac",
+                "url": "https://api.github.com/repos/phptheme/html-helper/zipball/e2239e9873b6cd6a31afd752db835dee3cff8f77",
+                "reference": "e2239e9873b6cd6a31afd752db835dee3cff8f77",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PhpTheme\\HtmlHelper\\": ""
+                    "PhpTheme\\HtmlHelper\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2020-02-15T18:35:02+00:00"
+            "support": {
+                "issues": "https://github.com/phptheme/html-helper/issues",
+                "source": "https://github.com/phptheme/html-helper/tree/master"
+            },
+            "time": "2020-10-12T19:53:19+00:00"
         },
         {
             "name": "phptheme/link",
@@ -1433,6 +1714,7 @@
                 "phptheme/html-helper": "*",
                 "phptheme/tag": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1443,6 +1725,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/link/issues",
+                "source": "https://github.com/phptheme/link/tree/master"
+            },
             "time": "2020-02-24T19:39:31+00:00"
         },
         {
@@ -1464,6 +1750,7 @@
                 "phptheme/link": "*",
                 "phptheme/widget": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1474,6 +1761,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/menu/issues",
+                "source": "https://github.com/phptheme/menu/tree/master"
+            },
             "time": "2020-02-24T19:40:45+00:00"
         },
         {
@@ -1494,6 +1785,7 @@
                 "phptheme/html-helper": "*",
                 "phptheme/widget": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1504,6 +1796,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/table/issues",
+                "source": "https://github.com/phptheme/table/tree/master"
+            },
             "time": "2020-02-08T15:01:37+00:00"
         },
         {
@@ -1524,6 +1820,7 @@
                 "phptheme/html-escaper": "*",
                 "phptheme/html-helper": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1534,6 +1831,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/tag/issues",
+                "source": "https://github.com/phptheme/tag/tree/master"
+            },
             "time": "2020-02-24T19:15:11+00:00"
         },
         {
@@ -1550,6 +1851,7 @@
                 "reference": "c8de5e89534187d27a30d41dfd412ee1fcba14ae",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1560,6 +1862,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/theme/issues",
+                "source": "https://github.com/phptheme/theme/tree/master"
+            },
             "time": "2020-03-09T17:08:39+00:00"
         },
         {
@@ -1580,6 +1886,7 @@
                 "phptheme/bootstrap4": "*",
                 "phptheme/core": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1590,6 +1897,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/theme-bootstrap4/issues",
+                "source": "https://github.com/phptheme/theme-bootstrap4/tree/master"
+            },
             "time": "2020-03-27T19:30:32+00:00"
         },
         {
@@ -1609,6 +1920,7 @@
             "require": {
                 "phptheme/theme-bootstrap4": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1616,6 +1928,10 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/phptheme/theme-clean-blog/issues",
+                "source": "https://github.com/phptheme/theme-clean-blog/tree/master"
+            },
             "time": "2020-03-17T21:18:13+00:00"
         },
         {
@@ -1636,6 +1952,7 @@
                 "phptheme/core": "*",
                 "phptheme/theme-bootstrap4": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1646,6 +1963,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/theme-cool-admin/issues",
+                "source": "https://github.com/phptheme/theme-cool-admin/tree/master"
+            },
             "time": "2020-02-24T19:47:19+00:00"
         },
         {
@@ -1662,6 +1983,7 @@
                 "reference": "e955b933a8f4ad7ace6394c04d6bbe232adc8ba1",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1672,6 +1994,10 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/view/issues",
+                "source": "https://github.com/phptheme/view/tree/master"
+            },
             "time": "2020-01-23T08:03:59+00:00"
         },
         {
@@ -1692,6 +2018,7 @@
                 "phptheme/tag": "*",
                 "phptheme/view": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1702,20 +2029,24 @@
             "license": [
                 "MIT"
             ],
+            "support": {
+                "issues": "https://github.com/phptheme/widget/issues",
+                "source": "https://github.com/phptheme/widget/tree/master"
+            },
             "time": "2020-02-24T21:02:54+00:00"
         },
         {
             "name": "psr/log",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
                 "shasum": ""
             },
             "require": {
@@ -1739,7 +2070,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -1749,31 +2080,108 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2020-03-23T09:12:05+00:00"
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
-            "name": "twbs/bootstrap",
-            "version": "v4.5.2",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "5f2480a90ab911babc53039835fe78c6fc12646d"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/5f2480a90ab911babc53039835fe78c6fc12646d",
-                "reference": "5f2480a90ab911babc53039835fe78c6fc12646d",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/46cd95797e9df938fdd2b03693b5fca5e64b01ce",
+                "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.23.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-02-19T12:13:01+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v5.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "58b1be927f43c779377e478df2d119f2ddf956ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/58b1be927f43c779377e478df2d119f2ddf956ca",
+                "reference": "58b1be927f43c779377e478df2d119f2ddf956ca",
                 "shasum": ""
             },
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1800,13 +2208,75 @@
                 "sass",
                 "web"
             ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.0.1"
+            },
             "funding": [
                 {
                     "url": "https://opencollective.com/bootstrap",
                     "type": "open_collective"
                 }
             ],
-            "time": "2020-08-06T16:22:43+00:00"
+            "time": "2021-05-13T16:22:20+00:00"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozarts/assert.git",
+                "reference": "6964c76c7804814a842473e0c8fd15bab0f18e25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/6964c76c7804814a842473e0c8fd15bab0f18e25",
+                "reference": "6964c76c7804814a842473e0c8fd15bab0f18e25",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "conflict": {
+                "phpstan/phpstan": "<0.12.20",
+                "vimeo/psalm": "<4.6.1 || 4.6.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.13"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "support": {
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.10.0"
+            },
+            "time": "2021-03-09T10:59:23+00:00"
         }
     ],
     "packages-dev": [],
@@ -1819,5 +2289,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
