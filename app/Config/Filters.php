@@ -2,35 +2,68 @@
 
 namespace Config;
 
-class Filters extends \BasicApp\System\Config\App\Filters
+use CodeIgniter\Config\BaseConfig;
+use CodeIgniter\Filters\CSRF;
+use CodeIgniter\Filters\DebugToolbar;
+use CodeIgniter\Filters\Honeypot;
+use CodeIgniter\Filters\InvalidChars;
+use CodeIgniter\Filters\SecureHeaders;
+
+class Filters extends BaseConfig
 {
-	// Makes reading things below nicer,
-	// and simpler to change out script that's used.
-	public $aliases = [
-		'csrf'     => \CodeIgniter\Filters\CSRF::class,
-		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
-		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
-	];
+    /**
+     * Configures aliases for Filter classes to
+     * make reading things nicer and simpler.
+     *
+     * @var array<string, class-string|list<class-string>> [filter_name => classname]
+     *                                                     or [filter_name => [classname1, classname2, ...]]
+     */
+    public array $aliases = [
+        'csrf'          => CSRF::class,
+        'toolbar'       => DebugToolbar::class,
+        'honeypot'      => Honeypot::class,
+        'invalidchars'  => InvalidChars::class,
+        'secureheaders' => SecureHeaders::class,
+    ];
 
-	// Always applied before every request
-	public $globals = [
-		'before' => [
-			//'honeypot'
-			// 'csrf',
-		],
-		'after'  => [
-			'toolbar',
-			//'honeypot'
-		],
-	];
+    /**
+     * List of filter aliases that are always
+     * applied before and after every request.
+     *
+     * @var array<string, array<string, array<string, string>>>|array<string, list<string>>
+     */
+    public array $globals = [
+        'before' => [
+            // 'honeypot',
+            // 'csrf',
+            // 'invalidchars',
+        ],
+        'after' => [
+            'toolbar',
+            // 'honeypot',
+            // 'secureheaders',
+        ],
+    ];
 
-	// Works on all of a particular HTTP method
-	// (GET, POST, etc) as BEFORE filters only
-	//     like: 'post' => ['CSRF', 'throttle'],
-	public $methods = [];
+    /**
+     * List of filter aliases that works on a
+     * particular HTTP method (GET, POST, etc.).
+     *
+     * Example:
+     * 'post' => ['foo', 'bar']
+     *
+     * If you use this, you should disable auto-routing because auto-routing
+     * permits any HTTP method to access a controller. Accessing the controller
+     * with a method you don't expect could bypass the filter.
+     */
+    public array $methods = [];
 
-	// List filter aliases and any before/after uri patterns
-	// that they should run on, like:
-	//    'isLoggedIn' => ['before' => ['account/*', 'profiles/*']],
-	public $filters = [];
+    /**
+     * List of filter aliases that should run on any
+     * before or after URI patterns.
+     *
+     * Example:
+     * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
+     */
+    public array $filters = [];
 }

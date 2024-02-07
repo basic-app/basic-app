@@ -4,26 +4,34 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "codeigniter4/framework": "*",
-        "codeigniter4/translations": "*",
-        "basic-app/system" : "*",
-        "basic-app/admin" : "*",
-        "basic-app/module-blog" : "*",
-        "basic-app/module-page" : "*",
-        "basic-app/module-menu" : "*",
-        "basic-app/module-block" : "*",
-        "basic-app/theme-clean-blog": "*",
-        "basic-app/theme-bootstrap4": "*",
-        "basic-app/theme-cool-admin": "*",
-        "basic-app/js-tinymce": "*",
-        "basic-app/js-codemirror": "*",
-        "basic-app/module-user": "dev-master",
-        "basic-app/module-i18n": "*",
+        "php": "^7.4 || ^8.0",
+        "basic-app/admin": "*",
+        "basic-app/auth": "dev-main",
         "basic-app/html-purifier": "*",
+        "basic-app/js-codemirror": "*",
+        "basic-app/js-tinymce": "*",
+        "basic-app/member": "*",
+        "basic-app/module-block": "*",
+        "basic-app/module-blog": "*",
+        "basic-app/module-i18n": "*",
+        "basic-app/module-menu": "*",
+        "basic-app/module-page": "*",
+        "basic-app/module-user": "dev-master",
         "basic-app/site": "*",
-        "basic-app/member": "*"
+        "basic-app/system": "*",
+        "basic-app/theme-bootstrap4": "*",
+        "basic-app/theme-clean-blog": "*",
+        "basic-app/theme-cool-admin": "*",
+        "codeigniter4/framework": "^4.0",
+        "codeigniter4/translations": "*"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9",
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9.1"
     },
     "scripts": {
+		"test": "phpunit",
         "post-create-project-cmd": [
             "BasicApp\\Core\\Composer::postCreateProject"
         ],
@@ -55,6 +63,21 @@
                 }
             ]
         }
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Support\\": "tests/_support"
+        }
+    },
+    "config": {
+        "optimize-autoloader": false,
+        "preferred-install": "dist",
+        "sort-packages": false
     },
     "repositories": [
         {
