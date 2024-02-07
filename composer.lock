@@ -567,12 +567,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-page.git",
-                "reference": "55a997b9c43b0d43ab14244b9f612908bd1a572b"
+                "reference": "cd61cf88ad6c1371233b5c76b3611e1123b2e388"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-page/zipball/55a997b9c43b0d43ab14244b9f612908bd1a572b",
-                "reference": "55a997b9c43b0d43ab14244b9f612908bd1a572b",
+                "url": "https://api.github.com/repos/basic-app/module-page/zipball/cd61cf88ad6c1371233b5c76b3611e1123b2e388",
+                "reference": "cd61cf88ad6c1371233b5c76b3611e1123b2e388",
                 "shasum": ""
             },
             "require": {
@@ -597,7 +597,7 @@
                 "issues": "https://github.com/basic-app/module-page/issues",
                 "source": "https://github.com/basic-app/module-page/tree/master"
             },
-            "time": "2024-02-07T20:44:47+00:00"
+            "time": "2024-02-07T21:08:38+00:00"
         },
         {
             "name": "basic-app/module-user",
