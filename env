@@ -144,3 +144,9 @@ session.savePath = sessions
 #--------------------------------------------------------------------
 
 # curlrequest.shareOptions = false
+
+#--------------------------------------------------------------------
+# Admin
+#--------------------------------------------------------------------
+admin.login = admin
+admin.passwordHash = $2y$10$ycBnAOcXAMXPKAPJ1zo7ReT02MoElz6gi2JdU3gjSxYYq8F2Mli8i

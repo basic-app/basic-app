@@ -66,6 +66,16 @@ login: admin
 password: admin
 ```
 
+## Change Admin Password
+
+1. Execute command:
+
+```
+php spark hash-admin-password YOUR_PASSWORD
+```
+
+2. Store result hash string to .evn file in admin.passwordHash section
+
 You can change the administrator password in the `/App/Config/Admin.php` file.
 
 ## Server Requirements
