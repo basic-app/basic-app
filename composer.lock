@@ -498,12 +498,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-menu.git",
-                "reference": "65d44c3e7a0d55b3ebaa767332fa5aa86e98d9b2"
+                "reference": "16ec21ba7ee2abbc655da30ee6ed4f6f1674440a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/65d44c3e7a0d55b3ebaa767332fa5aa86e98d9b2",
-                "reference": "65d44c3e7a0d55b3ebaa767332fa5aa86e98d9b2",
+                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/16ec21ba7ee2abbc655da30ee6ed4f6f1674440a",
+                "reference": "16ec21ba7ee2abbc655da30ee6ed4f6f1674440a",
                 "shasum": ""
             },
             "require": {
@@ -524,7 +524,7 @@
                 "issues": "https://github.com/basic-app/module-menu/issues",
                 "source": "https://github.com/basic-app/module-menu/tree/master"
             },
-            "time": "2024-02-07T20:44:24+00:00"
+            "time": "2024-02-08T17:36:58+00:00"
         },
         {
             "name": "basic-app/module-message",
