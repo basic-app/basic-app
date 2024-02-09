@@ -56,11 +56,17 @@ php spark ba:seed
 
 ### Step 4
 
-Set document root to `/public` directory.
+Run local development server
+
+```
+php spark serve
+```
+
+Or set document root to `/public` directory.
 
 ## Backend
 
-Access backend by opening `http://example.com/admin` in a browser.
+Access backend by opening `http://localhost:8080/admin` in a browser.
 ```
 login: admin
 password: admin
@@ -73,10 +79,7 @@ password: admin
 ```
 php spark hash-admin-password YOUR_PASSWORD
 ```
-
 2. Store result hash string to .evn file in admin.passwordHash section
-
-You can change the administrator password in the `/App/Config/Admin.php` file.
 
 ## Server Requirements
 
