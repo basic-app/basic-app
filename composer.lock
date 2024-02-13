@@ -82,12 +82,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "3b5ac7b848b80499becc185638ed21c7ee0777bb"
+                "reference": "a49a8c97c2ae8af7c123a69271e6d12879b89b07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/3b5ac7b848b80499becc185638ed21c7ee0777bb",
-                "reference": "3b5ac7b848b80499becc185638ed21c7ee0777bb",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/a49a8c97c2ae8af7c123a69271e6d12879b89b07",
+                "reference": "a49a8c97c2ae8af7c123a69271e6d12879b89b07",
                 "shasum": ""
             },
             "require": {
@@ -127,7 +127,7 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2024-02-08T20:42:42+00:00"
+            "time": "2024-02-13T20:08:47+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -203,22 +203,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/js-codemirror.git",
-                "reference": "f72b36f3e0b1ebe82bd479bd913cbd298ab250ba"
+                "reference": "edba3c989bfe670d060f655ba882ce92fd19ea3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/js-codemirror/zipball/f72b36f3e0b1ebe82bd479bd913cbd298ab250ba",
-                "reference": "f72b36f3e0b1ebe82bd479bd913cbd298ab250ba",
+                "url": "https://api.github.com/repos/basic-app/js-codemirror/zipball/edba3c989bfe670d060f655ba882ce92fd19ea3a",
+                "reference": "edba3c989bfe670d060f655ba882ce92fd19ea3a",
                 "shasum": ""
-            },
-            "require": {
-                "npm-asset/codemirror": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Js\\CodeMirror\\": ""
+                    "BasicApp\\Js\\CodeMirror\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -229,7 +226,7 @@
                 "issues": "https://github.com/basic-app/js-codemirror/issues",
                 "source": "https://github.com/basic-app/js-codemirror/tree/master"
             },
-            "time": "2020-03-11T08:50:01+00:00"
+            "time": "2024-02-13T20:08:27+00:00"
         },
         {
             "name": "basic-app/js-tinymce",
@@ -237,22 +234,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/js-tinymce.git",
-                "reference": "55f42c76d63287ee2008be3dcb4334030cd9930d"
+                "reference": "22a3954ab9f646768b6d4409930dfc6c25a018a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/55f42c76d63287ee2008be3dcb4334030cd9930d",
-                "reference": "55f42c76d63287ee2008be3dcb4334030cd9930d",
+                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/22a3954ab9f646768b6d4409930dfc6c25a018a5",
+                "reference": "22a3954ab9f646768b6d4409930dfc6c25a018a5",
                 "shasum": ""
-            },
-            "require": {
-                "npm-asset/tinymce": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Js\\TinyMce\\": ""
+                    "BasicApp\\Js\\TinyMce\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -263,7 +257,7 @@
                 "issues": "https://github.com/basic-app/js-tinymce/issues",
                 "source": "https://github.com/basic-app/js-tinymce/tree/master"
             },
-            "time": "2020-03-10T19:46:44+00:00"
+            "time": "2024-02-13T19:45:46+00:00"
         },
         {
             "name": "basic-app/member",
@@ -1355,30 +1349,6 @@
                 }
             ],
             "time": "2023-10-10T08:35:13+00:00"
-        },
-        {
-            "name": "npm-asset/codemirror",
-            "version": "6.65.7",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/codemirror/-/codemirror-6.65.7.tgz"
-            },
-            "type": "npm-asset",
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "npm-asset/tinymce",
-            "version": "6.8.2",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/tinymce/-/tinymce-6.8.2.tgz"
-            },
-            "type": "npm-asset",
-            "license": [
-                "MIT"
-            ]
         },
         {
             "name": "phptheme/bootstrap4",
