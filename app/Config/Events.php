@@ -5,7 +5,6 @@ namespace Config;
 use CodeIgniter\Events\Events;
 use CodeIgniter\Exceptions\FrameworkException;
 use CodeIgniter\HotReloader\HotReloader;
-
 use BasicApp\System\SystemEvents;
 use BasicApp\Site\SiteEvents;
 use BasicApp\Admin\AdminEvents;
@@ -13,6 +12,7 @@ use BasicApp\Helpers\Url;
 use BasicApp\System\Events\SystemResetEvent;
 use BasicApp\System\Events\SystemSeedEvent;
 use App\Models\AppConfigModel;
+use BasicApp\AdminMenu\AdminMenuEvents;
 
 /*
  * --------------------------------------------------------------------
@@ -101,9 +101,9 @@ SystemEvents::onReset(function(SystemResetEvent $event) {
     }
 });
 
-if (class_exists(AdminEvents::class))
+if (class_exists(AdminMenuEvents::class))
 {
-    AdminEvents::onOptionsMenu(function($event)
+    AdminMenuEvents::onOptionsMenu(function($event)
     {
         $modelClass = \App\Models\AppConfigModel::class;
 
