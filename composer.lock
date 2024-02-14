@@ -230,19 +230,18 @@
         },
         {
             "name": "basic-app/js-codemirror",
-            "version": "dev-master",
+            "version": "v0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/js-codemirror.git",
-                "reference": "edba3c989bfe670d060f655ba882ce92fd19ea3a"
+                "reference": "52cb1ed9cf55ad37dd1c6f3967c7c7fed4593f8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/js-codemirror/zipball/edba3c989bfe670d060f655ba882ce92fd19ea3a",
-                "reference": "edba3c989bfe670d060f655ba882ce92fd19ea3a",
+                "url": "https://api.github.com/repos/basic-app/js-codemirror/zipball/52cb1ed9cf55ad37dd1c6f3967c7c7fed4593f8b",
+                "reference": "52cb1ed9cf55ad37dd1c6f3967c7c7fed4593f8b",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -255,9 +254,9 @@
             ],
             "support": {
                 "issues": "https://github.com/basic-app/js-codemirror/issues",
-                "source": "https://github.com/basic-app/js-codemirror/tree/master"
+                "source": "https://github.com/basic-app/js-codemirror/tree/v0.1"
             },
-            "time": "2024-02-13T20:08:27+00:00"
+            "time": "2024-02-14T21:15:49+00:00"
         },
         {
             "name": "basic-app/js-tinymce",
