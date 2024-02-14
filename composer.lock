@@ -430,12 +430,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-configs.git",
-                "reference": "ada343ecf2179fc45558c7828cde1d4a69cd2c5d"
+                "reference": "3a6271efbf85246fef72ef0d1d6f0f24371542c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/ada343ecf2179fc45558c7828cde1d4a69cd2c5d",
-                "reference": "ada343ecf2179fc45558c7828cde1d4a69cd2c5d",
+                "url": "https://api.github.com/repos/basic-app/module-configs/zipball/3a6271efbf85246fef72ef0d1d6f0f24371542c7",
+                "reference": "3a6271efbf85246fef72ef0d1d6f0f24371542c7",
                 "shasum": ""
             },
             "require": {
@@ -456,7 +456,7 @@
                 "issues": "https://github.com/basic-app/module-configs/issues",
                 "source": "https://github.com/basic-app/module-configs/tree/master"
             },
-            "time": "2021-05-26T13:38:26+00:00"
+            "time": "2024-02-14T21:05:47+00:00"
         },
         {
             "name": "basic-app/module-i18n",
