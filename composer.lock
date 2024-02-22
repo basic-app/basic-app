@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "a49a8c97c2ae8af7c123a69271e6d12879b89b07"
+                "reference": "03aa51b1d4fa6edcc8af1942091dca8c7edac37f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/a49a8c97c2ae8af7c123a69271e6d12879b89b07",
-                "reference": "a49a8c97c2ae8af7c123a69271e6d12879b89b07",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/03aa51b1d4fa6edcc8af1942091dca8c7edac37f",
+                "reference": "03aa51b1d4fa6edcc8af1942091dca8c7edac37f",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +158,7 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2024-02-13T20:08:47+00:00"
+            "time": "2024-02-22T20:37:44+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -264,12 +264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/js-tinymce.git",
-                "reference": "6ea35283686b2f1364cb659c1b28e1e13fb104f4"
+                "reference": "783194e05d926be7c739c94a964629d5624d34df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/6ea35283686b2f1364cb659c1b28e1e13fb104f4",
-                "reference": "6ea35283686b2f1364cb659c1b28e1e13fb104f4",
+                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/783194e05d926be7c739c94a964629d5624d34df",
+                "reference": "783194e05d926be7c739c94a964629d5624d34df",
                 "shasum": ""
             },
             "default-branch": true,
@@ -287,7 +287,7 @@
                 "issues": "https://github.com/basic-app/js-tinymce/issues",
                 "source": "https://github.com/basic-app/js-tinymce/tree/master"
             },
-            "time": "2024-02-14T20:41:05+00:00"
+            "time": "2024-02-22T20:41:45+00:00"
         },
         {
             "name": "basic-app/member",
@@ -675,12 +675,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site-menu.git",
-                "reference": "2190887b5de08c7c9c8e66c8422f98fb8aae9fa7"
+                "reference": "8ff7e679421af5fcf3513ae3e4b49bcaa0091b2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-menu/zipball/2190887b5de08c7c9c8e66c8422f98fb8aae9fa7",
-                "reference": "2190887b5de08c7c9c8e66c8422f98fb8aae9fa7",
+                "url": "https://api.github.com/repos/basic-app/site-menu/zipball/8ff7e679421af5fcf3513ae3e4b49bcaa0091b2f",
+                "reference": "8ff7e679421af5fcf3513ae3e4b49bcaa0091b2f",
                 "shasum": ""
             },
             "default-branch": true,
@@ -698,7 +698,7 @@
                 "issues": "https://github.com/basic-app/site-menu/issues",
                 "source": "https://github.com/basic-app/site-menu/tree/main"
             },
-            "time": "2024-02-14T19:32:36+00:00"
+            "time": "2024-02-22T20:30:32+00:00"
         },
         {
             "name": "basic-app/system",
@@ -1976,16 +1976,16 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "344e912d04b5b6a04482113eff20ab416ff01048"
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/344e912d04b5b6a04482113eff20ab416ff01048",
-                "reference": "344e912d04b5b6a04482113eff20ab416ff01048",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
                 "shasum": ""
             },
             "replace": {
@@ -2020,9 +2020,9 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v5.3.2"
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.3"
             },
-            "time": "2023-09-14T14:19:27+00:00"
+            "time": "2024-02-20T15:14:29+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -2329,16 +2329,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4a21235f7e56e713259a6f76bf4b5ea08502b9dc"
+                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4a21235f7e56e713259a6f76bf4b5ea08502b9dc",
-                "reference": "4a21235f7e56e713259a6f76bf4b5ea08502b9dc",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2218c2252c874a4624ab2f613d86ac32d227bc69",
+                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69",
                 "shasum": ""
             },
             "require": {
@@ -2381,9 +2381,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.1"
             },
-            "time": "2024-01-07T17:17:35+00:00"
+            "time": "2024-02-21T19:24:10+00:00"
         },
         {
             "name": "phar-io/manifest",
