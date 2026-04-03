@@ -22,9 +22,9 @@
         "basic-app/theme-clean-blog": "*",
         "basic-app/theme-cool-admin": "*",
         "basic-app/js-codemirror": "*",
-        "basic-app/js-tinymce": "*",
         "basic-app/system": "*",
-        "basic-app/member": "*"
+        "basic-app/member": "*",
+        "basic-app/js-tinymce": "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

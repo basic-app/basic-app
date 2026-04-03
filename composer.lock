@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b192809e328c68533cbd0266521b2679",
+    "content-hash": "5c2d6375f410b60317aeaf7cf059d9f1",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -269,17 +269,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/js-tinymce.git",
-                "reference": "6c10b30bd5585f9751c2938605f1e1869a4f0f0b"
+                "reference": "e96b98a48ea1500766998a7072f431fb5d56a6a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/6c10b30bd5585f9751c2938605f1e1869a4f0f0b",
-                "reference": "6c10b30bd5585f9751c2938605f1e1869a4f0f0b",
+                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/e96b98a48ea1500766998a7072f431fb5d56a6a4",
+                "reference": "e96b98a48ea1500766998a7072f431fb5d56a6a4",
                 "shasum": ""
             },
             "require": {
                 "basic-app/publisher": "*",
-                "tinymce/tinymce": "*"
+                "tinymce/tinymce": "^7"
             },
             "default-branch": true,
             "type": "library",
@@ -296,7 +296,7 @@
                 "issues": "https://github.com/basic-app/js-tinymce/issues",
                 "source": "https://github.com/basic-app/js-tinymce/tree/master"
             },
-            "time": "2026-04-03T06:22:51+00:00"
+            "time": "2026-04-03T16:27:16+00:00"
         },
         {
             "name": "basic-app/member",
@@ -2016,16 +2016,16 @@
         },
         {
             "name": "tinymce/tinymce",
-            "version": "8.4.0",
+            "version": "7.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "268583cbd56a9ed30d38856deab8cfd48727b746"
+                "reference": "f05e38fecf76287442dd3301786955a83bbe954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/268583cbd56a9ed30d38856deab8cfd48727b746",
-                "reference": "268583cbd56a9ed30d38856deab8cfd48727b746",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/f05e38fecf76287442dd3301786955a83bbe954f",
+                "reference": "f05e38fecf76287442dd3301786955a83bbe954f",
                 "shasum": ""
             },
             "type": "component",
@@ -2050,7 +2050,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "SEE LICENSE IN license.md"
+                "GPL-2.0-or-later"
             ],
             "description": "Web based JavaScript HTML WYSIWYG editor control.",
             "homepage": "https://www.tiny.cloud/",
@@ -2069,9 +2069,9 @@
                 "wysiwyg"
             ],
             "support": {
-                "source": "https://github.com/tinymce/tinymce-dist/tree/8.4.0"
+                "source": "https://github.com/tinymce/tinymce-dist/tree/7.9.2"
             },
-            "time": "2026-03-31T06:07:53+00:00"
+            "time": "2026-02-11T03:44:54+00:00"
         },
         {
             "name": "twbs/bootstrap",
@@ -4154,7 +4154,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "basic-app/js-tinymce": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
