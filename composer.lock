@@ -45,18 +45,19 @@
         },
         {
             "name": "basic-app/admin-menu",
-            "version": "v0.1",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-menu.git",
-                "reference": "21c3f61d9ce999f200bc261f28992659e9122062"
+                "reference": "89d1a3723a374d85ac965670dcc3dd223d30784a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-menu/zipball/21c3f61d9ce999f200bc261f28992659e9122062",
-                "reference": "21c3f61d9ce999f200bc261f28992659e9122062",
+                "url": "https://api.github.com/repos/basic-app/admin-menu/zipball/89d1a3723a374d85ac965670dcc3dd223d30784a",
+                "reference": "89d1a3723a374d85ac965670dcc3dd223d30784a",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -69,9 +70,9 @@
             ],
             "support": {
                 "issues": "https://github.com/basic-app/admin-menu/issues",
-                "source": "https://github.com/basic-app/admin-menu/tree/v0.1"
+                "source": "https://github.com/basic-app/admin-menu/tree/main"
             },
-            "time": "2024-02-14T20:40:21+00:00"
+            "time": "2024-02-22T20:33:09+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -268,13 +269,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/js-tinymce.git",
-                "reference": "783194e05d926be7c739c94a964629d5624d34df"
+                "reference": "6c10b30bd5585f9751c2938605f1e1869a4f0f0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/783194e05d926be7c739c94a964629d5624d34df",
-                "reference": "783194e05d926be7c739c94a964629d5624d34df",
+                "url": "https://api.github.com/repos/basic-app/js-tinymce/zipball/6c10b30bd5585f9751c2938605f1e1869a4f0f0b",
+                "reference": "6c10b30bd5585f9751c2938605f1e1869a4f0f0b",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/publisher": "*",
+                "tinymce/tinymce": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -291,7 +296,7 @@
                 "issues": "https://github.com/basic-app/js-tinymce/issues",
                 "source": "https://github.com/basic-app/js-tinymce/tree/master"
             },
-            "time": "2024-02-22T20:41:45+00:00"
+            "time": "2026-04-03T06:22:51+00:00"
         },
         {
             "name": "basic-app/member",
@@ -640,6 +645,37 @@
             "time": "2024-02-14T20:43:07+00:00"
         },
         {
+            "name": "basic-app/publisher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/publisher.git",
+                "reference": "c3de1e5667c106fc1389cba98889775d05f26847"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/publisher/zipball/c3de1e5667c106fc1389cba98889775d05f26847",
+                "reference": "c3de1e5667c106fc1389cba98889775d05f26847",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Publisher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/publisher/issues",
+                "source": "https://github.com/basic-app/publisher/tree/master"
+            },
+            "time": "2026-04-03T06:10:01+00:00"
+        },
+        {
             "name": "basic-app/site",
             "version": "dev-master",
             "source": {
@@ -744,12 +780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme.git",
-                "reference": "1642d9e2d8740ce5428eb28e7cd00d086cf2ae1a"
+                "reference": "4f23daa72639c228fa67ab143b200b021831a4b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme/zipball/1642d9e2d8740ce5428eb28e7cd00d086cf2ae1a",
-                "reference": "1642d9e2d8740ce5428eb28e7cd00d086cf2ae1a",
+                "url": "https://api.github.com/repos/basic-app/theme/zipball/4f23daa72639c228fa67ab143b200b021831a4b6",
+                "reference": "4f23daa72639c228fa67ab143b200b021831a4b6",
                 "shasum": ""
             },
             "require": {
@@ -773,7 +809,7 @@
                 "issues": "https://github.com/basic-app/theme/issues",
                 "source": "https://github.com/basic-app/theme/tree/master"
             },
-            "time": "2020-04-02T14:10:57+00:00"
+            "time": "2024-02-26T19:00:16+00:00"
         },
         {
             "name": "basic-app/theme-bootstrap4",
@@ -851,12 +887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-cool-admin.git",
-                "reference": "10f0c0ffc4ed4241469af51fe036fd3c2e7b0f84"
+                "reference": "e5ec6fe81f4aed6741be02723abad680c81e29d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/10f0c0ffc4ed4241469af51fe036fd3c2e7b0f84",
-                "reference": "10f0c0ffc4ed4241469af51fe036fd3c2e7b0f84",
+                "url": "https://api.github.com/repos/basic-app/theme-cool-admin/zipball/e5ec6fe81f4aed6741be02723abad680c81e29d1",
+                "reference": "e5ec6fe81f4aed6741be02723abad680c81e29d1",
                 "shasum": ""
             },
             "require": {
@@ -879,7 +915,7 @@
                 "issues": "https://github.com/basic-app/theme-cool-admin/issues",
                 "source": "https://github.com/basic-app/theme-cool-admin/tree/master"
             },
-            "time": "2020-02-18T19:18:09+00:00"
+            "time": "2026-04-03T07:34:13+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -1977,6 +2013,65 @@
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
             "time": "2021-05-03T11:20:27+00:00"
+        },
+        {
+            "name": "tinymce/tinymce",
+            "version": "8.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tinymce/tinymce-dist.git",
+                "reference": "268583cbd56a9ed30d38856deab8cfd48727b746"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/268583cbd56a9ed30d38856deab8cfd48727b746",
+                "reference": "268583cbd56a9ed30d38856deab8cfd48727b746",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "files": [
+                        "tinymce.min.js",
+                        "plugins/*/plugin.min.js",
+                        "themes/*/theme.min.js",
+                        "models/*/model.min.js",
+                        "skins/**",
+                        "icons/*/icons.min.js"
+                    ],
+                    "scripts": [
+                        "tinymce.js",
+                        "plugins/*/plugin.js",
+                        "themes/*/theme.js",
+                        "models/*/model.js",
+                        "icons/*/icons.js"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "SEE LICENSE IN license.md"
+            ],
+            "description": "Web based JavaScript HTML WYSIWYG editor control.",
+            "homepage": "https://www.tiny.cloud/",
+            "keywords": [
+                "contenteditable",
+                "editing",
+                "html",
+                "javascript",
+                "rich editor",
+                "rich text",
+                "rich text editor",
+                "richtext",
+                "rte",
+                "text",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "support": {
+                "source": "https://github.com/tinymce/tinymce-dist/tree/8.4.0"
+            },
+            "time": "2026-03-31T06:07:53+00:00"
         },
         {
             "name": "twbs/bootstrap",
