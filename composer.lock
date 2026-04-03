@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "1fc858c7d8f105b98b8cc1b2496a42452352f53b"
+                "reference": "86a0d92c40f2520f7c935920d61d6dac7cef64df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/1fc858c7d8f105b98b8cc1b2496a42452352f53b",
-                "reference": "1fc858c7d8f105b98b8cc1b2496a42452352f53b",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/86a0d92c40f2520f7c935920d61d6dac7cef64df",
+                "reference": "86a0d92c40f2520f7c935920d61d6dac7cef64df",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2024-02-14T20:40:04+00:00"
+            "time": "2026-04-03T17:01:09+00:00"
         },
         {
             "name": "basic-app/admin-menu",
