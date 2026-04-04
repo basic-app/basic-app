@@ -24,7 +24,8 @@
         "basic-app/js-codemirror": "*",
         "basic-app/system": "*",
         "basic-app/member": "*",
-        "basic-app/js-tinymce": "dev-master"
+        "basic-app/js-tinymce": "dev-master",
+        "basic-app/site-theme-scrolling-nav": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

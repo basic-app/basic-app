@@ -8,5 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 //$routes->get('/', '\BasicApp\Site\Controllers\Home::index');
 
 $routes->add('/', '\BasicApp\Page\Controllers\Page::view');
-$routes->add('admin', '\BasicApp\Page\Controllers\Admin\Page::index');
 
+$routes->add('admin', '\BasicApp\Page\Controllers\Admin\Page::index');
