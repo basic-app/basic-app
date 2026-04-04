@@ -75,3 +75,9 @@ database.default.port = 3306
 #--------------------------------------------------------------------
 admin.login = admin
 admin.passwordHash = $2y$10$ycBnAOcXAMXPKAPJ1zo7ReT02MoElz6gi2JdU3gjSxYYq8F2Mli8i
+
+#--------------------------------------------------------------------
+# Email
+#--------------------------------------------------------------------
+email.fromEmail = test@example.org
+email.fromName = "Basic App"
