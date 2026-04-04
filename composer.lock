@@ -80,12 +80,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/auth.git",
-                "reference": "db6131575e96f6eb6f815aa4a70c45531524562e"
+                "reference": "73457f12fe383a8e5882b0d2a8995c50fc2996d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/auth/zipball/db6131575e96f6eb6f815aa4a70c45531524562e",
-                "reference": "db6131575e96f6eb6f815aa4a70c45531524562e",
+                "url": "https://api.github.com/repos/basic-app/auth/zipball/73457f12fe383a8e5882b0d2a8995c50fc2996d1",
+                "reference": "73457f12fe383a8e5882b0d2a8995c50fc2996d1",
                 "shasum": ""
             },
             "provide": {
@@ -93,6 +93,11 @@
             },
             "default-branch": true,
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Auth\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -101,7 +106,7 @@
                 "issues": "https://github.com/basic-app/auth/issues",
                 "source": "https://github.com/basic-app/auth/tree/main"
             },
-            "time": "2026-04-04T08:19:36+00:00"
+            "time": "2026-04-04T09:08:02+00:00"
         },
         {
             "name": "basic-app/core",
@@ -531,12 +536,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-message.git",
-                "reference": "873b90c471bc6dcb927dc28e42694979b4d42270"
+                "reference": "5535199acaf39de233a8e80b0c20e9a3413c79bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-message/zipball/873b90c471bc6dcb927dc28e42694979b4d42270",
-                "reference": "873b90c471bc6dcb927dc28e42694979b4d42270",
+                "url": "https://api.github.com/repos/basic-app/module-message/zipball/5535199acaf39de233a8e80b0c20e9a3413c79bd",
+                "reference": "5535199acaf39de233a8e80b0c20e9a3413c79bd",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +562,7 @@
                 "issues": "https://github.com/basic-app/module-message/issues",
                 "source": "https://github.com/basic-app/module-message/tree/master"
             },
-            "time": "2024-02-14T20:42:36+00:00"
+            "time": "2026-04-04T09:22:00+00:00"
         },
         {
             "name": "basic-app/module-page",
