@@ -3,7 +3,6 @@
 namespace Config;
 
 use CodeIgniter\Config\BaseConfig;
-use CodeIgniter\Format\FormatterInterface;
 use CodeIgniter\Format\JSONFormatter;
 use CodeIgniter\Format\XMLFormatter;
 
@@ -22,7 +21,7 @@ class Format extends BaseConfig
      * These formats are only checked when the data passed to the respond()
      * method is an array.
      *
-     * @var string[]
+     * @var list<string>
      */
     public array $supportedResponseFormats = [
         'application/json',
@@ -64,14 +63,11 @@ class Format extends BaseConfig
     ];
 
     /**
-     * A Factory method to return the appropriate formatter for the given mime type.
+     * --------------------------------------------------------------------------
+     * Maximum depth for JSON encoding.
+     * --------------------------------------------------------------------------
      *
-     * @return FormatterInterface
-     *
-     * @deprecated This is an alias of `\CodeIgniter\Format\Format::getFormatter`. Use that instead.
+     * This value determines how deep the JSON encoder will traverse nested structures.
      */
-    public function getFormatter(string $mime)
-    {
-        return Services::format()->getFormatter($mime);
-    }
+    public int $jsonEncodeDepth = 512;
 }

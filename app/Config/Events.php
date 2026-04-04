@@ -31,7 +31,7 @@ use BasicApp\AdminMenu\AdminMenuEvents;
  *      Events::on('create', [$myInstance, 'myMethod']);
  */
 
-Events::on('pre_system', static function () {
+Events::on('pre_system', static function (): void {
     if (ENVIRONMENT !== 'testing') {
         if (ini_get('zlib.output_compression')) {
             throw FrameworkException::forEnabledZlibOutputCompression();
@@ -52,10 +52,10 @@ Events::on('pre_system', static function () {
      */
     if (CI_DEBUG && ! is_cli()) {
         Events::on('DBQuery', 'CodeIgniter\Debug\Toolbar\Collectors\Database::collect');
-        Services::toolbar()->respond();
+        service('toolbar')->respond();
         // Hot Reload route - for framework use on the hot reloader.
         if (ENVIRONMENT === 'development') {
-            Services::routes()->get('__hot-reload', static function () {
+            service('routes')->get('__hot-reload', static function (): void {
                 (new HotReloader())->run();
             });
         }

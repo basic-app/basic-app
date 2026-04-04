@@ -31,6 +31,11 @@ class ContentSecurityPolicy extends BaseConfig
     public ?string $reportURI = null;
 
     /**
+     * Specifies a reporting endpoint to which violation reports ought to be sent.
+     */
+    public ?string $reportTo = null;
+
+    /**
      * Instructs user agents to rewrite URL schemes, changing
      * HTTP to HTTPS. This directive is for websites with
      * large numbers of old URLs that need to be rewritten.
@@ -38,35 +43,65 @@ class ContentSecurityPolicy extends BaseConfig
     public bool $upgradeInsecureRequests = false;
 
     // -------------------------------------------------------------------------
-    // Sources allowed
+    // CSP DIRECTIVES SETTINGS
     // NOTE: once you set a policy to 'none', it cannot be further restricted
     // -------------------------------------------------------------------------
 
     /**
-     * Will default to self if not overridden
+     * Will default to `'self'` if not overridden
      *
-     * @var string|string[]|null
+     * @var list<string>|string|null
      */
     public $defaultSrc;
 
     /**
      * Lists allowed scripts' URLs.
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $scriptSrc = 'self';
 
     /**
+     * Specifies valid sources for JavaScript <script> elements.
+     *
+     * @var list<string>|string
+     */
+    public array|string $scriptSrcElem = 'self';
+
+    /**
+     * Specifies valid sources for JavaScript inline event
+     * handlers and JavaScript URLs.
+     *
+     * @var list<string>|string
+     */
+    public array|string $scriptSrcAttr = 'self';
+
+    /**
      * Lists allowed stylesheets' URLs.
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $styleSrc = 'self';
 
     /**
+     * Specifies valid sources for stylesheets <link> elements.
+     *
+     * @var list<string>|string
+     */
+    public array|string $styleSrcElem = 'self';
+
+    /**
+     * Specifies valid sources for stylesheets inline
+     * style attributes and `<style>` elements.
+     *
+     * @var list<string>|string
+     */
+    public array|string $styleSrcAttr = 'self';
+
+    /**
      * Defines the origins from which images can be loaded.
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $imageSrc = 'self';
 
@@ -75,14 +110,14 @@ class ContentSecurityPolicy extends BaseConfig
      *
      * Will default to self if not overridden
      *
-     * @var string|string[]|null
+     * @var list<string>|string|null
      */
     public $baseURI;
 
     /**
      * Lists the URLs for workers and embedded frame contents
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $childSrc = 'self';
 
@@ -90,21 +125,21 @@ class ContentSecurityPolicy extends BaseConfig
      * Limits the origins that you can connect to (via XHR,
      * WebSockets, and EventSource).
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $connectSrc = 'self';
 
     /**
      * Specifies the origins that can serve web fonts.
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $fontSrc;
 
     /**
      * Lists valid endpoints for submission from `<form>` tags.
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $formAction = 'self';
 
@@ -114,7 +149,7 @@ class ContentSecurityPolicy extends BaseConfig
      * and `<applet>` tags. This directive can't be used in
      * `<meta>` tags and applies only to non-HTML resources.
      *
-     * @var string|string[]|null
+     * @var list<string>|string|null
      */
     public $frameAncestors;
 
@@ -122,55 +157,60 @@ class ContentSecurityPolicy extends BaseConfig
      * The frame-src directive restricts the URLs which may
      * be loaded into nested browsing contexts.
      *
-     * @var array|string|null
+     * @var list<string>|string|null
      */
     public $frameSrc;
 
     /**
      * Restricts the origins allowed to deliver video and audio.
      *
-     * @var string|string[]|null
+     * @var list<string>|string|null
      */
     public $mediaSrc;
 
     /**
      * Allows control over Flash and other plugins.
      *
-     * @var string|string[]
+     * @var list<string>|string
      */
     public $objectSrc = 'self';
 
     /**
-     * @var string|string[]|null
+     * @var list<string>|string|null
      */
     public $manifestSrc;
 
     /**
+     * @var list<string>|string
+     */
+    public array|string $workerSrc = [];
+
+    /**
      * Limits the kinds of plugins a page may invoke.
      *
-     * @var string|string[]|null
+     * @var list<string>|string|null
      */
     public $pluginTypes;
 
     /**
      * List of actions allowed.
      *
-     * @var string|string[]|null
+     * @var list<string>|string|null
      */
     public $sandbox;
 
     /**
-     * Nonce tag for style
+     * Nonce placeholder for style tags.
      */
     public string $styleNonceTag = '{csp-style-nonce}';
 
     /**
-     * Nonce tag for script
+     * Nonce placeholder for script tags.
      */
     public string $scriptNonceTag = '{csp-script-nonce}';
 
     /**
-     * Replace nonce tag automatically
+     * Replace nonce tag automatically?
      */
     public bool $autoNonce = true;
 }
