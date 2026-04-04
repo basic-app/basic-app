@@ -25,7 +25,8 @@
         "basic-app/system": "*",
         "basic-app/member": "*",
         "basic-app/js-tinymce": "dev-master",
-        "basic-app/site-theme-scrolling-nav": "dev-main"
+        "basic-app/site-theme-scrolling-nav": "dev-main",
+        "basic-app/admin-theme-sb-admin": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

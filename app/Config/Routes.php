@@ -10,3 +10,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->add('/', '\BasicApp\Page\Controllers\Page::view');
 
 $routes->add('admin', '\BasicApp\Page\Controllers\Admin\Page::index');
+
+//$routes->add('admin', '\BasicApp\Admin\Controllers\Dashboard::index');

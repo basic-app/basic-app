@@ -2,7 +2,7 @@
 
 use App\Models\AppConfig;
 
-$demo = config('demosite');
+$demosite = config('demosite');
 
 $appConfig = config(AppConfig::class);
 
@@ -14,28 +14,28 @@ $appConfig = config(AppConfig::class);
 	'locale' => service('request')->getLocale(),
 	'content' => $this->renderSection('content'),
 	'header' => view_cell('SiteCell::header', [
-		'title' => $demo->headerTitle,
-		'description' => $demo->headerDescription,
+		'title' => $demosite->headerTitle,
+		'description' => $demosite->headerDescription,
 		'backgroundImage' => $appConfig->getBackgroundImageUrl()
 	]),
 	'footer' => view_cell('SiteCell::footer', [
-		'copyright' => str_replace(':YEAR', date('Y'), $demo->copyright)
+		'copyright' => str_replace(':YEAR', date('Y'), $demosite->copyright)
 	]),
 	'nav' => view_cell('SiteCell::nav', [
-		'siteName' => $demo->siteName,
+		'siteName' => $demosite->siteName,
 		'baseUrl' => base_url(),
 		'items' => [
-			$demo->indexPage->page_url => [
-                'label' => $demo->indexPage->page_name, 
-                'url' => '#' . $demo->indexPage->page_url
+			$demosite->indexPage->page_url => [
+                'label' => $demosite->indexPage->page_name, 
+                'url' => '#' . $demosite->indexPage->page_url
             ],
-            $demo->servicesPage->page_url => [
-                'label' => $demo->servicesPage->page_name, 
-                'url' => '#' . $demo->servicesPage->page_url
+            $demosite->servicesPage->page_url => [
+                'label' => $demosite->servicesPage->page_name, 
+                'url' => '#' . $demosite->servicesPage->page_url
             ],
-            $demo->contactsPage->page_url => [
-                'label' => $demo->contactsPage->page_name, 
-                'url' => '#' . $demo->contactsPage->page_url
+            $demosite->contactsPage->page_url => [
+                'label' => $demosite->contactsPage->page_name, 
+                'url' => '#' . $demosite->contactsPage->page_url
             ]
 		]
 	])

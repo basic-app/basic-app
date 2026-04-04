@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59f97b21cb48cfe0f8e1c2eec60435c9",
+    "content-hash": "628e66aaf2e422983f825bcce4d28bba",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -73,6 +73,42 @@
                 "source": "https://github.com/basic-app/admin-menu/tree/main"
             },
             "time": "2024-02-22T20:33:09+00:00"
+        },
+        {
+            "name": "basic-app/admin-theme-sb-admin",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin-theme-sb-admin.git",
+                "reference": "adb5d9983ecca168bc7e6c9714a4717a8f277de2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin-theme-sb-admin/zipball/adb5d9983ecca168bc7e6c9714a4717a8f277de2",
+                "reference": "adb5d9983ecca168bc7e6c9714a4717a8f277de2",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/admin": "*",
+                "basic-app/publisher": "*",
+                "basic-app/theme-bootstrap5": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminThemeSbAdmin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin-theme-sb-admin/issues",
+                "source": "https://github.com/basic-app/admin-theme-sb-admin/tree/main"
+            },
+            "time": "2026-04-04T20:50:00+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -4262,6 +4298,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "basic-app/admin-theme-sb-admin": 20,
         "basic-app/js-tinymce": 20,
         "basic-app/site-theme-scrolling-nav": 20
     },
