@@ -16,11 +16,13 @@
 
 # CI_ENVIRONMENT = production
 
+CI_ENVIRONMENT = development
+
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
+app.baseURL = 'http://localhost:8080'
 # If you have trouble with `.`, you could also use `_`.
 # app_baseURL = ''
 # app.forceGlobalSecureRequests = false
@@ -67,3 +69,9 @@
 #--------------------------------------------------------------------
 
 # logger.threshold = 4
+
+#--------------------------------------------------------------------
+# Admin
+#--------------------------------------------------------------------
+admin.login = admin
+admin.passwordHash = $2y$10$ycBnAOcXAMXPKAPJ1zo7ReT02MoElz6gi2JdU3gjSxYYq8F2Mli8i
