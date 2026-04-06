@@ -17,13 +17,11 @@
         "basic-app/module-i18n": "*",
         "basic-app/module-menu": "*",
         "basic-app/module-page": "*",
-        "basic-app/module-user": "*",
         "basic-app/theme-bootstrap4": "*",
         "basic-app/theme-clean-blog": "*",
         "basic-app/theme-cool-admin": "*",
         "basic-app/js-codemirror": "*",
         "basic-app/system": "*",
-        "basic-app/member": "*",
         "basic-app/js-tinymce": "dev-master"
     },
     "require-dev": {
