@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffe98c777dfb6367a1761cd56e25ca40",
+    "content-hash": "d97bcb92fafc220d2df252336a11f3d9",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "fde887d56cbe3e3f680b7feea9b2d113df2bb42e"
+                "reference": "adb251f568351b42101f3e3e026b1c25cc838fa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/fde887d56cbe3e3f680b7feea9b2d113df2bb42e",
-                "reference": "fde887d56cbe3e3f680b7feea9b2d113df2bb42e",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/adb251f568351b42101f3e3e026b1c25cc838fa9",
+                "reference": "adb251f568351b42101f3e3e026b1c25cc838fa9",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-04-06T18:39:11+00:00"
+            "time": "2026-04-06T18:56:19+00:00"
         },
         {
             "name": "basic-app/admin-menu",
@@ -298,6 +298,41 @@
             "time": "2026-04-03T16:27:16+00:00"
         },
         {
+            "name": "basic-app/member",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/member.git",
+                "reference": "2a0cfbc4aeadbd9f04bf5bd6f931438c41174e45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/member/zipball/2a0cfbc4aeadbd9f04bf5bd6f931438c41174e45",
+                "reference": "2a0cfbc4aeadbd9f04bf5bd6f931438c41174e45",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/core": "*",
+                "basic-app/site": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Member\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/member/issues",
+                "source": "https://github.com/basic-app/member/tree/master"
+            },
+            "time": "2026-04-06T18:04:57+00:00"
+        },
+        {
             "name": "basic-app/migration",
             "version": "dev-master",
             "source": {
@@ -496,6 +531,40 @@
             "time": "2026-04-06T18:33:36+00:00"
         },
         {
+            "name": "basic-app/module-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-message.git",
+                "reference": "5535199acaf39de233a8e80b0c20e9a3413c79bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-message/zipball/5535199acaf39de233a8e80b0c20e9a3413c79bd",
+                "reference": "5535199acaf39de233a8e80b0c20e9a3413c79bd",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/migration": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Message\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/module-message/issues",
+                "source": "https://github.com/basic-app/module-message/tree/master"
+            },
+            "time": "2026-04-04T09:22:00+00:00"
+        },
+        {
             "name": "basic-app/module-page",
             "version": "dev-master",
             "source": {
@@ -532,6 +601,47 @@
                 "source": "https://github.com/basic-app/module-page/tree/master"
             },
             "time": "2026-04-04T11:12:52+00:00"
+        },
+        {
+            "name": "basic-app/module-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-user.git",
+                "reference": "2961002bb5a8869ce2659c13fbfcee674115f6c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-user/zipball/2961002bb5a8869ce2659c13fbfcee674115f6c5",
+                "reference": "2961002bb5a8869ce2659c13fbfcee674115f6c5",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/migration": "*",
+                "basic-app/module-message": "*",
+                "basic-app/module-page": "*",
+                "denis303/codeigniter4-user": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "_autoload/BaseUser.php",
+                    "_autoload/BaseUserModel.php"
+                ],
+                "psr-4": {
+                    "BasicApp\\User\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/module-user/issues",
+                "source": "https://github.com/basic-app/module-user/tree/master"
+            },
+            "time": "2026-04-04T08:55:06+00:00"
         },
         {
             "name": "basic-app/publisher",
@@ -1029,6 +1139,40 @@
                 "source": "https://github.com/denis303/codeigniter4-nested-views/tree/master"
             },
             "time": "2019-12-20T09:40:22+00:00"
+        },
+        {
+            "name": "denis303/codeigniter4-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/denis303/codeigniter4-user.git",
+                "reference": "b262f70bed6288c30bf7c088d6752074254aa1cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/denis303/codeigniter4-user/zipball/b262f70bed6288c30bf7c088d6752074254aa1cc",
+                "reference": "b262f70bed6288c30bf7c088d6752074254aa1cc",
+                "shasum": ""
+            },
+            "require": {
+                "denis303/codeigniter4-migration": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "denis303\\user\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/denis303/codeigniter4-user/issues",
+                "source": "https://github.com/denis303/codeigniter4-user/tree/master"
+            },
+            "time": "2019-11-18T08:43:30+00:00"
         },
         {
             "name": "denis303/php-download-helper",
@@ -4048,7 +4192,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "basic-app/js-tinymce": 20
+        "basic-app/js-tinymce": 20,
+        "basic-app/member": 20,
+        "basic-app/module-user": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
