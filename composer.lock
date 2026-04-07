@@ -1211,12 +1211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/denis303/php-file-helper.git",
-                "reference": "fba9956fe80329589c677bad9142e18385492dba"
+                "reference": "ad3b7831120ae07b7c93216cdab7e882faf3eab0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/denis303/php-file-helper/zipball/fba9956fe80329589c677bad9142e18385492dba",
-                "reference": "fba9956fe80329589c677bad9142e18385492dba",
+                "url": "https://api.github.com/repos/denis303/php-file-helper/zipball/ad3b7831120ae07b7c93216cdab7e882faf3eab0",
+                "reference": "ad3b7831120ae07b7c93216cdab7e882faf3eab0",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1234,7 +1234,7 @@
                 "issues": "https://github.com/denis303/php-file-helper/issues",
                 "source": "https://github.com/denis303/php-file-helper/tree/master"
             },
-            "time": "2019-10-10T11:08:50+00:00"
+            "time": "2026-04-07T08:12:12+00:00"
         },
         {
             "name": "denis303/php-traits",
