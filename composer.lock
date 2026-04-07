@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "bcf2efd71c4235030859146bec56016a1c76b54a"
+                "reference": "3f06d0e38493acb530a529f7f8ce8e3388c77d63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/bcf2efd71c4235030859146bec56016a1c76b54a",
-                "reference": "bcf2efd71c4235030859146bec56016a1c76b54a",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/3f06d0e38493acb530a529f7f8ce8e3388c77d63",
+                "reference": "3f06d0e38493acb530a529f7f8ce8e3388c77d63",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-04-06T19:52:11+00:00"
+            "time": "2026-04-07T18:53:23+00:00"
         },
         {
             "name": "basic-app/admin-menu",
@@ -114,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "d1df7ecdb44cf0d016de7e20492f9dbf246440b4"
+                "reference": "929ab8693e3cb826ba56a1fedfe9f390bed072e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/d1df7ecdb44cf0d016de7e20492f9dbf246440b4",
-                "reference": "d1df7ecdb44cf0d016de7e20492f9dbf246440b4",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/929ab8693e3cb826ba56a1fedfe9f390bed072e1",
+                "reference": "929ab8693e3cb826ba56a1fedfe9f390bed072e1",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +158,7 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-04-04T08:50:01+00:00"
+            "time": "2026-04-07T19:55:05+00:00"
         },
         {
             "name": "basic-app/crud",
@@ -372,12 +372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-block.git",
-                "reference": "b61f0f09c74427307a73a4822861f82bd6854231"
+                "reference": "8b22b462dda32a12de788dce7aae822e27180627"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-block/zipball/b61f0f09c74427307a73a4822861f82bd6854231",
-                "reference": "b61f0f09c74427307a73a4822861f82bd6854231",
+                "url": "https://api.github.com/repos/basic-app/module-block/zipball/8b22b462dda32a12de788dce7aae822e27180627",
+                "reference": "8b22b462dda32a12de788dce7aae822e27180627",
                 "shasum": ""
             },
             "default-branch": true,
@@ -395,7 +395,7 @@
                 "issues": "https://github.com/basic-app/module-block/issues",
                 "source": "https://github.com/basic-app/module-block/tree/master"
             },
-            "time": "2024-02-14T20:41:32+00:00"
+            "time": "2026-04-07T19:07:31+00:00"
         },
         {
             "name": "basic-app/module-blog",
@@ -502,12 +502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-menu.git",
-                "reference": "76f7a9e8c0c5143cd0a406ef8c6bee903133a48f"
+                "reference": "cddb06fc1af590ec4d80b8f114403e07a0876374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/76f7a9e8c0c5143cd0a406ef8c6bee903133a48f",
-                "reference": "76f7a9e8c0c5143cd0a406ef8c6bee903133a48f",
+                "url": "https://api.github.com/repos/basic-app/module-menu/zipball/cddb06fc1af590ec4d80b8f114403e07a0876374",
+                "reference": "cddb06fc1af590ec4d80b8f114403e07a0876374",
                 "shasum": ""
             },
             "require": {
@@ -528,7 +528,7 @@
                 "issues": "https://github.com/basic-app/module-menu/issues",
                 "source": "https://github.com/basic-app/module-menu/tree/master"
             },
-            "time": "2026-04-06T18:33:36+00:00"
+            "time": "2026-04-07T19:54:18+00:00"
         },
         {
             "name": "basic-app/module-message",
@@ -536,12 +536,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-message.git",
-                "reference": "5535199acaf39de233a8e80b0c20e9a3413c79bd"
+                "reference": "ddb2c10227f17bb4465650531475676c31f5a7ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-message/zipball/5535199acaf39de233a8e80b0c20e9a3413c79bd",
-                "reference": "5535199acaf39de233a8e80b0c20e9a3413c79bd",
+                "url": "https://api.github.com/repos/basic-app/module-message/zipball/ddb2c10227f17bb4465650531475676c31f5a7ca",
+                "reference": "ddb2c10227f17bb4465650531475676c31f5a7ca",
                 "shasum": ""
             },
             "require": {
@@ -562,7 +562,7 @@
                 "issues": "https://github.com/basic-app/module-message/issues",
                 "source": "https://github.com/basic-app/module-message/tree/master"
             },
-            "time": "2026-04-04T09:22:00+00:00"
+            "time": "2026-04-07T20:02:33+00:00"
         },
         {
             "name": "basic-app/module-page",
@@ -570,12 +570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-page.git",
-                "reference": "c7d3a770d01d9c7f0e94144c50a8feb1b5efdedb"
+                "reference": "3ab2217b4a0460bc7355e07ed367df1150246506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-page/zipball/c7d3a770d01d9c7f0e94144c50a8feb1b5efdedb",
-                "reference": "c7d3a770d01d9c7f0e94144c50a8feb1b5efdedb",
+                "url": "https://api.github.com/repos/basic-app/module-page/zipball/3ab2217b4a0460bc7355e07ed367df1150246506",
+                "reference": "3ab2217b4a0460bc7355e07ed367df1150246506",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +600,7 @@
                 "issues": "https://github.com/basic-app/module-page/issues",
                 "source": "https://github.com/basic-app/module-page/tree/master"
             },
-            "time": "2026-04-07T07:11:28+00:00"
+            "time": "2026-04-07T19:02:43+00:00"
         },
         {
             "name": "basic-app/module-user",
@@ -745,12 +745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "82f47393e6372dc463cbc1acab1fd478822a52f5"
+                "reference": "5264d22261f20b9e78142c8d5bc22b3b729aa35b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/82f47393e6372dc463cbc1acab1fd478822a52f5",
-                "reference": "82f47393e6372dc463cbc1acab1fd478822a52f5",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/5264d22261f20b9e78142c8d5bc22b3b729aa35b",
+                "reference": "5264d22261f20b9e78142c8d5bc22b3b729aa35b",
                 "shasum": ""
             },
             "require": {
@@ -771,7 +771,7 @@
                 "issues": "https://github.com/basic-app/system/issues",
                 "source": "https://github.com/basic-app/system/tree/master"
             },
-            "time": "2026-04-07T06:47:01+00:00"
+            "time": "2026-04-07T18:08:52+00:00"
         },
         {
             "name": "basic-app/theme",
