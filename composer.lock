@@ -816,17 +816,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/theme-bootstrap4.git",
-                "reference": "5866f811aa2449495fa3cacbc7f0a0a205d606b1"
+                "reference": "eb4684581dca87003c5ab49e6d664df16ad6419a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/theme-bootstrap4/zipball/5866f811aa2449495fa3cacbc7f0a0a205d606b1",
-                "reference": "5866f811aa2449495fa3cacbc7f0a0a205d606b1",
+                "url": "https://api.github.com/repos/basic-app/theme-bootstrap4/zipball/eb4684581dca87003c5ab49e6d664df16ad6419a",
+                "reference": "eb4684581dca87003c5ab49e6d664df16ad6419a",
                 "shasum": ""
             },
             "require": {
                 "basic-app/core": "*",
-                "phptheme/theme-bootstrap4": "*"
+                "phptheme/theme-bootstrap4": "*",
+                "twbs/bootstrap": "^4"
             },
             "default-branch": true,
             "type": "library",
@@ -843,7 +844,7 @@
                 "issues": "https://github.com/basic-app/theme-bootstrap4/issues",
                 "source": "https://github.com/basic-app/theme-bootstrap4/tree/master"
             },
-            "time": "2026-04-06T20:16:50+00:00"
+            "time": "2026-04-07T06:01:50+00:00"
         },
         {
             "name": "basic-app/theme-clean-blog",
@@ -2040,6 +2041,61 @@
                 "source": "https://github.com/tinymce/tinymce-dist/tree/7.9.2"
             },
             "time": "2026-02-11T03:44:54+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v4.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/e5643aaa89eb67327a5b4abe7db976f0ea276b70",
+                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v4.6.2"
+            },
+            "time": "2022-07-19T15:13:44+00:00"
         },
         {
             "name": "webmozart/assert",
