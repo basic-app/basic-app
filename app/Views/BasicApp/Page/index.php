@@ -9,7 +9,7 @@ echo $theme->page([
     'title' => $page->page_name
 ]);
 
-echo view_cell('BasicApp\Blog\Widgets\LastPosts::widget', ['limit' => 5]);
+echo view_cell('BasicApp\Blog\Cells\LastPosts', ['limit' => 5]);
 
 ?>
 

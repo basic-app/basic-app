@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d97bcb92fafc220d2df252336a11f3d9",
+    "content-hash": "17e0a17b9d3c471b5021dd4468e97d43",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -403,12 +403,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-blog.git",
-                "reference": "6fff4db57f519cc9fb66b694ba2d2299916999b2"
+                "reference": "42abaf5d28327c5dc879818bf1ab368394e197f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/6fff4db57f519cc9fb66b694ba2d2299916999b2",
-                "reference": "6fff4db57f519cc9fb66b694ba2d2299916999b2",
+                "url": "https://api.github.com/repos/basic-app/module-blog/zipball/42abaf5d28327c5dc879818bf1ab368394e197f4",
+                "reference": "42abaf5d28327c5dc879818bf1ab368394e197f4",
                 "shasum": ""
             },
             "require": {
@@ -429,7 +429,7 @@
                 "issues": "https://github.com/basic-app/module-blog/issues",
                 "source": "https://github.com/basic-app/module-blog/tree/master"
             },
-            "time": "2024-02-14T20:41:47+00:00"
+            "time": "2026-04-07T07:09:32+00:00"
         },
         {
             "name": "basic-app/module-configs",
@@ -570,12 +570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-page.git",
-                "reference": "087a44f81ccfbbe11313c1a9a3b2b7a57077f51f"
+                "reference": "c7d3a770d01d9c7f0e94144c50a8feb1b5efdedb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-page/zipball/087a44f81ccfbbe11313c1a9a3b2b7a57077f51f",
-                "reference": "087a44f81ccfbbe11313c1a9a3b2b7a57077f51f",
+                "url": "https://api.github.com/repos/basic-app/module-page/zipball/c7d3a770d01d9c7f0e94144c50a8feb1b5efdedb",
+                "reference": "c7d3a770d01d9c7f0e94144c50a8feb1b5efdedb",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +600,7 @@
                 "issues": "https://github.com/basic-app/module-page/issues",
                 "source": "https://github.com/basic-app/module-page/tree/master"
             },
-            "time": "2026-04-04T11:12:52+00:00"
+            "time": "2026-04-07T07:11:28+00:00"
         },
         {
             "name": "basic-app/module-user",
@@ -745,12 +745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/system.git",
-                "reference": "1101cdb60ead38e528de696a801b5e73109372cf"
+                "reference": "82f47393e6372dc463cbc1acab1fd478822a52f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/system/zipball/1101cdb60ead38e528de696a801b5e73109372cf",
-                "reference": "1101cdb60ead38e528de696a801b5e73109372cf",
+                "url": "https://api.github.com/repos/basic-app/system/zipball/82f47393e6372dc463cbc1acab1fd478822a52f5",
+                "reference": "82f47393e6372dc463cbc1acab1fd478822a52f5",
                 "shasum": ""
             },
             "require": {
@@ -771,7 +771,7 @@
                 "issues": "https://github.com/basic-app/system/issues",
                 "source": "https://github.com/basic-app/system/tree/master"
             },
-            "time": "2024-02-07T20:45:27+00:00"
+            "time": "2026-04-07T06:47:01+00:00"
         },
         {
             "name": "basic-app/theme",
@@ -4196,15 +4196,11 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "basic-app/js-tinymce": 20,
-        "basic-app/member": 20,
-        "basic-app/module-user": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4 || ^8.0"
+        "php": "^8.3"
     },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
