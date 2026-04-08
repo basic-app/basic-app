@@ -4,8 +4,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^8.3",
-        "codeigniter4/framework": "^4.0",
+        "php": "^8.2",
+        "codeigniter4/framework": "^4.7",
         "codeigniter4/translations": "*",
         "basic-app/module-menu": "*",
         "basic-app/admin": "*",
@@ -29,21 +29,7 @@
     "require-dev": {
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
-        "phpunit/phpunit": "^9.1"
-    },
-    "scripts": {
-		"test": "phpunit",
-        "post-create-project-cmd": [
-            "BasicApp\\Core\\Composer::postCreateProject"
-        ],
-        "post-install-cmd": [
-            "@composer dump-autoload",
-            "BasicApp\\Core\\Composer::postInstall"
-        ],
-        "post-update-cmd": [
-            "@composer dump-autoload",
-            "BasicApp\\Core\\Composer::postUpdate"
-        ]
+        "phpunit/phpunit": "^10.5.16"
     },
     "extra": {
         "BasicApp\\Core\\Composer::postCreateProject": {
@@ -78,6 +64,20 @@
     "config": {
         "optimize-autoloader": false,
         "preferred-install": "dist",
-        "sort-packages": false
+        "sort-packages": true
+    },
+    "scripts": {
+		"test": "phpunit",
+        "post-create-project-cmd": [
+            "BasicApp\\Core\\Composer::postCreateProject"
+        ],
+        "post-install-cmd": [
+            "@composer dump-autoload",
+            "BasicApp\\Core\\Composer::postInstall"
+        ],
+        "post-update-cmd": [
+            "@composer dump-autoload",
+            "BasicApp\\Core\\Composer::postUpdate"
+        ]
     }
 }
