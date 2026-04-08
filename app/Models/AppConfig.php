@@ -16,7 +16,7 @@ class AppConfig extends \BasicApp\Config\BaseConfig
             return null;
         }
 
-        return base_url('uploaded/app/' . $this->background_image);
+        return base_url('uploaded/' . $this->background_image);
     }
 
 }

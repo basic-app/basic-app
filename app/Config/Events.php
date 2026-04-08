@@ -86,7 +86,7 @@ SystemEvents::onSeed(function(SystemSeedEvent $event)
 
 SystemEvents::onReset(function(SystemResetEvent $event) {
 
-    $files = \BasicApp\Helpers\FileHelper::readDirectory(FCPATH . 'uploaded/app');
+    $files = \BasicApp\Helpers\FileHelper::readDirectory(FCPATH . 'uploaded');
 
     foreach($files as $file)
     {
@@ -95,7 +95,7 @@ SystemEvents::onReset(function(SystemResetEvent $event) {
             continue;
         }
 
-        \BasicApp\Helpers\FileHelper::delete(FCPATH . 'uploaded/app/' . $file);
+        \BasicApp\Helpers\FileHelper::delete(FCPATH . 'uploaded/' . $file);
 
         \BasicApp\Helpers\CliHelper::message('Deleted: ' . $file);
     }

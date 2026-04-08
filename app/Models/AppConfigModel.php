@@ -28,7 +28,7 @@ class AppConfigModel extends \BasicApp\Config\BaseConfigForm
         return [
             [
                 'class' => UploadBehavior::class, 
-                'path' => FCPATH . 'uploaded/app',
+                'path' => FCPATH . 'uploaded',
                 'field' => 'background_image',
                 'input' => 'background_image_file',
                 'square' => false
