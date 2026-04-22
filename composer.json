@@ -15,6 +15,7 @@
         "basic-app/module-blog": "*",
         "basic-app/module-i18n": "*",
         "basic-app/module-menu": "*",
+        "basic-app/module-message": "dev-master",
         "basic-app/module-page": "*",
         "basic-app/module-user": "*",
         "basic-app/site": "*",
