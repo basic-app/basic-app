@@ -9,7 +9,7 @@ namespace App\Database\Seeds;
 use CodeIgniter\Database\Seeder;
 use Config\AppSeeder as AppSeederConfig;
 
-class App extends Seeder
+class AppSeeder extends Seeder
 {
     public function run()
     {

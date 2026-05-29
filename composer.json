@@ -7,6 +7,8 @@
         "php": "^8.2",
         "basic-app/admin": "*",
         "basic-app/admin-menu": "*",
+        "basic-app/admin-theme-cool-admin": "dev-main",
+        "basic-app/bootstrap5": "dev-main",
         "basic-app/html-purifier": "*",
         "basic-app/js-codemirror": "*",
         "basic-app/js-tinymce": "*",
@@ -23,7 +25,7 @@
         "basic-app/site-theme-clean-blog": "*",
         "basic-app/system": "*",
         "basic-app/theme-cool-admin": "*",
-        "codeigniter4/framework": "^4.7",
+        "codeigniter4/framework": "4.7.2",
         "codeigniter4/translations": "*"
     },
     "require-dev": {

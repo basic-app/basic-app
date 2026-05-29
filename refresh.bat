@@ -1,1 +1,1 @@
-php spark migrate:refresh --all && php spark db:seed App
+php spark migrate:refresh --all && php spark db:seed AppSeeder

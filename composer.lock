@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5648aab4f86f9707d77fd1b2a46e19fd",
+    "content-hash": "335ab9dc985f4bfdbb8613f796b2748b",
     "packages": [
         {
             "name": "basic-app/admin",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "3f06d0e38493acb530a529f7f8ce8e3388c77d63"
+                "reference": "c599551bd84365bd0c288f3f957d02c1ae429067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/3f06d0e38493acb530a529f7f8ce8e3388c77d63",
-                "reference": "3f06d0e38493acb530a529f7f8ce8e3388c77d63",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/c599551bd84365bd0c288f3f957d02c1ae429067",
+                "reference": "c599551bd84365bd0c288f3f957d02c1ae429067",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-04-07T18:53:23+00:00"
+            "time": "2026-05-29T17:13:43+00:00"
         },
         {
             "name": "basic-app/admin-menu",
@@ -73,6 +73,72 @@
                 "source": "https://github.com/basic-app/admin-menu/tree/main"
             },
             "time": "2024-02-22T20:33:09+00:00"
+        },
+        {
+            "name": "basic-app/admin-theme",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin-theme.git",
+                "reference": "4c8d3c6447d1ada6f8de385ce5d88d8f25525800"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin-theme/zipball/4c8d3c6447d1ada6f8de385ce5d88d8f25525800",
+                "reference": "4c8d3c6447d1ada6f8de385ce5d88d8f25525800",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminTheme\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin-theme/issues",
+                "source": "https://github.com/basic-app/admin-theme/tree/main"
+            },
+            "time": "2026-05-27T18:23:02+00:00"
+        },
+        {
+            "name": "basic-app/admin-theme-cool-admin",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin-theme-cool-admin.git",
+                "reference": "d892b226049c26dac53f2d41651cf84f24c14b88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin-theme-cool-admin/zipball/d892b226049c26dac53f2d41651cf84f24c14b88",
+                "reference": "d892b226049c26dac53f2d41651cf84f24c14b88",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/admin-theme": "*",
+                "basic-app/publisher": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminThemeCoolAdmin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin-theme-cool-admin/issues",
+                "source": "https://github.com/basic-app/admin-theme-cool-admin/tree/main"
+            },
+            "time": "2026-05-29T17:08:48+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -107,6 +173,37 @@
                 "source": "https://github.com/basic-app/auth/tree/main"
             },
             "time": "2026-04-13T21:09:00+00:00"
+        },
+        {
+            "name": "basic-app/bootstrap5",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/bootstrap5.git",
+                "reference": "393f30e461e48b1947675f547471089558e43c57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/bootstrap5/zipball/393f30e461e48b1947675f547471089558e43c57",
+                "reference": "393f30e461e48b1947675f547471089558e43c57",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Bootstrap5\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/bootstrap5/issues",
+                "source": "https://github.com/basic-app/bootstrap5/tree/main"
+            },
+            "time": "2026-05-29T17:06:57+00:00"
         },
         {
             "name": "basic-app/core",
@@ -1907,16 +2004,16 @@
         },
         {
             "name": "tinymce/tinymce",
-            "version": "7.9.2",
+            "version": "7.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "f05e38fecf76287442dd3301786955a83bbe954f"
+                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/f05e38fecf76287442dd3301786955a83bbe954f",
-                "reference": "f05e38fecf76287442dd3301786955a83bbe954f",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
+                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
                 "shasum": ""
             },
             "type": "component",
@@ -1960,22 +2057,22 @@
                 "wysiwyg"
             ],
             "support": {
-                "source": "https://github.com/tinymce/tinymce-dist/tree/7.9.2"
+                "source": "https://github.com/tinymce/tinymce-dist/tree/7.9.3"
             },
-            "time": "2026-02-11T03:44:54+00:00"
+            "time": "2026-05-19T23:38:56+00:00"
         },
         {
             "name": "webmozart/assert",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "eb0d790f735ba6cff25c683a85a1da0eadeff9e4"
+                "reference": "9007ea6f45ecf352a9422b36644e4bfc039b9155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/eb0d790f735ba6cff25c683a85a1da0eadeff9e4",
-                "reference": "eb0d790f735ba6cff25c683a85a1da0eadeff9e4",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/9007ea6f45ecf352a9422b36644e4bfc039b9155",
+                "reference": "9007ea6f45ecf352a9422b36644e4bfc039b9155",
                 "shasum": ""
             },
             "require": {
@@ -1991,7 +2088,11 @@
             },
             "type": "library",
             "extra": {
+                "psalm": {
+                    "pluginClass": "Webmozart\\Assert\\PsalmPlugin"
+                },
                 "branch-alias": {
+                    "dev-master": "2.0-dev",
                     "dev-feature/2-0": "2.0-dev"
                 }
             },
@@ -2022,9 +2123,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/2.3.0"
+                "source": "https://github.com/webmozarts/assert/tree/2.4.0"
             },
-            "time": "2026-04-11T10:33:05+00:00"
+            "time": "2026-05-20T13:07:01+00:00"
         }
     ],
     "packages-dev": [
@@ -3817,16 +3918,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.6.0",
+            "version": "v3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
+                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
-                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/50f59d1f3ca46d41ac911f97a78626b6756af35b",
+                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b",
                 "shasum": ""
             },
             "require": {
@@ -3839,7 +3940,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.6-dev"
+                    "dev-main": "3.7-dev"
                 }
             },
             "autoload": {
@@ -3864,7 +3965,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.0"
             },
             "funding": [
                 {
@@ -3876,11 +3977,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:21:43+00:00"
+            "time": "2026-04-13T15:52:40+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -3936,6 +4041,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "basic-app/admin-theme-cool-admin": 20,
+        "basic-app/bootstrap5": 20,
         "basic-app/module-message": 20
     },
     "prefer-stable": true,
