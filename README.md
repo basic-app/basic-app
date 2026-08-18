@@ -50,8 +50,8 @@ Execute commands via shell:
 
 ```
 php spark migrate -all
+php spark db:seed AppSeeder
 php spark ba:update
-php spark ba:seed
 php spark publish
 ```
 

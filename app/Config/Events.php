@@ -77,13 +77,6 @@ if (class_exists(AdminEvents::class))
     });
 }
 
-SystemEvents::onSeed(function(SystemSeedEvent $event)
-{
-    $seeder = Database::seeder();
-
-    $seeder->call(\App\Database\Seeds\AppSeeder::class);
-});
-
 SystemEvents::onReset(function(SystemResetEvent $event) {
 
     $files = \BasicApp\Helpers\FileHelper::readDirectory(FCPATH . 'uploaded');
