@@ -5,14 +5,6 @@ namespace Config;
 use CodeIgniter\Events\Events;
 use CodeIgniter\Exceptions\FrameworkException;
 use CodeIgniter\HotReloader\HotReloader;
-use BasicApp\System\SystemEvents;
-use BasicApp\Site\SiteEvents;
-use BasicApp\Admin\AdminEvents;
-use BasicApp\Helpers\Url;
-use BasicApp\System\Events\SystemResetEvent;
-use BasicApp\System\Events\SystemSeedEvent;
-use App\Models\AppConfigModel;
-use BasicApp\AdminMenu\AdminMenuEvents;
 
 /*
  * --------------------------------------------------------------------
@@ -33,7 +25,9 @@ use BasicApp\AdminMenu\AdminMenuEvents;
 
 Events::on('pre_system', static function (): void {
     if (ENVIRONMENT !== 'testing') {
-        if (ini_get('zlib.output_compression')) {
+        $value = ini_get('zlib.output_compression');
+
+        if (filter_var($value, FILTER_VALIDATE_BOOLEAN) || (int) $value > 0) {
             throw FrameworkException::forEnabledZlibOutputCompression();
         }
 
@@ -61,62 +55,3 @@ Events::on('pre_system', static function (): void {
         }
     }
 });
-
-Events::on('pre_system', function()
-{
-    require APPPATH . 'ThirdParty/bootstrap.php';
-});
-
-
-if (class_exists(AdminEvents::class))
-{
-    AdminEvents::onRegisterAssets(function(\BasicApp\Admin\Events\AdminRegisterAssetsEvent $event)
-    {
-        \BasicApp\Js\TinyMce\TinyMceAsset::register($event->head, $event->beginBody, $event->endBody);
-        \BasicApp\Js\CodeMirror\CodeMirrorAsset::register($event->head, $event->beginBody, $event->endBody);
-    });
-}
-
-SystemEvents::onReset(function(SystemResetEvent $event) {
-
-    $files = \BasicApp\Helpers\FileHelper::readDirectory(FCPATH . 'uploaded');
-
-    foreach($files as $file)
-    {
-        if ($file == '.gitignore')
-        {
-            continue;
-        }
-
-        \BasicApp\Helpers\FileHelper::delete(FCPATH . 'uploaded/' . $file);
-
-        \BasicApp\Helpers\CliHelper::message('Deleted: ' . $file);
-    }
-});
-
-if (class_exists(AdminMenuEvents::class))
-{
-    AdminMenuEvents::onOptionsMenu(function($event)
-    {
-        $modelClass = \App\Models\AppConfigModel::class;
-
-        $event->items[$modelClass] = [
-            'label' => t('admin.menu', 'Application'),
-            'icon' => 'fa fa-fw fa-desktop',
-            'url' => Url::createUrl('admin/config', ['class' => $modelClass])
-        ];
-    });
-}
-
-if (class_exists(SiteEvents::class))
-{
-    SiteEvents::onMainLayout(function($event) {
-
-        $config = config('\App\Models\AppConfig');
-
-        if ($config->getBackgroundImageUrl())
-        {
-            $event->params['backgroundImage'] = $config->getBackgroundImageUrl();
-        }
-    });
-}

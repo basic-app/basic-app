@@ -16,13 +16,11 @@
 
 # CI_ENVIRONMENT = production
 
-CI_ENVIRONMENT = development
-
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-app.baseURL = 'http://localhost:8080'
+# app.baseURL = ''
 # If you have trouble with `.`, you could also use `_`.
 # app_baseURL = ''
 # app.forceGlobalSecureRequests = false
@@ -32,13 +30,13 @@ app.baseURL = 'http://localhost:8080'
 # DATABASE
 #--------------------------------------------------------------------
 
-database.default.hostname = localhost
-database.default.database = basic-app
-database.default.username = root
-database.default.password = 
-database.default.DBDriver = MySQLi
-database.default.DBPrefix =
-database.default.port = 3306
+# database.default.hostname = localhost
+# database.default.database = ci4
+# database.default.username = root
+# database.default.password = root
+# database.default.DBDriver = MySQLi
+# database.default.DBPrefix =
+# database.default.port = 3306
 
 # If you use MySQLi as tests, first update the values of Config\Database::$tests.
 # database.tests.hostname = localhost
@@ -61,23 +59,11 @@ database.default.port = 3306
 # SESSION
 #--------------------------------------------------------------------
 
-session.driver = 'CodeIgniter\Session\Handlers\DatabaseHandler'
-session.savePath = 'sessions'
+# session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
+# session.savePath = null
 
 #--------------------------------------------------------------------
 # LOGGER
 #--------------------------------------------------------------------
 
 # logger.threshold = 4
-
-#--------------------------------------------------------------------
-# Admin
-#--------------------------------------------------------------------
-admin.login = admin
-admin.passwordHash = $2y$10$ycBnAOcXAMXPKAPJ1zo7ReT02MoElz6gi2JdU3gjSxYYq8F2Mli8i
-
-#--------------------------------------------------------------------
-# Email
-#--------------------------------------------------------------------
-email.fromEmail = test@example.org
-email.fromName = "Basic App"

@@ -1,59 +1,28 @@
 {
-    "name": "basic-app/basic-app",
+    "name": "codeigniter4/appstarter",
+    "description": "CodeIgniter4 starter app",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "type": "project",
+    "homepage": "https://codeigniter.com",
+    "support": {
+        "forum": "https://forum.codeigniter.com/",
+        "source": "https://github.com/codeigniter4/CodeIgniter4",
+        "slack": "https://codeigniterchat.slack.com"
+    },
     "require": {
         "php": "^8.2",
-        "basic-app/admin": "*",
-        "basic-app/admin-menu": "*",
-        "basic-app/admin-theme-cool-admin": "dev-main",
-        "basic-app/bootstrap5": "dev-main",
-        "basic-app/html-purifier": "*",
-        "basic-app/js-codemirror": "*",
-        "basic-app/js-tinymce": "*",
-        "basic-app/member": "*",
-        "basic-app/module-block": "*",
-        "basic-app/module-blog": "*",
-        "basic-app/module-i18n": "*",
-        "basic-app/module-menu": "*",
-        "basic-app/module-message": "dev-master",
-        "basic-app/module-page": "*",
-        "basic-app/module-user": "*",
-        "basic-app/site": "*",
-        "basic-app/site-menu": "*",
-        "basic-app/site-theme-clean-blog": "*",
-        "basic-app/system": "*",
-        "basic-app/theme-cool-admin": "*",
-        "codeigniter4/framework": "4.7.2",
-        "codeigniter4/translations": "*"
+        "codeigniter4/framework": "^4.7"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^10.5.16"
     },
-    "extra": {
-        "BasicApp\\Core\\Composer::postCreateProject": {
-            "copy": [
-                {
-                    "env": ".env",
-                    "environment/public/robots.txt": "public/robots.txt",
-                    "environment/public/favicon.ico": "public/favicon.ico"                    
-                }
-            ],
-            "setPermission": [
-                {
-                    "writable/cache": "0755",
-                    "writable/debugbar": "0755",
-                    "writable/logs": "0755",
-                    "writable/session": "0755",
-                    "writable/uploads": "0755"
-                }
-            ]
-        }
-    },
     "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "app/Config/"
+        },
         "exclude-from-classmap": [
             "**/Database/Migrations/**"
         ]
@@ -64,22 +33,11 @@
         }
     },
     "config": {
-        "optimize-autoloader": false,
+        "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
     },
     "scripts": {
-		"test": "phpunit",
-        "post-create-project-cmd": [
-            "BasicApp\\Core\\Composer::postCreateProject"
-        ],
-        "post-install-cmd": [
-            "@composer dump-autoload",
-            "BasicApp\\Core\\Composer::postInstall"
-        ],
-        "post-update-cmd": [
-            "@composer dump-autoload",
-            "BasicApp\\Core\\Composer::postUpdate"
-        ]
+        "test": "phpunit"
     }
 }
