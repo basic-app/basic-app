@@ -49,9 +49,6 @@
         "preferred-install": "dist",
         "sort-packages": false
     },
-    "scripts": {
-        "test": "phpunit"
-    },
     "extra": {
         "BasicApp\\Core\\Composer::postCreateProject": {
             "copy": [
@@ -73,5 +70,19 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit",
+        "post-create-project-cmd": [
+            "BasicApp\\Core\\Composer::postCreateProject"
+        ],
+        "post-install-cmd": [
+            "@composer dump-autoload",
+            "BasicApp\\Core\\Composer::postInstall"
+        ],
+        "post-update-cmd": [
+            "@composer dump-autoload",
+            "BasicApp\\Core\\Composer::postUpdate"
+        ]
+    },
 }
