@@ -5,6 +5,8 @@ namespace Config;
 use CodeIgniter\Events\Events;
 use CodeIgniter\Exceptions\FrameworkException;
 use CodeIgniter\HotReloader\HotReloader;
+use BasicApp\Site\Events\SiteMenu;
+use BasicApp\Admin\Events\AdminFooterMenu;
 
 /*
  * --------------------------------------------------------------------
@@ -54,4 +56,27 @@ Events::on('pre_system', static function (): void {
             });
         }
     }
+});
+
+// Custom events
+SiteMenu::on(static function(SiteMenu $event) : void {
+    $event->setAfterTrigger(function() {
+        $this->items['credits'] = [
+            'url' => '#credits',
+            'label' => lang('Site.Credits')
+        ];
+    });
+});
+
+AdminFooterMenu::on(static function(AdminFooterMenu $event) : void {
+    $event->setAfterTrigger(function() {
+        $this->items['support'] = [
+            'url' => site_url('admin/support'),
+            'label' => lang('Admin.Support')
+        ];
+        $this->items['credits'] = [
+            'url' => site_url('admin/credits'),
+            'label' => lang('Admin.Credits')
+        ];
+    });
 });

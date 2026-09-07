@@ -1,52 +1,55 @@
-# CodeIgniter 4 Application Starter
+Basic App
+=========
 
-## What is CodeIgniter?
+Basic App is a free, open-source, self-hosted CMS platform based on the CodeIgniter 4 PHP Framework.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Basic App is designed to provide a quick start for sites made on CodeIgniter 4 and to take over the implementation of the basic functions of a modern web application.
+ 
+## Installation
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+### Step 1
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Create a new application using Composer:
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+```
+composer create-project --stability=dev --keep-source --prefer-dist basic-app/basic-app demoapp
+```
 
-## Installation & updates
+The command installs the application in a directory named `demoapp`. You can choose a different directory name if you want.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+### Step 2
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+Configure application settings (base url, timezone, database) in the `/.env` file.
 
-## Setup
+### Step 3
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+Execute commands via shell:
 
-## Important Change with index.php
+```
+php spark migrate -all
+php spark db:seed "BasicApp\Admin\Database\Seeds\DemoSeeder"
+php spark db:seed "BasicApp\SiteLanding\Database\Seeds\DemoSeeder"
+php spark publish
+```
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### Step 4
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+Run local development server
 
-**Please** read the user guide for a better explanation of how CI4 works!
+```
+php spark serve
+```
 
-## Repository Management
+Or set document root to `/public` directory in case of using another server.
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## Backend
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Access backend by opening `http://localhost:8080/index.php/admin` in a browser.
+```
+login: admin
+password: admin
+```
+
 
 ## Server Requirements
 
@@ -67,3 +70,15 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+## Credits
+
+- [PHP 8.2+](https://www.php.net/)
+- [CodeIgniter 4](https://codeigniter.com/)
+- [AdminLTE 4](https://adminlte.io/)
+- [TinyMCE 7](https://www.tiny.cloud/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [jQuery 3](https://jquery.com/)
+- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
+- [Fontawesome 7](https://fontawesome.com/)
+

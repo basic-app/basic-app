@@ -4,8 +4,414 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5cce40800fa5dae1504b9364f585e6a",
+    "content-hash": "04f078d4e8b10afb459e23c2735765b2",
     "packages": [
+        {
+            "name": "almasaeed2010/adminlte",
+            "version": "v4.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+                "reference": "a3702d79b95573eadef771f67065a9033cb4338b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/a3702d79b95573eadef771f67065a9033cb4338b",
+                "reference": "a3702d79b95573eadef771f67065a9033cb4338b",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colorlib"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 4",
+            "homepage": "https://adminlte.io/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/ColorlibHQ/AdminLTE/issues",
+                "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v4.9.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/daniel007in",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/danny007in",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-08-26T09:18:41+00:00"
+        },
+        {
+            "name": "basic-app/admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin.git",
+                "reference": "dc763e7d936640b6dce82b43edaaf49104d5560a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/dc763e7d936640b6dce82b43edaaf49104d5560a",
+                "reference": "dc763e7d936640b6dce82b43edaaf49104d5560a",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Admin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin/issues",
+                "source": "https://github.com/basic-app/admin/tree/master"
+            },
+            "time": "2026-09-07T05:56:49+00:00"
+        },
+        {
+            "name": "basic-app/adminlte4",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/adminlte4.git",
+                "reference": "b80000ebcf495da684c59025bd64a42dbf118095"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/b80000ebcf495da684c59025bd64a42dbf118095",
+                "reference": "b80000ebcf495da684c59025bd64a42dbf118095",
+                "shasum": ""
+            },
+            "require": {
+                "almasaeed2010/adminlte": "^4.8"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminLte4\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/adminlte4/issues",
+                "source": "https://github.com/basic-app/adminlte4/tree/main"
+            },
+            "time": "2026-09-06T19:19:26+00:00"
+        },
+        {
+            "name": "basic-app/auth",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/auth.git",
+                "reference": "30597969e6b5d0a1136b2ff01f5a9c990d7fbeee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/auth/zipball/30597969e6b5d0a1136b2ff01f5a9c990d7fbeee",
+                "reference": "30597969e6b5d0a1136b2ff01f5a9c990d7fbeee",
+                "shasum": ""
+            },
+            "provide": {
+                "codeigniter4/authentication-implementation": "1.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Auth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/auth/issues",
+                "source": "https://github.com/basic-app/auth/tree/main"
+            },
+            "time": "2026-04-13T21:09:00+00:00"
+        },
+        {
+            "name": "basic-app/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/core.git",
+                "reference": "9e8bd178626852be1be2a9c4c1b50601f137ac68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/9e8bd178626852be1be2a9c4c1b50601f137ac68",
+                "reference": "9e8bd178626852be1be2a9c4c1b50601f137ac68",
+                "shasum": ""
+            },
+            "require": {
+                "codeigniter4/settings": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/core/issues",
+                "source": "https://github.com/basic-app/core/tree/master"
+            },
+            "time": "2026-09-06T18:55:55+00:00"
+        },
+        {
+            "name": "basic-app/fontawesome7",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/fontawesome7.git",
+                "reference": "ec20df8df6269a0590b279dd5fc233613cc874b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/ec20df8df6269a0590b279dd5fc233613cc874b6",
+                "reference": "ec20df8df6269a0590b279dd5fc233613cc874b6",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Fontawesome7\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/fontawesome7/issues",
+                "source": "https://github.com/basic-app/fontawesome7/tree/main"
+            },
+            "time": "2026-09-06T18:05:17+00:00"
+        },
+        {
+            "name": "basic-app/jquery3",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/jquery3.git",
+                "reference": "2896336fbf48f05673c143cf1c1918ce7287e2aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/jquery3/zipball/2896336fbf48f05673c143cf1c1918ce7287e2aa",
+                "reference": "2896336fbf48f05673c143cf1c1918ce7287e2aa",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Jquery3\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/jquery3/issues",
+                "source": "https://github.com/basic-app/jquery3/tree/main"
+            },
+            "time": "2026-09-06T18:06:30+00:00"
+        },
+        {
+            "name": "basic-app/lightbox2",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/lightbox2.git",
+                "reference": "c7478e703e029bda545913b5116242963a8f74c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/lightbox2/zipball/c7478e703e029bda545913b5116242963a8f74c8",
+                "reference": "c7478e703e029bda545913b5116242963a8f74c8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Lightbox2\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/lightbox2/issues",
+                "source": "https://github.com/basic-app/lightbox2/tree/main"
+            },
+            "time": "2026-09-06T18:09:08+00:00"
+        },
+        {
+            "name": "basic-app/site",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/site.git",
+                "reference": "a51dd441e9873213274f6ccf04e2033e854cb8b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/a51dd441e9873213274f6ccf04e2033e854cb8b9",
+                "reference": "a51dd441e9873213274f6ccf04e2033e854cb8b9",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Site\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/site/issues",
+                "source": "https://github.com/basic-app/site/tree/master"
+            },
+            "time": "2026-09-06T18:10:14+00:00"
+        },
+        {
+            "name": "basic-app/site-landing",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/site-landing.git",
+                "reference": "21d837a895a4db4d3cc1d75ae00151f785962571"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/21d837a895a4db4d3cc1d75ae00151f785962571",
+                "reference": "21d837a895a4db4d3cc1d75ae00151f785962571",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\SiteLanding\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/site-landing/issues",
+                "source": "https://github.com/basic-app/site-landing/tree/main"
+            },
+            "time": "2026-09-07T05:52:30+00:00"
+        },
+        {
+            "name": "basic-app/site-landing-sb",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/site-landing-sb.git",
+                "reference": "8dd66cc0338f4b8d72b8aa7e4565591469119148"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/site-landing-sb/zipball/8dd66cc0338f4b8d72b8aa7e4565591469119148",
+                "reference": "8dd66cc0338f4b8d72b8aa7e4565591469119148",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\SiteLandingSb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/site-landing-sb/issues",
+                "source": "https://github.com/basic-app/site-landing-sb/tree/main"
+            },
+            "time": "2026-09-06T18:49:37+00:00"
+        },
+        {
+            "name": "basic-app/tinymce7",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/tinymce7.git",
+                "reference": "d88c3d9016d7814bc8e9e6d48e78e181dec45ff5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/d88c3d9016d7814bc8e9e6d48e78e181dec45ff5",
+                "reference": "d88c3d9016d7814bc8e9e6d48e78e181dec45ff5",
+                "shasum": ""
+            },
+            "require": {
+                "tinymce/tinymce": "^7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\TinyMce7\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/tinymce7/issues",
+                "source": "https://github.com/basic-app/tinymce7/tree/main"
+            },
+            "time": "2026-09-06T18:53:42+00:00"
+        },
         {
             "name": "codeigniter4/framework",
             "version": "v4.7.4",
@@ -82,6 +488,60 @@
                 "source": "https://github.com/codeigniter4/CodeIgniter4"
             },
             "time": "2026-07-07T09:23:35+00:00"
+        },
+        {
+            "name": "codeigniter4/settings",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeigniter4/settings.git",
+                "reference": "7cbd2e2146e32211cc8194d9c35632631500adad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeigniter4/settings/zipball/7cbd2e2146e32211cc8194d9c35632631500adad",
+                "reference": "7cbd2e2146e32211cc8194d9c35632631500adad",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "codeigniter4/devkit": "^1.3",
+                "codeigniter4/framework": "^4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CodeIgniter\\Settings\\": "src"
+                },
+                "exclude-from-classmap": [
+                    "**/Database/Migrations/**"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lonnie Ezell",
+                    "email": "lonnieje@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Settings library for CodeIgniter 4",
+            "homepage": "https://github.com/codeigniter4/settings",
+            "keywords": [
+                "Settings",
+                "codeigniter",
+                "codeigniter4"
+            ],
+            "support": {
+                "issues": "https://github.com/codeigniter4/settings/issues",
+                "source": "https://github.com/codeigniter4/settings/tree/v2.4.0"
+            },
+            "time": "2026-07-30T16:03:46+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -193,9 +653,119 @@
                 "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
             "time": "2024-09-11T13:17:53+00:00"
+        },
+        {
+            "name": "tinymce/tinymce",
+            "version": "7.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tinymce/tinymce-dist.git",
+                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
+                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "files": [
+                        "tinymce.min.js",
+                        "plugins/*/plugin.min.js",
+                        "themes/*/theme.min.js",
+                        "models/*/model.min.js",
+                        "skins/**",
+                        "icons/*/icons.min.js"
+                    ],
+                    "scripts": [
+                        "tinymce.js",
+                        "plugins/*/plugin.js",
+                        "themes/*/theme.js",
+                        "models/*/model.js",
+                        "icons/*/icons.js"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Web based JavaScript HTML WYSIWYG editor control.",
+            "homepage": "https://www.tiny.cloud/",
+            "keywords": [
+                "contenteditable",
+                "editing",
+                "html",
+                "javascript",
+                "rich editor",
+                "rich text",
+                "rich text editor",
+                "richtext",
+                "rte",
+                "text",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "support": {
+                "source": "https://github.com/tinymce/tinymce-dist/tree/7.9.3"
+            },
+            "time": "2026-05-19T23:38:56+00:00"
         }
     ],
     "packages-dev": [
+        {
+            "name": "codeigniter4/translations",
+            "version": "v4.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeigniter4/translations.git",
+                "reference": "a5df30934aa25a65bc1f78e6462b47fae0a0179a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/a5df30934aa25a65bc1f78e6462b47fae0a0179a",
+                "reference": "a5df30934aa25a65bc1f78e6462b47fae0a0179a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-intl": "*",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "codeigniter/coding-standard": "^1.7",
+                "codeigniter4/codeigniter4": "dev-develop",
+                "ext-tokenizer": "*",
+                "friendsofphp/php-cs-fixer": "^3.53",
+                "nexusphp/cs-config": "^3.22",
+                "phpunit/phpunit": "^11.5 || ^12.5"
+            },
+            "type": "project",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Translations\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Translations for CodeIgniter v4 web framework",
+            "homepage": "https://codeigniter.com",
+            "support": {
+                "forum": "http://forum.codeigniter.com/",
+                "issues": "https://github.com/codeigniter4/translations/issues",
+                "slack": "https://codeigniterchat.slack.com",
+                "source": "https://github.com/codeigniter4/translations"
+            },
+            "time": "2026-08-05T12:38:16+00:00"
+        },
         {
             "name": "fakerphp/faker",
             "version": "v1.24.1",
@@ -2089,9 +2659,21 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {},
-    "prefer-stable": false,
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "basic-app/admin": 20,
+        "basic-app/adminlte4": 20,
+        "basic-app/auth": 20,
+        "basic-app/core": 20,
+        "basic-app/fontawesome7": 20,
+        "basic-app/jquery3": 20,
+        "basic-app/lightbox2": 20,
+        "basic-app/site": 20,
+        "basic-app/site-landing": 20,
+        "basic-app/site-landing-sb": 20,
+        "basic-app/tinymce7": 20
+    },
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
