@@ -384,12 +384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "d88c3d9016d7814bc8e9e6d48e78e181dec45ff5"
+                "reference": "1f2c3793937e9e569812722001cb0a899ca7c416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/d88c3d9016d7814bc8e9e6d48e78e181dec45ff5",
-                "reference": "d88c3d9016d7814bc8e9e6d48e78e181dec45ff5",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/1f2c3793937e9e569812722001cb0a899ca7c416",
+                "reference": "1f2c3793937e9e569812722001cb0a899ca7c416",
                 "shasum": ""
             },
             "require": {
@@ -410,7 +410,7 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-09-06T18:53:42+00:00"
+            "time": "2026-09-07T20:11:56+00:00"
         },
         {
             "name": "codeigniter4/framework",
