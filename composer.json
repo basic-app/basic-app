@@ -84,5 +84,5 @@
             "@composer dump-autoload",
             "BasicApp\\Core\\Composer::postUpdate"
         ]
-    },
+    }
 }

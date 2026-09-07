@@ -164,12 +164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "9e8bd178626852be1be2a9c4c1b50601f137ac68"
+                "reference": "3989b6dff1b1cbecca9991497403edb839a5f3c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/9e8bd178626852be1be2a9c4c1b50601f137ac68",
-                "reference": "9e8bd178626852be1be2a9c4c1b50601f137ac68",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/3989b6dff1b1cbecca9991497403edb839a5f3c1",
+                "reference": "3989b6dff1b1cbecca9991497403edb839a5f3c1",
                 "shasum": ""
             },
             "require": {
@@ -190,7 +190,7 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-09-06T18:55:55+00:00"
+            "time": "2026-09-07T06:23:03+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
