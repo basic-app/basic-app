@@ -11,10 +11,8 @@
     "require": {
         "php": "^8.2",
         "codeigniter4/framework": "^4.7",
-        "basic-app/core": "dev-master",
         "basic-app/admin": "dev-master",
         "basic-app/adminlte4": "dev-main",
-        "basic-app/fontawesome7": "dev-main",
         "basic-app/jquery3": "dev-main",
         "basic-app/lightbox2": "dev-main",
         "basic-app/site": "dev-master",

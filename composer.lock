@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baf1b82e0d879458a3490c70afe710f8",
+    "content-hash": "2b256620c31e529f06ba3f3f1e0a4200",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -65,17 +65,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "fd9d78e7b0391b7b1c1b35d7f0986d9eafaefa38"
+                "reference": "efa804faa944e42b49e0b96f76cc153d70928323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/fd9d78e7b0391b7b1c1b35d7f0986d9eafaefa38",
-                "reference": "fd9d78e7b0391b7b1c1b35d7f0986d9eafaefa38",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/efa804faa944e42b49e0b96f76cc153d70928323",
+                "reference": "efa804faa944e42b49e0b96f76cc153d70928323",
                 "shasum": ""
             },
             "require": {
                 "basic-app/auth": "dev-main",
-                "basic-app/core": "dev-master"
+                "basic-app/core": "dev-master",
+                "basic-app/fontawesome7": "dev-main"
             },
             "default-branch": true,
             "type": "library",
@@ -92,7 +93,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-09-08T19:43:50+00:00"
+            "time": "2026-09-08T20:24:00+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -100,12 +101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/adminlte4.git",
-                "reference": "220a0894e064f0fc042f5bbdade91a81f583a314"
+                "reference": "0239b285d457d10d9e0e8211bfd42a67d740bfb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/220a0894e064f0fc042f5bbdade91a81f583a314",
-                "reference": "220a0894e064f0fc042f5bbdade91a81f583a314",
+                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/0239b285d457d10d9e0e8211bfd42a67d740bfb5",
+                "reference": "0239b285d457d10d9e0e8211bfd42a67d740bfb5",
                 "shasum": ""
             },
             "require": {
@@ -126,7 +127,7 @@
                 "issues": "https://github.com/basic-app/adminlte4/issues",
                 "source": "https://github.com/basic-app/adminlte4/tree/main"
             },
-            "time": "2026-09-08T19:18:48+00:00"
+            "time": "2026-09-08T20:25:15+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -202,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/fontawesome7.git",
-                "reference": "8abcd7284ba6fd6cee8387aac22129f5aacaabd2"
+                "reference": "95278a80dab7fc920ec942642dd21c446e70ad7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/8abcd7284ba6fd6cee8387aac22129f5aacaabd2",
-                "reference": "8abcd7284ba6fd6cee8387aac22129f5aacaabd2",
+                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/95278a80dab7fc920ec942642dd21c446e70ad7b",
+                "reference": "95278a80dab7fc920ec942642dd21c446e70ad7b",
                 "shasum": ""
             },
             "default-branch": true,
@@ -225,7 +226,7 @@
                 "issues": "https://github.com/basic-app/fontawesome7/issues",
                 "source": "https://github.com/basic-app/fontawesome7/tree/main"
             },
-            "time": "2026-09-08T19:41:27+00:00"
+            "time": "2026-09-08T20:19:55+00:00"
         },
         {
             "name": "basic-app/jquery3",
@@ -295,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "a51dd441e9873213274f6ccf04e2033e854cb8b9"
+                "reference": "cbdae3cee3ba5daf5e2612b1a6c3b9c3bf8694d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/a51dd441e9873213274f6ccf04e2033e854cb8b9",
-                "reference": "a51dd441e9873213274f6ccf04e2033e854cb8b9",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/cbdae3cee3ba5daf5e2612b1a6c3b9c3bf8694d1",
+                "reference": "cbdae3cee3ba5daf5e2612b1a6c3b9c3bf8694d1",
                 "shasum": ""
             },
             "default-branch": true,
@@ -318,7 +319,7 @@
                 "issues": "https://github.com/basic-app/site/issues",
                 "source": "https://github.com/basic-app/site/tree/master"
             },
-            "time": "2026-09-06T18:10:14+00:00"
+            "time": "2026-09-08T20:26:17+00:00"
         },
         {
             "name": "basic-app/site-landing",
@@ -326,12 +327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site-landing.git",
-                "reference": "21d837a895a4db4d3cc1d75ae00151f785962571"
+                "reference": "7ddf5e8e809a52bddfb7e371fd6851d443f03e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/21d837a895a4db4d3cc1d75ae00151f785962571",
-                "reference": "21d837a895a4db4d3cc1d75ae00151f785962571",
+                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/7ddf5e8e809a52bddfb7e371fd6851d443f03e18",
+                "reference": "7ddf5e8e809a52bddfb7e371fd6851d443f03e18",
                 "shasum": ""
             },
             "default-branch": true,
@@ -349,7 +350,7 @@
                 "issues": "https://github.com/basic-app/site-landing/issues",
                 "source": "https://github.com/basic-app/site-landing/tree/main"
             },
-            "time": "2026-09-07T05:52:30+00:00"
+            "time": "2026-09-08T20:27:29+00:00"
         },
         {
             "name": "basic-app/site-landing-sb",
@@ -388,12 +389,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "1f2c3793937e9e569812722001cb0a899ca7c416"
+                "reference": "8414d7bd1165e1e19450d80ff6b6f15b32bbdadb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/1f2c3793937e9e569812722001cb0a899ca7c416",
-                "reference": "1f2c3793937e9e569812722001cb0a899ca7c416",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/8414d7bd1165e1e19450d80ff6b6f15b32bbdadb",
+                "reference": "8414d7bd1165e1e19450d80ff6b6f15b32bbdadb",
                 "shasum": ""
             },
             "require": {
@@ -414,7 +415,7 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-09-07T20:11:56+00:00"
+            "time": "2026-09-08T20:27:55+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -2667,8 +2668,6 @@
     "stability-flags": {
         "basic-app/admin": 20,
         "basic-app/adminlte4": 20,
-        "basic-app/core": 20,
-        "basic-app/fontawesome7": 20,
         "basic-app/jquery3": 20,
         "basic-app/lightbox2": 20,
         "basic-app/site": 20,
