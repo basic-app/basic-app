@@ -14,7 +14,6 @@ helper(['form']);
 <ul>
     <li><a target="_blank" href="https://www.php.net/">PHP 8.2+</a></li>
     <li><a target="_blank" href="https://codeigniter.com/">CodeIgniter 4 Framework</a></li>
-    <li><a target="_blank" href="https://basic-app.com/">Basic App CMS</a></li>
     <li><a target="_blank" href="https://adminlte.io/">AdminLTE4 Theme</a></li>
     <li><a target="_blank" href="https://www.tiny.cloud/">TinyMCE7 Editor</a></li>
     <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap 5</a></li>

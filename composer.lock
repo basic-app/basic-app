@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04f078d4e8b10afb459e23c2735765b2",
+    "content-hash": "baf1b82e0d879458a3490c70afe710f8",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -65,13 +65,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "5a3a9655ccc3275ed7b4ed15c19dabb5f8b48dfa"
+                "reference": "fd9d78e7b0391b7b1c1b35d7f0986d9eafaefa38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/5a3a9655ccc3275ed7b4ed15c19dabb5f8b48dfa",
-                "reference": "5a3a9655ccc3275ed7b4ed15c19dabb5f8b48dfa",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/fd9d78e7b0391b7b1c1b35d7f0986d9eafaefa38",
+                "reference": "fd9d78e7b0391b7b1c1b35d7f0986d9eafaefa38",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/auth": "dev-main",
+                "basic-app/core": "dev-master"
             },
             "default-branch": true,
             "type": "library",
@@ -88,7 +92,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-09-07T20:03:14+00:00"
+            "time": "2026-09-08T19:43:50+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -96,12 +100,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/adminlte4.git",
-                "reference": "b80000ebcf495da684c59025bd64a42dbf118095"
+                "reference": "220a0894e064f0fc042f5bbdade91a81f583a314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/b80000ebcf495da684c59025bd64a42dbf118095",
-                "reference": "b80000ebcf495da684c59025bd64a42dbf118095",
+                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/220a0894e064f0fc042f5bbdade91a81f583a314",
+                "reference": "220a0894e064f0fc042f5bbdade91a81f583a314",
                 "shasum": ""
             },
             "require": {
@@ -122,7 +126,7 @@
                 "issues": "https://github.com/basic-app/adminlte4/issues",
                 "source": "https://github.com/basic-app/adminlte4/tree/main"
             },
-            "time": "2026-09-06T19:19:26+00:00"
+            "time": "2026-09-08T19:18:48+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -198,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/fontawesome7.git",
-                "reference": "ec20df8df6269a0590b279dd5fc233613cc874b6"
+                "reference": "8abcd7284ba6fd6cee8387aac22129f5aacaabd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/ec20df8df6269a0590b279dd5fc233613cc874b6",
-                "reference": "ec20df8df6269a0590b279dd5fc233613cc874b6",
+                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/8abcd7284ba6fd6cee8387aac22129f5aacaabd2",
+                "reference": "8abcd7284ba6fd6cee8387aac22129f5aacaabd2",
                 "shasum": ""
             },
             "default-branch": true,
@@ -221,7 +225,7 @@
                 "issues": "https://github.com/basic-app/fontawesome7/issues",
                 "source": "https://github.com/basic-app/fontawesome7/tree/main"
             },
-            "time": "2026-09-06T18:05:17+00:00"
+            "time": "2026-09-08T19:41:27+00:00"
         },
         {
             "name": "basic-app/jquery3",
@@ -2663,7 +2667,6 @@
     "stability-flags": {
         "basic-app/admin": 20,
         "basic-app/adminlte4": 20,
-        "basic-app/auth": 20,
         "basic-app/core": 20,
         "basic-app/fontawesome7": 20,
         "basic-app/jquery3": 20,

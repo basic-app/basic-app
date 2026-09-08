@@ -1,6 +1,6 @@
 {
     "name": "basic-app/basic-app",
-    "description": "CodeIgniter4 starter app",
+    "description": "Basic App demo app",
     "license": "MIT",
     "type": "project",
     "homepage": "https://basic-app.com",
@@ -11,10 +11,8 @@
     "require": {
         "php": "^8.2",
         "codeigniter4/framework": "^4.7",
-        "codeigniter4/settings": "*",
         "basic-app/core": "dev-master",
         "basic-app/admin": "dev-master",
-        "basic-app/auth": "dev-main",
         "basic-app/adminlte4": "dev-main",
         "basic-app/fontawesome7": "dev-main",
         "basic-app/jquery3": "dev-main",
