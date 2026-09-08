@@ -327,12 +327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site-landing.git",
-                "reference": "7ddf5e8e809a52bddfb7e371fd6851d443f03e18"
+                "reference": "96b5fc4c406148784086ed44b555303780ff0b63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/7ddf5e8e809a52bddfb7e371fd6851d443f03e18",
-                "reference": "7ddf5e8e809a52bddfb7e371fd6851d443f03e18",
+                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/96b5fc4c406148784086ed44b555303780ff0b63",
+                "reference": "96b5fc4c406148784086ed44b555303780ff0b63",
                 "shasum": ""
             },
             "default-branch": true,
@@ -350,7 +350,7 @@
                 "issues": "https://github.com/basic-app/site-landing/issues",
                 "source": "https://github.com/basic-app/site-landing/tree/main"
             },
-            "time": "2026-09-08T20:27:29+00:00"
+            "time": "2026-09-08T20:49:20+00:00"
         },
         {
             "name": "basic-app/site-landing-sb",
