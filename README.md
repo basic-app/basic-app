@@ -12,7 +12,7 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 Create a new application using Composer:
 
 ```
-composer create-project --stability=dev --keep-vcs basic-app/basic-app
+composer create-project --stability=dev --keep-vcs basic-app/basic-app demoapp
 ```
 
 The command installs the application in a directory named `demoapp`. You can choose a different directory name if you want.
@@ -50,20 +50,12 @@ login: admin
 password: admin
 ```
 
-
 ## Server Requirements
 
 PHP version 8.2 or higher is required, with the following extensions installed:
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
 
 Additionally, make sure that the following extensions are enabled in your PHP:
 
@@ -79,6 +71,6 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [TinyMCE 7](https://www.tiny.cloud/)
 - [Bootstrap 5](https://getbootstrap.com/)
 - [jQuery 3](https://jquery.com/)
-- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
+- [Lightbox 2](https://lokeshdhakar.com/projects/lightbox2/)
 - [Fontawesome 7](https://fontawesome.com/)
 
