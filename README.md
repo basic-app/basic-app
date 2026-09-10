@@ -12,7 +12,7 @@ Basic App is designed to provide a quick start for sites made on CodeIgniter 4 a
 Create a new application using Composer:
 
 ```
-composer create-project --stability=dev basic-app/basic-app demoapp
+composer create-project --stability=dev --keep-vcs basic-app/basic-app demoapp
 ```
 
 The command installs the application in a directory named `demoapp`. You can choose a different directory name if you want.
