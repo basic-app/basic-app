@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b256620c31e529f06ba3f3f1e0a4200",
+    "content-hash": "aeb79f688c4ef7e08cac93e73fdc4692",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -291,6 +291,37 @@
             "time": "2026-09-06T18:09:08+00:00"
         },
         {
+            "name": "basic-app/sb-scrolling-nav",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/sb-scrolling-nav.git",
+                "reference": "d899b45d6de32c88ce2aa742249abcfbfc3c3393"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/d899b45d6de32c88ce2aa742249abcfbfc3c3393",
+                "reference": "d899b45d6de32c88ce2aa742249abcfbfc3c3393",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\SbScrollingNav\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/sb-scrolling-nav/issues",
+                "source": "https://github.com/basic-app/sb-scrolling-nav/tree/main"
+            },
+            "time": "2026-09-10T16:00:13+00:00"
+        },
+        {
             "name": "basic-app/site",
             "version": "dev-master",
             "source": {
@@ -327,12 +358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site-landing.git",
-                "reference": "96b5fc4c406148784086ed44b555303780ff0b63"
+                "reference": "88d13a18bd45ea7891381ca3ecd94a7ac3213fd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/96b5fc4c406148784086ed44b555303780ff0b63",
-                "reference": "96b5fc4c406148784086ed44b555303780ff0b63",
+                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/88d13a18bd45ea7891381ca3ecd94a7ac3213fd6",
+                "reference": "88d13a18bd45ea7891381ca3ecd94a7ac3213fd6",
                 "shasum": ""
             },
             "default-branch": true,
@@ -350,38 +381,7 @@
                 "issues": "https://github.com/basic-app/site-landing/issues",
                 "source": "https://github.com/basic-app/site-landing/tree/main"
             },
-            "time": "2026-09-08T20:49:20+00:00"
-        },
-        {
-            "name": "basic-app/site-landing-sb",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/basic-app/site-landing-sb.git",
-                "reference": "8dd66cc0338f4b8d72b8aa7e4565591469119148"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-landing-sb/zipball/8dd66cc0338f4b8d72b8aa7e4565591469119148",
-                "reference": "8dd66cc0338f4b8d72b8aa7e4565591469119148",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BasicApp\\SiteLandingSb\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "support": {
-                "issues": "https://github.com/basic-app/site-landing-sb/issues",
-                "source": "https://github.com/basic-app/site-landing-sb/tree/main"
-            },
-            "time": "2026-09-06T18:49:37+00:00"
+            "time": "2026-09-10T15:57:24+00:00"
         },
         {
             "name": "basic-app/tinymce7",
@@ -2670,9 +2670,9 @@
         "basic-app/adminlte4": 20,
         "basic-app/jquery3": 20,
         "basic-app/lightbox2": 20,
+        "basic-app/sb-scrolling-nav": 20,
         "basic-app/site": 20,
         "basic-app/site-landing": 20,
-        "basic-app/site-landing-sb": 20,
         "basic-app/tinymce7": 20
     },
     "prefer-stable": true,

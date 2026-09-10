@@ -17,8 +17,8 @@
         "basic-app/lightbox2": "dev-main",
         "basic-app/site": "dev-master",
         "basic-app/site-landing": "dev-main",
-        "basic-app/site-landing-sb": "dev-main",
-        "basic-app/tinymce7": "dev-main"
+        "basic-app/tinymce7": "dev-main",
+        "basic-app/sb-scrolling-nav": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
