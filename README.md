@@ -74,3 +74,10 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [Lightbox 2](https://lokeshdhakar.com/projects/lightbox2/)
 - [Fontawesome 7](https://fontawesome.com/)
 
+## Site
+
+[![Site](_docs/site.png)](https://basic-app.com/)
+
+## Admin
+
+[![Admin](_docs/admin.png)](https://basic-app.com/)

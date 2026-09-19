@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aeb79f688c4ef7e08cac93e73fdc4692",
+    "content-hash": "49b85409f19477dcc2729bfb16e47b81",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -65,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "efa804faa944e42b49e0b96f76cc153d70928323"
+                "reference": "e65c79575229fe66d66d065cd2131966077060f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/efa804faa944e42b49e0b96f76cc153d70928323",
-                "reference": "efa804faa944e42b49e0b96f76cc153d70928323",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/e65c79575229fe66d66d065cd2131966077060f3",
+                "reference": "e65c79575229fe66d66d065cd2131966077060f3",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-09-08T20:24:00+00:00"
+            "time": "2026-09-19T08:09:22+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "114081c03f41ebd27a7b2ec43c678e67a5ab831b"
+                "reference": "404c424f122e4b594a867ce95694626d0c4dd9c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/114081c03f41ebd27a7b2ec43c678e67a5ab831b",
-                "reference": "114081c03f41ebd27a7b2ec43c678e67a5ab831b",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/404c424f122e4b594a867ce95694626d0c4dd9c8",
+                "reference": "404c424f122e4b594a867ce95694626d0c4dd9c8",
                 "shasum": ""
             },
             "require": {
@@ -195,7 +195,7 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-09-10T16:15:28+00:00"
+            "time": "2026-09-19T06:40:40+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
@@ -291,17 +291,52 @@
             "time": "2026-09-06T18:09:08+00:00"
         },
         {
+            "name": "basic-app/module-block",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/module-block.git",
+                "reference": "0a861ac2615395757d4df3dd4b0a268d659faa40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/module-block/zipball/0a861ac2615395757d4df3dd4b0a268d659faa40",
+                "reference": "0a861ac2615395757d4df3dd4b0a268d659faa40",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/admin": "*",
+                "basic-app/core": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Block\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/module-block/issues",
+                "source": "https://github.com/basic-app/module-block/tree/master"
+            },
+            "time": "2026-09-19T07:22:00+00:00"
+        },
+        {
             "name": "basic-app/sb-scrolling-nav",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/sb-scrolling-nav.git",
-                "reference": "d899b45d6de32c88ce2aa742249abcfbfc3c3393"
+                "reference": "70f181492f010285796e4139decd5d4da6fa0857"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/d899b45d6de32c88ce2aa742249abcfbfc3c3393",
-                "reference": "d899b45d6de32c88ce2aa742249abcfbfc3c3393",
+                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/70f181492f010285796e4139decd5d4da6fa0857",
+                "reference": "70f181492f010285796e4139decd5d4da6fa0857",
                 "shasum": ""
             },
             "default-branch": true,
@@ -319,7 +354,7 @@
                 "issues": "https://github.com/basic-app/sb-scrolling-nav/issues",
                 "source": "https://github.com/basic-app/sb-scrolling-nav/tree/main"
             },
-            "time": "2026-09-10T16:00:13+00:00"
+            "time": "2026-09-19T08:00:30+00:00"
         },
         {
             "name": "basic-app/site",
@@ -327,12 +362,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "cbdae3cee3ba5daf5e2612b1a6c3b9c3bf8694d1"
+                "reference": "90675130cf2bb313c694bf3e1e97ea54fff74ce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/cbdae3cee3ba5daf5e2612b1a6c3b9c3bf8694d1",
-                "reference": "cbdae3cee3ba5daf5e2612b1a6c3b9c3bf8694d1",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/90675130cf2bb313c694bf3e1e97ea54fff74ce2",
+                "reference": "90675130cf2bb313c694bf3e1e97ea54fff74ce2",
                 "shasum": ""
             },
             "default-branch": true,
@@ -350,7 +385,7 @@
                 "issues": "https://github.com/basic-app/site/issues",
                 "source": "https://github.com/basic-app/site/tree/master"
             },
-            "time": "2026-09-08T20:26:17+00:00"
+            "time": "2026-09-19T08:03:20+00:00"
         },
         {
             "name": "basic-app/site-landing",
@@ -358,13 +393,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site-landing.git",
-                "reference": "88d13a18bd45ea7891381ca3ecd94a7ac3213fd6"
+                "reference": "2fc87e58f8bcb097e37b7e2495d7dfcdbf7af384"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/88d13a18bd45ea7891381ca3ecd94a7ac3213fd6",
-                "reference": "88d13a18bd45ea7891381ca3ecd94a7ac3213fd6",
+                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/2fc87e58f8bcb097e37b7e2495d7dfcdbf7af384",
+                "reference": "2fc87e58f8bcb097e37b7e2495d7dfcdbf7af384",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/module-block": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -381,7 +419,7 @@
                 "issues": "https://github.com/basic-app/site-landing/issues",
                 "source": "https://github.com/basic-app/site-landing/tree/main"
             },
-            "time": "2026-09-10T15:57:24+00:00"
+            "time": "2026-09-19T07:41:59+00:00"
         },
         {
             "name": "basic-app/tinymce7",
@@ -389,12 +427,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "8414d7bd1165e1e19450d80ff6b6f15b32bbdadb"
+                "reference": "58518b297c18a3e3659c7abb301d2b747cce2732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/8414d7bd1165e1e19450d80ff6b6f15b32bbdadb",
-                "reference": "8414d7bd1165e1e19450d80ff6b6f15b32bbdadb",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/58518b297c18a3e3659c7abb301d2b747cce2732",
+                "reference": "58518b297c18a3e3659c7abb301d2b747cce2732",
                 "shasum": ""
             },
             "require": {
@@ -415,7 +453,7 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-09-08T20:27:55+00:00"
+            "time": "2026-09-19T08:04:55+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -948,16 +986,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.8.0",
+            "version": "v5.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "044a6a392ff8ad0d61f14370a5fbbd0a0107152f"
+                "reference": "9e33da9553fe7786f0962b35f4e4ecf01be89def"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/044a6a392ff8ad0d61f14370a5fbbd0a0107152f",
-                "reference": "044a6a392ff8ad0d61f14370a5fbbd0a0107152f",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/9e33da9553fe7786f0962b35f4e4ecf01be89def",
+                "reference": "9e33da9553fe7786f0962b35f4e4ecf01be89def",
                 "shasum": ""
             },
             "require": {
@@ -999,9 +1037,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.8.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.9.0"
             },
-            "time": "2026-07-04T14:30:18+00:00"
+            "time": "2026-09-13T18:51:52+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -2670,6 +2708,7 @@
         "basic-app/adminlte4": 20,
         "basic-app/jquery3": 20,
         "basic-app/lightbox2": 20,
+        "basic-app/module-block": 20,
         "basic-app/sb-scrolling-nav": 20,
         "basic-app/site": 20,
         "basic-app/site-landing": 20,
