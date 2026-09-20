@@ -65,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "e65c79575229fe66d66d065cd2131966077060f3"
+                "reference": "49ede3baef215c7f72ea5c54913c4b430f7196d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/e65c79575229fe66d66d065cd2131966077060f3",
-                "reference": "e65c79575229fe66d66d065cd2131966077060f3",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/49ede3baef215c7f72ea5c54913c4b430f7196d0",
+                "reference": "49ede3baef215c7f72ea5c54913c4b430f7196d0",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-09-19T08:09:22+00:00"
+            "time": "2026-09-20T07:45:30+00:00"
         },
         {
             "name": "basic-app/adminlte4",
