@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-block.git",
-                "reference": "6cfbe2553822de63b4ff555bfd54d2b47e75adb3"
+                "reference": "fb079aed4e63715065037478c65d5c22bf0900d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-block/zipball/6cfbe2553822de63b4ff555bfd54d2b47e75adb3",
-                "reference": "6cfbe2553822de63b4ff555bfd54d2b47e75adb3",
+                "url": "https://api.github.com/repos/basic-app/module-block/zipball/fb079aed4e63715065037478c65d5c22bf0900d9",
+                "reference": "fb079aed4e63715065037478c65d5c22bf0900d9",
                 "shasum": ""
             },
             "require": {
@@ -323,7 +323,7 @@
                 "issues": "https://github.com/basic-app/module-block/issues",
                 "source": "https://github.com/basic-app/module-block/tree/master"
             },
-            "time": "2026-09-20T07:36:21+00:00"
+            "time": "2026-09-20T07:40:51+00:00"
         },
         {
             "name": "basic-app/sb-scrolling-nav",
