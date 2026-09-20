@@ -65,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "49ede3baef215c7f72ea5c54913c4b430f7196d0"
+                "reference": "761324eb4ce4408c9ad6a55db3f8a7f1b0a3e931"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/49ede3baef215c7f72ea5c54913c4b430f7196d0",
-                "reference": "49ede3baef215c7f72ea5c54913c4b430f7196d0",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/761324eb4ce4408c9ad6a55db3f8a7f1b0a3e931",
+                "reference": "761324eb4ce4408c9ad6a55db3f8a7f1b0a3e931",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-09-20T07:45:30+00:00"
+            "time": "2026-09-20T10:52:46+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -101,12 +101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/adminlte4.git",
-                "reference": "0239b285d457d10d9e0e8211bfd42a67d740bfb5"
+                "reference": "55bac9fdd0edea0c005895a7de1e252dbf73e38c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/0239b285d457d10d9e0e8211bfd42a67d740bfb5",
-                "reference": "0239b285d457d10d9e0e8211bfd42a67d740bfb5",
+                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/55bac9fdd0edea0c005895a7de1e252dbf73e38c",
+                "reference": "55bac9fdd0edea0c005895a7de1e252dbf73e38c",
                 "shasum": ""
             },
             "require": {
@@ -127,7 +127,7 @@
                 "issues": "https://github.com/basic-app/adminlte4/issues",
                 "source": "https://github.com/basic-app/adminlte4/tree/main"
             },
-            "time": "2026-09-08T20:25:15+00:00"
+            "time": "2026-09-20T10:53:28+00:00"
         },
         {
             "name": "basic-app/auth",
