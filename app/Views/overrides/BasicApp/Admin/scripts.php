@@ -1,0 +1,1 @@
+<script src="<?= base_url('js/admin-custom.js');?>"></script>
