@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "404c424f122e4b594a867ce95694626d0c4dd9c8"
+                "reference": "37ab05936b4d9a8452969e957531e12aa72e6f05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/404c424f122e4b594a867ce95694626d0c4dd9c8",
-                "reference": "404c424f122e4b594a867ce95694626d0c4dd9c8",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/37ab05936b4d9a8452969e957531e12aa72e6f05",
+                "reference": "37ab05936b4d9a8452969e957531e12aa72e6f05",
                 "shasum": ""
             },
             "require": {
@@ -195,7 +195,7 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-09-19T06:40:40+00:00"
+            "time": "2026-09-20T07:34:36+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-block.git",
-                "reference": "0a861ac2615395757d4df3dd4b0a268d659faa40"
+                "reference": "6cfbe2553822de63b4ff555bfd54d2b47e75adb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-block/zipball/0a861ac2615395757d4df3dd4b0a268d659faa40",
-                "reference": "0a861ac2615395757d4df3dd4b0a268d659faa40",
+                "url": "https://api.github.com/repos/basic-app/module-block/zipball/6cfbe2553822de63b4ff555bfd54d2b47e75adb3",
+                "reference": "6cfbe2553822de63b4ff555bfd54d2b47e75adb3",
                 "shasum": ""
             },
             "require": {
@@ -323,7 +323,7 @@
                 "issues": "https://github.com/basic-app/module-block/issues",
                 "source": "https://github.com/basic-app/module-block/tree/master"
             },
-            "time": "2026-09-19T07:22:00+00:00"
+            "time": "2026-09-20T07:36:21+00:00"
         },
         {
             "name": "basic-app/sb-scrolling-nav",
