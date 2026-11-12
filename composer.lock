@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/jquery3.git",
-                "reference": "f900d7afeb4b88fba50cdde8786fcba1706af453"
+                "reference": "4c0e289ea6fb3f790c59b88d9ebee6b55f4df65a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/jquery3/zipball/f900d7afeb4b88fba50cdde8786fcba1706af453",
-                "reference": "f900d7afeb4b88fba50cdde8786fcba1706af453",
+                "url": "https://api.github.com/repos/basic-app/jquery3/zipball/4c0e289ea6fb3f790c59b88d9ebee6b55f4df65a",
+                "reference": "4c0e289ea6fb3f790c59b88d9ebee6b55f4df65a",
                 "shasum": ""
             },
             "require": {
@@ -338,8 +338,8 @@
                 "issues": "https://github.com/basic-app/jquery3/issues",
                 "source": "https://github.com/basic-app/jquery3/tree/main"
             },
-            "time": "2026-11-12T18:14:13+00:00",
-            "published-time": "2026-11-12T18:14:22+00:00"
+            "time": "2026-11-12T20:19:58+00:00",
+            "published-time": "2026-11-12T20:20:06+00:00"
         },
         {
             "name": "basic-app/lightbox2",
