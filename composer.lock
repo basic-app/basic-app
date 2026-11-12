@@ -552,16 +552,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "c1a1e08355e6410f57614eb5ee147b7a5b466198"
+                "reference": "ba80cd786f1ebffa3966d24e1a98af80832c2430"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/c1a1e08355e6410f57614eb5ee147b7a5b466198",
-                "reference": "c1a1e08355e6410f57614eb5ee147b7a5b466198",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/ba80cd786f1ebffa3966d24e1a98af80832c2430",
+                "reference": "ba80cd786f1ebffa3966d24e1a98af80832c2430",
                 "shasum": ""
             },
             "require": {
-                "basic-app/tinymce7-assets": "dev-main"
+                "basic-app/tinymce7-assets": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -578,8 +578,8 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-11-12T19:24:59+00:00",
-            "published-time": "2026-11-12T19:25:07+00:00"
+            "time": "2026-11-12T19:30:22+00:00",
+            "published-time": "2026-11-12T19:30:29+00:00"
         },
         {
             "name": "basic-app/tinymce7-assets",
