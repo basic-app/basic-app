@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth-settings.git",
-                "reference": "7b17e9fe3390c1eaaf8c6782e8f157ce8d6acb1b"
+                "reference": "b7de6a26f2d099e8f7af5709704f159c45f250f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/7b17e9fe3390c1eaaf8c6782e8f157ce8d6acb1b",
-                "reference": "7b17e9fe3390c1eaaf8c6782e8f157ce8d6acb1b",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/b7de6a26f2d099e8f7af5709704f159c45f250f8",
+                "reference": "b7de6a26f2d099e8f7af5709704f159c45f250f8",
                 "shasum": ""
             },
             "require": {
@@ -161,8 +161,8 @@
                 "issues": "https://github.com/basic-app/admin-auth-settings/issues",
                 "source": "https://github.com/basic-app/admin-auth-settings/tree/main"
             },
-            "time": "2026-11-12T19:19:21+00:00",
-            "published-time": "2026-11-12T19:19:31+00:00"
+            "time": "2026-11-12T19:35:44+00:00",
+            "published-time": "2026-11-12T19:35:52+00:00"
         },
         {
             "name": "basic-app/adminlte4",
