@@ -135,16 +135,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth-settings.git",
-                "reference": "b7de6a26f2d099e8f7af5709704f159c45f250f8"
+                "reference": "f30dc607cbda95b23b3484ae73fb6b2bbe11f6f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/b7de6a26f2d099e8f7af5709704f159c45f250f8",
-                "reference": "b7de6a26f2d099e8f7af5709704f159c45f250f8",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/f30dc607cbda95b23b3484ae73fb6b2bbe11f6f0",
+                "reference": "f30dc607cbda95b23b3484ae73fb6b2bbe11f6f0",
                 "shasum": ""
             },
             "require": {
-                "basic-app/admin-auth": "*"
+                "basic-app/admin-auth": "*",
+                "basic-app/settings": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -161,8 +162,8 @@
                 "issues": "https://github.com/basic-app/admin-auth-settings/issues",
                 "source": "https://github.com/basic-app/admin-auth-settings/tree/main"
             },
-            "time": "2026-11-12T19:35:44+00:00",
-            "published-time": "2026-11-12T19:35:52+00:00"
+            "time": "2026-11-12T21:02:03+00:00",
+            "published-time": "2026-11-12T21:02:11+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -241,17 +242,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "b1c06bea09c7338ffec82ad86bbe70c354eb859e"
+                "reference": "a3ab25291fcc16007853673282c77a16c2369d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/b1c06bea09c7338ffec82ad86bbe70c354eb859e",
-                "reference": "b1c06bea09c7338ffec82ad86bbe70c354eb859e",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/a3ab25291fcc16007853673282c77a16c2369d28",
+                "reference": "a3ab25291fcc16007853673282c77a16c2369d28",
                 "shasum": ""
             },
             "require": {
-                "basic-app/publisher": "*",
-                "codeigniter4/settings": "*"
+                "basic-app/form": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -268,8 +268,8 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-11-12T19:23:15+00:00",
-            "published-time": "2026-11-12T19:23:27+00:00"
+            "time": "2026-11-12T20:52:23+00:00",
+            "published-time": "2026-11-12T20:52:31+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
@@ -305,6 +305,38 @@
             },
             "time": "2026-11-12T18:13:30+00:00",
             "published-time": "2026-11-12T18:13:38+00:00"
+        },
+        {
+            "name": "basic-app/form",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/form.git",
+                "reference": "cb9992124e6b1489f7564407b675d95812052455"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/form/zipball/cb9992124e6b1489f7564407b675d95812052455",
+                "reference": "cb9992124e6b1489f7564407b675d95812052455",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Form\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/form/issues",
+                "source": "https://github.com/basic-app/form/tree/main"
+            },
+            "time": "2026-11-12T20:45:58+00:00",
+            "published-time": "2026-11-12T20:46:07+00:00"
         },
         {
             "name": "basic-app/jquery3",
@@ -450,16 +482,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/sb-scrolling-nav.git",
-                "reference": "4c026ea095b36566fbe20c4e9afad68a1f4119c2"
+                "reference": "bab0988397da80c7ad27a05d9567a3310d778827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/4c026ea095b36566fbe20c4e9afad68a1f4119c2",
-                "reference": "4c026ea095b36566fbe20c4e9afad68a1f4119c2",
+                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/bab0988397da80c7ad27a05d9567a3310d778827",
+                "reference": "bab0988397da80c7ad27a05d9567a3310d778827",
                 "shasum": ""
             },
             "require": {
-                "basic-app/publisher": "*"
+                "basic-app/publisher": "*",
+                "basic-app/settings": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -476,8 +509,44 @@
                 "issues": "https://github.com/basic-app/sb-scrolling-nav/issues",
                 "source": "https://github.com/basic-app/sb-scrolling-nav/tree/main"
             },
-            "time": "2026-11-12T18:16:07+00:00",
-            "published-time": "2026-11-12T18:16:19+00:00"
+            "time": "2026-11-12T20:59:35+00:00",
+            "published-time": "2026-11-12T20:59:43+00:00"
+        },
+        {
+            "name": "basic-app/settings",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/settings.git",
+                "reference": "a826536677abe5d7d7091a5ccf3a62ecae53fcad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/settings/zipball/a826536677abe5d7d7091a5ccf3a62ecae53fcad",
+                "reference": "a826536677abe5d7d7091a5ccf3a62ecae53fcad",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/form": "*",
+                "codeigniter4/settings": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Settings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/settings/issues",
+                "source": "https://github.com/basic-app/settings/tree/main"
+            },
+            "time": "2026-11-12T22:27:02+00:00",
+            "published-time": "2026-11-12T22:27:10+00:00"
         },
         {
             "name": "basic-app/site",
@@ -485,19 +554,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "90675130cf2bb313c694bf3e1e97ea54fff74ce2"
+                "reference": "3a3b5ad354ea7482d17efb13678367a288f43991"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/90675130cf2bb313c694bf3e1e97ea54fff74ce2",
-                "reference": "90675130cf2bb313c694bf3e1e97ea54fff74ce2",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/3a3b5ad354ea7482d17efb13678367a288f43991",
+                "reference": "3a3b5ad354ea7482d17efb13678367a288f43991",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/settings": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Site\\": "src/"
+                    "BasicApp\\Site\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -508,8 +580,8 @@
                 "issues": "https://github.com/basic-app/site/issues",
                 "source": "https://github.com/basic-app/site/tree/master"
             },
-            "time": "2026-09-19T08:03:20+00:00",
-            "published-time": "2026-09-19T08:03:32+00:00"
+            "time": "2026-11-12T20:55:18+00:00",
+            "published-time": "2026-11-12T20:55:28+00:00"
         },
         {
             "name": "basic-app/site-landing",
@@ -517,22 +589,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site-landing.git",
-                "reference": "1359db3d7d35a1746c86055595446a8d4f71aba9"
+                "reference": "46318585eca239fd26be0885ab7644037b63c24c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/1359db3d7d35a1746c86055595446a8d4f71aba9",
-                "reference": "1359db3d7d35a1746c86055595446a8d4f71aba9",
+                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/46318585eca239fd26be0885ab7644037b63c24c",
+                "reference": "46318585eca239fd26be0885ab7644037b63c24c",
                 "shasum": ""
             },
             "require": {
-                "basic-app/module-block": "*"
+                "basic-app/module-block": "*",
+                "basic-app/settings": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\SiteLanding\\": "src/"
+                    "BasicApp\\SiteLanding\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -543,8 +616,8 @@
                 "issues": "https://github.com/basic-app/site-landing/issues",
                 "source": "https://github.com/basic-app/site-landing/tree/main"
             },
-            "time": "2026-09-22T15:49:57+00:00",
-            "published-time": "2026-09-22T15:50:04+00:00"
+            "time": "2026-11-12T21:03:14+00:00",
+            "published-time": "2026-11-12T21:03:23+00:00"
         },
         {
             "name": "basic-app/tinymce7",
@@ -552,15 +625,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "ba80cd786f1ebffa3966d24e1a98af80832c2430"
+                "reference": "dfa8e6f883b138500840eaa0a6f70fe2c4b04563"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/ba80cd786f1ebffa3966d24e1a98af80832c2430",
-                "reference": "ba80cd786f1ebffa3966d24e1a98af80832c2430",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/dfa8e6f883b138500840eaa0a6f70fe2c4b04563",
+                "reference": "dfa8e6f883b138500840eaa0a6f70fe2c4b04563",
                 "shasum": ""
             },
             "require": {
+                "basic-app/settings": "*",
                 "basic-app/tinymce7-assets": "*"
             },
             "default-branch": true,
@@ -578,8 +652,8 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-11-12T19:30:22+00:00",
-            "published-time": "2026-11-12T19:30:29+00:00"
+            "time": "2026-11-12T21:04:20+00:00",
+            "published-time": "2026-11-12T21:04:28+00:00"
         },
         {
             "name": "basic-app/tinymce7-assets",
