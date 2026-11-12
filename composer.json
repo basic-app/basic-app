@@ -1,6 +1,6 @@
 {
     "name": "basic-app/basic-app",
-    "description": "Basic App demo app",
+    "description": "Basic App Demo",
     "license": "MIT",
     "type": "project",
     "homepage": "https://basic-app.com",
@@ -17,9 +17,11 @@
         "basic-app/lightbox2": "dev-main",
         "basic-app/site": "dev-master",
         "basic-app/site-landing": "dev-main",
-        "basic-app/tinymce7": "dev-main",
         "basic-app/sb-scrolling-nav": "dev-main",
-        "basic-app/module-block": "dev-master"
+        "basic-app/module-block": "dev-master",
+        "basic-app/admin-auth": "dev-main",
+        "basic-app/admin-auth-settings": "dev-main",
+        "basic-app/tinymce7": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

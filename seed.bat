@@ -1,0 +1,1 @@
+php spark db:seed "BasicApp\AdminAuthSettings\Database\Seeds\DemoSeeder" && php spark db:seed "BasicApp\SiteLanding\Database\Seeds\DemoSeeder"

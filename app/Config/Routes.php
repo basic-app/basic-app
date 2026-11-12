@@ -13,3 +13,7 @@ $routes->get('admin/credits', static function () {
 $routes->get('admin/support', static function () {
     return view('admin/support');
 });
+
+helper(['admin_auth_settings']);
+
+admin_auth_settings_routes($routes);

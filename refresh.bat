@@ -1,2 +1,2 @@
 @echo off
-php spark migrate:refresh --all && php spark db:seed "BasicApp\Admin\Database\Seeds\DemoSeeder" && php spark db:seed "BasicApp\SiteLanding\Database\Seeds\DemoSeeder" && php spark publish
+php spark migrate:refresh --all && php spark db:seed "BasicApp\AdminAuthSettings\Database\Seeds\DemoSeeder" && php spark db:seed "BasicApp\SiteLanding\Database\Seeds\DemoSeeder" && php spark publish

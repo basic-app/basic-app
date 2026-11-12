@@ -29,4 +29,13 @@ class Services extends BaseService
      *     return new \CodeIgniter\Example();
      * }
      */
+    public static function adminAuth($getShared = true)
+    {
+        if ($getShared) 
+        {
+            return static::getSharedInstance(__FUNCTION__);
+        }
+
+        return new \BasicApp\AdminAuthSettings\Settings\AdminAuthSettings;
+    }
 }

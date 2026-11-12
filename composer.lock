@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49b85409f19477dcc2729bfb16e47b81",
+    "content-hash": "ed061fb43b1ded0978180e028619b99f",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
-            "version": "v4.9.1",
+            "version": "v4.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColorlibHQ/AdminLTE.git",
-                "reference": "a3702d79b95573eadef771f67065a9033cb4338b"
+                "reference": "e13df78a4d0c287e5fa57308e293f63e44e9dd0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/a3702d79b95573eadef771f67065a9033cb4338b",
-                "reference": "a3702d79b95573eadef771f67065a9033cb4338b",
+                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/e13df78a4d0c287e5fa57308e293f63e44e9dd0f",
+                "reference": "e13df78a4d0c287e5fa57308e293f63e44e9dd0f",
                 "shasum": ""
             },
             "type": "library",
@@ -45,7 +45,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ColorlibHQ/AdminLTE/issues",
-                "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v4.9.1"
+                "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v4.10.1"
             },
             "funding": [
                 {
@@ -57,7 +57,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-26T09:18:41+00:00"
+            "time": "2026-10-08T06:14:22+00:00",
+            "published-time": "2026-10-08T06:51:36+00:00"
         },
         {
             "name": "basic-app/admin",
@@ -65,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "05def8c19b6cde281638af8c2a9256c19661608c"
+                "reference": "ae000bac322a4af5a801bd99b5b4bada36f8fb13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/05def8c19b6cde281638af8c2a9256c19661608c",
-                "reference": "05def8c19b6cde281638af8c2a9256c19661608c",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/ae000bac322a4af5a801bd99b5b4bada36f8fb13",
+                "reference": "ae000bac322a4af5a801bd99b5b4bada36f8fb13",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +94,75 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-09-22T15:48:47+00:00"
+            "time": "2026-11-12T19:21:51+00:00",
+            "published-time": "2026-11-12T19:21:59+00:00"
+        },
+        {
+            "name": "basic-app/admin-auth",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin-auth.git",
+                "reference": "dadf78d3f3d8af70053b627829481982991ac9de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/dadf78d3f3d8af70053b627829481982991ac9de",
+                "reference": "dadf78d3f3d8af70053b627829481982991ac9de",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin-auth/issues",
+                "source": "https://github.com/basic-app/admin-auth/tree/main"
+            },
+            "time": "2026-11-12T18:33:44+00:00",
+            "published-time": "2026-11-12T18:33:55+00:00"
+        },
+        {
+            "name": "basic-app/admin-auth-settings",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin-auth-settings.git",
+                "reference": "7b17e9fe3390c1eaaf8c6782e8f157ce8d6acb1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/7b17e9fe3390c1eaaf8c6782e8f157ce8d6acb1b",
+                "reference": "7b17e9fe3390c1eaaf8c6782e8f157ce8d6acb1b",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/admin-auth": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminAuthSettings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin-auth-settings/issues",
+                "source": "https://github.com/basic-app/admin-auth-settings/tree/main"
+            },
+            "time": "2026-11-12T19:19:21+00:00",
+            "published-time": "2026-11-12T19:19:31+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -101,22 +170,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/adminlte4.git",
-                "reference": "55bac9fdd0edea0c005895a7de1e252dbf73e38c"
+                "reference": "66217ab1cfae14832cc1efe4f5dda84721d36148"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/55bac9fdd0edea0c005895a7de1e252dbf73e38c",
-                "reference": "55bac9fdd0edea0c005895a7de1e252dbf73e38c",
+                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/66217ab1cfae14832cc1efe4f5dda84721d36148",
+                "reference": "66217ab1cfae14832cc1efe4f5dda84721d36148",
                 "shasum": ""
             },
             "require": {
-                "almasaeed2010/adminlte": "^4.8"
+                "almasaeed2010/adminlte": "^4.8",
+                "basic-app/publisher": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\AdminLte4\\": "src/"
+                    "BasicApp\\AdminLte4\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -127,7 +197,8 @@
                 "issues": "https://github.com/basic-app/adminlte4/issues",
                 "source": "https://github.com/basic-app/adminlte4/tree/main"
             },
-            "time": "2026-09-20T10:53:28+00:00"
+            "time": "2026-11-12T18:12:58+00:00",
+            "published-time": "2026-11-12T18:13:06+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -135,12 +206,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/auth.git",
-                "reference": "30597969e6b5d0a1136b2ff01f5a9c990d7fbeee"
+                "reference": "76234b28078a7be9e665ab8230d31ab8aa1dc0e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/auth/zipball/30597969e6b5d0a1136b2ff01f5a9c990d7fbeee",
-                "reference": "30597969e6b5d0a1136b2ff01f5a9c990d7fbeee",
+                "url": "https://api.github.com/repos/basic-app/auth/zipball/76234b28078a7be9e665ab8230d31ab8aa1dc0e5",
+                "reference": "76234b28078a7be9e665ab8230d31ab8aa1dc0e5",
                 "shasum": ""
             },
             "provide": {
@@ -161,7 +232,8 @@
                 "issues": "https://github.com/basic-app/auth/issues",
                 "source": "https://github.com/basic-app/auth/tree/main"
             },
-            "time": "2026-04-13T21:09:00+00:00"
+            "time": "2026-11-12T19:22:51+00:00",
+            "published-time": "2026-11-12T19:22:59+00:00"
         },
         {
             "name": "basic-app/core",
@@ -169,22 +241,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "427fb45d988894544551ad71d03da9a895b63820"
+                "reference": "b1c06bea09c7338ffec82ad86bbe70c354eb859e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/427fb45d988894544551ad71d03da9a895b63820",
-                "reference": "427fb45d988894544551ad71d03da9a895b63820",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/b1c06bea09c7338ffec82ad86bbe70c354eb859e",
+                "reference": "b1c06bea09c7338ffec82ad86bbe70c354eb859e",
                 "shasum": ""
             },
             "require": {
+                "basic-app/publisher": "*",
                 "codeigniter4/settings": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Core\\": "src/"
+                    "BasicApp\\Core\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -195,7 +268,8 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-09-22T16:02:38+00:00"
+            "time": "2026-11-12T19:23:15+00:00",
+            "published-time": "2026-11-12T19:23:27+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
@@ -203,19 +277,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/fontawesome7.git",
-                "reference": "95278a80dab7fc920ec942642dd21c446e70ad7b"
+                "reference": "8e1da47480b701eaa054adfd9d31dbc677ee506b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/95278a80dab7fc920ec942642dd21c446e70ad7b",
-                "reference": "95278a80dab7fc920ec942642dd21c446e70ad7b",
+                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/8e1da47480b701eaa054adfd9d31dbc677ee506b",
+                "reference": "8e1da47480b701eaa054adfd9d31dbc677ee506b",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/publisher": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Fontawesome7\\": "src/"
+                    "BasicApp\\Fontawesome7\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -226,7 +303,8 @@
                 "issues": "https://github.com/basic-app/fontawesome7/issues",
                 "source": "https://github.com/basic-app/fontawesome7/tree/main"
             },
-            "time": "2026-09-08T20:19:55+00:00"
+            "time": "2026-11-12T18:13:30+00:00",
+            "published-time": "2026-11-12T18:13:38+00:00"
         },
         {
             "name": "basic-app/jquery3",
@@ -234,19 +312,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/jquery3.git",
-                "reference": "2896336fbf48f05673c143cf1c1918ce7287e2aa"
+                "reference": "f900d7afeb4b88fba50cdde8786fcba1706af453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/jquery3/zipball/2896336fbf48f05673c143cf1c1918ce7287e2aa",
-                "reference": "2896336fbf48f05673c143cf1c1918ce7287e2aa",
+                "url": "https://api.github.com/repos/basic-app/jquery3/zipball/f900d7afeb4b88fba50cdde8786fcba1706af453",
+                "reference": "f900d7afeb4b88fba50cdde8786fcba1706af453",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/publisher": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Jquery3\\": "src/"
+                    "BasicApp\\Jquery3\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -257,7 +338,8 @@
                 "issues": "https://github.com/basic-app/jquery3/issues",
                 "source": "https://github.com/basic-app/jquery3/tree/main"
             },
-            "time": "2026-09-06T18:06:30+00:00"
+            "time": "2026-11-12T18:14:13+00:00",
+            "published-time": "2026-11-12T18:14:22+00:00"
         },
         {
             "name": "basic-app/lightbox2",
@@ -265,19 +347,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/lightbox2.git",
-                "reference": "c7478e703e029bda545913b5116242963a8f74c8"
+                "reference": "7e482d9b20e7cf4aafa1d147d3857b09f4c47f2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/lightbox2/zipball/c7478e703e029bda545913b5116242963a8f74c8",
-                "reference": "c7478e703e029bda545913b5116242963a8f74c8",
+                "url": "https://api.github.com/repos/basic-app/lightbox2/zipball/7e482d9b20e7cf4aafa1d147d3857b09f4c47f2f",
+                "reference": "7e482d9b20e7cf4aafa1d147d3857b09f4c47f2f",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/publisher": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Lightbox2\\": "src/"
+                    "BasicApp\\Lightbox2\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -288,7 +373,8 @@
                 "issues": "https://github.com/basic-app/lightbox2/issues",
                 "source": "https://github.com/basic-app/lightbox2/tree/main"
             },
-            "time": "2026-09-06T18:09:08+00:00"
+            "time": "2026-11-12T18:15:09+00:00",
+            "published-time": "2026-11-12T18:15:20+00:00"
         },
         {
             "name": "basic-app/module-block",
@@ -323,7 +409,40 @@
                 "issues": "https://github.com/basic-app/module-block/issues",
                 "source": "https://github.com/basic-app/module-block/tree/master"
             },
-            "time": "2026-09-20T07:40:51+00:00"
+            "time": "2026-09-20T07:40:51+00:00",
+            "published-time": "2026-09-20T07:41:00+00:00"
+        },
+        {
+            "name": "basic-app/publisher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/publisher.git",
+                "reference": "3b6ea664546ed981f825c48a45bbb2e5d8e2871c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/publisher/zipball/3b6ea664546ed981f825c48a45bbb2e5d8e2871c",
+                "reference": "3b6ea664546ed981f825c48a45bbb2e5d8e2871c",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Publisher\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/publisher/issues",
+                "source": "https://github.com/basic-app/publisher/tree/master"
+            },
+            "time": "2026-11-12T17:46:32+00:00",
+            "published-time": "2026-11-12T17:46:42+00:00"
         },
         {
             "name": "basic-app/sb-scrolling-nav",
@@ -331,19 +450,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/sb-scrolling-nav.git",
-                "reference": "da64246a31f2bffbd839cb21065f6a4ea595c160"
+                "reference": "4c026ea095b36566fbe20c4e9afad68a1f4119c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/da64246a31f2bffbd839cb21065f6a4ea595c160",
-                "reference": "da64246a31f2bffbd839cb21065f6a4ea595c160",
+                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/4c026ea095b36566fbe20c4e9afad68a1f4119c2",
+                "reference": "4c026ea095b36566fbe20c4e9afad68a1f4119c2",
                 "shasum": ""
+            },
+            "require": {
+                "basic-app/publisher": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\SbScrollingNav\\": "src/"
+                    "BasicApp\\SbScrollingNav\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -354,7 +476,8 @@
                 "issues": "https://github.com/basic-app/sb-scrolling-nav/issues",
                 "source": "https://github.com/basic-app/sb-scrolling-nav/tree/main"
             },
-            "time": "2026-09-22T14:34:55+00:00"
+            "time": "2026-11-12T18:16:07+00:00",
+            "published-time": "2026-11-12T18:16:19+00:00"
         },
         {
             "name": "basic-app/site",
@@ -385,7 +508,8 @@
                 "issues": "https://github.com/basic-app/site/issues",
                 "source": "https://github.com/basic-app/site/tree/master"
             },
-            "time": "2026-09-19T08:03:20+00:00"
+            "time": "2026-09-19T08:03:20+00:00",
+            "published-time": "2026-09-19T08:03:32+00:00"
         },
         {
             "name": "basic-app/site-landing",
@@ -419,7 +543,8 @@
                 "issues": "https://github.com/basic-app/site-landing/issues",
                 "source": "https://github.com/basic-app/site-landing/tree/main"
             },
-            "time": "2026-09-22T15:49:57+00:00"
+            "time": "2026-09-22T15:49:57+00:00",
+            "published-time": "2026-09-22T15:50:04+00:00"
         },
         {
             "name": "basic-app/tinymce7",
@@ -427,22 +552,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "90661e35d62b2e441e777e86bdb70aa8860eeaf5"
+                "reference": "c1a1e08355e6410f57614eb5ee147b7a5b466198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/90661e35d62b2e441e777e86bdb70aa8860eeaf5",
-                "reference": "90661e35d62b2e441e777e86bdb70aa8860eeaf5",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/c1a1e08355e6410f57614eb5ee147b7a5b466198",
+                "reference": "c1a1e08355e6410f57614eb5ee147b7a5b466198",
                 "shasum": ""
             },
             "require": {
-                "tinymce/tinymce": "^7"
+                "basic-app/tinymce7-assets": "dev-main"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\TinyMce7\\": "src/"
+                    "BasicApp\\TinyMce7\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -453,20 +578,57 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-09-22T15:50:13+00:00"
+            "time": "2026-11-12T19:24:59+00:00",
+            "published-time": "2026-11-12T19:25:07+00:00"
         },
         {
-            "name": "codeigniter4/framework",
-            "version": "v4.7.4",
+            "name": "basic-app/tinymce7-assets",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "67ead895b7491703e5e5bc17436778806192008f"
+                "url": "https://github.com/basic-app/tinymce7-assets.git",
+                "reference": "caef3ee07d8ad126e9e46b4f7ae296814700985c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/67ead895b7491703e5e5bc17436778806192008f",
-                "reference": "67ead895b7491703e5e5bc17436778806192008f",
+                "url": "https://api.github.com/repos/basic-app/tinymce7-assets/zipball/caef3ee07d8ad126e9e46b4f7ae296814700985c",
+                "reference": "caef3ee07d8ad126e9e46b4f7ae296814700985c",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/publisher": "*",
+                "ext-zip": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Tinymce7Assets\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/tinymce7-assets/issues",
+                "source": "https://github.com/basic-app/tinymce7-assets/tree/main"
+            },
+            "time": "2026-11-12T17:59:32+00:00",
+            "published-time": "2026-11-12T17:59:39+00:00"
+        },
+        {
+            "name": "codeigniter4/framework",
+            "version": "v4.7.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeigniter4/framework.git",
+                "reference": "d755dca632526b116e4611eea9e303505fa6889a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/d755dca632526b116e4611eea9e303505fa6889a",
+                "reference": "d755dca632526b116e4611eea9e303505fa6889a",
                 "shasum": ""
             },
             "require": {
@@ -530,7 +692,8 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/CodeIgniter4"
             },
-            "time": "2026-07-07T09:23:35+00:00"
+            "time": "2026-11-01T18:17:59+00:00",
+            "published-time": "2026-11-01T18:18:03+00:00"
         },
         {
             "name": "codeigniter4/settings",
@@ -584,32 +747,33 @@
                 "issues": "https://github.com/codeigniter4/settings/issues",
                 "source": "https://github.com/codeigniter4/settings/tree/v2.4.0"
             },
-            "time": "2026-07-30T16:03:46+00:00"
+            "time": "2026-07-30T16:03:46+00:00",
+            "published-time": "2026-07-30T16:17:08+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.18.0",
+            "version": "2.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "06f211dfffff18d91844c1f55250d5d13c007e18"
+                "reference": "766b8583bbf64be9d3330e7a075197f54c46f642"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/06f211dfffff18d91844c1f55250d5d13c007e18",
-                "reference": "06f211dfffff18d91844c1f55250d5d13c007e18",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/766b8583bbf64be9d3330e7a075197f54c46f642",
+                "reference": "766b8583bbf64be9d3330e7a075197f54c46f642",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
                 "ext-mbstring": "*",
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
+                "php": "~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "conflict": {
                 "zendframework/zend-escaper": "*"
             },
             "require-dev": {
-                "infection/infection": "^0.31.0",
+                "infection/infection": "^0.32.0",
                 "laminas/laminas-coding-standard": "~3.1.0",
                 "phpunit/phpunit": "^11.5.42",
                 "psalm/plugin-phpunit": "^0.19.5",
@@ -641,11 +805,12 @@
             },
             "funding": [
                 {
-                    "url": "https://funding.communitybridge.org/projects/laminas-project",
-                    "type": "community_bridge"
+                    "url": "https://crowdfunding.linuxfoundation.org/initiatives/laminas-project",
+                    "type": "custom"
                 }
             ],
-            "time": "2025-10-14T18:31:13+00:00"
+            "time": "2026-11-10T12:33:38+00:00",
+            "published-time": "2026-11-10T12:34:26+00:00"
         },
         {
             "name": "psr/log",
@@ -695,66 +860,8 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "time": "2024-09-11T13:17:53+00:00"
-        },
-        {
-            "name": "tinymce/tinymce",
-            "version": "7.9.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
-                "reference": "4e5c520b2b6d52a6251316ab2e4af383c5e753bd",
-                "shasum": ""
-            },
-            "type": "component",
-            "extra": {
-                "component": {
-                    "files": [
-                        "tinymce.min.js",
-                        "plugins/*/plugin.min.js",
-                        "themes/*/theme.min.js",
-                        "models/*/model.min.js",
-                        "skins/**",
-                        "icons/*/icons.min.js"
-                    ],
-                    "scripts": [
-                        "tinymce.js",
-                        "plugins/*/plugin.js",
-                        "themes/*/theme.js",
-                        "models/*/model.js",
-                        "icons/*/icons.js"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Web based JavaScript HTML WYSIWYG editor control.",
-            "homepage": "https://www.tiny.cloud/",
-            "keywords": [
-                "contenteditable",
-                "editing",
-                "html",
-                "javascript",
-                "rich editor",
-                "rich text",
-                "rich text editor",
-                "richtext",
-                "rte",
-                "text",
-                "tinymce",
-                "wysiwyg"
-            ],
-            "support": {
-                "source": "https://github.com/tinymce/tinymce-dist/tree/7.9.3"
-            },
-            "time": "2026-05-19T23:38:56+00:00"
+            "time": "2024-09-11T13:17:53+00:00",
+            "published-time": "2024-09-11T13:21:14+00:00"
         }
     ],
     "packages-dev": [
@@ -807,7 +914,8 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/translations"
             },
-            "time": "2026-08-05T12:38:16+00:00"
+            "time": "2026-08-05T12:38:16+00:00",
+            "published-time": "2026-08-05T12:39:57+00:00"
         },
         {
             "name": "fakerphp/faker",
@@ -870,7 +978,8 @@
                 "issues": "https://github.com/FakerPHP/Faker/issues",
                 "source": "https://github.com/FakerPHP/Faker/tree/v1.24.1"
             },
-            "time": "2024-11-21T13:46:39+00:00"
+            "time": "2024-11-21T13:46:39+00:00",
+            "published-time": "2024-11-21T13:47:18+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -922,7 +1031,8 @@
                 "source": "https://github.com/bovigo/vfsStream/tree/master",
                 "wiki": "https://github.com/bovigo/vfsStream/wiki"
             },
-            "time": "2024-08-29T18:43:31+00:00"
+            "time": "2024-08-29T18:43:31+00:00",
+            "published-time": "2024-08-29T18:46:25+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -982,7 +1092,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-11T10:17:44+00:00"
+            "time": "2026-08-11T10:17:44+00:00",
+            "published-time": "2026-08-11T10:29:20+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1039,7 +1150,8 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.9.0"
             },
-            "time": "2026-09-13T18:51:52+00:00"
+            "time": "2026-09-13T18:51:52+00:00",
+            "published-time": "2026-09-13T18:53:16+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -1106,7 +1218,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-03T12:33:53+00:00"
+            "time": "2024-03-03T12:33:53+00:00",
+            "published-time": "2024-03-03T12:39:44+00:00"
         },
         {
             "name": "phar-io/version",
@@ -1157,7 +1270,8 @@
                 "issues": "https://github.com/phar-io/version/issues",
                 "source": "https://github.com/phar-io/version/tree/3.2.1"
             },
-            "time": "2022-02-21T01:04:05+00:00"
+            "time": "2022-02-21T01:04:05+00:00",
+            "published-time": "2022-02-21T01:04:30+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1235,7 +1349,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-22T04:31:57+00:00"
+            "time": "2024-08-22T04:31:57+00:00",
+            "published-time": "2024-08-22T04:32:20+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1296,7 +1411,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-31T06:24:48+00:00"
+            "time": "2023-08-31T06:24:48+00:00",
+            "published-time": "2023-08-31T06:25:42+00:00"
         },
         {
             "name": "phpunit/php-invoker",
@@ -1359,7 +1475,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T06:56:09+00:00"
+            "time": "2023-02-03T06:56:09+00:00",
+            "published-time": "2023-02-03T06:56:14+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -1419,7 +1536,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-31T14:07:24+00:00"
+            "time": "2023-08-31T14:07:24+00:00",
+            "published-time": "2023-08-31T14:08:05+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -1478,20 +1596,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T06:57:52+00:00"
+            "time": "2023-02-03T06:57:52+00:00",
+            "published-time": "2023-02-03T06:57:58+00:00"
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.64",
+            "version": "10.5.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "0e8c1d19cea35ad97d4887f363d07c78e30fbf06"
+                "reference": "747c9889613d0b3ffa08b74272e50ed3b8fa6d72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0e8c1d19cea35ad97d4887f363d07c78e30fbf06",
-                "reference": "0e8c1d19cea35ad97d4887f363d07c78e30fbf06",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/747c9889613d0b3ffa08b74272e50ed3b8fa6d72",
+                "reference": "747c9889613d0b3ffa08b74272e50ed3b8fa6d72",
                 "shasum": ""
             },
             "require": {
@@ -1501,7 +1620,7 @@
                 "ext-libxml": "*",
                 "ext-mbstring": "*",
                 "ext-xmlwriter": "*",
-                "myclabs/deep-copy": "^1.13.4",
+                "myclabs/deep-copy": "^1.14.0",
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.1",
@@ -1518,7 +1637,7 @@
                 "sebastian/exporter": "^5.1.4",
                 "sebastian/global-state": "^6.0.2",
                 "sebastian/object-enumerator": "^5.0.0",
-                "sebastian/recursion-context": "^5.0.1",
+                "sebastian/recursion-context": "^5.0.2",
                 "sebastian/type": "^4.0.0",
                 "sebastian/version": "^4.0.1"
             },
@@ -1563,7 +1682,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.64"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.66"
             },
             "funding": [
                 {
@@ -1571,7 +1690,8 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-07-06T14:50:35+00:00"
+            "time": "2026-10-05T05:46:26+00:00",
+            "published-time": "2026-10-05T05:47:29+00:00"
         },
         {
             "name": "psr/container",
@@ -1624,7 +1744,8 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "time": "2021-11-05T16:47:00+00:00"
+            "time": "2021-11-05T16:47:00+00:00",
+            "published-time": "2021-11-05T16:53:27+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -1681,7 +1802,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-02T07:12:49+00:00"
+            "time": "2024-03-02T07:12:49+00:00",
+            "published-time": "2024-03-02T07:13:18+00:00"
         },
         {
             "name": "sebastian/code-unit",
@@ -1737,7 +1859,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T06:58:43+00:00"
+            "time": "2023-02-03T06:58:43+00:00",
+            "published-time": "2023-02-03T06:58:49+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1792,7 +1915,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T06:59:15+00:00"
+            "time": "2023-02-03T06:59:15+00:00",
+            "published-time": "2023-02-03T06:59:20+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -1881,7 +2005,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-24T09:25:16+00:00"
+            "time": "2026-01-24T09:25:16+00:00",
+            "published-time": "2026-01-24T09:25:27+00:00"
         },
         {
             "name": "sebastian/complexity",
@@ -1939,7 +2064,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-21T08:37:17+00:00"
+            "time": "2023-12-21T08:37:17+00:00",
+            "published-time": "2023-12-21T08:37:41+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -2006,7 +2132,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-02T07:15:17+00:00"
+            "time": "2024-03-02T07:15:17+00:00",
+            "published-time": "2024-03-02T07:15:52+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -2070,7 +2197,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-23T08:47:14+00:00"
+            "time": "2024-03-23T08:47:14+00:00",
+            "published-time": "2024-03-23T08:48:26+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -2160,7 +2288,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-24T06:09:11+00:00"
+            "time": "2025-09-24T06:09:11+00:00",
+            "published-time": "2025-09-24T06:10:37+00:00"
         },
         {
             "name": "sebastian/global-state",
@@ -2222,7 +2351,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-02T07:19:19+00:00"
+            "time": "2024-03-02T07:19:19+00:00",
+            "published-time": "2024-03-02T07:19:49+00:00"
         },
         {
             "name": "sebastian/lines-of-code",
@@ -2280,7 +2410,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-21T08:38:20+00:00"
+            "time": "2023-12-21T08:38:20+00:00",
+            "published-time": "2023-12-21T08:38:54+00:00"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -2337,7 +2468,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T07:08:32+00:00"
+            "time": "2023-02-03T07:08:32+00:00",
+            "published-time": "2023-02-03T07:08:37+00:00"
         },
         {
             "name": "sebastian/object-reflector",
@@ -2392,7 +2524,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T07:06:18+00:00"
+            "time": "2023-02-03T07:06:18+00:00",
+            "published-time": "2023-02-03T07:06:24+00:00"
         },
         {
             "name": "sebastian/recursion-context",
@@ -2468,7 +2601,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-11T05:27:39+00:00"
+            "time": "2026-08-11T05:27:39+00:00",
+            "published-time": "2026-08-11T05:28:01+00:00"
         },
         {
             "name": "sebastian/type",
@@ -2524,7 +2658,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T07:10:45+00:00"
+            "time": "2023-02-03T07:10:45+00:00",
+            "published-time": "2023-02-03T07:10:50+00:00"
         },
         {
             "name": "sebastian/version",
@@ -2577,20 +2712,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-07T11:34:05+00:00"
+            "time": "2023-02-07T11:34:05+00:00",
+            "published-time": "2023-02-07T11:34:22+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.7.1",
+            "version": "v3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d"
+                "reference": "feb1edf4e546af3b85c5caebe8359a20db230ca3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/f3202fa1b5097b0af062dc978b32ecf63404e31d",
-                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/feb1edf4e546af3b85c5caebe8359a20db230ca3",
+                "reference": "feb1edf4e546af3b85c5caebe8359a20db230ca3",
                 "shasum": ""
             },
             "require": {
@@ -2603,7 +2739,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.7-dev"
+                    "dev-main": "3.8-dev"
                 }
             },
             "autoload": {
@@ -2628,7 +2764,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.8.1"
             },
             "funding": [
                 {
@@ -2648,7 +2784,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-05T06:23:12+00:00"
+            "time": "2026-09-16T14:15:10+00:00",
+            "published-time": "2026-11-04T11:25:34+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -2698,13 +2835,16 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-17T20:03:58+00:00"
+            "time": "2025-11-17T20:03:58+00:00",
+            "published-time": "2025-11-17T20:04:52+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "basic-app/admin": 20,
+        "basic-app/admin-auth": 20,
+        "basic-app/admin-auth-settings": 20,
         "basic-app/adminlte4": 20,
         "basic-app/jquery3": 20,
         "basic-app/lightbox2": 20,
@@ -2720,5 +2860,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.11.0"
 }
