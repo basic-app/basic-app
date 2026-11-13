@@ -66,6 +66,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 - [PHP 8.2+](https://www.php.net/)
 - [CodeIgniter 4](https://codeigniter.com/)
+- [CodeIgniter Shield](https://shield.codeigniter.com/)
 - [AdminLTE 4](https://adminlte.io/)
 - [TinyMCE 7](https://www.tiny.cloud/)
 - [Bootstrap 5](https://getbootstrap.com/)
