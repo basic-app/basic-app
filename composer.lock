@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "ae000bac322a4af5a801bd99b5b4bada36f8fb13"
+                "reference": "e32eb586cd98daad6fe7bd9e0fbfa56269c2b900"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/ae000bac322a4af5a801bd99b5b4bada36f8fb13",
-                "reference": "ae000bac322a4af5a801bd99b5b4bada36f8fb13",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/e32eb586cd98daad6fe7bd9e0fbfa56269c2b900",
+                "reference": "e32eb586cd98daad6fe7bd9e0fbfa56269c2b900",
                 "shasum": ""
             },
             "require": {
@@ -94,8 +94,8 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-11-12T19:21:51+00:00",
-            "published-time": "2026-11-12T19:21:59+00:00"
+            "time": "2026-11-13T10:40:51+00:00",
+            "published-time": "2026-11-13T10:41:00+00:00"
         },
         {
             "name": "basic-app/admin-auth",
@@ -103,12 +103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth.git",
-                "reference": "19fb473cdb0527abca529bb9b5727b8ec968c960"
+                "reference": "e16cb7082360ee8288fd2e2c723a89c912116189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/19fb473cdb0527abca529bb9b5727b8ec968c960",
-                "reference": "19fb473cdb0527abca529bb9b5727b8ec968c960",
+                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/e16cb7082360ee8288fd2e2c723a89c912116189",
+                "reference": "e16cb7082360ee8288fd2e2c723a89c912116189",
                 "shasum": ""
             },
             "default-branch": true,
@@ -126,8 +126,8 @@
                 "issues": "https://github.com/basic-app/admin-auth/issues",
                 "source": "https://github.com/basic-app/admin-auth/tree/main"
             },
-            "time": "2026-11-13T09:46:22+00:00",
-            "published-time": "2026-11-13T09:46:29+00:00"
+            "time": "2026-11-13T10:38:22+00:00",
+            "published-time": "2026-11-13T10:38:29+00:00"
         },
         {
             "name": "basic-app/admin-auth-settings",
@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth-settings.git",
-                "reference": "03cd8abe20310799c8036b34dd0bf1424dc31a30"
+                "reference": "0844b4d6dcd8e2b1e5dda8f843b136d9e28460b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/03cd8abe20310799c8036b34dd0bf1424dc31a30",
-                "reference": "03cd8abe20310799c8036b34dd0bf1424dc31a30",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/0844b4d6dcd8e2b1e5dda8f843b136d9e28460b7",
+                "reference": "0844b4d6dcd8e2b1e5dda8f843b136d9e28460b7",
                 "shasum": ""
             },
             "require": {
@@ -162,8 +162,8 @@
                 "issues": "https://github.com/basic-app/admin-auth-settings/issues",
                 "source": "https://github.com/basic-app/admin-auth-settings/tree/main"
             },
-            "time": "2026-11-13T09:52:20+00:00",
-            "published-time": "2026-11-13T09:52:27+00:00"
+            "time": "2026-11-13T10:41:18+00:00",
+            "published-time": "2026-11-13T10:41:26+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -518,12 +518,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/settings.git",
-                "reference": "a826536677abe5d7d7091a5ccf3a62ecae53fcad"
+                "reference": "6a7a3a89add4bf9f6745514fbc3e4df1466b38c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/settings/zipball/a826536677abe5d7d7091a5ccf3a62ecae53fcad",
-                "reference": "a826536677abe5d7d7091a5ccf3a62ecae53fcad",
+                "url": "https://api.github.com/repos/basic-app/settings/zipball/6a7a3a89add4bf9f6745514fbc3e4df1466b38c8",
+                "reference": "6a7a3a89add4bf9f6745514fbc3e4df1466b38c8",
                 "shasum": ""
             },
             "require": {
@@ -545,8 +545,8 @@
                 "issues": "https://github.com/basic-app/settings/issues",
                 "source": "https://github.com/basic-app/settings/tree/main"
             },
-            "time": "2026-11-12T22:27:02+00:00",
-            "published-time": "2026-11-12T22:27:10+00:00"
+            "time": "2026-11-13T11:18:04+00:00",
+            "published-time": "2026-11-13T11:18:12+00:00"
         },
         {
             "name": "basic-app/site",
@@ -1675,16 +1675,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.66",
+            "version": "10.5.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "747c9889613d0b3ffa08b74272e50ed3b8fa6d72"
+                "reference": "1f3e67dd433817bddfc64afab63977cc4b011374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/747c9889613d0b3ffa08b74272e50ed3b8fa6d72",
-                "reference": "747c9889613d0b3ffa08b74272e50ed3b8fa6d72",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1f3e67dd433817bddfc64afab63977cc4b011374",
+                "reference": "1f3e67dd433817bddfc64afab63977cc4b011374",
                 "shasum": ""
             },
             "require": {
@@ -1756,7 +1756,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.66"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.67"
             },
             "funding": [
                 {
@@ -1764,8 +1764,8 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-10-05T05:46:26+00:00",
-            "published-time": "2026-10-05T05:47:29+00:00"
+            "time": "2026-11-13T11:07:03+00:00",
+            "published-time": "2026-11-13T11:07:54+00:00"
         },
         {
             "name": "psr/container",
