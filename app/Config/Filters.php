@@ -35,7 +35,9 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
         //'admin'         => \BasicApp\AdminAuthConfig\Filters\AdminFilter::class
-        'admin'         => \BasicApp\AdminAuthSettings\Filters\AdminFilter::class
+        //'admin'         => \BasicApp\AdminAuthSettings\Filters\AdminFilter::class
+        'adminsession'  => \BasicApp\AdminAuthShield\Filters\AdminSessionAuth::class,
+        'admingroup'    => \BasicApp\AdminAuthShield\Filters\AdminGroupFilter::class
     ];
 
     /**
@@ -109,8 +111,22 @@ class Filters extends BaseFilters
      * @var array<string, array<string, list<string>>>
      */
     public array $filters = [
+        /*
         'admin' => [
             'before' => ['admin', 'admin/*']
+        ],
+        */
+        'adminsession' => [
+            'before' => [
+                'admin',
+                'admin/*'
+            ]
+        ],
+        'admingroup:admin' => [
+            'before' => [
+                'admin',
+                'admin/*'
+            ]
         ]
     ];
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5c591eddebac01fe865da3ae6a393d9",
+    "content-hash": "c0262a6a2ca8f99fd7bd0d0536a53e39",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -103,12 +103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth.git",
-                "reference": "e16cb7082360ee8288fd2e2c723a89c912116189"
+                "reference": "e18fcb1801b5deb3957bc08a91039f5063db65d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/e16cb7082360ee8288fd2e2c723a89c912116189",
-                "reference": "e16cb7082360ee8288fd2e2c723a89c912116189",
+                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/e18fcb1801b5deb3957bc08a91039f5063db65d6",
+                "reference": "e18fcb1801b5deb3957bc08a91039f5063db65d6",
                 "shasum": ""
             },
             "default-branch": true,
@@ -126,32 +126,32 @@
                 "issues": "https://github.com/basic-app/admin-auth/issues",
                 "source": "https://github.com/basic-app/admin-auth/tree/main"
             },
-            "time": "2026-11-13T10:38:22+00:00",
-            "published-time": "2026-11-13T10:38:29+00:00"
+            "time": "2026-11-13T13:23:45+00:00",
+            "published-time": "2026-11-13T13:23:53+00:00"
         },
         {
-            "name": "basic-app/admin-auth-settings",
+            "name": "basic-app/admin-auth-shield",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/basic-app/admin-auth-settings.git",
-                "reference": "0844b4d6dcd8e2b1e5dda8f843b136d9e28460b7"
+                "url": "https://github.com/basic-app/admin-auth-shield.git",
+                "reference": "51cd47dbaeb71060a9ead95b51b1079d7c642107"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/0844b4d6dcd8e2b1e5dda8f843b136d9e28460b7",
-                "reference": "0844b4d6dcd8e2b1e5dda8f843b136d9e28460b7",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-shield/zipball/51cd47dbaeb71060a9ead95b51b1079d7c642107",
+                "reference": "51cd47dbaeb71060a9ead95b51b1079d7c642107",
                 "shasum": ""
             },
             "require": {
                 "basic-app/admin-auth": "*",
-                "basic-app/settings": "*"
+                "codeigniter4/shield": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\AdminAuthSettings\\": "src"
+                    "BasicApp\\AdminAuthShield\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -159,11 +159,11 @@
                 "MIT"
             ],
             "support": {
-                "issues": "https://github.com/basic-app/admin-auth-settings/issues",
-                "source": "https://github.com/basic-app/admin-auth-settings/tree/main"
+                "issues": "https://github.com/basic-app/admin-auth-shield/issues",
+                "source": "https://github.com/basic-app/admin-auth-shield/tree/main"
             },
-            "time": "2026-11-13T10:41:18+00:00",
-            "published-time": "2026-11-13T10:41:26+00:00"
+            "time": "2026-11-13T14:17:19+00:00",
+            "published-time": "2026-11-13T14:17:30+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -171,12 +171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/adminlte4.git",
-                "reference": "1794c5b734356f71715cbca25d76888609d9303b"
+                "reference": "65d8c33324a5e125acea86bc6c5a3e961f00aa99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/1794c5b734356f71715cbca25d76888609d9303b",
-                "reference": "1794c5b734356f71715cbca25d76888609d9303b",
+                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/65d8c33324a5e125acea86bc6c5a3e961f00aa99",
+                "reference": "65d8c33324a5e125acea86bc6c5a3e961f00aa99",
                 "shasum": ""
             },
             "require": {
@@ -198,8 +198,8 @@
                 "issues": "https://github.com/basic-app/adminlte4/issues",
                 "source": "https://github.com/basic-app/adminlte4/tree/main"
             },
-            "time": "2026-11-12T23:10:49+00:00",
-            "published-time": "2026-11-12T23:10:57+00:00"
+            "time": "2026-11-13T13:17:49+00:00",
+            "published-time": "2026-11-13T13:17:56+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -823,6 +823,80 @@
             },
             "time": "2026-07-30T16:03:46+00:00",
             "published-time": "2026-07-30T16:17:08+00:00"
+        },
+        {
+            "name": "codeigniter4/shield",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeigniter4/shield.git",
+                "reference": "93c5f1f1481ced93ceb4071ffa3a08a9647a7c8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeigniter4/shield/zipball/93c5f1f1481ced93ceb4071ffa3a08a9647a7c8b",
+                "reference": "93c5f1f1481ced93ceb4071ffa3a08a9647a7c8b",
+                "shasum": ""
+            },
+            "require": {
+                "codeigniter4/settings": "^2.1",
+                "php": "^8.2"
+            },
+            "provide": {
+                "codeigniter4/authentication-implementation": "1.0"
+            },
+            "require-dev": {
+                "boundwize/pyrameter": "^0.5",
+                "boundwize/structarmed": "^0.15",
+                "codeigniter/phpstan-codeigniter": "^2.0",
+                "codeigniter4/devkit": "^1.3",
+                "codeigniter4/framework": ">=4.3.5 <4.5.0 || ^4.5.1",
+                "firebase/php-jwt": "^7.0.3",
+                "mikey179/vfsstream": "^1.6.7",
+                "mockery/mockery": "^1.0",
+                "phpstan/phpstan-strict-rules": "^2.0"
+            },
+            "suggest": {
+                "ext-curl": "Required to use the password validation rule via PwnedValidator class.",
+                "ext-openssl": "Required to use the JWT Authenticator."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CodeIgniter\\Shield\\": "src"
+                },
+                "exclude-from-classmap": [
+                    "**/Database/Migrations/**"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lonnie Ezell",
+                    "email": "lonnieje@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Authentication and Authorization for CodeIgniter 4",
+            "homepage": "https://github.com/codeigniter4/shield",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "codeigniter",
+                "codeigniter4"
+            ],
+            "support": {
+                "docs": "https://codeigniter4.github.io/shield/",
+                "forum": "https://github.com/codeigniter4/shield/discussions",
+                "issues": "https://github.com/codeigniter4/shield/issues",
+                "slack": "https://codeigniterchat.slack.com",
+                "source": "https://github.com/codeigniter4/shield"
+            },
+            "time": "2026-08-18T12:02:04+00:00",
+            "published-time": "2026-08-18T12:02:54+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -2917,8 +2991,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "basic-app/admin": 20,
-        "basic-app/admin-auth": 20,
-        "basic-app/admin-auth-settings": 20,
+        "basic-app/admin-auth-shield": 20,
         "basic-app/adminlte4": 20,
         "basic-app/jquery3": 20,
         "basic-app/lightbox2": 20,

@@ -37,6 +37,7 @@ class Services extends BaseService
         }
 
         //return config(\BasicApp\AdminAuthConfig\Config\AdminAuth::class);
-        return new \BasicApp\AdminAuthSettings\Settings\AdminAuthSettings;
+        //return new \BasicApp\AdminAuthSettings\Settings\AdminAuthSettings;
+        return new \BasicApp\AdminAuthShield\Services\AdminAuth;
     }
 }

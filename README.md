@@ -27,8 +27,7 @@ Execute commands via shell:
 
 ```
 php spark migrate -all
-php spark db:seed "BasicApp\AdminAuthSettings\Database\Seeds\DemoSeeder"
-php spark db:seed "BasicApp\SiteLanding\Database\Seeds\DemoSeeder"
+php spark db:seed "DemoSeeder"
 php spark publish
 ```
 
