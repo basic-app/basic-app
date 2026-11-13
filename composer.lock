@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0262a6a2ca8f99fd7bd0d0536a53e39",
+    "content-hash": "ac9fdf027d56fd2a63430615cbb6dfe4",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -207,12 +207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/auth.git",
-                "reference": "7d344ef80b2fc23fe4029ea1e790c621eea4988d"
+                "reference": "a20ee06f63dd6e089c762ca7c2a4df1fbf0271d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/auth/zipball/7d344ef80b2fc23fe4029ea1e790c621eea4988d",
-                "reference": "7d344ef80b2fc23fe4029ea1e790c621eea4988d",
+                "url": "https://api.github.com/repos/basic-app/auth/zipball/a20ee06f63dd6e089c762ca7c2a4df1fbf0271d3",
+                "reference": "a20ee06f63dd6e089c762ca7c2a4df1fbf0271d3",
                 "shasum": ""
             },
             "provide": {
@@ -233,8 +233,40 @@
                 "issues": "https://github.com/basic-app/auth/issues",
                 "source": "https://github.com/basic-app/auth/tree/main"
             },
-            "time": "2026-11-12T23:12:02+00:00",
-            "published-time": "2026-11-12T23:12:10+00:00"
+            "time": "2026-11-13T18:42:10+00:00",
+            "published-time": "2026-11-13T18:42:23+00:00"
+        },
+        {
+            "name": "basic-app/composer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/composer.git",
+                "reference": "5feca2eb3fdbb714b7250c9b310660a4523d632f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/composer/zipball/5feca2eb3fdbb714b7250c9b310660a4523d632f",
+                "reference": "5feca2eb3fdbb714b7250c9b310660a4523d632f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/composer/issues",
+                "source": "https://github.com/basic-app/composer/tree/main"
+            },
+            "time": "2026-11-13T18:55:12+00:00",
+            "published-time": "2026-11-13T18:55:19+00:00"
         },
         {
             "name": "basic-app/core",
@@ -242,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "a3ab25291fcc16007853673282c77a16c2369d28"
+                "reference": "269d8acd418d21a31aa07cef6cf56cf55c2c3f5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/a3ab25291fcc16007853673282c77a16c2369d28",
-                "reference": "a3ab25291fcc16007853673282c77a16c2369d28",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/269d8acd418d21a31aa07cef6cf56cf55c2c3f5b",
+                "reference": "269d8acd418d21a31aa07cef6cf56cf55c2c3f5b",
                 "shasum": ""
             },
             "require": {
@@ -268,8 +300,8 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-11-12T20:52:23+00:00",
-            "published-time": "2026-11-12T20:52:31+00:00"
+            "time": "2026-11-13T18:51:05+00:00",
+            "published-time": "2026-11-13T18:51:17+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
@@ -2993,6 +3025,7 @@
         "basic-app/admin": 20,
         "basic-app/admin-auth-shield": 20,
         "basic-app/adminlte4": 20,
+        "basic-app/composer": 20,
         "basic-app/jquery3": 20,
         "basic-app/lightbox2": 20,
         "basic-app/module-block": 20,
