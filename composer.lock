@@ -103,12 +103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth.git",
-                "reference": "e18fcb1801b5deb3957bc08a91039f5063db65d6"
+                "reference": "94677850993e0ad0c98831b577043248bc4250e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/e18fcb1801b5deb3957bc08a91039f5063db65d6",
-                "reference": "e18fcb1801b5deb3957bc08a91039f5063db65d6",
+                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/94677850993e0ad0c98831b577043248bc4250e2",
+                "reference": "94677850993e0ad0c98831b577043248bc4250e2",
                 "shasum": ""
             },
             "default-branch": true,
@@ -126,8 +126,8 @@
                 "issues": "https://github.com/basic-app/admin-auth/issues",
                 "source": "https://github.com/basic-app/admin-auth/tree/main"
             },
-            "time": "2026-11-13T13:23:45+00:00",
-            "published-time": "2026-11-13T13:23:53+00:00"
+            "time": "2026-11-13T14:46:56+00:00",
+            "published-time": "2026-11-13T14:47:06+00:00"
         },
         {
             "name": "basic-app/admin-auth-shield",
