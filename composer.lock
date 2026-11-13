@@ -657,17 +657,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "dfa8e6f883b138500840eaa0a6f70fe2c4b04563"
+                "reference": "b9af3a597786f51ec1c97fdba8241a9c7c46a72e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/dfa8e6f883b138500840eaa0a6f70fe2c4b04563",
-                "reference": "dfa8e6f883b138500840eaa0a6f70fe2c4b04563",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/b9af3a597786f51ec1c97fdba8241a9c7c46a72e",
+                "reference": "b9af3a597786f51ec1c97fdba8241a9c7c46a72e",
                 "shasum": ""
             },
             "require": {
+                "basic-app/publisher": "*",
                 "basic-app/settings": "*",
-                "basic-app/tinymce7-assets": "*"
+                "ext-zip": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -684,44 +685,8 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-11-12T21:04:20+00:00",
-            "published-time": "2026-11-12T21:04:28+00:00"
-        },
-        {
-            "name": "basic-app/tinymce7-assets",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/basic-app/tinymce7-assets.git",
-                "reference": "dde6876db36563901c310aa9da237e9e0a356ccc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7-assets/zipball/dde6876db36563901c310aa9da237e9e0a356ccc",
-                "reference": "dde6876db36563901c310aa9da237e9e0a356ccc",
-                "shasum": ""
-            },
-            "require": {
-                "basic-app/publisher": "*",
-                "ext-zip": "*"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BasicApp\\Tinymce7Assets\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "support": {
-                "issues": "https://github.com/basic-app/tinymce7-assets/issues",
-                "source": "https://github.com/basic-app/tinymce7-assets/tree/main"
-            },
-            "time": "2026-11-13T19:28:05+00:00",
-            "published-time": "2026-11-13T19:28:12+00:00"
+            "time": "2026-11-13T19:48:34+00:00",
+            "published-time": "2026-11-13T19:48:43+00:00"
         },
         {
             "name": "codeigniter4/framework",
