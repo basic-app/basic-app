@@ -309,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/fontawesome7.git",
-                "reference": "8e1da47480b701eaa054adfd9d31dbc677ee506b"
+                "reference": "7a6ac625a36c5377923736361ed5ef4921fe43d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/8e1da47480b701eaa054adfd9d31dbc677ee506b",
-                "reference": "8e1da47480b701eaa054adfd9d31dbc677ee506b",
+                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/7a6ac625a36c5377923736361ed5ef4921fe43d3",
+                "reference": "7a6ac625a36c5377923736361ed5ef4921fe43d3",
                 "shasum": ""
             },
             "require": {
@@ -335,8 +335,8 @@
                 "issues": "https://github.com/basic-app/fontawesome7/issues",
                 "source": "https://github.com/basic-app/fontawesome7/tree/main"
             },
-            "time": "2026-11-12T18:13:30+00:00",
-            "published-time": "2026-11-12T18:13:38+00:00"
+            "time": "2026-11-13T19:29:17+00:00",
+            "published-time": "2026-11-13T19:29:26+00:00"
         },
         {
             "name": "basic-app/form",
@@ -482,12 +482,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/publisher.git",
-                "reference": "3b6ea664546ed981f825c48a45bbb2e5d8e2871c"
+                "reference": "e68fb76537fa2e26469a940b3917b978d97053bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/publisher/zipball/3b6ea664546ed981f825c48a45bbb2e5d8e2871c",
-                "reference": "3b6ea664546ed981f825c48a45bbb2e5d8e2871c",
+                "url": "https://api.github.com/repos/basic-app/publisher/zipball/e68fb76537fa2e26469a940b3917b978d97053bd",
+                "reference": "e68fb76537fa2e26469a940b3917b978d97053bd",
                 "shasum": ""
             },
             "default-branch": true,
@@ -505,8 +505,8 @@
                 "issues": "https://github.com/basic-app/publisher/issues",
                 "source": "https://github.com/basic-app/publisher/tree/master"
             },
-            "time": "2026-11-12T17:46:32+00:00",
-            "published-time": "2026-11-12T17:46:42+00:00"
+            "time": "2026-11-13T19:26:49+00:00",
+            "published-time": "2026-11-13T19:26:56+00:00"
         },
         {
             "name": "basic-app/sb-scrolling-nav",
@@ -693,12 +693,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7-assets.git",
-                "reference": "caef3ee07d8ad126e9e46b4f7ae296814700985c"
+                "reference": "dde6876db36563901c310aa9da237e9e0a356ccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7-assets/zipball/caef3ee07d8ad126e9e46b4f7ae296814700985c",
-                "reference": "caef3ee07d8ad126e9e46b4f7ae296814700985c",
+                "url": "https://api.github.com/repos/basic-app/tinymce7-assets/zipball/dde6876db36563901c310aa9da237e9e0a356ccc",
+                "reference": "dde6876db36563901c310aa9da237e9e0a356ccc",
                 "shasum": ""
             },
             "require": {
@@ -720,8 +720,8 @@
                 "issues": "https://github.com/basic-app/tinymce7-assets/issues",
                 "source": "https://github.com/basic-app/tinymce7-assets/tree/main"
             },
-            "time": "2026-11-12T17:59:32+00:00",
-            "published-time": "2026-11-12T17:59:39+00:00"
+            "time": "2026-11-13T19:28:05+00:00",
+            "published-time": "2026-11-13T19:28:12+00:00"
         },
         {
             "name": "codeigniter4/framework",
