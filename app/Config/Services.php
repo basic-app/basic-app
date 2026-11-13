@@ -36,6 +36,7 @@ class Services extends BaseService
             return static::getSharedInstance(__FUNCTION__);
         }
 
+        //return config(\BasicApp\AdminAuthConfig\Config\AdminAuth::class);
         return new \BasicApp\AdminAuthSettings\Settings\AdminAuthSettings;
     }
 }

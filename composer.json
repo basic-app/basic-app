@@ -20,8 +20,8 @@
         "basic-app/sb-scrolling-nav": "dev-main",
         "basic-app/module-block": "dev-master",
         "basic-app/admin-auth": "dev-main",
-        "basic-app/admin-auth-settings": "dev-main",
-        "basic-app/tinymce7": "dev-main"
+        "basic-app/tinymce7": "dev-main",
+        "basic-app/admin-auth-settings": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

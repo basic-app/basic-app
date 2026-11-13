@@ -14,6 +14,8 @@ $routes->get('admin/support', static function () {
     return view('admin/support');
 });
 
-helper(['admin_auth_settings']);
+//helper(['admin_auth_config']);
+//admin_auth_config_routes($routes);
 
+helper(['admin_auth_settings']);
 admin_auth_settings_routes($routes);

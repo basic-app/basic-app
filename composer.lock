@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed061fb43b1ded0978180e028619b99f",
+    "content-hash": "a5c591eddebac01fe865da3ae6a393d9",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -103,12 +103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth.git",
-                "reference": "dadf78d3f3d8af70053b627829481982991ac9de"
+                "reference": "19fb473cdb0527abca529bb9b5727b8ec968c960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/dadf78d3f3d8af70053b627829481982991ac9de",
-                "reference": "dadf78d3f3d8af70053b627829481982991ac9de",
+                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/19fb473cdb0527abca529bb9b5727b8ec968c960",
+                "reference": "19fb473cdb0527abca529bb9b5727b8ec968c960",
                 "shasum": ""
             },
             "default-branch": true,
@@ -126,8 +126,8 @@
                 "issues": "https://github.com/basic-app/admin-auth/issues",
                 "source": "https://github.com/basic-app/admin-auth/tree/main"
             },
-            "time": "2026-11-12T18:33:44+00:00",
-            "published-time": "2026-11-12T18:33:55+00:00"
+            "time": "2026-11-13T09:46:22+00:00",
+            "published-time": "2026-11-13T09:46:29+00:00"
         },
         {
             "name": "basic-app/admin-auth-settings",
@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth-settings.git",
-                "reference": "18f01b03e4da4df0ac0f02d920198731b15fc43e"
+                "reference": "03cd8abe20310799c8036b34dd0bf1424dc31a30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/18f01b03e4da4df0ac0f02d920198731b15fc43e",
-                "reference": "18f01b03e4da4df0ac0f02d920198731b15fc43e",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/03cd8abe20310799c8036b34dd0bf1424dc31a30",
+                "reference": "03cd8abe20310799c8036b34dd0bf1424dc31a30",
                 "shasum": ""
             },
             "require": {
@@ -162,8 +162,8 @@
                 "issues": "https://github.com/basic-app/admin-auth-settings/issues",
                 "source": "https://github.com/basic-app/admin-auth-settings/tree/main"
             },
-            "time": "2026-11-12T23:11:29+00:00",
-            "published-time": "2026-11-12T23:11:37+00:00"
+            "time": "2026-11-13T09:52:20+00:00",
+            "published-time": "2026-11-13T09:52:27+00:00"
         },
         {
             "name": "basic-app/adminlte4",
