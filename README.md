@@ -45,7 +45,7 @@ Or set document root to `/public` directory in case of using another server.
 
 Access backend by opening `http://localhost:8080/index.php/admin` in a browser.
 ```
-login: admin
+login: admin@example.org
 password: admin
 ```
 
