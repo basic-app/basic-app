@@ -68,6 +68,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [CodeIgniter 4](https://codeigniter.com/)
 - [CodeIgniter Shield](https://shield.codeigniter.com/)
 - [AdminLTE 4](https://adminlte.io/)
+- [Scrolling Nav](https://startbootstrap.com/template/scrolling-nav)
 - [TinyMCE 7](https://www.tiny.cloud/)
 - [Bootstrap 5](https://getbootstrap.com/)
 - [jQuery 3](https://jquery.com/)
