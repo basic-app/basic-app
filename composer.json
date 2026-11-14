@@ -21,7 +21,9 @@
         "basic-app/module-block": "dev-master",
         "basic-app/tinymce7": "dev-main",
         "basic-app/admin-auth-shield": "dev-main",
-        "basic-app/composer": "dev-main"
+        "basic-app/composer": "dev-main",
+        "basic-app/admin-auth-config": "dev-main",
+        "basic-app/admin-auth-settings": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

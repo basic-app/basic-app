@@ -10,6 +10,16 @@
 # at the beginning of the line.
 #--------------------------------------------------------------------
 
+AdminAuth.credentialClass="BasicApp\AdminAuthShield\Services\AdminAuth"
+
+#AdminAuth.credentialClass="BasicApp\AdminAuthSettings\Services\AdminAuth"
+
+#AdminAuth.credentialClass="BasicApp\AdminAuthConfig\Services\AdminAuth"
+#AdminCredential.login="admin"
+#AdminCredential.password="admin"
+#AdminCredential.email="admin@example.org"
+#AdminCredential.avatarImage="assets/adminlte4/assets/img/avatar5.png"
+
 #--------------------------------------------------------------------
 # ENVIRONMENT
 #--------------------------------------------------------------------

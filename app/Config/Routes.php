@@ -17,8 +17,8 @@ $routes->get('admin/support', static function () {
 //helper(['admin_auth_config']);
 //admin_auth_config_routes($routes);
 
-//helper(['admin_auth_settings']);
-//admin_auth_settings_routes($routes);
+#helper(['admin_auth_settings']);
+#admin_auth_settings_routes($routes);
 
 helper(['admin_auth_shield']);
 if (!admin_auth_shield_routes($routes))

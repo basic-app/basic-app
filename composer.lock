@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac9fdf027d56fd2a63430615cbb6dfe4",
+    "content-hash": "1b26a25d2535411812bc0c72ded576f7",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -103,12 +103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth.git",
-                "reference": "94677850993e0ad0c98831b577043248bc4250e2"
+                "reference": "1e1a6f35dc2f1712dc471b8d44fa30d4e66e3cbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/94677850993e0ad0c98831b577043248bc4250e2",
-                "reference": "94677850993e0ad0c98831b577043248bc4250e2",
+                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/1e1a6f35dc2f1712dc471b8d44fa30d4e66e3cbc",
+                "reference": "1e1a6f35dc2f1712dc471b8d44fa30d4e66e3cbc",
                 "shasum": ""
             },
             "default-branch": true,
@@ -126,8 +126,79 @@
                 "issues": "https://github.com/basic-app/admin-auth/issues",
                 "source": "https://github.com/basic-app/admin-auth/tree/main"
             },
-            "time": "2026-11-13T14:46:56+00:00",
-            "published-time": "2026-11-13T14:47:06+00:00"
+            "time": "2026-11-14T10:31:51+00:00",
+            "published-time": "2026-11-14T10:31:58+00:00"
+        },
+        {
+            "name": "basic-app/admin-auth-config",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin-auth-config.git",
+                "reference": "cd68654be1a8e420279926adf4b73d9a9d95d4b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-config/zipball/cd68654be1a8e420279926adf4b73d9a9d95d4b5",
+                "reference": "cd68654be1a8e420279926adf4b73d9a9d95d4b5",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/admin-auth": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminAuthConfig\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin-auth-config/issues",
+                "source": "https://github.com/basic-app/admin-auth-config/tree/main"
+            },
+            "time": "2026-11-14T10:32:17+00:00",
+            "published-time": "2026-11-14T10:32:24+00:00"
+        },
+        {
+            "name": "basic-app/admin-auth-settings",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basic-app/admin-auth-settings.git",
+                "reference": "073ecd6d0b36f5847a0b487165a7b7b74f723eed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-settings/zipball/073ecd6d0b36f5847a0b487165a7b7b74f723eed",
+                "reference": "073ecd6d0b36f5847a0b487165a7b7b74f723eed",
+                "shasum": ""
+            },
+            "require": {
+                "basic-app/admin-auth": "*",
+                "basic-app/settings": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicApp\\AdminAuthSettings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/basic-app/admin-auth-settings/issues",
+                "source": "https://github.com/basic-app/admin-auth-settings/tree/main"
+            },
+            "time": "2026-11-14T10:32:33+00:00",
+            "published-time": "2026-11-14T10:32:41+00:00"
         },
         {
             "name": "basic-app/admin-auth-shield",
@@ -135,12 +206,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth-shield.git",
-                "reference": "51cd47dbaeb71060a9ead95b51b1079d7c642107"
+                "reference": "ee6ed9f7655f753e3a679dcccfe28e5dc14ba4f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth-shield/zipball/51cd47dbaeb71060a9ead95b51b1079d7c642107",
-                "reference": "51cd47dbaeb71060a9ead95b51b1079d7c642107",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-shield/zipball/ee6ed9f7655f753e3a679dcccfe28e5dc14ba4f2",
+                "reference": "ee6ed9f7655f753e3a679dcccfe28e5dc14ba4f2",
                 "shasum": ""
             },
             "require": {
@@ -162,8 +233,8 @@
                 "issues": "https://github.com/basic-app/admin-auth-shield/issues",
                 "source": "https://github.com/basic-app/admin-auth-shield/tree/main"
             },
-            "time": "2026-11-13T14:17:19+00:00",
-            "published-time": "2026-11-13T14:17:30+00:00"
+            "time": "2026-11-14T10:32:50+00:00",
+            "published-time": "2026-11-14T10:32:59+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -309,12 +380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/fontawesome7.git",
-                "reference": "7a6ac625a36c5377923736361ed5ef4921fe43d3"
+                "reference": "e4d96b37e1c5c0026a1acf01456007119d121570"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/7a6ac625a36c5377923736361ed5ef4921fe43d3",
-                "reference": "7a6ac625a36c5377923736361ed5ef4921fe43d3",
+                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/e4d96b37e1c5c0026a1acf01456007119d121570",
+                "reference": "e4d96b37e1c5c0026a1acf01456007119d121570",
                 "shasum": ""
             },
             "require": {
@@ -335,8 +406,8 @@
                 "issues": "https://github.com/basic-app/fontawesome7/issues",
                 "source": "https://github.com/basic-app/fontawesome7/tree/main"
             },
-            "time": "2026-11-13T19:29:17+00:00",
-            "published-time": "2026-11-13T19:29:26+00:00"
+            "time": "2026-11-14T10:15:22+00:00",
+            "published-time": "2026-11-14T10:15:33+00:00"
         },
         {
             "name": "basic-app/form",
@@ -2988,6 +3059,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "basic-app/admin": 20,
+        "basic-app/admin-auth-config": 20,
+        "basic-app/admin-auth-settings": 20,
         "basic-app/admin-auth-shield": 20,
         "basic-app/adminlte4": 20,
         "basic-app/composer": 20,

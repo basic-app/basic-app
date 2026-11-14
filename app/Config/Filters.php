@@ -111,22 +111,14 @@ class Filters extends BaseFilters
      * @var array<string, array<string, list<string>>>
      */
     public array $filters = [
-        /*
-        'admin' => [
+        //'admin' => [
+        //    'before' => ['admin', 'admin/*']
+        //],
+        'adminsession' => [
             'before' => ['admin', 'admin/*']
         ],
-        */
-        'adminsession' => [
-            'before' => [
-                'admin',
-                'admin/*'
-            ]
-        ],
         'admingroup:admin' => [
-            'before' => [
-                'admin',
-                'admin/*'
-            ]
+            'before' => ['admin', 'admin/*']
         ]
     ];
 }
