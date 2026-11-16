@@ -21,8 +21,7 @@ $routes->get('admin/support', static function () {
 #admin_auth_settings_routes($routes);
 
 helper(['admin_auth_shield']);
-if (!admin_auth_shield_routes($routes))
-{
+if (!admin_auth_shield_routes($routes)) {
     // default auth routes
     service('auth')->routes($routes);
 }

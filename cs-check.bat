@@ -1,0 +1,1 @@
+php vendor\bin\php-cs-fixer check

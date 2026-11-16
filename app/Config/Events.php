@@ -37,7 +37,7 @@ Events::on('pre_system', static function (): void {
             ob_end_flush();
         }
 
-        ob_start(static fn ($buffer) => $buffer);
+        ob_start(static fn($buffer) => $buffer);
     }
 
     /*
@@ -59,8 +59,8 @@ Events::on('pre_system', static function (): void {
 });
 
 // Custom events
-SiteMenu::on(static function(SiteMenu $event) : void {
-    $event->setAfterTrigger(function() {
+SiteMenu::on(static function (SiteMenu $event): void {
+    $event->setAfterTrigger(function () {
         $this->items['credits'] = [
             'url' => '#credits',
             'label' => lang('Site.Credits')
@@ -68,8 +68,8 @@ SiteMenu::on(static function(SiteMenu $event) : void {
     });
 });
 
-AdminFooterMenu::on(static function(AdminFooterMenu $event) : void {
-    $event->setAfterTrigger(function() {
+AdminFooterMenu::on(static function (AdminFooterMenu $event): void {
+    $event->setAfterTrigger(function () {
         $this->items['support'] = [
             'url' => site_url('admin/support'),
             'label' => lang('Admin.Support')

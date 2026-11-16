@@ -126,3 +126,7 @@ _modules/*
 /phpunit.xml
 /public/robots.txt
 /public/favicon.ico
+
+# PHP CS Fixer configuration
+/.php-cs-fixer.cache
+/.php-cs-fixer.php

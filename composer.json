@@ -21,15 +21,14 @@
         "basic-app/module-block": "*",
         "basic-app/tinymce7": "*",
         "basic-app/admin-auth-shield": "*",
-        "basic-app/composer": "*",
-        "basic-app/admin-auth-config": "*",
-        "basic-app/admin-auth-settings": "*"
+        "basic-app/composer": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^10.5.16",
-        "codeigniter4/translations" : "*"
+        "codeigniter4/translations" : "*",
+        "friendsofphp/php-cs-fixer": "^3.95"
     },
     "autoload": {
         "psr-4": {
