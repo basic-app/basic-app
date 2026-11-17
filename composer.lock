@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8fdf54cdfccb77274b9176d099a4817",
+    "content-hash": "35430f56a7381cc8172d072ca7ef0b04",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -275,12 +275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "d33fa51d98937c9512da4e635eac1e79bc9cffd2"
+                "reference": "f829060fba93641659fe3c65c571c0832d861344"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/d33fa51d98937c9512da4e635eac1e79bc9cffd2",
-                "reference": "d33fa51d98937c9512da4e635eac1e79bc9cffd2",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/f829060fba93641659fe3c65c571c0832d861344",
+                "reference": "f829060fba93641659fe3c65c571c0832d861344",
                 "shasum": ""
             },
             "require": {
@@ -301,8 +301,8 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-11-16T17:40:17+00:00",
-            "published-time": "2026-11-16T17:40:26+00:00"
+            "time": "2026-11-17T15:50:51+00:00",
+            "published-time": "2026-11-17T15:51:03+00:00"
         },
         {
             "name": "basic-app/event",
@@ -691,12 +691,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "a0d33fbbb26e117091bc8bb8841ba4af6181a937"
+                "reference": "4934718e4dcfc5d7ece5dce15d73f621f5a7be0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/a0d33fbbb26e117091bc8bb8841ba4af6181a937",
-                "reference": "a0d33fbbb26e117091bc8bb8841ba4af6181a937",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/4934718e4dcfc5d7ece5dce15d73f621f5a7be0a",
+                "reference": "4934718e4dcfc5d7ece5dce15d73f621f5a7be0a",
                 "shasum": ""
             },
             "require": {
@@ -719,8 +719,8 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-11-16T17:44:47+00:00",
-            "published-time": "2026-11-16T17:44:56+00:00"
+            "time": "2026-11-17T15:42:55+00:00",
+            "published-time": "2026-11-17T15:43:05+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -1630,16 +1630,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.95.30",
+            "version": "v3.95.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "e85cafc4d861c122839d5409eda3325ac0ec0300"
+                "reference": "285aade9728f04ea24ac15efb6a76d91c0c81b63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/e85cafc4d861c122839d5409eda3325ac0ec0300",
-                "reference": "e85cafc4d861c122839d5409eda3325ac0ec0300",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/285aade9728f04ea24ac15efb6a76d91c0c81b63",
+                "reference": "285aade9728f04ea24ac15efb6a76d91c0c81b63",
                 "shasum": ""
             },
             "require": {
@@ -1722,7 +1722,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.30"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.31"
             },
             "funding": [
                 {
@@ -1730,8 +1730,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-09T14:32:19+00:00",
-            "published-time": "2026-11-09T14:32:30+00:00"
+            "time": "2026-11-16T21:05:19+00:00",
+            "published-time": "2026-11-16T21:05:29+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -2024,6 +2024,71 @@
             },
             "time": "2022-02-21T01:04:05+00:00",
             "published-time": "2022-02-21T01:04:30+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "2.3.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/00cedebb76cc82c1592414fa4f616cefdccda16f",
+                "reference": "00cedebb76cc82c1592414fa4f616cefdccda16f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ondřej Mirtes"
+                },
+                {
+                    "name": "Markus Staab"
+                },
+                {
+                    "name": "Vincent Langlet"
+                }
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-11-15T19:58:26+00:00",
+            "published-time": "2026-11-15T19:58:39+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",

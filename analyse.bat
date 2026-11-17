@@ -1,0 +1,1 @@
+php vendor\bin\phpstan analyse --error-format=raw

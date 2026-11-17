@@ -1,0 +1,18 @@
+parameters:
+    level: 5
+    paths:
+        - app/
+        - vendor/basic-app
+    excludePaths:
+        - app/Views/errors
+    scanDirectories:
+        - vendor/codeigniter4/framework/system/Helpers
+    bootstrapFiles:
+        - vendor/codeigniter4/framework/system/Test/bootstrap.php
+    dynamicConstantNames:
+        - APP_NAMESPACE
+        - CI_DEBUG
+        - ENVIRONMENT
+    ignoreErrors:
+        - message: '#Variable \$this might not be defined#'
+          path: */Views/*

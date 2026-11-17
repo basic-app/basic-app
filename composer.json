@@ -28,7 +28,8 @@
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^10.5.16",
         "codeigniter4/translations" : "*",
-        "friendsofphp/php-cs-fixer": "^3.95"
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "phpstan/phpstan": "^2.3"
     },
     "autoload": {
         "psr-4": {
