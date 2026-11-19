@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "29a9013571b136b8dd8ca3f332b3dccaf14d648f"
+                "reference": "e4347f81a74f2daf0fbfae6e0f20c68bf30c3956"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/29a9013571b136b8dd8ca3f332b3dccaf14d648f",
-                "reference": "29a9013571b136b8dd8ca3f332b3dccaf14d648f",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/e4347f81a74f2daf0fbfae6e0f20c68bf30c3956",
+                "reference": "e4347f81a74f2daf0fbfae6e0f20c68bf30c3956",
                 "shasum": ""
             },
             "require": {
@@ -646,8 +646,8 @@
                 "issues": "https://github.com/basic-app/site/issues",
                 "source": "https://github.com/basic-app/site/tree/master"
             },
-            "time": "2026-11-19T11:19:09+00:00",
-            "published-time": "2026-11-19T11:19:18+00:00"
+            "time": "2026-11-19T11:38:09+00:00",
+            "published-time": "2026-11-19T11:38:16+00:00"
         },
         {
             "name": "basic-app/site-landing",
