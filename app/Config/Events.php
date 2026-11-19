@@ -6,6 +6,8 @@ use CodeIgniter\Events\Events;
 use CodeIgniter\Exceptions\FrameworkException;
 use CodeIgniter\HotReloader\HotReloader;
 use BasicApp\Site\Events\SiteMenu;
+use BasicApp\Site\Events\SiteScripts;
+use BasicApp\Site\Events\SiteStyles;
 use BasicApp\Admin\Events\AdminFooterMenu;
 
 /*
@@ -58,8 +60,22 @@ Events::on('pre_system', static function (): void {
     }
 });
 
+// Register custom scripts
+SiteScripts::on(static function(SiteScripts $event): void {
+    $event->addItems([
+        view('scripts')
+    ]);
+});
+
+// Register custom styles
+SiteStyles::on(static function(SiteStyles $event): void {
+    $event->addItems([
+        view('styles')
+    ]);
+});
+
 // Custom events
-SiteMenu::on(static function (SiteMenu $event): void {
+SiteMenu::on(static function(SiteMenu $event): void {
     $event->setAfterTrigger(function () {
         $this->items['credits'] = [
             'url' => '#credits',

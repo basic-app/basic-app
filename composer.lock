@@ -310,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/event.git",
-                "reference": "2db897303d720c3d5b16567b3d6ebce743be8bae"
+                "reference": "d37870b569ef3a942c15cf29ceed7911ca47852a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/event/zipball/2db897303d720c3d5b16567b3d6ebce743be8bae",
-                "reference": "2db897303d720c3d5b16567b3d6ebce743be8bae",
+                "url": "https://api.github.com/repos/basic-app/event/zipball/d37870b569ef3a942c15cf29ceed7911ca47852a",
+                "reference": "d37870b569ef3a942c15cf29ceed7911ca47852a",
                 "shasum": ""
             },
             "default-branch": true,
@@ -333,8 +333,8 @@
                 "issues": "https://github.com/basic-app/event/issues",
                 "source": "https://github.com/basic-app/event/tree/master"
             },
-            "time": "2026-11-16T17:45:38+00:00",
-            "published-time": "2026-11-16T17:45:47+00:00"
+            "time": "2026-11-19T11:18:50+00:00",
+            "published-time": "2026-11-19T11:18:58+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "d3aa29d771a7aeba01b98f12d82fb7d34d61a6f3"
+                "reference": "29a9013571b136b8dd8ca3f332b3dccaf14d648f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/d3aa29d771a7aeba01b98f12d82fb7d34d61a6f3",
-                "reference": "d3aa29d771a7aeba01b98f12d82fb7d34d61a6f3",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/29a9013571b136b8dd8ca3f332b3dccaf14d648f",
+                "reference": "29a9013571b136b8dd8ca3f332b3dccaf14d648f",
                 "shasum": ""
             },
             "require": {
@@ -646,8 +646,8 @@
                 "issues": "https://github.com/basic-app/site/issues",
                 "source": "https://github.com/basic-app/site/tree/master"
             },
-            "time": "2026-11-16T17:44:16+00:00",
-            "published-time": "2026-11-16T17:44:24+00:00"
+            "time": "2026-11-19T11:19:09+00:00",
+            "published-time": "2026-11-19T11:19:18+00:00"
         },
         {
             "name": "basic-app/site-landing",
@@ -1111,16 +1111,16 @@
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.7.4",
+            "version": "v4.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
-                "reference": "a5df30934aa25a65bc1f78e6462b47fae0a0179a"
+                "reference": "f87ddac626f71015e44b99c1f81c087082f5a0cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/a5df30934aa25a65bc1f78e6462b47fae0a0179a",
-                "reference": "a5df30934aa25a65bc1f78e6462b47fae0a0179a",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/f87ddac626f71015e44b99c1f81c087082f5a0cd",
+                "reference": "f87ddac626f71015e44b99c1f81c087082f5a0cd",
                 "shasum": ""
             },
             "require": {
@@ -1133,7 +1133,7 @@
                 "ext-tokenizer": "*",
                 "friendsofphp/php-cs-fixer": "^3.53",
                 "nexusphp/cs-config": "^3.22",
-                "phpunit/phpunit": "^11.5 || ^12.5"
+                "phpunit/phpunit": "^11.5 || ^12.5 || ^13.4.5"
             },
             "type": "project",
             "extra": {
@@ -1158,8 +1158,8 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/translations"
             },
-            "time": "2026-08-05T12:38:16+00:00",
-            "published-time": "2026-08-05T12:39:57+00:00"
+            "time": "2026-11-18T11:32:03+00:00",
+            "published-time": "2026-11-18T11:33:03+00:00"
         },
         {
             "name": "composer/pcre",
@@ -1630,16 +1630,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.95.31",
+            "version": "v3.95.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "285aade9728f04ea24ac15efb6a76d91c0c81b63"
+                "reference": "c12acc751f4039935429057f1fadf0e5f62601c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/285aade9728f04ea24ac15efb6a76d91c0c81b63",
-                "reference": "285aade9728f04ea24ac15efb6a76d91c0c81b63",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/c12acc751f4039935429057f1fadf0e5f62601c1",
+                "reference": "c12acc751f4039935429057f1fadf0e5f62601c1",
                 "shasum": ""
             },
             "require": {
@@ -1722,7 +1722,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.31"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.32"
             },
             "funding": [
                 {
@@ -1730,8 +1730,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-16T21:05:19+00:00",
-            "published-time": "2026-11-16T21:05:29+00:00"
+            "time": "2026-11-17T18:09:13+00:00",
+            "published-time": "2026-11-17T18:09:33+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -2027,11 +2027,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/00cedebb76cc82c1592414fa4f616cefdccda16f",
-                "reference": "00cedebb76cc82c1592414fa4f616cefdccda16f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/90c91c2498849ab8cc4e873864bbf1cb2bf6ea12",
+                "reference": "90c91c2498849ab8cc4e873864bbf1cb2bf6ea12",
                 "shasum": ""
             },
             "require": {
@@ -2087,8 +2087,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-15T19:58:26+00:00",
-            "published-time": "2026-11-15T19:58:39+00:00"
+            "time": "2026-11-19T10:31:11+00:00",
+            "published-time": "2026-11-19T10:31:27+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
