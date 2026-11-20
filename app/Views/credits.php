@@ -1,5 +1,9 @@
 <?php
 
+use CodeIgniter\View\View;
+
+/** @var View $renderer */
+
 $renderer->setVar('title', lang('Site.Credits'));
 
 ?>

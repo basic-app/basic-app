@@ -1,3 +1,5 @@
+includes:
+    - vendor/codeigniter/phpstan-codeigniter/extension.neon
 parameters:
     level: 5
     paths:
@@ -16,3 +18,11 @@ parameters:
     ignoreErrors:
         - message: '#Variable \$this might not be defined#'
           path: */Views/*
+    codeigniter:
+        additionalServices:
+            - CodeIgniter\Settings\Config\Services
+            - CodeIgniter\Shield\Config\Services
+            - BasicApp\Site\Config\Services
+            - BasicApp\AdminAuth\Config\Services
+            - BasicApp\Admin\Config\Services
+            

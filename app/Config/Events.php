@@ -9,6 +9,8 @@ use BasicApp\Site\Events\SiteMenu;
 use BasicApp\Site\Events\SiteScripts;
 use BasicApp\Site\Events\SiteStyles;
 use BasicApp\Admin\Events\AdminFooterMenu;
+use BasicApp\Admin\Events\AdminStyles;
+use BasicApp\Admin\Events\AdminScripts;
 
 /*
  * --------------------------------------------------------------------
@@ -61,38 +63,55 @@ Events::on('pre_system', static function (): void {
 });
 
 // Register custom scripts
-SiteScripts::on(static function(SiteScripts $event): void {
+SiteScripts::on(static function (SiteScripts $event): void {
     $event->addItems([
         view('scripts')
     ]);
 });
 
 // Register custom styles
-SiteStyles::on(static function(SiteStyles $event): void {
+SiteStyles::on(static function (SiteStyles $event): void {
     $event->addItems([
         view('styles')
     ]);
 });
 
 // Custom events
-SiteMenu::on(static function(SiteMenu $event): void {
-    $event->setAfterTrigger(function () {
-        $this->items['credits'] = [
+SiteMenu::on(static function (SiteMenu $event): void {
+    $event->addItems([
+        'credits' => [
             'url' => '#credits',
-            'label' => lang('Site.Credits')
-        ];
-    });
+            'label' => lang('Site.Credits'),
+            'sort' => 999999
+        ]
+    ]);
 });
 
 AdminFooterMenu::on(static function (AdminFooterMenu $event): void {
-    $event->setAfterTrigger(function () {
-        $this->items['support'] = [
+    $event->addItems([
+        'support' => [
             'url' => site_url('admin/support'),
-            'label' => lang('Admin.Support')
-        ];
-        $this->items['credits'] = [
+            'label' => lang('Admin.Support'),
+            'sort' => 999998
+        ],
+        'credits' => [
             'url' => site_url('admin/credits'),
-            'label' => lang('Admin.Credits')
-        ];
-    });
+            'label' => lang('Admin.Credits'),
+            'sort' => 999999
+        ]
+    ]);
+});
+
+// Register custom admin scripts
+AdminScripts::on(static function (AdminScripts $event): void {
+    $event->addItems([
+        view('admin/scripts')
+    ]);
+});
+
+// Register custom admin styles
+AdminStyles::on(static function (AdminStyles $event): void {
+    $event->addItems([
+        view('admin/styles')
+    ]);
 });

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35430f56a7381cc8172d072ca7ef0b04",
+    "content-hash": "1dace1c54437ae8806d653ff574afe77",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -66,19 +66,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin.git",
-                "reference": "c62648be81f28c6057a2d53d34ea4aeddb2fe8ac"
+                "reference": "0a409b29ae5ddab91f797423e3bce0f311cd5469"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin/zipball/c62648be81f28c6057a2d53d34ea4aeddb2fe8ac",
-                "reference": "c62648be81f28c6057a2d53d34ea4aeddb2fe8ac",
+                "url": "https://api.github.com/repos/basic-app/admin/zipball/0a409b29ae5ddab91f797423e3bce0f311cd5469",
+                "reference": "0a409b29ae5ddab91f797423e3bce0f311cd5469",
                 "shasum": ""
             },
             "require": {
                 "basic-app/auth": "*",
                 "basic-app/core": "*",
                 "basic-app/event": "*",
-                "basic-app/fontawesome7": "*"
+                "basic-app/fontawesome7": "*",
+                "basic-app/settings": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -95,8 +96,8 @@
                 "issues": "https://github.com/basic-app/admin/issues",
                 "source": "https://github.com/basic-app/admin/tree/master"
             },
-            "time": "2026-11-16T17:38:07+00:00",
-            "published-time": "2026-11-16T17:38:17+00:00"
+            "time": "2026-11-20T05:58:22+00:00",
+            "published-time": "2026-11-20T05:58:37+00:00"
         },
         {
             "name": "basic-app/admin-auth",
@@ -104,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth.git",
-                "reference": "31ccf2194a214fc3a768241dbcf828ead531bf49"
+                "reference": "baa4b1e6bc6b353d4045702e644396902a85c61e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/31ccf2194a214fc3a768241dbcf828ead531bf49",
-                "reference": "31ccf2194a214fc3a768241dbcf828ead531bf49",
+                "url": "https://api.github.com/repos/basic-app/admin-auth/zipball/baa4b1e6bc6b353d4045702e644396902a85c61e",
+                "reference": "baa4b1e6bc6b353d4045702e644396902a85c61e",
                 "shasum": ""
             },
             "default-branch": true,
@@ -127,8 +128,8 @@
                 "issues": "https://github.com/basic-app/admin-auth/issues",
                 "source": "https://github.com/basic-app/admin-auth/tree/main"
             },
-            "time": "2026-11-16T17:38:24+00:00",
-            "published-time": "2026-11-16T17:38:32+00:00"
+            "time": "2026-11-20T05:58:48+00:00",
+            "published-time": "2026-11-20T05:58:57+00:00"
         },
         {
             "name": "basic-app/admin-auth-shield",
@@ -136,12 +137,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/admin-auth-shield.git",
-                "reference": "5ef546e61de8f54df42fdaa19fe352aa71c007bf"
+                "reference": "258f9064ddcec089c10316eed73b63d2088f823c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/admin-auth-shield/zipball/5ef546e61de8f54df42fdaa19fe352aa71c007bf",
-                "reference": "5ef546e61de8f54df42fdaa19fe352aa71c007bf",
+                "url": "https://api.github.com/repos/basic-app/admin-auth-shield/zipball/258f9064ddcec089c10316eed73b63d2088f823c",
+                "reference": "258f9064ddcec089c10316eed73b63d2088f823c",
                 "shasum": ""
             },
             "require": {
@@ -163,8 +164,8 @@
                 "issues": "https://github.com/basic-app/admin-auth-shield/issues",
                 "source": "https://github.com/basic-app/admin-auth-shield/tree/main"
             },
-            "time": "2026-11-16T17:39:16+00:00",
-            "published-time": "2026-11-16T17:39:24+00:00"
+            "time": "2026-11-20T05:59:10+00:00",
+            "published-time": "2026-11-20T05:59:17+00:00"
         },
         {
             "name": "basic-app/adminlte4",
@@ -172,12 +173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/adminlte4.git",
-                "reference": "0197b012ce618d39a0b467432290325314cf8dc9"
+                "reference": "b98df25c8ffca965565a7c5151e0b013f82908c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/0197b012ce618d39a0b467432290325314cf8dc9",
-                "reference": "0197b012ce618d39a0b467432290325314cf8dc9",
+                "url": "https://api.github.com/repos/basic-app/adminlte4/zipball/b98df25c8ffca965565a7c5151e0b013f82908c7",
+                "reference": "b98df25c8ffca965565a7c5151e0b013f82908c7",
                 "shasum": ""
             },
             "require": {
@@ -199,8 +200,8 @@
                 "issues": "https://github.com/basic-app/adminlte4/issues",
                 "source": "https://github.com/basic-app/adminlte4/tree/main"
             },
-            "time": "2026-11-16T17:39:32+00:00",
-            "published-time": "2026-11-16T17:39:40+00:00"
+            "time": "2026-11-20T06:27:33+00:00",
+            "published-time": "2026-11-20T06:27:42+00:00"
         },
         {
             "name": "basic-app/auth",
@@ -208,12 +209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/auth.git",
-                "reference": "7fcbd0633f9a57c3a9d4a27026c842517498621d"
+                "reference": "4f4f96392b1d418e02b4efa0c6e70555adf3e19d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/auth/zipball/7fcbd0633f9a57c3a9d4a27026c842517498621d",
-                "reference": "7fcbd0633f9a57c3a9d4a27026c842517498621d",
+                "url": "https://api.github.com/repos/basic-app/auth/zipball/4f4f96392b1d418e02b4efa0c6e70555adf3e19d",
+                "reference": "4f4f96392b1d418e02b4efa0c6e70555adf3e19d",
                 "shasum": ""
             },
             "provide": {
@@ -223,19 +224,20 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BasicApp\\Auth\\": "src/"
+                    "BasicApp\\Auth\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
+            "description": "Ultra lightweight authentication for CodeIgniter 4",
             "support": {
                 "issues": "https://github.com/basic-app/auth/issues",
                 "source": "https://github.com/basic-app/auth/tree/main"
             },
-            "time": "2026-11-16T17:39:47+00:00",
-            "published-time": "2026-11-16T17:39:57+00:00"
+            "time": "2026-11-20T06:18:24+00:00",
+            "published-time": "2026-11-20T06:18:33+00:00"
         },
         {
             "name": "basic-app/composer",
@@ -275,12 +277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/core.git",
-                "reference": "f829060fba93641659fe3c65c571c0832d861344"
+                "reference": "1e8ce56a412d45e1aee06639a484cd729a0a09b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/core/zipball/f829060fba93641659fe3c65c571c0832d861344",
-                "reference": "f829060fba93641659fe3c65c571c0832d861344",
+                "url": "https://api.github.com/repos/basic-app/core/zipball/1e8ce56a412d45e1aee06639a484cd729a0a09b1",
+                "reference": "1e8ce56a412d45e1aee06639a484cd729a0a09b1",
                 "shasum": ""
             },
             "require": {
@@ -301,8 +303,8 @@
                 "issues": "https://github.com/basic-app/core/issues",
                 "source": "https://github.com/basic-app/core/tree/master"
             },
-            "time": "2026-11-17T15:50:51+00:00",
-            "published-time": "2026-11-17T15:51:03+00:00"
+            "time": "2026-11-20T06:00:18+00:00",
+            "published-time": "2026-11-20T06:00:30+00:00"
         },
         {
             "name": "basic-app/event",
@@ -310,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/event.git",
-                "reference": "d37870b569ef3a942c15cf29ceed7911ca47852a"
+                "reference": "61a4be92e7a4ee6b921b7e8a687918fb1b6c95fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/event/zipball/d37870b569ef3a942c15cf29ceed7911ca47852a",
-                "reference": "d37870b569ef3a942c15cf29ceed7911ca47852a",
+                "url": "https://api.github.com/repos/basic-app/event/zipball/61a4be92e7a4ee6b921b7e8a687918fb1b6c95fb",
+                "reference": "61a4be92e7a4ee6b921b7e8a687918fb1b6c95fb",
                 "shasum": ""
             },
             "default-branch": true,
@@ -333,8 +335,8 @@
                 "issues": "https://github.com/basic-app/event/issues",
                 "source": "https://github.com/basic-app/event/tree/master"
             },
-            "time": "2026-11-19T11:18:50+00:00",
-            "published-time": "2026-11-19T11:18:58+00:00"
+            "time": "2026-11-20T06:00:42+00:00",
+            "published-time": "2026-11-20T06:00:49+00:00"
         },
         {
             "name": "basic-app/fontawesome7",
@@ -342,12 +344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/fontawesome7.git",
-                "reference": "7f105d64377456723acba217b47071670b54eb46"
+                "reference": "b439978c72435ff64484197180ee6775835599a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/7f105d64377456723acba217b47071670b54eb46",
-                "reference": "7f105d64377456723acba217b47071670b54eb46",
+                "url": "https://api.github.com/repos/basic-app/fontawesome7/zipball/b439978c72435ff64484197180ee6775835599a2",
+                "reference": "b439978c72435ff64484197180ee6775835599a2",
                 "shasum": ""
             },
             "require": {
@@ -368,8 +370,8 @@
                 "issues": "https://github.com/basic-app/fontawesome7/issues",
                 "source": "https://github.com/basic-app/fontawesome7/tree/main"
             },
-            "time": "2026-11-16T17:42:10+00:00",
-            "published-time": "2026-11-16T17:42:18+00:00"
+            "time": "2026-11-20T06:00:57+00:00",
+            "published-time": "2026-11-20T06:01:06+00:00"
         },
         {
             "name": "basic-app/form",
@@ -409,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/jquery3.git",
-                "reference": "40c9ddf84c3869dba432b9d973c0f0efdfb00b21"
+                "reference": "3e2ff6ca466d94c2e15bd965c0d034d95262b786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/jquery3/zipball/40c9ddf84c3869dba432b9d973c0f0efdfb00b21",
-                "reference": "40c9ddf84c3869dba432b9d973c0f0efdfb00b21",
+                "url": "https://api.github.com/repos/basic-app/jquery3/zipball/3e2ff6ca466d94c2e15bd965c0d034d95262b786",
+                "reference": "3e2ff6ca466d94c2e15bd965c0d034d95262b786",
                 "shasum": ""
             },
             "require": {
@@ -435,8 +437,8 @@
                 "issues": "https://github.com/basic-app/jquery3/issues",
                 "source": "https://github.com/basic-app/jquery3/tree/main"
             },
-            "time": "2026-11-16T17:42:46+00:00",
-            "published-time": "2026-11-16T17:42:56+00:00"
+            "time": "2026-11-20T06:01:20+00:00",
+            "published-time": "2026-11-20T06:01:30+00:00"
         },
         {
             "name": "basic-app/lightbox2",
@@ -444,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/lightbox2.git",
-                "reference": "18eb1dfdad082265a37babaacee9e33b7c2ee41e"
+                "reference": "143b5f6123721011d093261de00cd36e377524a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/lightbox2/zipball/18eb1dfdad082265a37babaacee9e33b7c2ee41e",
-                "reference": "18eb1dfdad082265a37babaacee9e33b7c2ee41e",
+                "url": "https://api.github.com/repos/basic-app/lightbox2/zipball/143b5f6123721011d093261de00cd36e377524a4",
+                "reference": "143b5f6123721011d093261de00cd36e377524a4",
                 "shasum": ""
             },
             "require": {
@@ -470,8 +472,8 @@
                 "issues": "https://github.com/basic-app/lightbox2/issues",
                 "source": "https://github.com/basic-app/lightbox2/tree/main"
             },
-            "time": "2026-11-16T17:43:02+00:00",
-            "published-time": "2026-11-16T17:43:11+00:00"
+            "time": "2026-11-20T06:01:41+00:00",
+            "published-time": "2026-11-20T06:01:49+00:00"
         },
         {
             "name": "basic-app/module-block",
@@ -479,12 +481,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/module-block.git",
-                "reference": "8de29bc92f274ef08e7a8dbaf9c36bffd5f897d5"
+                "reference": "865b4a30dd88d9124b61ab06d63e635f695c54bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/module-block/zipball/8de29bc92f274ef08e7a8dbaf9c36bffd5f897d5",
-                "reference": "8de29bc92f274ef08e7a8dbaf9c36bffd5f897d5",
+                "url": "https://api.github.com/repos/basic-app/module-block/zipball/865b4a30dd88d9124b61ab06d63e635f695c54bc",
+                "reference": "865b4a30dd88d9124b61ab06d63e635f695c54bc",
                 "shasum": ""
             },
             "require": {
@@ -506,8 +508,8 @@
                 "issues": "https://github.com/basic-app/module-block/issues",
                 "source": "https://github.com/basic-app/module-block/tree/master"
             },
-            "time": "2026-11-16T17:43:17+00:00",
-            "published-time": "2026-11-16T17:43:25+00:00"
+            "time": "2026-11-20T06:01:59+00:00",
+            "published-time": "2026-11-20T06:02:08+00:00"
         },
         {
             "name": "basic-app/publisher",
@@ -515,12 +517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/publisher.git",
-                "reference": "17201bbd97eb56ac55560e4bb351760485bd16a8"
+                "reference": "59477acc0af148eaa2e0a8797b8408d534b60a27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/publisher/zipball/17201bbd97eb56ac55560e4bb351760485bd16a8",
-                "reference": "17201bbd97eb56ac55560e4bb351760485bd16a8",
+                "url": "https://api.github.com/repos/basic-app/publisher/zipball/59477acc0af148eaa2e0a8797b8408d534b60a27",
+                "reference": "59477acc0af148eaa2e0a8797b8408d534b60a27",
                 "shasum": ""
             },
             "default-branch": true,
@@ -538,8 +540,8 @@
                 "issues": "https://github.com/basic-app/publisher/issues",
                 "source": "https://github.com/basic-app/publisher/tree/master"
             },
-            "time": "2026-11-16T17:43:31+00:00",
-            "published-time": "2026-11-16T17:43:39+00:00"
+            "time": "2026-11-20T06:02:15+00:00",
+            "published-time": "2026-11-20T06:02:23+00:00"
         },
         {
             "name": "basic-app/sb-scrolling-nav",
@@ -547,12 +549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/sb-scrolling-nav.git",
-                "reference": "4e6b16c10e32c90ba3d32f67c59d5fe45ffd2855"
+                "reference": "59ded35f79ac7d7359f3b01edf56351ff0c80641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/4e6b16c10e32c90ba3d32f67c59d5fe45ffd2855",
-                "reference": "4e6b16c10e32c90ba3d32f67c59d5fe45ffd2855",
+                "url": "https://api.github.com/repos/basic-app/sb-scrolling-nav/zipball/59ded35f79ac7d7359f3b01edf56351ff0c80641",
+                "reference": "59ded35f79ac7d7359f3b01edf56351ff0c80641",
                 "shasum": ""
             },
             "require": {
@@ -574,8 +576,8 @@
                 "issues": "https://github.com/basic-app/sb-scrolling-nav/issues",
                 "source": "https://github.com/basic-app/sb-scrolling-nav/tree/main"
             },
-            "time": "2026-11-16T17:43:45+00:00",
-            "published-time": "2026-11-16T17:43:54+00:00"
+            "time": "2026-11-20T06:02:31+00:00",
+            "published-time": "2026-11-20T06:02:38+00:00"
         },
         {
             "name": "basic-app/settings",
@@ -619,12 +621,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site.git",
-                "reference": "e4347f81a74f2daf0fbfae6e0f20c68bf30c3956"
+                "reference": "da6ff5874594ca310433476d3105e666243c3187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site/zipball/e4347f81a74f2daf0fbfae6e0f20c68bf30c3956",
-                "reference": "e4347f81a74f2daf0fbfae6e0f20c68bf30c3956",
+                "url": "https://api.github.com/repos/basic-app/site/zipball/da6ff5874594ca310433476d3105e666243c3187",
+                "reference": "da6ff5874594ca310433476d3105e666243c3187",
                 "shasum": ""
             },
             "require": {
@@ -646,8 +648,8 @@
                 "issues": "https://github.com/basic-app/site/issues",
                 "source": "https://github.com/basic-app/site/tree/master"
             },
-            "time": "2026-11-19T11:38:09+00:00",
-            "published-time": "2026-11-19T11:38:16+00:00"
+            "time": "2026-11-20T06:02:53+00:00",
+            "published-time": "2026-11-20T06:03:01+00:00"
         },
         {
             "name": "basic-app/site-landing",
@@ -655,12 +657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/site-landing.git",
-                "reference": "42b79454193f6b481a6b95207aa3a7dbbf6df4d9"
+                "reference": "6ee19ac637195779fc24dd59ca916dcdfce69b59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/42b79454193f6b481a6b95207aa3a7dbbf6df4d9",
-                "reference": "42b79454193f6b481a6b95207aa3a7dbbf6df4d9",
+                "url": "https://api.github.com/repos/basic-app/site-landing/zipball/6ee19ac637195779fc24dd59ca916dcdfce69b59",
+                "reference": "6ee19ac637195779fc24dd59ca916dcdfce69b59",
                 "shasum": ""
             },
             "require": {
@@ -682,8 +684,8 @@
                 "issues": "https://github.com/basic-app/site-landing/issues",
                 "source": "https://github.com/basic-app/site-landing/tree/main"
             },
-            "time": "2026-11-16T17:44:31+00:00",
-            "published-time": "2026-11-16T17:44:41+00:00"
+            "time": "2026-11-20T06:03:08+00:00",
+            "published-time": "2026-11-20T06:03:17+00:00"
         },
         {
             "name": "basic-app/tinymce7",
@@ -691,12 +693,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/basic-app/tinymce7.git",
-                "reference": "4934718e4dcfc5d7ece5dce15d73f621f5a7be0a"
+                "reference": "66482843dabe4f18da6da72db3083cc029e7fd72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/4934718e4dcfc5d7ece5dce15d73f621f5a7be0a",
-                "reference": "4934718e4dcfc5d7ece5dce15d73f621f5a7be0a",
+                "url": "https://api.github.com/repos/basic-app/tinymce7/zipball/66482843dabe4f18da6da72db3083cc029e7fd72",
+                "reference": "66482843dabe4f18da6da72db3083cc029e7fd72",
                 "shasum": ""
             },
             "require": {
@@ -719,8 +721,8 @@
                 "issues": "https://github.com/basic-app/tinymce7/issues",
                 "source": "https://github.com/basic-app/tinymce7/tree/main"
             },
-            "time": "2026-11-17T15:42:55+00:00",
-            "published-time": "2026-11-17T15:43:05+00:00"
+            "time": "2026-11-20T06:03:27+00:00",
+            "published-time": "2026-11-20T06:03:35+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -1110,6 +1112,82 @@
             "published-time": "2022-12-23T10:59:43+00:00"
         },
         {
+            "name": "codeigniter/phpstan-codeigniter",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CodeIgniter/phpstan-codeigniter.git",
+                "reference": "2c43b3916c39ff6938f0b84433d742eb1a5576bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CodeIgniter/phpstan-codeigniter/zipball/2c43b3916c39ff6938f0b84433d742eb1a5576bf",
+                "reference": "2c43b3916c39ff6938f0b84433d742eb1a5576bf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sqlite3": "*",
+                "php": "^8.2",
+                "phpstan/phpstan": "^2.3.5"
+            },
+            "conflict": {
+                "codeigniter/framework": "*"
+            },
+            "require-dev": {
+                "codeigniter/coding-standard": "^1.8",
+                "codeigniter4/framework": "^4.7",
+                "codeigniter4/shield": "^1.2",
+                "friendsofphp/php-cs-fixer": "^3.92",
+                "kubawerlos/php-cs-fixer-custom-fixers": "^3.35",
+                "nexusphp/cs-config": "^3.27",
+                "nexusphp/tachycardia": "^2.4",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0",
+                "phpunit/phpunit": "^11.5 || ^12.5 || ^13.4.5"
+            },
+            "type": "phpstan-extension",
+            "extra": {
+                "phpstan": {
+                    "includes": [
+                        "extension.neon"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CodeIgniter\\PHPStan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Paul E. Balandan, CPA",
+                    "email": "paulbalandan@gmail.com"
+                }
+            ],
+            "description": "CodeIgniter extensions and rules for PHPStan",
+            "keywords": [
+                "PHPStan",
+                "codeigniter",
+                "codeigniter4",
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "forum": "http://forum.codeigniter.com/",
+                "issues": "https://github.com/CodeIgniter/phpstan-codeigniter/issues",
+                "slack": "https://codeigniterchat.slack.com",
+                "source": "https://github.com/CodeIgniter/phpstan-codeigniter"
+            },
+            "time": "2026-11-19T12:11:57+00:00",
+            "published-time": "2026-11-19T12:14:46+00:00"
+        },
+        {
             "name": "codeigniter4/translations",
             "version": "v4.7.6",
             "source": {
@@ -1160,6 +1238,331 @@
             },
             "time": "2026-11-18T11:32:03+00:00",
             "published-time": "2026-11-18T11:33:03+00:00"
+        },
+        {
+            "name": "composer/ca-bundle",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "0c64479fae6952ba4cf021a72c0ac530394c91d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/0c64479fae6952ba4cf021a72c0ac530394c91d4",
+                "reference": "0c64479fae6952ba4cf021a72c0ac530394c91d4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^8 || ^9",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
+                "symfony/process": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/ca-bundle/issues",
+                "source": "https://github.com/composer/ca-bundle/tree/1.6.1"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-10-29T14:10:42+00:00",
+            "published-time": "2026-10-29T14:45:12+00:00"
+        },
+        {
+            "name": "composer/class-map-generator",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/class-map-generator.git",
+                "reference": "5fa48e0e1992ea8a786df3ceca80625c9a643b75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/5fa48e0e1992ea8a786df3ceca80625c9a643b75",
+                "reference": "5fa48e0e1992ea8a786df3ceca80625c9a643b75",
+                "shasum": ""
+            },
+            "require": {
+                "composer/pcre": "^2.1 || ^3.1",
+                "php": "^7.2 || ^8.0",
+                "symfony/finder": "^4.4 || ^5.3 || ^6 || ^7 || ^8"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.12 || ^2",
+                "phpstan/phpstan-deprecation-rules": "^1 || ^2",
+                "phpstan/phpstan-phpunit": "^1 || ^2",
+                "phpstan/phpstan-strict-rules": "^1.1 || ^2",
+                "phpunit/phpunit": "^8",
+                "symfony/filesystem": "^5.4 || ^6 || ^7 || ^8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\ClassMapGenerator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "https://seld.be"
+                }
+            ],
+            "description": "Utilities to scan PHP code and generate class maps.",
+            "keywords": [
+                "classmap"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/class-map-generator/issues",
+                "source": "https://github.com/composer/class-map-generator/tree/1.9.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-11-03T10:10:19+00:00",
+            "published-time": "2026-11-03T10:12:49+00:00"
+        },
+        {
+            "name": "composer/composer",
+            "version": "2.11.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "12c820dbc3f030954b1d09f5884fcf1e9d29d6cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/composer/zipball/12c820dbc3f030954b1d09f5884fcf1e9d29d6cb",
+                "reference": "12c820dbc3f030954b1d09f5884fcf1e9d29d6cb",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.6",
+                "composer/class-map-generator": "^1.8.0",
+                "composer/metadata-minifier": "^1.0",
+                "composer/pcre": "^2.3 || ^3.3",
+                "composer/semver": "^3.3",
+                "composer/spdx-licenses": "^1.5.7",
+                "composer/xdebug-handler": "^2.0.2 || ^3.0.3",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "ext-json": "*",
+                "justinrainbow/json-schema": "^6.6.3",
+                "php": "^7.2.5 || ^8.0",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
+                "react/promise": "^3.3",
+                "seld/jsonlint": "^1.4",
+                "seld/phar-utils": "^1.2",
+                "seld/signal-handler": "^2.0",
+                "symfony/console": "^5.4.47 || ^6.4.25 || ^7.1.10 || ^8.0",
+                "symfony/filesystem": "^5.4.45 || ^6.4.24 || ^7.1.10 || ^8.0",
+                "symfony/finder": "^5.4.45 || ^6.4.24 || ^7.1.10 || ^8.0",
+                "symfony/polyfill-php73": "^1.24",
+                "symfony/polyfill-php80": "^1.24",
+                "symfony/polyfill-php81": "^1.24",
+                "symfony/polyfill-php84": "^1.30",
+                "symfony/process": "^5.4.47 || ^6.4.25 || ^7.1.10 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "1.12.33",
+                "phpstan/phpstan-deprecation-rules": "^1.2.0",
+                "phpstan/phpstan-phpunit": "^1.4.0",
+                "phpstan/phpstan-strict-rules": "^1.6.0",
+                "phpstan/phpstan-symfony": "^1.4.0",
+                "symfony/phpunit-bridge": "^6.4.25 || ^7.3.3 || ^8.0"
+            },
+            "suggest": {
+                "ext-curl": "Provides HTTP support (will fallback to PHP streams if missing)",
+                "ext-openssl": "Enables access to repositories and packages over HTTPS",
+                "ext-zip": "Allows direct extraction of ZIP archives (unzip/7z binaries will be used instead if available)",
+                "ext-zlib": "Enables gzip for HTTP requests"
+            },
+            "bin": [
+                "bin/composer"
+            ],
+            "type": "library",
+            "extra": {
+                "phpstan": {
+                    "includes": [
+                        "phpstan/rules.neon"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-main": "2.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\": "src/Composer/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "https://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "https://seld.be"
+                }
+            ],
+            "description": "Composer helps you declare, manage and install dependencies of PHP projects. It ensures you have the right stack everywhere.",
+            "homepage": "https://getcomposer.org/",
+            "keywords": [
+                "autoload",
+                "dependency",
+                "package"
+            ],
+            "support": {
+                "irc": "ircs://irc.libera.chat:6697/composer",
+                "issues": "https://github.com/composer/composer/issues",
+                "security": "https://github.com/composer/composer/security/policy",
+                "source": "https://github.com/composer/composer/tree/2.11.2"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-11-10T09:09:37+00:00",
+            "published-time": "2026-11-10T09:12:59+00:00"
+        },
+        {
+            "name": "composer/metadata-minifier",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/metadata-minifier.git",
+                "reference": "8e86142e3ade750b837d55e55f0cdc786d8da006"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/metadata-minifier/zipball/8e86142e3ade750b837d55e55f0cdc786d8da006",
+                "reference": "8e86142e3ade750b837d55e55f0cdc786d8da006",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2",
+                "phpstan/phpstan": "^1",
+                "symfony/phpunit-bridge": "^4.2 || ^5 || ^6 || ^7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\MetadataMinifier\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Small utility library that handles metadata minification and expansion.",
+            "keywords": [
+                "composer",
+                "compression"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/metadata-minifier/issues",
+                "source": "https://github.com/composer/metadata-minifier/tree/1.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-06-30T11:34:59+00:00",
+            "published-time": "2026-06-30T11:37:18+00:00"
         },
         {
             "name": "composer/pcre",
@@ -1317,6 +1720,83 @@
             "published-time": "2026-10-29T09:14:11+00:00"
         },
         {
+            "name": "composer/spdx-licenses",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/spdx-licenses.git",
+                "reference": "5ecd0cb4177696f9fd48f1605dda81db3dee7889"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/5ecd0cb4177696f9fd48f1605dda81db3dee7889",
+                "reference": "5ecd0cb4177696f9fd48f1605dda81db3dee7889",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.11",
+                "symfony/phpunit-bridge": "^6.4.25 || ^7.3.3 || ^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Spdx\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "SPDX licenses list and validation library.",
+            "keywords": [
+                "license",
+                "spdx",
+                "validator"
+            ],
+            "support": {
+                "irc": "ircs://irc.libera.chat:6697/composer",
+                "issues": "https://github.com/composer/spdx-licenses/issues",
+                "source": "https://github.com/composer/spdx-licenses/tree/1.6.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-04-08T20:18:39+00:00",
+            "published-time": "2026-04-08T20:19:56+00:00"
+        },
+        {
             "name": "composer/xdebug-handler",
             "version": "3.0.5",
             "source": {
@@ -1385,42 +1865,42 @@
         },
         {
             "name": "ergebnis/agent-detector",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/agent-detector.git",
-                "reference": "bcc63004284c61c6df6e9625acf2673e3be1889b"
+                "reference": "ae2169d42024c6009abd0bb0aec5cf46c902fb1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/agent-detector/zipball/bcc63004284c61c6df6e9625acf2673e3be1889b",
-                "reference": "bcc63004284c61c6df6e9625acf2673e3be1889b",
+                "url": "https://api.github.com/repos/ergebnis/agent-detector/zipball/ae2169d42024c6009abd0bb0aec5cf46c902fb1d",
+                "reference": "ae2169d42024c6009abd0bb0aec5cf46c902fb1d",
                 "shasum": ""
             },
             "require": {
                 "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.54.0",
-                "ergebnis/license": "^2.8.0",
+                "ergebnis/composer-normalize": "^2.56.1",
+                "ergebnis/license": "^2.9.0",
                 "ergebnis/php-cs-fixer-config": "^6.60.2",
-                "ergebnis/phpstan-rules": "^2.14.2",
+                "ergebnis/phpstan-rules": "^2.17.1",
                 "ergebnis/phpunit-slow-test-detector": "^2.27.0",
-                "ergebnis/rector-rules": "^1.18.5",
+                "ergebnis/rector-rules": "^1.19.0",
                 "fakerphp/faker": "^1.24.1",
                 "infection/infection": "^0.26.6",
                 "phpstan/extension-installer": "^1.4.3",
                 "phpstan/phpstan": "^2.2.14",
                 "phpstan/phpstan-deprecation-rules": "^2.0.5",
-                "phpstan/phpstan-phpunit": "^2.1.1",
-                "phpstan/phpstan-strict-rules": "^2.1.0",
+                "phpstan/phpstan-phpunit": "^2.1.2",
+                "phpstan/phpstan-strict-rules": "^2.1.1",
                 "phpunit/phpunit": "^9.6.34",
                 "rector/rector": "^2.7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.0-dev"
+                    "dev-main": "2.1-dev"
                 },
                 "composer-normalize": {
                     "indent-size": 2,
@@ -1450,8 +1930,8 @@
                 "security": "https://github.com/ergebnis/agent-detector/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/agent-detector"
             },
-            "time": "2026-10-29T17:44:55+00:00",
-            "published-time": "2026-10-29T17:49:41+00:00"
+            "time": "2026-11-19T13:07:04+00:00",
+            "published-time": "2026-11-19T13:08:21+00:00"
         },
         {
             "name": "evenement/evenement",
@@ -1732,6 +2212,146 @@
             ],
             "time": "2026-11-17T18:09:13+00:00",
             "published-time": "2026-11-17T18:09:33+00:00"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "6.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jsonrainbow/json-schema.git",
+                "reference": "bae415e135dd68260c2d020ba392850231e9b1ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/bae415e135dd68260c2d020ba392850231e9b1ab",
+                "reference": "bae415e135dd68260c2d020ba392850231e9b1ab",
+                "shasum": ""
+            },
+            "require": {
+                "ext-filter": "*",
+                "ext-json": "*",
+                "marc-mabe/php-enum": "^4.4",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "3.3.0",
+                "json-schema/json-schema-test-suite": "dev-main",
+                "marc-mabe/php-enum-phpstan": "^2.0",
+                "phpspec/prophecy": "^1.19",
+                "phpstan/phpstan": "^1.12",
+                "phpunit/phpunit": "^8.5"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Danny van der Sluijs",
+                    "email": "danny.vandersluijs@icloud.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/jsonrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "support": {
+                "issues": "https://github.com/jsonrainbow/json-schema/issues",
+                "source": "https://github.com/jsonrainbow/json-schema/tree/6.14.0"
+            },
+            "time": "2026-10-24T08:53:34+00:00",
+            "published-time": "2026-10-24T08:53:38+00:00"
+        },
+        {
+            "name": "marc-mabe/php-enum",
+            "version": "v4.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marc-mabe/php-enum.git",
+                "reference": "bb426fcdd65c60fb3638ef741e8782508fda7eef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marc-mabe/php-enum/zipball/bb426fcdd65c60fb3638ef741e8782508fda7eef",
+                "reference": "bb426fcdd65c60fb3638ef741e8782508fda7eef",
+                "shasum": ""
+            },
+            "require": {
+                "ext-reflection": "*",
+                "php": "^7.1 | ^8.0"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^0.16.10 || ^1.0.4",
+                "phpstan/phpstan": "^1.3.1",
+                "phpunit/phpunit": "^7.5.20 | ^8.5.22 | ^9.5.11",
+                "vimeo/psalm": "^4.17.0 | ^5.26.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.2-dev",
+                    "dev-master": "4.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MabeEnum\\": "src/"
+                },
+                "classmap": [
+                    "stubs/Stringable.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Bennewitz",
+                    "email": "dev@mabe.berlin",
+                    "homepage": "https://mabe.berlin/",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Simple and fast implementation of enumerations with native PHP",
+            "homepage": "https://github.com/marc-mabe/php-enum",
+            "keywords": [
+                "enum",
+                "enum-map",
+                "enum-set",
+                "enumeration",
+                "enumerator",
+                "enummap",
+                "enumset",
+                "map",
+                "set",
+                "type",
+                "type-hint",
+                "typehint"
+            ],
+            "support": {
+                "issues": "https://github.com/marc-mabe/php-enum/issues",
+                "source": "https://github.com/marc-mabe/php-enum/tree/v4.7.2"
+            },
+            "time": "2025-09-14T11:18:39+00:00",
+            "published-time": "2025-09-14T11:32:17+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -4117,6 +4737,182 @@
             "published-time": "2023-02-07T11:34:22+00:00"
         },
         {
+            "name": "seld/jsonlint",
+            "version": "1.12.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "4882a0459c88772e4afa3a73ee81b7824490aa9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/4882a0459c88772e4afa3a73ee81b7824490aa9c",
+                "reference": "4882a0459c88772e4afa3a73ee81b7824490aa9c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.11",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^8.5.13"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "https://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/jsonlint/issues",
+                "source": "https://github.com/Seldaek/jsonlint/tree/1.12.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2026-11-03T10:16:18+00:00",
+            "published-time": "2026-11-03T10:20:37+00:00"
+        },
+        {
+            "name": "seld/phar-utils",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/phar-utils.git",
+                "reference": "65fb381613fd31745d39a740a112a233f978d2d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/65fb381613fd31745d39a740a112a233f978d2d9",
+                "reference": "65fb381613fd31745d39a740a112a233f978d2d9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\PharUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be"
+                }
+            ],
+            "description": "PHAR file format utilities, for when PHP phars you up",
+            "keywords": [
+                "phar"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/phar-utils/issues",
+                "source": "https://github.com/Seldaek/phar-utils/tree/1.2.3"
+            },
+            "time": "2026-10-01T08:16:23+00:00",
+            "published-time": "2026-10-01T08:17:41+00:00"
+        },
+        {
+            "name": "seld/signal-handler",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/signal-handler.git",
+                "reference": "04a6112e883ad76c0ada8e4a9f7520bbfdb6bb98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/signal-handler/zipball/04a6112e883ad76c0ada8e4a9f7520bbfdb6bb98",
+                "reference": "04a6112e883ad76c0ada8e4a9f7520bbfdb6bb98",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1",
+                "phpstan/phpstan-strict-rules": "^1.3",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.23",
+                "psr/log": "^1 || ^2 || ^3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\Signal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Simple unix signal handler that silently fails where signals are not supported for easy cross-platform development",
+            "keywords": [
+                "posix",
+                "sigint",
+                "signal",
+                "sigterm",
+                "unix"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/signal-handler/issues",
+                "source": "https://github.com/Seldaek/signal-handler/tree/2.0.2"
+            },
+            "time": "2023-09-03T09:24:00+00:00",
+            "published-time": "2023-09-03T09:24:36+00:00"
+        },
+        {
             "name": "symfony/console",
             "version": "v7.4.23",
             "source": {
@@ -5004,6 +5800,87 @@
             ],
             "time": "2026-10-28T09:35:49+00:00",
             "published-time": "2026-10-28T10:07:45+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "v1.37.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "0f68c03565dcaaf25a890667542e8bd75fe7e5bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/0f68c03565dcaaf25a890667542e8bd75fe7e5bb",
+                "reference": "0f68c03565dcaaf25a890667542e8bd75fe7e5bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.37.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-09T11:45:10+00:00",
+            "published-time": "2026-04-26T14:44:49+00:00"
         },
         {
             "name": "symfony/polyfill-php80",

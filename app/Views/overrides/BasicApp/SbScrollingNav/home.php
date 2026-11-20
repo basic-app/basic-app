@@ -7,6 +7,8 @@ helper(['render_view']);
 
 include(VENDORPATH . 'basic-app/sb-scrolling-nav/src/Views/home.php');
 
+/** @var ?string $pageClass */
+
 ?>
 <?= view_cell('SitePage', [
     'attributes' => [
